@@ -223,9 +223,7 @@ export default function SetorPage({ params }: PageProps) {
                     ].map((item, index) => (
                       <AnimatedCard
                         key={index}
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.5, delay: index * 0.1 }}
+                        delay={index * 0.1}
                         className="text-center"
                       >
                         <div className={`w-20 h-20 mx-auto mb-4 bg-gradient-to-br ${item.gradient} rounded-2xl flex items-center justify-center shadow-glow`}>
@@ -243,7 +241,7 @@ export default function SetorPage({ params }: PageProps) {
                 </div>
               </div>
             </div>
-          </AnimatedCard>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -255,12 +253,7 @@ export default function SetorPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <AnimatedCard
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-6xl mx-auto"
-          >
+          <AnimatedSection className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-black text-white mb-6 leading-tight">
                 <span className="block">Principais</span>
@@ -274,10 +267,7 @@ export default function SetorPage({ params }: PageProps) {
               {setor.desafios.map((desafio, index) => (
                 <AnimatedCard
                   key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  whileHover={{ y: -5, scale: 1.02 }}
+                  delay={index * 0.1}
                 >
                   <div className="card-premium hover:shadow-glow transition-all duration-300 relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-br from-red-500/5 via-transparent to-orange-500/5 opacity-0 hover:opacity-100 transition-opacity duration-300" />
@@ -298,7 +288,7 @@ export default function SetorPage({ params }: PageProps) {
                 </AnimatedCard>
               ))}
             </div>
-          </AnimatedCard>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -310,12 +300,7 @@ export default function SetorPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <AnimatedCard
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-6xl mx-auto"
-          >
+          <AnimatedSection className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl lg:text-5xl font-black text-white mb-6 leading-tight">
                 <span className="block">Soluções</span>
@@ -346,10 +331,7 @@ export default function SetorPage({ params }: PageProps) {
                 return (
                   <AnimatedCard
                     key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                    whileHover={{ y: -5, scale: 1.02 }}
+                    delay={index * 0.1}
                   >
                     <Link href={`/solucoes/${solucao.slug}`} className="block">
                       <div className="card-premium hover:shadow-glow transition-all duration-300 relative overflow-hidden">
@@ -376,7 +358,7 @@ export default function SetorPage({ params }: PageProps) {
                 );
               })}
             </div>
-          </AnimatedCard>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -389,23 +371,11 @@ export default function SetorPage({ params }: PageProps) {
 
         {/* Animated Gradient Orbs */}
         <div className="absolute inset-0 overflow-hidden">
-          <AnimatedCard
-            animate={{ 
-              scale: [1, 1.5, 1],
-              opacity: [0.3, 0.6, 0.3]
-            }}
-            transition={{ duration: 20, repeat: Infinity }}
-            className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-r from-indigo-400/30 to-purple-400/30 rounded-full blur-3xl"
-          />
+          <AnimatedOrb className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-r from-indigo-400/30 to-purple-400/30 rounded-full blur-3xl" />
         </div>
 
         <div className="container-custom relative z-10">
-          <AnimatedCard 
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-5xl mx-auto text-center"
-          >
+          <AnimatedSection className="max-w-5xl mx-auto text-center">
             <div className="relative">
               {/* Premium Glow Effect */}
               <div className="absolute -inset-4 bg-gradient-to-r from-indigo-400/20 via-purple-400/20 to-pink-400/20 rounded-3xl blur-2xl opacity-50" />
@@ -426,7 +396,7 @@ export default function SetorPage({ params }: PageProps) {
                     a gestão da sua empresa no setor {setor.nome}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <AnimatedCard whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <AnimatedButton>
                       <Link 
                         href="/diagnostico" 
                         className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-5 rounded-2xl font-black text-xl shadow-glow hover:shadow-futuristic transition-all"
@@ -435,8 +405,8 @@ export default function SetorPage({ params }: PageProps) {
                         <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                         <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-purple-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       </Link>
-                    </AnimatedCard>
-                    <AnimatedCard whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    </AnimatedButton>
+                    <AnimatedButton>
                       <Link 
                         href="/contato" 
                         className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-slate-400 text-slate-300 hover:border-purple-400 hover:text-purple-300 px-10 py-5 rounded-2xl font-black text-xl transition-all"
@@ -444,12 +414,12 @@ export default function SetorPage({ params }: PageProps) {
                         <Users className="w-6 h-6" />
                         <span className="tracking-wide">FALAR COM ESPECIALISTA</span>
                       </Link>
-                    </AnimatedCard>
+                    </AnimatedButton>
                   </div>
                 </div>
               </div>
             </div>
-          </AnimatedCard>
+          </AnimatedSection>
         </div>
       </section>
     </>
