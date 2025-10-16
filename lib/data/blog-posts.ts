@@ -243,6 +243,334 @@ export const BLOG_POSTS: BlogPost[] = [
     tags: ['Analytics', 'BI', 'Data', 'Estratégia'],
     destaque: false,
   },
+  {
+    id: '7',
+    slug: 'supply-chain-digital',
+    titulo: 'Supply Chain Digital: A Revolução da Logística',
+    subtitulo: 'Como a tecnologia está transformando a cadeia de suprimentos',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Fernando Lima',
+      cargo: 'Especialista em Logística',
+      avatar: '/images/avatars/fernando.jpg',
+    },
+    data_publicacao: '2024-12-15',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/supply-chain.jpg',
+    resumo: 'A digitalização da supply chain está permitindo rastreamento em tempo real, otimização de rotas e redução de custos. Descubra como transformar sua logística.',
+    conteudo: `
+      <p>A transformação digital da cadeia de suprimentos não é mais uma opção, mas uma necessidade estratégica para empresas que desejam permanecer competitivas.</p>
+      
+      <h2>Desafios Tradicionais da Supply Chain</h2>
+      <ul>
+        <li>Falta de visibilidade em tempo real</li>
+        <li>Processos manuais propensos a erros</li>
+        <li>Dificuldade em prever demanda</li>
+        <li>Custos elevados de estoque</li>
+        <li>Falta de integração entre sistemas</li>
+      </ul>
+      
+      <h2>Tecnologias Habilitadoras</h2>
+      <p>IoT, IA, blockchain e analytics estão revolucionando cada aspecto da cadeia de suprimentos.</p>
+      
+      <h3>Rastreamento em Tempo Real</h3>
+      <p>Sensores IoT permitem monitorar temperatura, localização e condições de produtos durante todo o transporte.</p>
+      
+      <h3>Previsão de Demanda com IA</h3>
+      <p>Algoritmos de machine learning analisam padrões históricos e fatores externos para prever demanda com precisão.</p>
+      
+      <h2>Benefícios Mensuráveis</h2>
+      <ul>
+        <li>Redução de 40% em custos de estoque</li>
+        <li>Aumento de 35% na precisão de entregas</li>
+        <li>Diminuição de 50% em rupturas de estoque</li>
+        <li>Melhoria de 60% na eficiência operacional</li>
+      </ul>
+    `,
+    tags: ['Supply Chain', 'Logística', 'IoT', 'IA'],
+    destaque: true,
+  },
+  {
+    id: '8',
+    slug: 'erp-vs-sistemas-legados',
+    titulo: 'ERP vs Sistemas Legados: Quando é Hora de Migrar?',
+    subtitulo: 'Sinais de que sua empresa precisa modernizar a gestão',
+    categoria: 'Gestão Empresarial',
+    autor: {
+      nome: 'Patricia Mendes',
+      cargo: 'Consultora ERP',
+      avatar: '/images/avatars/patricia.jpg',
+    },
+    data_publicacao: '2024-12-10',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/erp-legado.jpg',
+    resumo: 'Sistemas legados podem estar custando mais do que você imagina. Identifique os sinais de que é hora de migrar para um ERP moderno.',
+    conteudo: `
+      <p>Muitas empresas continuam operando com sistemas legados por anos, sem perceber o impacto negativo na competitividade e custos.</p>
+      
+      <h2>10 Sinais de Alerta</h2>
+      <ol>
+        <li><strong>Processos manuais excessivos:</strong> Se sua equipe passa horas em planilhas, há um problema.</li>
+        <li><strong>Falta de integração:</strong> Dados duplicados em múltiplos sistemas.</li>
+        <li><strong>Relatórios demorados:</strong> Fechamento mensal leva semanas.</li>
+        <li><strong>Erros frequentes:</strong> Retrabalho constante por inconsistências.</li>
+        <li><strong>Dificuldade de escalar:</strong> Sistema não acompanha crescimento.</li>
+        <li><strong>Custos de manutenção altos:</strong> Mais de 60% do orçamento TI.</li>
+        <li><strong>Compliance em risco:</strong> Dificuldade em atender legislação.</li>
+        <li><strong>Mobilidade zero:</strong> Impossível acessar remotamente.</li>
+        <li><strong>Decisões baseadas em dados desatualizados:</strong> Informação não é em tempo real.</li>
+        <li><strong>Insatisfação da equipe:</strong> Ferramentas frustrantes reduzem produtividade.</li>
+      </ol>
+      
+      <h2>O Custo Real de Não Migrar</h2>
+      <p>Empresas com sistemas legados perdem, em média, 25% de produtividade e 30% mais em custos operacionais.</p>
+      
+      <h2>ROI da Modernização</h2>
+      <p>A migração para ERP moderno se paga em 12-18 meses através de ganhos de eficiência e redução de custos.</p>
+    `,
+    tags: ['ERP', 'Migração', 'Modernização', 'ROI'],
+    destaque: false,
+  },
+  {
+    id: '9',
+    slug: 'gestao-financeira-pmes',
+    titulo: 'Gestão Financeira para PMEs: Guia Definitivo',
+    subtitulo: 'Controle financeiro que impulsiona crescimento',
+    categoria: 'Finanças',
+    autor: {
+      nome: 'Ricardo Ferreira',
+      cargo: 'Controller',
+      avatar: '/images/avatars/ricardo.jpg',
+    },
+    data_publicacao: '2024-12-05',
+    tempo_leitura: '15 min',
+    imagem_destaque: '/images/blog/gestao-financeira.jpg',
+    resumo: 'Pequenas e médias empresas que dominam a gestão financeira crescem 3x mais rápido. Aprenda as melhores práticas.',
+    conteudo: `
+      <p>Gestão financeira eficiente é o diferencial entre empresas que crescem consistentemente e aquelas que lutam para sobreviver.</p>
+      
+      <h2>Pilares da Gestão Financeira</h2>
+      
+      <h3>1. Fluxo de Caixa</h3>
+      <p>Controle rigoroso de entradas e saídas, com projeção mínima de 90 dias.</p>
+      
+      <h3>2. Contas a Pagar e Receber</h3>
+      <p>Gestão ativa de inadimplência e negociação de prazos com fornecedores.</p>
+      
+      <h3>3. Conciliação Bancária</h3>
+      <p>Diária e automatizada para garantir precisão absoluta.</p>
+      
+      <h3>4. Orçamento e Forecast</h3>
+      <p>Planejamento anual com revisões trimestrais.</p>
+      
+      <h3>5. Análise de KPIs</h3>
+      <p>Monitoramento de margem, EBITDA, ROI e outros indicadores.</p>
+      
+      <h2>Erros Comuns a Evitar</h2>
+      <ul>
+        <li>Misturar finanças pessoais e empresariais</li>
+        <li>Não provisionar impostos</li>
+        <li>Ignorar a inadimplência</li>
+        <li>Falta de reserva de emergência</li>
+        <li>Decisões sem base em dados</li>
+      </ul>
+      
+      <h2>Tecnologia Como Aliada</h2>
+      <p>ERPs modernos automatizam 80% das tarefas financeiras, liberando tempo para análise estratégica.</p>
+    `,
+    tags: ['Finanças', 'PME', 'Gestão', 'Fluxo de Caixa'],
+    destaque: true,
+  },
+  {
+    id: '10',
+    slug: 'assinatura-digital-juridica',
+    titulo: 'Assinatura Digital: Validade Jurídica e Compliance',
+    subtitulo: 'Tudo que você precisa saber sobre documentos digitais',
+    categoria: 'Compliance',
+    autor: {
+      nome: 'Dr. Eduardo Santos',
+      cargo: 'Advogado Especialista em Direito Digital',
+      avatar: '/images/avatars/eduardo.jpg',
+    },
+    data_publicacao: '2024-12-01',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/assinatura-digital.jpg',
+    resumo: 'Assinatura digital tem validade jurídica plena no Brasil. Entenda os tipos, certificação e casos de uso.',
+    conteudo: `
+      <p>A Medida Provisória 2.200-2/2001 e a Lei 14.063/2020 regulamentam o uso de assinaturas eletrônicas no Brasil.</p>
+      
+      <h2>Tipos de Assinatura</h2>
+      
+      <h3>Assinatura Eletrônica Simples</h3>
+      <p>Sem certificado digital. Válida para a maioria dos documentos privados.</p>
+      
+      <h3>Assinatura Eletrônica Avançada</h3>
+      <p>Com autenticação robusta. Ideal para contratos comerciais.</p>
+      
+      <h3>Assinatura Digital Qualificada (ICP-Brasil)</h3>
+      <p>Certificado digital emitido por AC credenciada. Presunção de validade jurídica.</p>
+      
+      <h2>Quando Usar Cada Tipo</h2>
+      <ul>
+        <li><strong>Simples:</strong> Contratos internos, NDA, aprovações</li>
+        <li><strong>Avançada:</strong> Contratos B2B, propostas comerciais</li>
+        <li><strong>Qualificada:</strong> Procurações, escrituras, atos notariais</li>
+      </ul>
+      
+      <h2>Economia e Eficiência</h2>
+      <p>Empresas que digitalizaram assinaturas reportam:</p>
+      <ul>
+        <li>Redução de 95% no tempo de assinatura</li>
+        <li>Economia de 85% em custos de impressão</li>
+        <li>Aumento de 60% na velocidade de fechamento de negócios</li>
+      </ul>
+      
+      <h2>Compliance e LGPD</h2>
+      <p>Plataformas de assinatura digital devem garantir rastreabilidade, criptografia e armazenamento seguro.</p>
+    `,
+    tags: ['Assinatura Digital', 'Compliance', 'Jurídico', 'LGPD'],
+    destaque: false,
+  },
+  {
+    id: '11',
+    slug: 'marketing-automation-roi',
+    titulo: 'Marketing Automation: Como Calcular o ROI Real',
+    subtitulo: 'Métricas que importam para justificar investimento',
+    categoria: 'Marketing Digital',
+    autor: {
+      nome: 'Camila Rodrigues',
+      cargo: 'Head de Marketing',
+      avatar: '/images/avatars/camila.jpg',
+    },
+    data_publicacao: '2024-11-25',
+    tempo_leitura: '9 min',
+    imagem_destaque: '/images/blog/marketing-automation.jpg',
+    resumo: 'Automação de marketing pode gerar ROI de 600%. Aprenda a medir corretamente o retorno do seu investimento.',
+    conteudo: `
+      <p>Marketing automation não é apenas enviar e-mails. É criar jornadas personalizadas que convertem prospects em clientes fiéis.</p>
+      
+      <h2>Fórmula do ROI</h2>
+      <p><strong>ROI = (Receita Atribuída - Investimento) / Investimento × 100</strong></p>
+      
+      <h2>Métricas Essenciais</h2>
+      
+      <h3>Geração de Leads</h3>
+      <ul>
+        <li>Número de leads qualificados (MQLs)</li>
+        <li>Custo por lead (CPL)</li>
+        <li>Taxa de conversão landing page → lead</li>
+      </ul>
+      
+      <h3>Nutrição e Engajamento</h3>
+      <ul>
+        <li>Taxa de abertura de e-mails</li>
+        <li>Taxa de cliques (CTR)</li>
+        <li>Lead score médio</li>
+      </ul>
+      
+      <h3>Conversão em Vendas</h3>
+      <ul>
+        <li>Taxa de conversão MQL → SQL</li>
+        <li>Taxa de conversão SQL → Cliente</li>
+        <li>Ciclo médio de vendas</li>
+      </ul>
+      
+      <h2>Benchmarks de Mercado</h2>
+      <p>Empresas B2B com automação madura reportam:</p>
+      <ul>
+        <li>Aumento de 451% em leads qualificados</li>
+        <li>Redução de 33% no custo por lead</li>
+        <li>Crescimento de 14.5% em produtividade de vendas</li>
+      </ul>
+      
+      <h2>Erros na Medição</h2>
+      <ul>
+        <li>Não atribuir receita corretamente</li>
+        <li>Ignorar custos de implementação</li>
+        <li>Focar apenas em métricas de vaidade</li>
+        <li>Não considerar lifetime value (LTV)</li>
+      </ul>
+    `,
+    tags: ['Marketing Automation', 'ROI', 'Métricas', 'Conversão'],
+    destaque: false,
+  },
+  {
+    id: '12',
+    slug: 'cybersecurity-empresas',
+    titulo: 'Cybersecurity: Protegendo Sua Empresa em 2025',
+    subtitulo: 'Ameaças digitais e como se defender',
+    categoria: 'Segurança',
+    autor: {
+      nome: 'Gabriel Souza',
+      cargo: 'Especialista em Segurança da Informação',
+      avatar: '/images/avatars/gabriel.jpg',
+    },
+    data_publicacao: '2024-11-20',
+    tempo_leitura: '11 min',
+    imagem_destaque: '/images/blog/cybersecurity.jpg',
+    resumo: 'Ataques cibernéticos custam às empresas brasileiras R$ 2 bilhões/ano. Aprenda a proteger seu negócio.',
+    conteudo: `
+      <p>Em 2024, 68% das empresas brasileiras sofreram algum tipo de ataque cibernético. A segurança digital não é mais opcional.</p>
+      
+      <h2>Principais Ameaças</h2>
+      
+      <h3>1. Ransomware</h3>
+      <p>Sequestro de dados com pedido de resgate. Crescimento de 150% em 2024.</p>
+      
+      <h3>2. Phishing</h3>
+      <p>E-mails fraudulentos que roubam credenciais. 90% dos ataques começam assim.</p>
+      
+      <h3>3. DDoS</h3>
+      <p>Ataques que derrubam sistemas. Causam prejuízo médio de R$ 500k/hora.</p>
+      
+      <h3>4. Insider Threats</h3>
+      <p>Ameaças internas, intencionais ou acidentais.</p>
+      
+      <h2>Camadas de Proteção Essenciais</h2>
+      
+      <h3>Perímetro</h3>
+      <ul>
+        <li>Firewall de última geração</li>
+        <li>IDS/IPS (Detecção/Prevenção de Intrusão)</li>
+        <li>VPN empresarial</li>
+      </ul>
+      
+      <h3>Aplicação</h3>
+      <ul>
+        <li>WAF (Web Application Firewall)</li>
+        <li>Análise de vulnerabilidades</li>
+        <li>Testes de penetração</li>
+      </ul>
+      
+      <h3>Dados</h3>
+      <ul>
+        <li>Criptografia em repouso e em trânsito</li>
+        <li>Backup 3-2-1 (3 cópias, 2 mídias, 1 offsite)</li>
+        <li>DLP (Data Loss Prevention)</li>
+      </ul>
+      
+      <h3>Usuário</h3>
+      <ul>
+        <li>Autenticação multifator (MFA)</li>
+        <li>Treinamento de conscientização</li>
+        <li>Gestão de privilégios</li>
+      </ul>
+      
+      <h2>Compliance e Regulação</h2>
+      <p>LGPD exige medidas técnicas adequadas. Multas podem chegar a 2% do faturamento.</p>
+      
+      <h2>Plano de Resposta a Incidentes</h2>
+      <ol>
+        <li>Detecção e análise</li>
+        <li>Contenção</li>
+        <li>Erradicação</li>
+        <li>Recuperação</li>
+        <li>Lições aprendidas</li>
+      </ol>
+    `,
+    tags: ['Cybersecurity', 'Segurança', 'LGPD', 'Proteção de Dados'],
+    destaque: true,
+  },
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
