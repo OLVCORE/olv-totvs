@@ -134,9 +134,6 @@ export default function SetorPage({ params }: PageProps) {
                     src={`/images/setores/${setor.slug}-hero.svg`}
                     alt={`${setor.nome} - Soluções Especializadas`}
                     className="w-full h-full object-cover opacity-80"
-                    onError={(e) => {
-                      e.currentTarget.src = '/images/solucoes/default-hero.svg';
-                    }}
                   />
                 </div>
                 
