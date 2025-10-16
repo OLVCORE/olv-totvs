@@ -3,7 +3,7 @@ import Solucoes from '@/components/home/Solucoes';
 import IntroducaoInstitucionalOLV from '@/components/consultoria/IntroducaoInstitucionalOLV';
 import Setores from '@/components/home/Setores';
 import ComoFunciona from '@/components/home/ComoFunciona';
-import CasesDepoimentos from '@/components/home/CasesDepoimentos';
+import Depoimentos from '@/components/home/Depoimentos';
 import Parceria from '@/components/home/Parceria';
 import CTAFinal from '@/components/home/CTAFinal';
 
@@ -18,7 +18,7 @@ export default function HomePage() {
       />
       <Setores />
       <ComoFunciona />
-      <CasesDepoimentos />
+      <Depoimentos />
       <Parceria />
       <CTAFinal />
     </>
