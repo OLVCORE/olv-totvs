@@ -1,0 +1,72 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Hexagon Pattern -->
+  <defs>
+    <pattern id="hexagon" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M30 0 L50 15 L50 45 L30 60 L10 45 L10 15 Z" fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#hexagon)"/>
+  
+  <!-- Main Card -->
+  <rect x="50" y="50" width="700" height="500" rx="30" fill="url(#cardGradient)" stroke="#6366f1" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Central Icon Area -->
+  <circle cx="400" cy="250" r="80" fill="url(#accentGradient)" opacity="0.2" filter="url(#glow)"/>
+  <circle cx="400" cy="250" r="60" fill="none" stroke="url(#accentGradient)" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Generic Elements -->
+  <rect x="350" y="200" width="100" height="100" rx="20" fill="url(#accentGradient)" opacity="0.3"/>
+  <rect x="360" y="210" width="80" height="80" rx="10" fill="url(#accentGradient)" opacity="0.6"/>
+  
+  <!-- Data Points -->
+  <circle cx="320" cy="200" r="4" fill="url(#accentGradient)" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="480" cy="200" r="4" fill="url(#accentGradient)" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="320" cy="300" r="4" fill="url(#accentGradient)" opacity="0.8" filter="url(#glow)"/>
+  <circle cx="480" cy="300" r="4" fill="url(#accentGradient)" opacity="0.8" filter="url(#glow)"/>
+  
+  <!-- Connecting Lines -->
+  <line x1="324" y1="200" x2="476" y2="200" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+  <line x1="324" y1="300" x2="476" y2="300" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+  <line x1="320" y1="204" x2="320" y2="296" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+  <line x1="480" y1="204" x2="480" y2="296" stroke="url(#accentGradient)" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">
+    SOLUÇÃO TOTVS
+  </text>
+  <text x="400" y="480" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="18" font-weight="normal">
+    Tecnologia Integrada
+  </text>
+  
+  <!-- Floating Elements -->
+  <circle cx="150" cy="150" r="3" fill="#6366f1" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="650" cy="450" r="3" fill="#8b5cf6" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="200" cy="400" r="2" fill="#6366f1" opacity="0.4" filter="url(#glow)"/>
+  <circle cx="600" cy="200" r="2" fill="#8b5cf6" opacity="0.4" filter="url(#glow)"/>
+</svg>

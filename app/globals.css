@@ -1,0 +1,324 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ==========================================
+   PREMIUM FUTURISTIC STYLES - OLV + TOTVS
+   ========================================== */
+
+@layer base {
+  :root {
+    --primary: #0ea5e9;
+    --primary-dark: #0369a1;
+    --secondary: #64748b;
+    --success: #10b981;
+    --warning: #f59e0b;
+    --danger: #ef4444;
+    --neutral: #64748b;
+    --cyan: #06b6d4;
+    --indigo: #6366f1;
+    --purple: #a855f7;
+  }
+
+  * {
+    @apply border-slate-700/50;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-slate-900 text-slate-100 font-sans antialiased;
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-black tracking-wide;
+  }
+}
+
+@layer components {
+  /* Premium Botões Futuristas */
+  .btn {
+    @apply inline-flex items-center justify-center gap-3 rounded-xl px-8 py-4 font-bold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed tracking-wide;
+  }
+
+  .btn-primary {
+    @apply bg-gradient-to-r from-cyan-500 to-blue-600 text-white hover:from-cyan-400 hover:to-blue-500 active:from-cyan-600 active:to-blue-700 shadow-glow hover:shadow-futuristic hover:scale-105;
+  }
+
+  .btn-secondary {
+    @apply bg-gradient-to-r from-slate-700 to-slate-800 text-slate-200 hover:from-slate-600 hover:to-slate-700 active:from-slate-800 active:to-slate-900 shadow-medium hover:shadow-strong hover:scale-105 border border-slate-600/50;
+  }
+
+  .btn-outline {
+    @apply border-2 border-cyan-400 text-cyan-300 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-blue-500/10 active:bg-gradient-to-r active:from-cyan-500/20 active:to-blue-500/20 backdrop-blur-sm;
+  }
+
+  .btn-ghost {
+    @apply text-slate-300 hover:bg-slate-800/50 active:bg-slate-800/70 backdrop-blur-sm;
+  }
+
+  /* Premium Cards Futuristas */
+  .card {
+    @apply bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-2xl shadow-premium hover:shadow-futuristic transition-all duration-300 overflow-hidden border border-slate-700/50;
+  }
+
+  .card-hover {
+    @apply transform hover:scale-105 transition-all duration-300 hover:shadow-glow;
+  }
+
+  .card-premium {
+    @apply bg-gradient-to-br from-slate-800/80 to-slate-900/80 backdrop-blur-xl rounded-3xl shadow-premium border border-slate-700/50 p-8;
+  }
+
+  /* Container */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Section */
+  .section {
+    @apply py-20 md:py-32;
+  }
+
+  /* Premium Input Futurista */
+  .input {
+    @apply w-full px-6 py-4 bg-slate-800/50 backdrop-blur-sm border border-slate-600/50 rounded-xl text-slate-100 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/50 focus:border-cyan-400/50 transition-all duration-300 font-medium;
+  }
+
+  .input-error {
+    @apply border-red-400/50 focus:ring-red-400/50;
+  }
+
+  /* Label */
+  .label {
+    @apply block text-sm font-bold text-slate-200 mb-3 tracking-wide;
+  }
+
+  /* Premium Badge Futurista */
+  .badge {
+    @apply inline-flex items-center px-4 py-2 rounded-full text-sm font-bold tracking-wide;
+  }
+
+  .badge-primary {
+    @apply bg-gradient-to-r from-cyan-500/20 to-blue-500/20 text-cyan-300 border border-cyan-400/30;
+  }
+
+  .badge-success {
+    @apply bg-gradient-to-r from-emerald-500/20 to-teal-500/20 text-emerald-300 border border-emerald-400/30;
+  }
+
+  .badge-warning {
+    @apply bg-gradient-to-r from-yellow-500/20 to-orange-500/20 text-yellow-300 border border-yellow-400/30;
+  }
+
+  .badge-danger {
+    @apply bg-gradient-to-r from-red-500/20 to-pink-500/20 text-red-300 border border-red-400/30;
+  }
+
+  /* Premium Glass Effect */
+  .glass {
+    @apply bg-slate-800/30 backdrop-blur-xl border border-slate-700/50;
+  }
+
+  .glass-strong {
+    @apply bg-slate-800/50 backdrop-blur-xl border border-slate-700/50;
+  }
+
+  /* Futuristic Grid */
+  .grid-futuristic {
+    background-image: 
+      linear-gradient(rgba(6, 182, 212, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(6, 182, 212, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400;
+  }
+
+  .text-gradient-premium {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-300;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out;
+  }
+
+  .animate-slide-in-left {
+    animation: slideInLeft 0.8s ease-out;
+  }
+
+  .animate-slide-in-right {
+    animation: slideInRight 0.8s ease-out;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+}
+
+/* Premium Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(6, 182, 212, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 40px rgba(6, 182, 212, 0.8), 0 0 80px rgba(6, 182, 212, 0.3);
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Premium Scrollbar Futurista */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-slate-800/50;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gradient-to-b from-cyan-500 to-blue-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gradient-to-b from-cyan-400 to-blue-500;
+}
+
+/* Premium Loading Spinner Futurista */
+.spinner {
+  border: 3px solid rgba(6, 182, 212, 0.1);
+  border-left-color: #06b6d4;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+.spinner-premium {
+  border: 4px solid rgba(6, 182, 212, 0.1);
+  border-left-color: #06b6d4;
+  border-top-color: #3b82f6;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Futuristic Selection */
+::selection {
+  @apply bg-cyan-500/30 text-cyan-100;
+}
+
+/* Premium Focus States */
+.focus-premium:focus {
+  @apply outline-none ring-2 ring-cyan-400/50 ring-offset-2 ring-offset-slate-900;
+}
+
+/* Premium Hover Effects */
+.hover-glow:hover {
+  box-shadow: 0 0 30px rgba(6, 182, 212, 0.4);
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+}
+
+.hover-scale:hover {
+  transform: scale(1.05);
+}
+
+/* Futuristic Background Patterns */
+.bg-pattern-dots {
+  background-image: radial-gradient(circle, rgba(6, 182, 212, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bg-pattern-grid {
+  background-image: 
+    linear-gradient(rgba(6, 182, 212, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 182, 212, 0.1) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.bg-pattern-hexagon {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2306b6d4' fill-opacity='0.05'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
