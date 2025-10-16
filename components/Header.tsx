@@ -93,7 +93,7 @@ const Header = () => {
             {navigation.map((item) => (
               <div
                 key={item.name}
-                className="relative"
+                className="relative group"
                 onMouseEnter={() => item.dropdown && setOpenDropdown(item.name)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
@@ -101,10 +101,14 @@ const Header = () => {
                   <>
                     <button className="flex items-center gap-2 px-5 py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow">
                       {item.name}
-                      <ChevronDown className="w-4 h-4" />
+                      <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
                     </button>
                     {openDropdown === item.name && (
-                      <div className="absolute top-full left-0 mt-2 w-72 bg-slate-800/95 backdrop-blur-xl rounded-2xl shadow-premium py-3 border border-slate-700/50 animate-fade-in">
+                      <div 
+                        className="absolute top-full left-0 mt-2 w-72 bg-slate-800/95 backdrop-blur-xl rounded-2xl shadow-premium py-3 border border-slate-700/50 animate-fade-in z-50"
+                        onMouseEnter={() => setOpenDropdown(item.name)}
+                        onMouseLeave={() => setOpenDropdown(null)}
+                      >
                         {item.dropdown.map((subItem) => (
                           <Link
                             key={subItem.name}

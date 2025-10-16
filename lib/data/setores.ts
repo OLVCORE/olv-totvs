@@ -23,7 +23,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'Techfin',
     ],
     cases: [],
-    imagem_hero: '/images/setores/agro-hero.jpg',
+    imagem_hero: '/images/setores/agro-hero.svg',
   },
   {
     id: 'construcao',
@@ -47,7 +47,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'Techfin',
     ],
     cases: [],
-    imagem_hero: '/images/setores/construcao-hero.jpg',
+    imagem_hero: '/images/setores/construcao-hero.svg',
   },
   {
     id: 'distribuicao',
@@ -71,7 +71,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'Techfin',
     ],
     cases: [],
-    imagem_hero: '/images/setores/distribuicao-hero.jpg',
+    imagem_hero: '/images/setores/distribuicao-hero.svg',
   },
   {
     id: 'financial-services',
@@ -95,7 +95,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'Assinatura Eletrônica',
     ],
     cases: [],
-    imagem_hero: '/images/setores/financial-hero.jpg',
+    imagem_hero: '/images/setores/financial-services-hero.svg',
   },
   {
     id: 'logistica',
@@ -119,7 +119,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'Cloud',
     ],
     cases: [],
-    imagem_hero: '/images/setores/logistica-hero.jpg',
+    imagem_hero: '/images/setores/logistica-hero.svg',
   },
   {
     id: 'manufatura',
@@ -143,7 +143,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'Cloud',
     ],
     cases: [],
-    imagem_hero: '/images/setores/manufatura-hero.jpg',
+    imagem_hero: '/images/setores/manufatura-hero.svg',
   },
   {
     id: 'servicos',
@@ -167,7 +167,7 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
       'RH',
     ],
     cases: [],
-    imagem_hero: '/images/setores/servicos-hero.jpg',
+    imagem_hero: '/images/setores/prestadores-servicos-hero.svg',
   },
 ];
 

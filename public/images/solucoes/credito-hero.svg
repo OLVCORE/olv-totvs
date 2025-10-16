@@ -1,0 +1,64 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#2e7d32;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2e7d32" />
+      <stop offset="100%" style="stop-color:#4caf50" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Credit analysis dashboard -->
+  <rect x="50" y="50" width="300" height="200" fill="white" opacity="0.1" rx="15"/>
+  
+  <!-- Header -->
+  <rect x="60" y="60" width="280" height="30" fill="url(#iconGradient)" opacity="0.8" rx="5"/>
+  <rect x="70" y="70" width="80" height="10" fill="white" opacity="0.7" rx="2"/>
+  
+  <!-- Credit score display -->
+  <circle cx="150" cy="130" r="40" fill="url(#iconGradient)" opacity="0.8"/>
+  <circle cx="150" cy="130" r="30" fill="white" opacity="0.2"/>
+  <text x="150" y="125" text-anchor="middle" fill="white" font-size="16" font-weight="bold">750</text>
+  <text x="150" y="140" text-anchor="middle" fill="white" font-size="10">Score</text>
+  
+  <!-- Risk indicators -->
+  <rect x="220" y="110" width="80" height="40" fill="url(#iconGradient)" opacity="0.7" rx="8"/>
+  <text x="260" y="125" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Low Risk</text>
+  <text x="260" y="140" text-anchor="middle" fill="white" font-size="10">Approved</text>
+  
+  <!-- Payment history -->
+  <rect x="80" y="180" width="240" height="50" fill="url(#iconGradient)" opacity="0.6" rx="8"/>
+  <text x="200" y="195" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Payment History</text>
+  
+  <!-- Payment bars -->
+  <rect x="90" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="120" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="150" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="180" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="210" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="240" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="270" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  <rect x="300" y="205" width="20" height="15" fill="white" opacity="0.8" rx="2"/>
+  
+  <!-- Credit limit -->
+  <rect x="80" y="240" width="100" height="20" fill="url(#iconGradient)" opacity="0.7" rx="5"/>
+  <text x="130" y="255" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Limit: R$ 50K</text>
+  
+  <!-- Interest rate -->
+  <rect x="200" y="240" width="100" height="20" fill="url(#iconGradient)" opacity="0.7" rx="5"/>
+  <text x="250" y="255" text-anchor="middle" fill="white" font-size="10" font-weight="bold">Rate: 2.5%</text>
+  
+  <!-- Floating elements -->
+  <circle cx="30" cy="80" r="6" fill="url(#iconGradient)" opacity="0.5"/>
+  <circle cx="370" cy="100" r="8" fill="url(#iconGradient)" opacity="0.4"/>
+  <circle cx="350" cy="250" r="5" fill="url(#iconGradient)" opacity="0.6"/>
+  
+  <!-- Dollar signs -->
+  <text x="80" y="50" fill="url(#iconGradient)" font-size="20" font-weight="bold" opacity="0.6">$</text>
+  <text x="320" y="50" fill="url(#iconGradient)" font-size="20" font-weight="bold" opacity="0.6">$</text>
+</svg>

@@ -121,6 +121,11 @@ export default function BlogPage() {
                 }`}
               >
                 {categoria}
+                {categoria !== 'Todas' && (
+                  <span className="ml-2 px-2 py-1 bg-slate-600/50 rounded-full text-xs">
+                    {BLOG_POSTS.filter(post => post.categoria === categoria).length}
+                  </span>
+                )}
               </button>
             ))}
           </motion.div>

@@ -34,7 +34,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'LayoutGrid',
     cor: '#0087ff',
-    imagem_hero: '/images/solucoes/erp-hero.jpg',
+    imagem_hero: '/images/solucoes/erp-hero.svg',
     ordem: 1,
   },
   {
@@ -71,7 +71,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'Workflow',
     cor: '#29b864',
-    imagem_hero: '/images/solucoes/fluig-hero.jpg',
+    imagem_hero: '/images/solucoes/fluig-hero.svg',
     ordem: 2,
   },
   {
@@ -107,7 +107,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'Network',
     cor: '#f5a623',
-    imagem_hero: '/images/solucoes/ipaas-hero.jpg',
+    imagem_hero: '/images/solucoes/ipaas-hero.svg',
     ordem: 3,
   },
   {
@@ -143,7 +143,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'Users',
     cor: '#ea4335',
-    imagem_hero: '/images/solucoes/crm-hero.jpg',
+    imagem_hero: '/images/solucoes/crm-hero.svg',
     ordem: 4,
   },
   {
@@ -179,7 +179,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'CreditCard',
     cor: '#627d98',
-    imagem_hero: '/images/solucoes/techfin-hero.jpg',
+    imagem_hero: '/images/solucoes/techfin-hero.svg',
     ordem: 5,
   },
   {
@@ -215,7 +215,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'BarChart',
     cor: '#339fff',
-    imagem_hero: '/images/solucoes/analytics-hero.jpg',
+    imagem_hero: '/images/solucoes/analytics-hero.svg',
     ordem: 6,
   },
   {
@@ -251,7 +251,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'FileSignature',
     cor: '#1fa554',
-    imagem_hero: '/images/solucoes/assinatura-hero.jpg',
+    imagem_hero: '/images/solucoes/assinatura-hero.svg',
     ordem: 7,
   },
   {
@@ -287,7 +287,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'Cloud',
     cor: '#486581',
-    imagem_hero: '/images/solucoes/cloud-hero.jpg',
+    imagem_hero: '/images/solucoes/cloud-hero.svg',
     ordem: 8,
   },
   {
@@ -323,7 +323,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'Users2',
     cor: '#d4362a',
-    imagem_hero: '/images/solucoes/rh-hero.jpg',
+    imagem_hero: '/images/solucoes/rh-hero.svg',
     ordem: 9,
   },
   {
@@ -359,7 +359,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'MessageCircle',
     cor: '#25d366',
-    imagem_hero: '/images/solucoes/chatbot-hero.jpg',
+    imagem_hero: '/images/solucoes/chatbot-hero.svg',
     ordem: 10,
   },
   {
@@ -395,7 +395,7 @@ export const SOLUCOES_TOTVS: SolucaoTOTVS[] = [
     ],
     icone: 'DollarSign',
     cor: '#2e7d32',
-    imagem_hero: '/images/solucoes/credito-hero.jpg',
+    imagem_hero: '/images/solucoes/credito-hero.svg',
     ordem: 11,
   },
   {

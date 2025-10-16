@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Calendar, Clock, User, ArrowLeft, ArrowRight, Tag, Share2 } from 'lucide-react';
+import { Calendar, Clock, User, ArrowLeft, ArrowRight, Tag, Share2, ExternalLink } from 'lucide-react';
 import { getBlogPostBySlug, BLOG_POSTS } from '@/lib/data/blog-posts';
 import { AnimatedSection, AnimatedHero } from '@/components/shared/AnimatedSection';
 
@@ -184,6 +184,25 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
                       prose-code:text-cyan-300 prose-code:bg-slate-900 prose-code:px-2 prose-code:py-1 prose-code:rounded"
                     dangerouslySetInnerHTML={{ __html: post.conteudo }}
                   />
+
+                  {/* Fonte Original */}
+                  {post.fonte && (
+                    <div className="mt-12 pt-8 border-t border-slate-700/50">
+                      <div className="flex items-center gap-3 mb-4">
+                        <ExternalLink className="w-5 h-5 text-cyan-400" />
+                        <h4 className="text-lg font-bold text-white">Fonte Original</h4>
+                      </div>
+                      <a
+                        href={post.fonte.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 hover:from-cyan-500/30 hover:to-blue-500/30 text-cyan-300 hover:text-cyan-200 rounded-lg transition-all duration-300 border border-cyan-500/30 hover:border-cyan-500/50"
+                      >
+                        <span className="font-semibold">{post.fonte.nome}</span>
+                        <ExternalLink className="w-4 h-4" />
+                      </a>
+                    </div>
+                  )}
                 </div>
               </AnimatedSection>
 

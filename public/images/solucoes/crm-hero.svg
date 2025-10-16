@@ -1,0 +1,63 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea4335;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ea4335;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea4335" />
+      <stop offset="100%" style="stop-color:#ff6b6b" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- CRM Dashboard -->
+  <rect x="50" y="50" width="300" height="200" fill="white" opacity="0.1" rx="15"/>
+  
+  <!-- Header -->
+  <rect x="60" y="60" width="280" height="30" fill="url(#iconGradient)" opacity="0.8" rx="5"/>
+  <rect x="70" y="70" width="60" height="10" fill="white" opacity="0.7" rx="2"/>
+  
+  <!-- Pipeline stages -->
+  <rect x="80" y="110" width="50" height="80" fill="url(#iconGradient)" opacity="0.6" rx="8"/>
+  <rect x="150" y="110" width="50" height="80" fill="url(#iconGradient)" opacity="0.7" rx="8"/>
+  <rect x="220" y="110" width="50" height="80" fill="url(#iconGradient)" opacity="0.8" rx="8"/>
+  <rect x="290" y="110" width="50" height="80" fill="url(#iconGradient)" opacity="0.9" rx="8"/>
+  
+  <!-- Pipeline labels -->
+  <text x="105" y="105" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Lead</text>
+  <text x="175" y="105" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Qualified</text>
+  <text x="245" y="105" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Proposal</text>
+  <text x="315" y="105" text-anchor="middle" fill="white" font-size="12" font-weight="bold">Closed</text>
+  
+  <!-- Cards in pipeline -->
+  <rect x="85" y="125" width="40" height="15" fill="white" opacity="0.8" rx="3"/>
+  <rect x="85" y="145" width="40" height="15" fill="white" opacity="0.6" rx="3"/>
+  
+  <rect x="155" y="130" width="40" height="15" fill="white" opacity="0.8" rx="3"/>
+  <rect x="155" y="150" width="40" height="15" fill="white" opacity="0.6" rx="3"/>
+  
+  <rect x="225" y="135" width="40" height="15" fill="white" opacity="0.8" rx="3"/>
+  
+  <rect x="295" y="140" width="40" height="15" fill="white" opacity="0.9" rx="3"/>
+  
+  <!-- User icons -->
+  <circle cx="100" cy="220" r="15" fill="url(#iconGradient)" opacity="0.8"/>
+  <circle cx="100" cy="220" r="10" fill="white" opacity="0.3"/>
+  <circle cx="100" cy="220" r="5" fill="white" opacity="0.6"/>
+  
+  <circle cx="200" cy="220" r="15" fill="url(#iconGradient)" opacity="0.8"/>
+  <circle cx="200" cy="220" r="10" fill="white" opacity="0.3"/>
+  <circle cx="200" cy="220" r="5" fill="white" opacity="0.6"/>
+  
+  <circle cx="300" cy="220" r="15" fill="url(#iconGradient)" opacity="0.8"/>
+  <circle cx="300" cy="220" r="10" fill="white" opacity="0.3"/>
+  <circle cx="300" cy="220" r="5" fill="white" opacity="0.6"/>
+  
+  <!-- Floating elements -->
+  <circle cx="30" cy="80" r="6" fill="url(#iconGradient)" opacity="0.5"/>
+  <circle cx="370" cy="100" r="8" fill="url(#iconGradient)" opacity="0.4"/>
+  <circle cx="350" cy="250" r="5" fill="url(#iconGradient)" opacity="0.6"/>
+</svg>

@@ -1,0 +1,72 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9c27b0;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#9c27b0;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9c27b0" />
+      <stop offset="100%" style="stop-color:#ba68c8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Factory building -->
+  <rect x="120" y="100" width="160" height="140" fill="url(#iconGradient)" opacity="0.8" rx="10"/>
+  
+  <!-- Factory floors -->
+  <rect x="130" y="110" width="140" height="25" fill="white" opacity="0.2" rx="5"/>
+  <rect x="130" y="145" width="140" height="25" fill="white" opacity="0.2" rx="5"/>
+  <rect x="130" y="180" width="140" height="25" fill="white" opacity="0.2" rx="5"/>
+  
+  <!-- Production line -->
+  <rect x="140" y="120" width="120" height="8" fill="url(#iconGradient)" opacity="0.6" rx="4"/>
+  <rect x="140" y="155" width="120" height="8" fill="url(#iconGradient)" opacity="0.6" rx="4"/>
+  <rect x="140" y="190" width="120" height="8" fill="url(#iconGradient)" opacity="0.6" rx="4"/>
+  
+  <!-- Machinery -->
+  <rect x="150" y="135" width="30" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  <rect x="190" y="135" width="30" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  <rect x="230" y="135" width="30" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  
+  <rect x="150" y="170" width="30" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  <rect x="190" y="170" width="30" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  <rect x="230" y="170" width="30" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  
+  <!-- Control panel -->
+  <rect x="200" y="80" width="80" height="40" fill="url(#iconGradient)" opacity="0.9" rx="8"/>
+  <rect x="210" y="90" width="60" height="20" fill="white" opacity="0.2" rx="3"/>
+  <circle cx="220" cy="100" r="3" fill="white" opacity="0.8"/>
+  <circle cx="230" cy="100" r="3" fill="white" opacity="0.8"/>
+  <circle cx="240" cy="100" r="3" fill="white" opacity="0.8"/>
+  <circle cx="250" cy="100" r="3" fill="white" opacity="0.8"/>
+  
+  <!-- Chimney -->
+  <rect x="280" y="60" width="20" height="40" fill="url(#iconGradient)" opacity="0.8" rx="5"/>
+  <rect x="285" y="55" width="10" height="10" fill="url(#iconGradient)" opacity="0.9" rx="2"/>
+  
+  <!-- Smoke -->
+  <circle cx="290" cy="50" r="4" fill="white" opacity="0.4"/>
+  <circle cx="295" cy="45" r="3" fill="white" opacity="0.3"/>
+  <circle cx="300" cy="40" r="2" fill="white" opacity="0.2"/>
+  
+  <!-- Products -->
+  <rect x="80" y="200" width="20" height="20" fill="white" opacity="0.8" rx="3"/>
+  <rect x="110" y="200" width="20" height="20" fill="white" opacity="0.8" rx="3"/>
+  <rect x="140" y="200" width="20" height="20" fill="white" opacity="0.8" rx="3"/>
+  
+  <rect x="240" y="200" width="20" height="20" fill="white" opacity="0.8" rx="3"/>
+  <rect x="270" y="200" width="20" height="20" fill="white" opacity="0.8" rx="3"/>
+  <rect x="300" y="200" width="20" height="20" fill="white" opacity="0.8" rx="3"/>
+  
+  <!-- Quality control -->
+  <circle cx="200" cy="220" r="15" fill="url(#iconGradient)" opacity="0.8"/>
+  <path d="M195 220 L198 223 L205 216" stroke="white" stroke-width="2" fill="none"/>
+  
+  <!-- Floating elements -->
+  <circle cx="50" cy="80" r="6" fill="url(#iconGradient)" opacity="0.5"/>
+  <circle cx="350" cy="100" r="8" fill="url(#iconGradient)" opacity="0.4"/>
+  <circle cx="320" cy="250" r="5" fill="url(#iconGradient)" opacity="0.6"/>
+</svg>

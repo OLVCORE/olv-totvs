@@ -16,6 +16,10 @@ export interface BlogPost {
   conteudo: string;
   tags: string[];
   destaque: boolean;
+  fonte?: {
+    nome: string;
+    url: string;
+  };
 }
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -570,6 +574,412 @@ export const BLOG_POSTS: BlogPost[] = [
     `,
     tags: ['Cybersecurity', 'Segurança', 'LGPD', 'Proteção de Dados'],
     destaque: true,
+  },
+  {
+    id: '13',
+    slug: 'fini-produtividade-armazem',
+    titulo: 'Fini: +15% de produtividade no armazém',
+    subtitulo: 'Como o WMS TOTVS elevou a acurácia de estoque e rastreabilidade das operações',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-20',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/fini-wms.jpg',
+    resumo: 'A Fini obteve de 12% a 15% de ganho de produtividade com o WMS TOTVS, elevando a acurácia de estoque e a rastreabilidade das operações.',
+    conteudo: `
+      <p>A Fini, uma das maiores empresas de confeitos do Brasil, implementou o WMS TOTVS e obteve resultados impressionantes em produtividade e controle de estoque.</p>
+      
+      <h2>Desafios Anteriores</h2>
+      <ul>
+        <li>Controle manual de estoque com alta margem de erro</li>
+        <li>Dificuldade na rastreabilidade de produtos</li>
+        <li>Processos operacionais não padronizados</li>
+        <li>Falta de métricas operacionais confiáveis</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>O WMS TOTVS foi implementado para automatizar e otimizar todas as operações do armazém, desde o recebimento até a expedição.</p>
+      
+      <h2>Resultados Alcançados</h2>
+      <ul>
+        <li><strong>+15% de produtividade</strong> nas operações do armazém</li>
+        <li><strong>Acurácia de estoque</strong> elevada significativamente</li>
+        <li><strong>Rastreabilidade completa</strong> de todos os produtos</li>
+        <li><strong>Processos padronizados</strong> e otimizados</li>
+        <li><strong>Métricas operacionais</strong> em tempo real</li>
+        <li><strong>Reforço do OTIF</strong> (On Time In Full)</li>
+        <li><strong>Redução de rupturas</strong> de estoque</li>
+      </ul>
+      
+      <h2>Impacto na Supply Chain</h2>
+      <p>O case mostra como processos padronizados, endereçamento inteligente e métricas operacionais reforçam o OTIF e reduzem rupturas. É uma prova direta do impacto do WMS em supply chain, do recebimento à expedição, com resultados tangíveis e replicáveis em outras operações.</p>
+      
+      <p>Este case demonstra como a tecnologia pode transformar operações logísticas complexas, gerando valor mensurável e sustentável para o negócio.</p>
+    `,
+    tags: ['WMS', 'Supply Chain', 'Produtividade', 'Fini'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Web Stories',
+      url: 'https://www.totvs.com/web-stories/case-de-sucesso-fini-15-mais-produtividade-no-armazem/'
+    }
+  },
+  {
+    id: '14',
+    slug: 'kapazi-planejamento-producao',
+    titulo: 'Kapazi: planejamento e produção integrados',
+    subtitulo: 'Como a integração ERP conectou planejamento, produção e vendas',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-18',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/kapazi-erp.jpg',
+    resumo: 'A Kapazi conectou planejamento, produção e vendas com ERP TOTVS e mais de 30 soluções integradas, obtendo mais visibilidade e redução de retrabalho.',
+    conteudo: `
+      <p>A Kapazi, empresa do setor industrial, implementou uma solução integrada com ERP TOTVS e mais de 30 soluções conectadas, transformando completamente sua operação.</p>
+      
+      <h2>Desafios da Integração</h2>
+      <ul>
+        <li>Sistemas desconectados entre departamentos</li>
+        <li>Falta de visibilidade entre planejamento e execução</li>
+        <li>Retrabalho constante por inconsistências</li>
+        <li>Dificuldade no controle de custos e prazos</li>
+        <li>Falta de governança de dados</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Implementação do ERP TOTVS com integração de mais de 30 soluções, conectando planejamento, produção, vendas e todas as áreas operacionais.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Mais visibilidade</strong> em toda a operação</li>
+        <li><strong>Redução significativa</strong> de retrabalho</li>
+        <li><strong>Controle rigoroso</strong> sobre custos e prazos</li>
+        <li><strong>Integração ponta a ponta</strong> da cadeia</li>
+        <li><strong>Ciclo encurtado</strong> entre demanda e atendimento</li>
+        <li><strong>Melhoria do S&OP</strong> (Sales & Operations Planning)</li>
+        <li><strong>Governança de dados</strong> robusta</li>
+        <li><strong>Crescimento com qualidade</strong> sustentável</li>
+      </ul>
+      
+      <h2>Impacto na Supply Chain</h2>
+      <p>Em supply chain, a integração de ponta a ponta encurta o ciclo entre demanda e atendimento, melhora o S&OP e a governança de dados, suportando crescimento com qualidade.</p>
+      
+      <p>Este case demonstra como a integração tecnológica pode transformar operações industriais complexas, gerando eficiência e sustentabilidade.</p>
+    `,
+    tags: ['ERP', 'Integração', 'Produção', 'Kapazi'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
+    }
+  },
+  {
+    id: '15',
+    slug: 'golden-cargo-visibilidade-ponta-ponta',
+    titulo: 'Golden Cargo: visibilidade ponta a ponta',
+    subtitulo: 'Como a Suíte Logística TOTVS integrou planejamento, execução e monitoramento',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-16',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/golden-cargo.jpg',
+    resumo: 'A Golden Cargo integrou planejamento, execução e monitoramento do transporte com a Suíte Logística TOTVS, reduzindo tempos no pátio e melhorando registros de evidências.',
+    conteudo: `
+      <p>A Golden Cargo, empresa especializada em transporte, implementou a Suíte Logística TOTVS para obter visibilidade completa de suas operações.</p>
+      
+      <h2>Desafios Logísticos</h2>
+      <ul>
+        <li>Falta de visibilidade nas operações de transporte</li>
+        <li>Tempos excessivos no pátio</li>
+        <li>Dificuldade no registro de evidências</li>
+        <li>Falta de indicadores operacionais</li>
+        <li>Dificuldade em manter compliance</li>
+        <li>Dados não confiáveis para decisões</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Implementação da Suíte Logística TOTVS integrando planejamento, execução e monitoramento do transporte em uma única plataforma.</p>
+      
+      <h2>Resultados Alcançados</h2>
+      <ul>
+        <li><strong>Redução de tempos</strong> no pátio</li>
+        <li><strong>Melhoria significativa</strong> nos registros de evidências</li>
+        <li><strong>Indicadores operacionais</strong> em tempo real</li>
+        <li><strong>Compliance</strong> garantido</li>
+        <li><strong>Dados confiáveis</strong> para decisões rápidas</li>
+        <li><strong>Qualidade de serviço</strong> elevada</li>
+        <li><strong>Rastreabilidade completa</strong> das operações</li>
+        <li><strong>Produtividade</strong> aumentada</li>
+      </ul>
+      
+      <h2>Impacto na Cadeia Logística</h2>
+      <p>O case reforça como indicadores operacionais, compliance e dados confiáveis suportam decisões rápidas na cadeia, elevando a qualidade de serviço em mercados regulados.</p>
+      
+      <p>Esta implementação demonstra como a tecnologia pode transformar operações de transporte, gerando eficiência e qualidade de serviço.</p>
+    `,
+    tags: ['Suíte Logística', 'Transporte', 'Golden Cargo', 'Visibilidade'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-golden-cargo/'
+    }
+  },
+  {
+    id: '16',
+    slug: 'guia-supply-chain-fundamentos-kpis',
+    titulo: 'Guia de Supply Chain: fundamentos e KPIs',
+    subtitulo: 'Conceitos essenciais e indicadores cruciais para gestão de cadeia de suprimentos',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em Logística',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-14',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/guia-supply-chain.jpg',
+    resumo: 'Guia completo com fundamentos, etapas e KPIs cruciais (OTIF, lead time, acurácia) para gestão eficiente de supply chain.',
+    conteudo: `
+      <p>Supply Chain Management (SCM) é a gestão integrada de todos os processos que agregam valor ao cliente, desde a matéria-prima até o produto final.</p>
+      
+      <h2>Fundamentos da Supply Chain</h2>
+      
+      <h3>1. Planejamento</h3>
+      <p>Definição de estratégias, previsão de demanda e planejamento de recursos.</p>
+      
+      <h3>2. Sourcing</h3>
+      <p>Seleção de fornecedores, negociação e gestão de relacionamentos.</p>
+      
+      <h3>3. Produção</h3>
+      <p>Transformação de materiais em produtos finais.</p>
+      
+      <h3>4. Distribuição</h3>
+      <p>Movimentação de produtos até o cliente final.</p>
+      
+      <h3>5. Retorno</h3>
+      <p>Gestão de devoluções e reciclagem.</p>
+      
+      <h2>KPIs Cruciais</h2>
+      
+      <h3>OTIF (On Time In Full)</h3>
+      <p>Percentual de entregas completas e no prazo. Meta: >95%</p>
+      
+      <h3>Lead Time</h3>
+      <p>Tempo total desde o pedido até a entrega. Redução contínua é essencial.</p>
+      
+      <h3>Acurácia de Estoque</h3>
+      <p>Precisão do inventário físico vs sistema. Meta: >98%</p>
+      
+      <h3>Fill Rate</h3>
+      <p>Percentual de pedidos atendidos completamente. Meta: >95%</p>
+      
+      <h3>Cash-to-Cash Cycle</h3>
+      <p>Tempo entre pagamento a fornecedores e recebimento de clientes.</p>
+      
+      <h3>Inventory Turnover</h3>
+      <p>Quantas vezes o estoque é renovado por ano.</p>
+      
+      <h2>Benefícios da Gestão Eficiente</h2>
+      <ul>
+        <li>Redução de custos operacionais</li>
+        <li>Melhoria na qualidade do serviço</li>
+        <li>Aumento da satisfação do cliente</li>
+        <li>Otimização do capital de giro</li>
+        <li>Maior agilidade e flexibilidade</li>
+      </ul>
+      
+      <h2>Tecnologia como Facilitadora</h2>
+      <p>WMS, TMS, ERP e Analytics são essenciais para uma supply chain moderna e eficiente.</p>
+    `,
+    tags: ['Supply Chain', 'KPIs', 'Logística', 'Gestão'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/supply-chain/'
+    }
+  },
+  {
+    id: '17',
+    slug: 'lorenzetti-automacao-governanca',
+    titulo: 'Lorenzetti: automação e governança',
+    subtitulo: 'Como a centralização em plataforma TOTVS padronizou processos e elevou governança',
+    categoria: 'Compras Estratégicas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-12',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/lorenzetti-automacao.jpg',
+    resumo: 'A Lorenzetti centralizou automações em plataforma TOTVS, padronizando processos e elevando governança entre compras, financeiro e fiscal.',
+    conteudo: `
+      <p>A Lorenzetti, empresa líder em equipamentos para banheiro e cozinha, implementou uma solução integrada TOTVS para centralizar e automatizar seus processos.</p>
+      
+      <h2>Desafios de Governança</h2>
+      <ul>
+        <li>Processos não padronizados entre departamentos</li>
+        <li>Falta de governança entre compras, financeiro e fiscal</li>
+        <li>Qualidade de dados inconsistente</li>
+        <li>Integrações complexas e custosas</li>
+        <li>Erros frequentes e retrabalho</li>
+        <li>Falta de visibilidade integrada</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Centralização de todas as automações em uma única plataforma TOTVS, integrando compras, financeiro e fiscal.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Processos padronizados</strong> em toda a organização</li>
+        <li><strong>Governança elevada</strong> entre áreas</li>
+        <li><strong>Maior qualidade de dados</strong> e consistência</li>
+        <li><strong>Integrações simplificadas</strong> e eficientes</li>
+        <li><strong>Redução de erros</strong> e retrabalho</li>
+        <li><strong>Visibilidade integrada</strong> de todas as operações</li>
+        <li><strong>Previsibilidade de caixa</strong> melhorada</li>
+      </ul>
+      
+      <h2>Impacto em Compras Estratégicas</h2>
+      <p>Para compras estratégicas, o case demonstra como ERP e boas práticas fortalecem negociações, contratos, compliance e previsibilidade de caixa.</p>
+      
+      <p>Esta implementação mostra como a centralização tecnológica pode transformar a governança empresarial, gerando eficiência e controle.</p>
+    `,
+    tags: ['Automação', 'Governança', 'Lorenzetti', 'Compras'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/case-de-sucesso-lorenzetti/'
+    }
+  },
+  {
+    id: '18',
+    slug: 'tradimaq-contratos-ageis-validade',
+    titulo: 'Tradimaq: contratos ágeis com validade',
+    subtitulo: 'Como a Assinatura Eletrônica acelerou formalizações e reduziu custos',
+    categoria: 'Compras Estratégicas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-10',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/tradimaq-assinatura.jpg',
+    resumo: 'A Tradimaq acelerou formalizações com TOTVS Assinatura Eletrônica, reduzindo custos e lead time de contratos e pedidos.',
+    conteudo: `
+      <p>A Tradimaq, empresa especializada em equipamentos industriais, implementou a solução de Assinatura Eletrônica TOTVS para agilizar seus processos contratuais.</p>
+      
+      <h2>Desafios Contratuais</h2>
+      <ul>
+        <li>Processo de assinatura de contratos muito lento</li>
+        <li>Custos elevados com impressão e logística</li>
+        <li>Lead time longo para formalizações</li>
+        <li>Dificuldade na validação jurídica</li>
+        <li>Falta de trilhas de auditoria</li>
+        <li>Problemas de integração com sistemas</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Implementação da TOTVS Assinatura Eletrônica com integração completa aos sistemas existentes.</p>
+      
+      <h2>Resultados Alcançados</h2>
+      <ul>
+        <li><strong>Aceleração significativa</strong> nas formalizações</li>
+        <li><strong>Redução de custos</strong> operacionais</li>
+        <li><strong>Lead time reduzido</strong> para contratos e pedidos</li>
+        <li><strong>Validade jurídica</strong> garantida</li>
+        <li><strong>Trilhas de auditoria</strong> completas</li>
+        <li><strong>Integrações eficientes</strong> com sistemas</li>
+        <li><strong>Governança documental</strong> robusta</li>
+      </ul>
+      
+      <h2>Impacto em Compras</h2>
+      <p>Em compras, o impacto aparece na negociação, homologação de fornecedores e gestão de aditivos, com governança documental robusta.</p>
+      
+      <p>Este case demonstra como a digitalização de processos contratuais pode transformar a eficiência operacional.</p>
+    `,
+    tags: ['Assinatura Eletrônica', 'Contratos', 'Tradimaq', 'Digitalização'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/case-de-sucesso-tradimaq/'
+    }
+  },
+  {
+    id: '19',
+    slug: 'cr-almeida-contratos-bpm-ecm',
+    titulo: 'CR Almeida: contratos com BPM/ECM',
+    subtitulo: 'Como o Fluig acelerou validações jurídicas e padronizou o ciclo contratual',
+    categoria: 'Compras Estratégicas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-08',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/cr-almeida-fluig.jpg',
+    resumo: 'A CR Almeida (EcoRodovias) usou o Fluig para acelerar validações jurídicas e padronizar o ciclo contratual, melhorando produtividade e qualidade.',
+    conteudo: `
+      <p>A CR Almeida, parte do grupo EcoRodovias, implementou o Fluig para transformar seus processos contratuais e de gestão documental.</p>
+      
+      <h2>Desafios do Ciclo Contratual</h2>
+      <ul>
+        <li>Validações jurídicas demoradas</li>
+        <li>Ciclo contratual não padronizado</li>
+        <li>Falta de colaboração entre áreas</li>
+        <li>Riscos contratuais elevados</li>
+        <li>Prazos de aprovação longos</li>
+        <li>Qualidade das informações inconsistente</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Implementação do Fluig com foco em BPM (Business Process Management) e ECM (Enterprise Content Management) para gestão contratual.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Aceleração das validações</strong> jurídicas</li>
+        <li><strong>Padronização do ciclo</strong> contratual</li>
+        <li><strong>Compliance</strong> garantido</li>
+        <li><strong>Rastreabilidade</strong> completa</li>
+        <li><strong>Colaboração</strong> entre áreas melhorada</li>
+        <li><strong>Redução de riscos</strong> contratuais</li>
+        <li><strong>Prazos de aprovação</strong> otimizados</li>
+        <li><strong>Qualidade das informações</strong> elevada</li>
+      </ul>
+      
+      <h2>Benefícios Adicionais</h2>
+      <ul>
+        <li>Intranet corporativa eficiente</li>
+        <li>Fluxos digitais otimizados</li>
+        <li>Produtividade aumentada</li>
+        <li>Qualidade das informações para auditoria</li>
+      </ul>
+      
+      <h2>Impacto em Compras</h2>
+      <p>Em compras, BPM/ECM viabiliza compliance, rastreabilidade e colaboração entre áreas, reduzindo riscos e prazos.</p>
+      
+      <p>Este case demonstra como a automação de processos pode transformar a gestão contratual empresarial.</p>
+    `,
+    tags: ['Fluig', 'BPM', 'ECM', 'CR Almeida'],
+    destaque: true,
+    fonte: {
+      nome: 'Baguete',
+      url: 'https://www.baguete.com.br/noticias/cr-almeida-adota-fluig-da-totvs'
+    }
   },
 ];
 

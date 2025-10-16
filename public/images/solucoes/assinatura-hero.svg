@@ -1,0 +1,51 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1fa554;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#1fa554;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1fa554" />
+      <stop offset="100%" style="stop-color:#2ecc71" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bgGradient)" rx="20"/>
+  
+  <!-- Document -->
+  <rect x="120" y="60" width="160" height="200" fill="white" opacity="0.1" rx="10"/>
+  
+  <!-- Document header -->
+  <rect x="130" y="70" width="140" height="20" fill="url(#iconGradient)" opacity="0.8" rx="5"/>
+  <rect x="140" y="75" width="60" height="10" fill="white" opacity="0.7" rx="2"/>
+  
+  <!-- Signature lines -->
+  <rect x="140" y="120" width="120" height="3" fill="url(#iconGradient)" opacity="0.6" rx="2"/>
+  <rect x="140" y="140" width="120" height="3" fill="url(#iconGradient)" opacity="0.6" rx="2"/>
+  <rect x="140" y="160" width="120" height="3" fill="url(#iconGradient)" opacity="0.6" rx="2"/>
+  
+  <!-- Signature fields -->
+  <rect x="140" y="180" width="80" height="20" fill="url(#iconGradient)" opacity="0.7" rx="3"/>
+  <rect x="150" y="185" width="60" height="10" fill="white" opacity="0.8" rx="2"/>
+  
+  <!-- Digital signature icon -->
+  <circle cx="200" cy="200" r="25" fill="url(#iconGradient)" opacity="0.8"/>
+  <path d="M190 200 L195 205 L210 190" stroke="white" stroke-width="3" fill="none"/>
+  
+  <!-- Approval stamps -->
+  <rect x="80" y="100" width="30" height="20" fill="url(#iconGradient)" opacity="0.6" rx="3"/>
+  <text x="95" y="115" text-anchor="middle" fill="white" font-size="8" font-weight="bold">APPROVED</text>
+  
+  <rect x="290" y="120" width="30" height="20" fill="url(#iconGradient)" opacity="0.6" rx="3"/>
+  <text x="305" y="135" text-anchor="middle" fill="white" font-size="8" font-weight="bold">SIGNED</text>
+  
+  <!-- Floating elements -->
+  <circle cx="60" cy="80" r="8" fill="url(#iconGradient)" opacity="0.5"/>
+  <circle cx="340" cy="100" r="6" fill="url(#iconGradient)" opacity="0.4"/>
+  <circle cx="350" cy="250" r="10" fill="url(#iconGradient)" opacity="0.3"/>
+  
+  <!-- Security elements -->
+  <path d="M200 40 L190 50 L190 70 L200 80 L210 70 L210 50 Z" fill="url(#iconGradient)" opacity="0.8"/>
+  <path d="M195 60 L200 65 L205 60" stroke="white" stroke-width="2" fill="none"/>
+</svg>
