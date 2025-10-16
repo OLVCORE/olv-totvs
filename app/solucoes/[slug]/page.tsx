@@ -126,9 +126,6 @@ export default function SolucaoPage({ params }: PageProps) {
                     src={`/images/solucoes/${solucao.slug}-hero.svg`}
                     alt={`${solucao.nome} - Solução TOTVS`}
                     className="w-full h-full object-cover opacity-80"
-                    onError={(e) => {
-                      e.currentTarget.src = '/images/solucoes/default-hero.svg';
-                    }}
                   />
                 </div>
                 
