@@ -4,13 +4,6 @@
   "devCommand": "npm run dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "regions": ["gru1"],
-  "env": {
-    "MONGODB_URI": "@mongodb-uri",
-    "NEXTAUTH_SECRET": "@nextauth-secret",
-    "JWT_SECRET": "@jwt-secret",
-    "TOTVS_API_URL": "@totvs-api-url",
-    "TOTVS_API_TOKEN": "@totvs-api-token"
-  }
+  "regions": ["gru1"]
 }
 
