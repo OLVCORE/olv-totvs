@@ -1,11 +1,9 @@
-'use client';
-
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowRight, Check, Star, TrendingUp, Zap, Shield, Users, Award, BarChart, Clock, Target } from 'lucide-react';
 import * as LucideIcons from 'lucide-react';
 import { getSolucaoBySlug, SOLUCOES_TOTVS } from '@/lib/data/solucoes';
-import { motion } from 'framer-motion';
+import { AnimatedSection, AnimatedCard, AnimatedHero, AnimatedOrb, AnimatedButton } from '@/components/shared/AnimatedSection';
 
 interface PageProps {
   params: {
@@ -73,7 +71,7 @@ export default function SolucaoPage({ params }: PageProps) {
 
         {/* Animated Gradient Orbs */}
         <div className="absolute inset-0 overflow-hidden">
-          <motion.div
+          <AnimatedSection
             animate={{ 
               scale: [1, 1.3, 1],
               rotate: [0, 180, 360],
@@ -86,7 +84,7 @@ export default function SolucaoPage({ params }: PageProps) {
 
         <div className="container-custom relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <motion.div
+            <AnimatedSection
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
@@ -124,9 +122,9 @@ export default function SolucaoPage({ params }: PageProps) {
                   <span className="tracking-wide">FALAR COM ESPECIALISTA</span>
                 </Link>
               </div>
-            </motion.div>
+            </AnimatedSection>
 
-            <motion.div
+            <AnimatedSection
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -170,7 +168,7 @@ export default function SolucaoPage({ params }: PageProps) {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </AnimatedSection>
           </div>
         </div>
       </section>
@@ -183,7 +181,7 @@ export default function SolucaoPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedSection
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -237,7 +235,7 @@ export default function SolucaoPage({ params }: PageProps) {
                         gradient: 'from-cyan-500 to-blue-600'
                       }
                     ].map((item, index) => (
-                      <motion.div
+                      <AnimatedSection
                         key={index}
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -253,13 +251,13 @@ export default function SolucaoPage({ params }: PageProps) {
                         <p className="text-slate-300 text-base leading-relaxed">
                           {item.description}
                         </p>
-                      </motion.div>
+                      </AnimatedSection>
                     ))}
                   </div>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -271,7 +269,7 @@ export default function SolucaoPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedSection
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -288,7 +286,7 @@ export default function SolucaoPage({ params }: PageProps) {
                 {solucao.descricao}
               </p>
             </div>
-          </motion.div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -300,7 +298,7 @@ export default function SolucaoPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedSection
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -317,7 +315,7 @@ export default function SolucaoPage({ params }: PageProps) {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {solucao.funcionalidades.map((funcionalidade, index) => (
-                <motion.div
+                <AnimatedSection
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -340,10 +338,10 @@ export default function SolucaoPage({ params }: PageProps) {
                       </div>
                     </div>
                   </div>
-                </motion.div>
+                </AnimatedSection>
               ))}
             </div>
-          </motion.div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -355,7 +353,7 @@ export default function SolucaoPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedSection
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -372,7 +370,7 @@ export default function SolucaoPage({ params }: PageProps) {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {solucao.beneficios.map((beneficio, index) => (
-                <motion.div
+                <AnimatedSection
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -395,10 +393,10 @@ export default function SolucaoPage({ params }: PageProps) {
                       </div>
                     </div>
                   </div>
-                </motion.div>
+                </AnimatedSection>
               ))}
             </div>
-          </motion.div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -410,7 +408,7 @@ export default function SolucaoPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedSection
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -427,7 +425,7 @@ export default function SolucaoPage({ params }: PageProps) {
 
             <div className="grid md:grid-cols-2 gap-8">
               {solucao.casos_uso.map((caso, index) => (
-                <motion.div
+                <AnimatedSection
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -450,10 +448,10 @@ export default function SolucaoPage({ params }: PageProps) {
                       </div>
                     </div>
                   </div>
-                </motion.div>
+                </AnimatedSection>
               ))}
             </div>
-          </motion.div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -466,7 +464,7 @@ export default function SolucaoPage({ params }: PageProps) {
 
         {/* Animated Gradient Orbs */}
         <div className="absolute inset-0 overflow-hidden">
-          <motion.div
+          <AnimatedSection
             animate={{ 
               scale: [1, 1.5, 1],
               opacity: [0.3, 0.6, 0.3]
@@ -477,7 +475,7 @@ export default function SolucaoPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div 
+          <AnimatedSection 
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -503,7 +501,7 @@ export default function SolucaoPage({ params }: PageProps) {
                     os processos da sua empresa
                   </p>
                   <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <AnimatedSection whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                       <Link 
                         href="/diagnostico" 
                         className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-5 rounded-2xl font-black text-xl shadow-glow hover:shadow-futuristic transition-all"
@@ -512,8 +510,8 @@ export default function SolucaoPage({ params }: PageProps) {
                         <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                         <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-purple-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       </Link>
-                    </motion.div>
-                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    </AnimatedSection>
+                    <AnimatedSection whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                       <Link 
                         href="/contato" 
                         className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-slate-400 text-slate-300 hover:border-purple-400 hover:text-purple-300 px-10 py-5 rounded-2xl font-black text-xl transition-all"
@@ -521,12 +519,12 @@ export default function SolucaoPage({ params }: PageProps) {
                         <Users className="w-6 h-6" />
                         <span className="tracking-wide">FALAR COM ESPECIALISTA</span>
                       </Link>
-                    </motion.div>
+                    </AnimatedSection>
                   </div>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </AnimatedSection>
         </div>
       </section>
     </>

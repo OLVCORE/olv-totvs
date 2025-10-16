@@ -1,5 +1,3 @@
-'use client';
-
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import {
@@ -18,7 +16,7 @@ import {
 import * as LucideIcons from 'lucide-react';
 import { getSetorBySlug, SETORES_VERTICAIS } from '@/lib/data/setores';
 import { getSolucaoById } from '@/lib/data/solucoes';
-import { motion } from 'framer-motion';
+import { AnimatedSection, AnimatedCard, AnimatedHero, AnimatedOrb, AnimatedButton } from '@/components/shared/AnimatedSection';
 
 interface PageProps {
   params: {
@@ -81,24 +79,12 @@ export default function SetorPage({ params }: PageProps) {
 
         {/* Animated Gradient Orbs */}
         <div className="absolute inset-0 overflow-hidden">
-          <motion.div
-            animate={{ 
-              scale: [1, 1.3, 1],
-              rotate: [0, 90, 180, 270, 360],
-              opacity: [0.2, 0.5, 0.2]
-            }}
-            transition={{ duration: 30, repeat: Infinity }}
-            className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"
-          />
+          <AnimatedOrb className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl" />
         </div>
 
         <div className="container-custom relative z-10">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-            >
+            <AnimatedHero direction="left">
               <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-purple-400/30 text-purple-300 px-6 py-3 rounded-full text-sm font-bold mb-8">
                 <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse" />
                 <span className="tracking-wide">ESPECIALIZAÇÃO VERTICAL</span>
@@ -132,14 +118,9 @@ export default function SetorPage({ params }: PageProps) {
                   <span className="tracking-wide">FALAR COM ESPECIALISTA</span>
                 </Link>
               </div>
-            </motion.div>
+            </AnimatedHero>
 
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, delay: 0.3 }}
-              className="relative"
-            >
+            <AnimatedHero direction="right" className="relative">
               {/* Premium Glow Effect */}
               <div className="absolute -inset-4 bg-gradient-to-r from-purple-400/20 via-pink-400/20 to-rose-400/20 rounded-3xl blur-2xl opacity-50" />
               
@@ -178,7 +159,7 @@ export default function SetorPage({ params }: PageProps) {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </AnimatedHero>
           </div>
         </div>
       </section>
@@ -191,12 +172,7 @@ export default function SetorPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-5xl mx-auto"
-          >
+          <AnimatedSection className="max-w-5xl mx-auto">
             <div className="relative">
               {/* Premium Glow Effect */}
               <div className="absolute -inset-4 bg-gradient-to-r from-emerald-400/20 via-teal-400/20 to-cyan-400/20 rounded-3xl blur-2xl opacity-50" />
@@ -245,7 +221,7 @@ export default function SetorPage({ params }: PageProps) {
                         gradient: 'from-cyan-500 to-blue-600'
                       }
                     ].map((item, index) => (
-                      <motion.div
+                      <AnimatedCard
                         key={index}
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -261,13 +237,13 @@ export default function SetorPage({ params }: PageProps) {
                         <p className="text-slate-300 text-base leading-relaxed">
                           {item.description}
                         </p>
-                      </motion.div>
+                      </AnimatedCard>
                     ))}
                   </div>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </AnimatedCard>
         </div>
       </section>
 
@@ -279,7 +255,7 @@ export default function SetorPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedCard
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -296,7 +272,7 @@ export default function SetorPage({ params }: PageProps) {
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {setor.desafios.map((desafio, index) => (
-                <motion.div
+                <AnimatedCard
                   key={index}
                   initial={{ opacity: 0, y: 20 }}
                   whileInView={{ opacity: 1, y: 0 }}
@@ -319,10 +295,10 @@ export default function SetorPage({ params }: PageProps) {
                       </div>
                     </div>
                   </div>
-                </motion.div>
+                </AnimatedCard>
               ))}
             </div>
-          </motion.div>
+          </AnimatedCard>
         </div>
       </section>
 
@@ -334,7 +310,7 @@ export default function SetorPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div
+          <AnimatedCard
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -368,7 +344,7 @@ export default function SetorPage({ params }: PageProps) {
                 if (!solucao) return null;
 
                 return (
-                  <motion.div
+                  <AnimatedCard
                     key={index}
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -396,11 +372,11 @@ export default function SetorPage({ params }: PageProps) {
                         </div>
                       </div>
                     </Link>
-                  </motion.div>
+                  </AnimatedCard>
                 );
               })}
             </div>
-          </motion.div>
+          </AnimatedCard>
         </div>
       </section>
 
@@ -413,7 +389,7 @@ export default function SetorPage({ params }: PageProps) {
 
         {/* Animated Gradient Orbs */}
         <div className="absolute inset-0 overflow-hidden">
-          <motion.div
+          <AnimatedCard
             animate={{ 
               scale: [1, 1.5, 1],
               opacity: [0.3, 0.6, 0.3]
@@ -424,7 +400,7 @@ export default function SetorPage({ params }: PageProps) {
         </div>
 
         <div className="container-custom relative z-10">
-          <motion.div 
+          <AnimatedCard 
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -450,7 +426,7 @@ export default function SetorPage({ params }: PageProps) {
                     a gestão da sua empresa no setor {setor.nome}
                   </p>
                   <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    <AnimatedCard whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                       <Link 
                         href="/diagnostico" 
                         className="group relative inline-flex items-center justify-center gap-3 bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-5 rounded-2xl font-black text-xl shadow-glow hover:shadow-futuristic transition-all"
@@ -459,8 +435,8 @@ export default function SetorPage({ params }: PageProps) {
                         <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
                         <div className="absolute inset-0 bg-gradient-to-r from-indigo-400 to-purple-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                       </Link>
-                    </motion.div>
-                    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                    </AnimatedCard>
+                    <AnimatedCard whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                       <Link 
                         href="/contato" 
                         className="group inline-flex items-center justify-center gap-3 bg-transparent border-2 border-slate-400 text-slate-300 hover:border-purple-400 hover:text-purple-300 px-10 py-5 rounded-2xl font-black text-xl transition-all"
@@ -468,12 +444,12 @@ export default function SetorPage({ params }: PageProps) {
                         <Users className="w-6 h-6" />
                         <span className="tracking-wide">FALAR COM ESPECIALISTA</span>
                       </Link>
-                    </motion.div>
+                    </AnimatedCard>
                   </div>
                 </div>
               </div>
             </div>
-          </motion.div>
+          </AnimatedCard>
         </div>
       </section>
     </>
