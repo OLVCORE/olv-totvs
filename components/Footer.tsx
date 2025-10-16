@@ -202,9 +202,22 @@ const Footer = () => {
       <div className="border-t border-slate-700/50 relative">
         <div className="container-custom py-8">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-            <p className="text-base text-slate-400 font-medium">
-              © {currentYear} OLV Internacional. Todos os direitos reservados.
-            </p>
+            <div className="text-center md:text-left">
+              <p className="text-base text-slate-400 font-medium mb-2">
+                © {currentYear} OLV Internacional. Todos os direitos reservados.
+              </p>
+              <p className="text-sm text-slate-500">
+                Powered by{' '}
+                <a 
+                  href="https://olvinternacional.com.br" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-cyan-400 hover:text-cyan-300 transition-colors font-semibold"
+                >
+                  OLV Internacional
+                </a>
+              </p>
+            </div>
             <div className="flex flex-wrap items-center gap-8">
               {institucional.slice(4).map((item) => (
                 <Link
