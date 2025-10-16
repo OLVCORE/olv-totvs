@@ -74,27 +74,27 @@ const Header = () => {
           {/* Premium Logo */}
           <Link href="/" className="flex items-center gap-4 group">
             <div className="relative">
-              {/* Logo OLV Oficial */}
-              <div className="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105 relative overflow-hidden">
+              {/* Logo OLV Oficial - Globo Dourado com Seta Ascendente */}
+              <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105 relative overflow-hidden">
                 {/* Logo OLV - Globo com Seta */}
                 <div className="w-full h-full flex items-center justify-center relative">
-                  {/* Globo */}
-                  <div className="absolute inset-1 border-2 border-white/40 rounded-full">
+                  {/* Globo Dourado */}
+                  <div className="absolute inset-1 border-2 border-white/60 rounded-full">
                     {/* Pontos de conexão */}
-                    <div className="absolute top-0.5 left-0.5 w-1 h-1 bg-white/70 rounded-full"></div>
-                    <div className="absolute top-0.5 right-0.5 w-1 h-1 bg-white/70 rounded-full"></div>
-                    <div className="absolute bottom-0.5 left-0.5 w-1 h-1 bg-white/70 rounded-full"></div>
-                    <div className="absolute bottom-0.5 right-0.5 w-1 h-1 bg-white/70 rounded-full"></div>
+                    <div className="absolute top-0.5 left-0.5 w-1 h-1 bg-white/80 rounded-full"></div>
+                    <div className="absolute top-0.5 right-0.5 w-1 h-1 bg-white/80 rounded-full"></div>
+                    <div className="absolute bottom-0.5 left-0.5 w-1 h-1 bg-white/80 rounded-full"></div>
+                    <div className="absolute bottom-0.5 right-0.5 w-1 h-1 bg-white/80 rounded-full"></div>
                     {/* Linhas do globo */}
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-white/30"></div>
-                    <div className="absolute top-0 left-1/2 w-px h-full bg-white/30"></div>
+                    <div className="absolute top-1/2 left-0 w-full h-px bg-white/40"></div>
+                    <div className="absolute top-0 left-1/2 w-px h-full bg-white/40"></div>
                   </div>
                   {/* Seta ascendente */}
                   <div className="absolute bottom-1 left-1 w-0 h-0 border-l-3 border-l-transparent border-r-3 border-r-transparent border-b-5 border-b-white transform rotate-45"></div>
                   <div className="absolute bottom-0.5 left-2 w-6 h-0.5 bg-white transform rotate-45"></div>
                 </div>
               </div>
-              <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
             </div>
             <div className="hidden md:block">
               <div className="text-xl font-black text-white tracking-wide">
@@ -161,7 +161,7 @@ const Header = () => {
               href="/diagnostico" 
               className="group relative inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-glow hover:shadow-futuristic transition-all duration-300 hover:scale-105"
             >
-              <span className="relative z-10 tracking-wide">CONSULTORIA GRATUITA</span>
+              <span className="relative z-10 tracking-wide">DESCUBRA COMO APLICAR ESSA PARCERIA</span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Link>
           </div>
@@ -234,7 +234,7 @@ const Header = () => {
                 className="group relative inline-flex items-center justify-center px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-glow hover:shadow-futuristic transition-all duration-300 hover:scale-105 mt-6"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                <span className="relative z-10 tracking-wide">CONSULTORIA GRATUITA</span>
+                <span className="relative z-10 tracking-wide">DESCUBRA COMO APLICAR ESSA PARCERIA</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Link>
             </div>
