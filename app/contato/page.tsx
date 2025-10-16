@@ -8,7 +8,7 @@ export default function ContatoPage() {
   return (
     <>
       {/* Premium Hero */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 text-white overflow-hidden">
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
         {/* Futuristic Background */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-pattern-grid" />
@@ -23,7 +23,7 @@ export default function ContatoPage() {
               opacity: [0.3, 0.6, 0.3]
             }}
             transition={{ duration: 20, repeat: Infinity }}
-            className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"
+            className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-r from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl"
           />
         </div>
 
@@ -34,14 +34,14 @@ export default function ContatoPage() {
             transition={{ duration: 0.8 }}
             className="max-w-4xl mx-auto text-center"
           >
-            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm border border-purple-400/30 text-purple-300 px-6 py-3 rounded-full text-sm font-bold mb-8">
+            <div className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-500/20 to-cyan-500/20 backdrop-blur-sm border border-blue-400/30 text-blue-300 px-6 py-3 rounded-full text-sm font-bold mb-8">
               <Mail className="w-5 h-5" />
               <span className="tracking-wide">ENTRE EM CONTATO</span>
             </div>
 
             <h1 className="text-6xl lg:text-7xl font-black mb-8 leading-tight">
               <span className="block">Vamos Transformar</span>
-              <span className="block bg-gradient-to-r from-purple-400 via-pink-400 to-rose-400 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400 bg-clip-text text-transparent">
                 Seu Negócio Juntos
               </span>
             </h1>
@@ -88,7 +88,7 @@ export default function ContatoPage() {
                     value: '+55 (11) 2675-1446',
                     href: 'tel:+551126751446',
                     subtitle: 'Horário comercial',
-                    gradient: 'from-purple-500 to-pink-600',
+                    gradient: 'from-blue-500 to-cyan-600',
                   },
                   {
                     icon: Phone,
@@ -104,7 +104,7 @@ export default function ContatoPage() {
                     value: 'Av. Paulista, 1471 - Conj 1110',
                     href: 'https://maps.google.com/?q=Avenida+Paulista+1471+São+Paulo',
                     subtitle: 'Bela Vista - São Paulo/SP - CEP 01311-927',
-                    gradient: 'from-orange-500 to-rose-600',
+                    gradient: 'from-emerald-500 to-teal-600',
                   },
                   {
                     icon: Clock,
@@ -112,7 +112,7 @@ export default function ContatoPage() {
                     value: 'Segunda a Sexta - 8h às 18h',
                     href: null,
                     subtitle: 'Sábado: 8h às 12h',
-                    gradient: 'from-orange-500 to-rose-600',
+                    gradient: 'from-emerald-500 to-teal-600',
                   },
                 ].map((item, index) => (
                   <motion.div
@@ -169,7 +169,7 @@ export default function ContatoPage() {
                   <div className="flex gap-4">
                     {[
                       { icon: Linkedin, href: 'https://linkedin.com', gradient: 'from-cyan-500 to-blue-600' },
-                      { icon: Instagram, href: 'https://instagram.com', gradient: 'from-purple-500 to-pink-600' },
+                      { icon: Instagram, href: 'https://instagram.com', gradient: 'from-blue-500 to-cyan-600' },
                       { icon: Facebook, href: 'https://facebook.com', gradient: 'from-blue-500 to-indigo-600' },
                     ].map((social, index) => (
                       <motion.a
@@ -196,7 +196,7 @@ export default function ContatoPage() {
             >
               <div className="card-premium relative overflow-hidden">
                 {/* Animated Background */}
-                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-pink-500/10 to-rose-500/10" />
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-cyan-500/10 to-teal-500/10" />
                 
                 <div className="relative z-10">
                   <h3 className="text-3xl font-black text-white mb-6 tracking-wide">

@@ -146,7 +146,7 @@ export default function ConsultoriaEstrategicaPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-purple-900 to-indigo-900 text-white overflow-hidden">
+      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
         {/* Background Effects */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-pattern-grid" />
@@ -160,7 +160,7 @@ export default function ConsultoriaEstrategicaPage() {
               opacity: [0.3, 0.6, 0.3]
             }}
             transition={{ duration: 20, repeat: Infinity }}
-            className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-r from-purple-400/20 to-pink-400/20 rounded-full blur-3xl"
+            className="absolute top-20 right-20 w-96 h-96 bg-gradient-to-r from-blue-400/20 to-cyan-400/20 rounded-full blur-3xl"
           />
         </div>
 
@@ -395,7 +395,7 @@ export default function ConsultoriaEstrategicaPage() {
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   
                   <div className="relative z-10">
-                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-glow group-hover:scale-110 transition-transform">
+                    <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-glow group-hover:scale-110 transition-transform">
                       <area.icon className="w-8 h-8 text-white" />
                     </div>
                     
@@ -422,7 +422,7 @@ export default function ConsultoriaEstrategicaPage() {
           >
             <div className="bg-gradient-to-br from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-3xl p-12 border border-slate-700/50 max-w-4xl mx-auto">
               <div className="flex items-center justify-center gap-4 mb-8">
-                <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-600 rounded-2xl flex items-center justify-center shadow-glow">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-2xl flex items-center justify-center shadow-glow">
                   <Lightbulb className="w-8 h-8 text-white" />
                 </div>
                 <h2 className="text-4xl font-black text-white">Converse com nossos especialistas</h2>
