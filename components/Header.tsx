@@ -78,15 +78,20 @@ const Header = () => {
               {/* Moldura redonda com hover dourado */}
               <div className="w-20 h-20 rounded-full border-4 border-slate-600 bg-slate-800/50 p-3 group-hover:border-amber-400 group-hover:shadow-lg group-hover:shadow-amber-400/30 transition-all duration-300 group-hover:scale-105 overflow-hidden">
                 {/* Logo original OLV - Imagem real */}
-                <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative">
-                  <Image
+                <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative bg-gradient-to-br from-amber-500 to-yellow-600">
+                  <img
                     src="/images/logo-olv.jpeg"
                     alt="OLV Internacional Logo"
-                    width={56}
-                    height={56}
                     className="w-full h-full object-contain rounded-full"
-                    priority
+                    onError={(e) => {
+                      console.log('Erro ao carregar imagem:', e);
+                      e.currentTarget.src = '/images/logo-olv.png';
+                    }}
                   />
+                  {/* Fallback caso nenhuma imagem carregue */}
+                  <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-xs opacity-0" id="logo-fallback">
+                    OLV
+                  </div>
                 </div>
               </div>
               
