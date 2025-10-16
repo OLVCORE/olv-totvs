@@ -87,10 +87,10 @@ const Step5Contato = ({ data, onSubmit, onBack, isSubmitting }: Props) => {
 
   return (
     <div>
-      <h2 className="text-h3 font-bold text-neutral-900 mb-2">
+      <h2 className="text-h3 font-bold text-white mb-2">
         Quase lá! Dados para contato
       </h2>
-      <p className="text-neutral-600 mb-8">
+      <p className="text-slate-300 mb-8">
         Preencha seus dados para receber o diagnóstico personalizado
       </p>
 
@@ -156,21 +156,21 @@ const Step5Contato = ({ data, onSubmit, onBack, isSubmitting }: Props) => {
         </div>
 
         {/* Termos */}
-        <div className="bg-neutral-50 rounded-xl p-6">
+        <div className="bg-slate-800/50 rounded-xl p-6 border border-slate-600">
           <label className="flex items-start gap-3 cursor-pointer">
             <input
               type="checkbox"
               checked={acceptTerms}
               onChange={(e) => setAcceptTerms(e.target.checked)}
-              className="mt-1 w-5 h-5 text-primary-600 border-neutral-300 rounded focus:ring-primary-500"
+              className="mt-1 w-5 h-5 text-cyan-500 border-slate-400 rounded focus:ring-cyan-500"
             />
-            <span className="text-sm text-neutral-700">
+            <span className="text-sm text-slate-300">
               Aceito receber contato da OLV Internacional e compartilhar meus
               dados conforme a{' '}
               <a
                 href="/privacidade"
                 target="_blank"
-                className="text-primary-600 hover:underline"
+                className="text-cyan-400 hover:underline"
               >
                 Política de Privacidade
               </a>
@@ -212,8 +212,8 @@ const Step5Contato = ({ data, onSubmit, onBack, isSubmitting }: Props) => {
       </form>
 
       {/* Trust Note */}
-      <div className="mt-6 p-4 bg-primary-50 rounded-lg">
-        <p className="text-sm text-primary-800 text-center">
+      <div className="mt-6 p-4 bg-cyan-500/10 rounded-lg border border-cyan-500/20">
+        <p className="text-sm text-cyan-300 text-center">
           Seus dados estão protegidos. Entraremos em contato em até 2 dias úteis
           com um diagnóstico personalizado e sem compromisso.
         </p>

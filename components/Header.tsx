@@ -72,35 +72,93 @@ const Header = () => {
       <nav className="container-custom">
         <div className="flex items-center justify-between">
           {/* Premium Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
+          <Link href="/" className="flex items-center gap-4 group">
             <div className="relative">
-              {/* Logo OLV Oficial - Globo Dourado com Seta Ascendente */}
-              <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105 relative overflow-hidden">
-                {/* Logo OLV - Globo com Seta */}
-                <div className="w-full h-full flex items-center justify-center relative">
-                  {/* Globo Dourado */}
-                  <div className="absolute inset-2 border-2 border-white/80 rounded-full">
-                    {/* Meridianos do globo */}
-                    <div className="absolute top-1/2 left-0 w-full h-px bg-white/60"></div>
-                    <div className="absolute top-0 left-1/2 w-px h-full bg-white/60"></div>
-                    {/* Pontos de conexão */}
-                    <div className="absolute top-1 left-1 w-1 h-1 bg-white rounded-full"></div>
-                    <div className="absolute top-1 right-1 w-1 h-1 bg-white rounded-full"></div>
-                    <div className="absolute bottom-1 left-1 w-1 h-1 bg-white rounded-full"></div>
-                    <div className="absolute bottom-1 right-1 w-1 h-1 bg-white rounded-full"></div>
-                  </div>
-                  {/* Seta ascendente */}
-                  <div className="absolute bottom-2 left-2 w-0 h-0 border-l-3 border-l-transparent border-r-3 border-r-transparent border-b-4 border-b-white transform rotate-45"></div>
-                  <div className="absolute bottom-1 left-3 w-6 h-0.5 bg-white transform rotate-45"></div>
-                </div>
+              {/* Logo OLV Oficial - SVG Globo Dourado com Seta Ascendente */}
+              <div className="w-20 h-20 group-hover:scale-110 transition-all duration-500 ease-out">
+                <svg
+                  viewBox="0 0 80 80"
+                  className="w-full h-full drop-shadow-lg"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  {/* Globo com grade */}
+                  <circle
+                    cx="40"
+                    cy="40"
+                    r="32"
+                    fill="none"
+                    stroke="#D4AF37"
+                    strokeWidth="2.5"
+                    className="group-hover:stroke-yellow-300 transition-colors duration-300"
+                  />
+                  
+                  {/* Meridianos horizontais */}
+                  <ellipse
+                    cx="40"
+                    cy="40"
+                    rx="32"
+                    ry="16"
+                    fill="none"
+                    stroke="#D4AF37"
+                    strokeWidth="1.5"
+                    className="group-hover:stroke-yellow-300 transition-colors duration-300"
+                  />
+                  <ellipse
+                    cx="40"
+                    cy="40"
+                    rx="16"
+                    ry="32"
+                    fill="none"
+                    stroke="#D4AF37"
+                    strokeWidth="1.5"
+                    className="group-hover:stroke-yellow-300 transition-colors duration-300"
+                  />
+                  
+                  {/* Pontos de conexão (cruzamentos da grade) */}
+                  <circle cx="40" cy="24" r="1.5" fill="#D4AF37" className="group-hover:fill-yellow-300 transition-colors duration-300" />
+                  <circle cx="40" cy="56" r="1.5" fill="#D4AF37" className="group-hover:fill-yellow-300 transition-colors duration-300" />
+                  <circle cx="24" cy="40" r="1.5" fill="#D4AF37" className="group-hover:fill-yellow-300 transition-colors duration-300" />
+                  <circle cx="56" cy="40" r="1.5" fill="#D4AF37" className="group-hover:fill-yellow-300 transition-colors duration-300" />
+                  
+                  {/* Seta ascendente diagonal */}
+                  <path
+                    d="M 25 55 L 55 25 L 50 20 L 45 25 L 25 45 Z"
+                    fill="#D4AF37"
+                    className="group-hover:fill-yellow-300 transition-colors duration-300"
+                  />
+                  
+                  {/* Linha da seta */}
+                  <line
+                    x1="30"
+                    y1="50"
+                    x2="50"
+                    y2="30"
+                    stroke="#D4AF37"
+                    strokeWidth="3"
+                    strokeLinecap="round"
+                    className="group-hover:stroke-yellow-300 transition-colors duration-300"
+                  />
+                  
+                  {/* Efeito de brilho no hover */}
+                  <defs>
+                    <filter id="glow">
+                      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                      <feMerge> 
+                        <feMergeNode in="coloredBlur"/>
+                        <feMergeNode in="SourceGraphic"/>
+                      </feMerge>
+                    </filter>
+                  </defs>
+                </svg>
               </div>
-              <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
+              
+              {/* Efeito de brilho dourado no hover */}
+              <div className="absolute inset-0 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 rounded-full opacity-0 group-hover:opacity-100 blur-sm transition-all duration-500 scale-110" />
             </div>
-            <div className="hidden md:block ml-2">
-              <div className="text-xl font-black text-white tracking-wide leading-none">
-                OLV Internacional
-              </div>
-              <div className="text-sm text-blue-300 font-medium tracking-wider leading-tight mt-1">
+            
+            {/* Slogan em dourado com tipografia elegante */}
+            <div className="hidden md:block">
+              <div className="text-lg font-light text-amber-400 tracking-wider leading-tight group-hover:text-yellow-300 transition-all duration-300">
                 Integramos estratégia, operação e resultado
               </div>
             </div>

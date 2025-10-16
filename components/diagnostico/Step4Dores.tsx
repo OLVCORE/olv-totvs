@@ -59,10 +59,10 @@ const Step4Dores = ({ data, onNext, onBack }: Props) => {
 
   return (
     <div>
-      <h2 className="text-h3 font-bold text-neutral-900 mb-2">
+      <h2 className="text-h3 font-bold text-white mb-2">
         Quais são suas principais dores/desafios?
       </h2>
-      <p className="text-neutral-600 mb-8">
+      <p className="text-slate-300 mb-8">
         Selecione os desafios ou adicione os seus próprios
       </p>
 
@@ -74,12 +74,12 @@ const Step4Dores = ({ data, onNext, onBack }: Props) => {
             onClick={() => toggleDor(dor)}
             className={`relative p-4 rounded-xl border-2 transition-all text-left ${
               selectedDores.includes(dor)
-                ? 'border-primary-500 bg-primary-50'
-                : 'border-neutral-200 hover:border-primary-300 hover:bg-neutral-50'
+                ? 'border-cyan-500 bg-cyan-500/10'
+                : 'border-slate-600 bg-slate-800/50 hover:border-cyan-400 hover:bg-slate-700/50'
             }`}
           >
             <div className="flex items-center justify-between">
-              <span className="text-sm font-medium text-neutral-900">{dor}</span>
+              <span className="text-sm font-medium text-white">{dor}</span>
               {selectedDores.includes(dor) && (
                 <div className="w-5 h-5 bg-primary-500 rounded-full flex items-center justify-center flex-shrink-0 ml-2">
                   <Check className="w-3 h-3 text-white" />
@@ -92,8 +92,8 @@ const Step4Dores = ({ data, onNext, onBack }: Props) => {
 
       {/* Adicionar Desafio Personalizado */}
       {showCustomInput ? (
-        <div className="mb-6 p-4 bg-neutral-50 rounded-xl border-2 border-primary-300">
-          <label className="label">Descreva seu desafio:</label>
+        <div className="mb-6 p-4 bg-slate-800/50 rounded-xl border-2 border-cyan-400">
+          <label className="label text-white">Descreva seu desafio:</label>
           <div className="flex gap-2">
             <input
               type="text"
@@ -121,7 +121,7 @@ const Step4Dores = ({ data, onNext, onBack }: Props) => {
       ) : (
         <button
           onClick={() => setShowCustomInput(true)}
-          className="mb-6 w-full p-4 rounded-xl border-2 border-dashed border-neutral-300 hover:border-primary-400 hover:bg-primary-50 transition-all flex items-center justify-center gap-2 text-neutral-600 hover:text-primary-600"
+          className="mb-6 w-full p-4 rounded-xl border-2 border-dashed border-slate-500 hover:border-cyan-400 hover:bg-slate-700/50 transition-all flex items-center justify-center gap-2 text-slate-300 hover:text-cyan-300"
         >
           <Plus className="w-5 h-5" />
           <span className="font-medium">Adicionar desafio personalizado</span>
@@ -130,9 +130,9 @@ const Step4Dores = ({ data, onNext, onBack }: Props) => {
 
       {/* Desafios Selecionados */}
       {selectedDores.length > 0 && (
-        <div className="mb-8 p-6 bg-primary-50 rounded-xl">
+        <div className="mb-8 p-6 bg-cyan-500/10 rounded-xl border border-cyan-500/20">
           <div className="flex items-center justify-between mb-4">
-            <p className="text-sm font-medium text-primary-800">
+            <p className="text-sm font-medium text-cyan-300">
               Desafios selecionados: <strong>{selectedDores.length}</strong>
             </p>
           </div>
@@ -140,7 +140,7 @@ const Step4Dores = ({ data, onNext, onBack }: Props) => {
             {selectedDores.map((dor) => (
               <span
                 key={dor}
-                className="inline-flex items-center gap-2 bg-white px-3 py-2 rounded-lg text-sm text-neutral-800 border border-primary-200"
+                className="inline-flex items-center gap-2 bg-slate-700 px-3 py-2 rounded-lg text-sm text-white border border-slate-600"
               >
                 {dor}
                 <button
