@@ -5,7 +5,6 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { WhatsAppButton } from '@/components/shared/WhatsAppButton';
-import { GoogleAdsOptimizer } from '@/components/shared/GoogleAdsOptimizer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -120,7 +119,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <main className="flex-1">{children}</main>
         <Footer />
         <WhatsAppButton />
-        <GoogleAdsOptimizer />
       </body>
     </html>
   );
