@@ -93,13 +93,16 @@ const Header = () => {
             {navigation.map((item) => (
               <div
                 key={item.name}
-                className="relative group"
+                className="relative"
                 onMouseEnter={() => item.dropdown && setOpenDropdown(item.name)}
                 onMouseLeave={() => setOpenDropdown(null)}
               >
                 {item.dropdown ? (
                   <>
-                    <button className="flex items-center gap-2 px-5 py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow">
+                    <button 
+                      className="flex items-center gap-2 px-5 py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow"
+                      onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
+                    >
                       {item.name}
                       <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
                     </button>
@@ -114,6 +117,7 @@ const Header = () => {
                             key={subItem.name}
                             href={subItem.href}
                             className="block px-5 py-3 text-sm text-slate-300 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-blue-500/10 hover:text-cyan-300 transition-all duration-300 font-medium"
+                            onClick={() => setOpenDropdown(null)}
                           >
                             {subItem.name}
                           </Link>
