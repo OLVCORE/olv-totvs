@@ -75,7 +75,7 @@ const Header = () => {
           <Link href="/" className="flex items-center gap-4 group">
             <div className="relative">
               {/* Logo OLV Oficial */}
-              <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105 relative overflow-hidden">
+              <div className="w-16 h-16 bg-gradient-to-br from-slate-700 to-slate-800 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105 relative overflow-hidden">
                 {/* Logo OLV - Globo com Seta */}
                 <div className="w-full h-full flex items-center justify-center relative">
                   {/* Globo */}
@@ -94,13 +94,13 @@ const Header = () => {
                   <div className="absolute bottom-0.5 left-2 w-6 h-0.5 bg-white transform rotate-45"></div>
                 </div>
               </div>
-              <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-blue-400 to-cyan-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
             </div>
             <div className="hidden md:block">
               <div className="text-xl font-black text-white tracking-wide">
                 OLV Internacional
               </div>
-              <div className="text-sm text-amber-300 font-medium tracking-wider">
+              <div className="text-sm text-blue-300 font-medium tracking-wider">
                 Integramos estratégia, operação e resultado
               </div>
             </div>

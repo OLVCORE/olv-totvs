@@ -217,7 +217,7 @@ export default function ContatoPage() {
                           type="text"
                           name="nome"
                           required
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                           placeholder="Seu nome completo"
                         />
                       </div>
@@ -229,7 +229,7 @@ export default function ContatoPage() {
                           type="email"
                           name="email"
                           required
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                           placeholder="seu@email.com"
                         />
                       </div>
@@ -244,7 +244,7 @@ export default function ContatoPage() {
                           type="tel"
                           name="telefone"
                           required
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                           placeholder="(11) 99999-9999"
                         />
                       </div>
@@ -255,7 +255,7 @@ export default function ContatoPage() {
                         <input
                           type="text"
                           name="empresa"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                           placeholder="Nome da sua empresa"
                         />
                       </div>
@@ -269,7 +269,7 @@ export default function ContatoPage() {
                         </label>
                         <select
                           name="solucao"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                         >
                           <option value="">Selecione uma solução</option>
                           <option value="ERP">ERP</option>
@@ -295,7 +295,7 @@ export default function ContatoPage() {
                         </label>
                         <select
                           name="setor"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                         >
                           <option value="">Selecione um setor</option>
                           <option value="Agro">Agro</option>
@@ -313,7 +313,7 @@ export default function ContatoPage() {
                         </label>
                         <select
                           name="consultoria"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
                         >
                           <option value="">Selecione o tipo</option>
                           <option value="Diagnóstico Estratégico">Diagnóstico Estratégico</option>
@@ -334,7 +334,7 @@ export default function ContatoPage() {
                         name="mensagem"
                         required
                         rows={5}
-                        className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300 resize-none"
+                        className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300 resize-none"
                         placeholder="Conte-nos sobre seu projeto, desafios ou necessidades..."
                       />
                     </div>
@@ -343,7 +343,7 @@ export default function ContatoPage() {
                     <div className="pt-4">
                       <button
                         type="submit"
-                        className="w-full bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-glow hover:shadow-futuristic transition-all hover:scale-105"
+                        className="w-full bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-glow hover:shadow-futuristic transition-all hover:scale-105"
                       >
                         ENVIAR MENSAGEM
                       </button>
