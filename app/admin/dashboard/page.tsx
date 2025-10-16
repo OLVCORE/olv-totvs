@@ -29,11 +29,6 @@ export default function DashboardPage() {
   const [filterSetor, setFilterSetor] = useState<string>('');
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
-  useEffect(() => {
-    checkAuth();
-    loadLeads();
-  }, [checkAuth, loadLeads]);
-
   const checkAuth = useCallback(async () => {
     try {
       const token = localStorage.getItem('auth-token');
@@ -83,6 +78,11 @@ export default function DashboardPage() {
       setIsLoading(false);
     }
   }, []);
+
+  useEffect(() => {
+    checkAuth();
+    loadLeads();
+  }, [checkAuth, loadLeads]);
 
   const calculateStats = (leadsData: Lead[]) => {
     const stats: DashboardStats = {
