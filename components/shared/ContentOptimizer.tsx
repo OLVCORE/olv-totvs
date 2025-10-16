@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { 
   Search, 
@@ -108,7 +108,7 @@ export function ContentOptimizer() {
         <div className="bg-slate-800/50 backdrop-blur-xl rounded-2xl p-8 border border-slate-700/50">
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className={`w-16 h-16 bg-gradient-to-br ${optimizationSteps[currentStep].color} rounded-2xl flex items-center justify-center shadow-glow`}>
-              <optimizationSteps[currentStep].icon className="w-8 h-8 text-white" />
+              {React.createElement(optimizationSteps[currentStep].icon, { className: "w-8 h-8 text-white" })}
             </div>
             <div>
               <h3 className="text-2xl font-black text-white mb-2">

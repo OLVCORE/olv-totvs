@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import {
   Users,
@@ -32,9 +32,9 @@ export default function DashboardPage() {
   useEffect(() => {
     checkAuth();
     loadLeads();
-  }, []);
+  }, [checkAuth, loadLeads]);
 
-  const checkAuth = async () => {
+  const checkAuth = useCallback(async () => {
     try {
       const token = localStorage.getItem('auth-token');
       if (!token) {
@@ -59,9 +59,9 @@ export default function DashboardPage() {
       localStorage.removeItem('user');
       router.push('/admin/login');
     }
-  };
+  }, [router]);
 
-  const loadLeads = async () => {
+  const loadLeads = useCallback(async () => {
     try {
       const token = localStorage.getItem('auth-token');
       const response = await fetch('/api/leads', {
@@ -82,7 +82,7 @@ export default function DashboardPage() {
     } finally {
       setIsLoading(false);
     }
-  };
+  }, []);
 
   const calculateStats = (leadsData: Lead[]) => {
     const stats: DashboardStats = {

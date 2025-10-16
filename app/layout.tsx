@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Poppins } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -83,8 +84,14 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${inter.variable} ${poppins.variable}`}>
       <head>
+        {/* LGPD Banner */}
+        <meta name="adopt-website-id" content="1d3503e5-6e70-4135-906f-6c9840d27875" />
+      </head>
+      <body className="flex flex-col min-h-screen">
         {/* Google Tag Manager */}
-        <script
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -93,14 +100,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-T3P68DR');`
           }}
         />
-        {/* LGPD Banner */}
-        <meta name="adopt-website-id" content="1d3503e5-6e70-4135-906f-6c9840d27875" />
-        <script 
-          src="//tag.goadopt.io/injector.js?website_code=1d3503e5-6e70-4135-906f-6c9840d27875" 
-          className="adopt-injector"
+        
+        {/* LGPD Banner Script */}
+        <Script
+          src="//tag.goadopt.io/injector.js?website_code=1d3503e5-6e70-4135-906f-6c9840d27875"
+          strategy="afterInteractive"
         />
-      </head>
-      <body className="flex flex-col min-h-screen">
+        
         {/* Google Tag Manager (noscript) */}
         <noscript>
           <iframe 
