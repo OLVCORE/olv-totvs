@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { WhatsAppButton } from '@/components/shared/WhatsAppButton';
+import { GoogleAdsOptimizer } from '@/components/shared/GoogleAdsOptimizer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -81,11 +82,39 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${inter.variable} ${poppins.variable}`}>
+      <head>
+        {/* Google Tag Manager */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T3P68DR');`
+          }}
+        />
+        {/* LGPD Banner */}
+        <meta name="adopt-website-id" content="1d3503e5-6e70-4135-906f-6c9840d27875" />
+        <script 
+          src="//tag.goadopt.io/injector.js?website_code=1d3503e5-6e70-4135-906f-6c9840d27875" 
+          className="adopt-injector"
+        />
+      </head>
       <body className="flex flex-col min-h-screen">
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe 
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T3P68DR"
+            height="0" 
+            width="0" 
+            style={{display:'none',visibility:'hidden'}}
+          />
+        </noscript>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
         <WhatsAppButton />
+        <GoogleAdsOptimizer />
       </body>
     </html>
   );

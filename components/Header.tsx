@@ -56,6 +56,7 @@ const Header = () => {
     },
     { name: 'Diagnóstico', href: '/diagnostico' },
     { name: 'Blog', href: '/blog' },
+    { name: 'Google Ads 2025', href: '/google-ads-2025' },
     { name: 'Sobre', href: '/sobre' },
     { name: 'Contato', href: '/contato' },
   ];
