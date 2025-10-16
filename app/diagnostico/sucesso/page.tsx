@@ -101,7 +101,7 @@ export default function DiagnosticoSucessoPage() {
 
             <div className="grid md:grid-cols-2 gap-4">
               <a
-                href="mailto:contato@olvinternacional.com.br"
+                href="mailto:consultores@olvinternacional.com.br"
                 className="flex items-center gap-3 bg-white rounded-xl p-4 hover:shadow-md transition-shadow"
               >
                 <Mail className="w-6 h-6 text-primary-600" />

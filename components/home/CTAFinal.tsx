@@ -98,7 +98,7 @@ const CTAFinal = () => {
           {/* Premium Contact Cards */}
           <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-16">
             <motion.a
-              href="mailto:contato@olvinternacional.com.br"
+              href="mailto:consultores@olvinternacional.com.br"
               whileHover={{ y: -8, scale: 1.02 }}
               className="group card-premium hover:shadow-glow transition-all duration-300"
             >

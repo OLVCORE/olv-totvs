@@ -73,17 +73,29 @@ const Header = () => {
           {/* Premium Logo */}
           <Link href="/" className="flex items-center gap-4 group">
             <div className="relative">
-              <div className="w-14 h-14 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105">
-                <span className="text-white font-black text-xl tracking-wider">OLV</span>
+              {/* Logo OLV com Globo e Seta */}
+              <div className="w-16 h-16 bg-gradient-to-br from-amber-500 to-yellow-600 rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-futuristic transition-all duration-300 group-hover:scale-105 relative overflow-hidden">
+                {/* Globo */}
+                <div className="absolute inset-2 border border-white/30 rounded-full">
+                  <div className="absolute top-1 left-1 w-1 h-1 bg-white/60 rounded-full"></div>
+                  <div className="absolute top-1 right-1 w-1 h-1 bg-white/60 rounded-full"></div>
+                  <div className="absolute bottom-1 left-1 w-1 h-1 bg-white/60 rounded-full"></div>
+                  <div className="absolute bottom-1 right-1 w-1 h-1 bg-white/60 rounded-full"></div>
+                  <div className="absolute top-1/2 left-0 w-full h-px bg-white/20"></div>
+                  <div className="absolute top-0 left-1/2 w-px h-full bg-white/20"></div>
+                </div>
+                {/* Seta */}
+                <div className="absolute bottom-2 left-2 w-0 h-0 border-l-4 border-l-transparent border-r-4 border-r-transparent border-b-6 border-b-white transform rotate-45"></div>
+                <div className="absolute bottom-1 left-3 w-8 h-1 bg-white transform rotate-45"></div>
               </div>
-              <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-yellow-500 rounded-2xl opacity-0 group-hover:opacity-30 blur transition-opacity duration-300" />
             </div>
             <div className="hidden md:block">
               <div className="text-xl font-black text-white tracking-wide">
                 OLV Internacional
               </div>
-              <div className="text-sm text-cyan-300 font-medium tracking-wider">
-                PARCEIRO OFICIAL TOTVS
+              <div className="text-sm text-amber-300 font-medium tracking-wider">
+                Integramos estratégia, operação e resultado
               </div>
             </div>
           </Link>
