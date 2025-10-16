@@ -188,60 +188,167 @@ export default function ContatoPage() {
               </motion.div>
             </motion.div>
 
-            {/* Premium CTA Card */}
+            {/* Premium Contact Form */}
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <div className="relative">
-                {/* Premium Glow Effect */}
-                <div className="absolute -inset-4 bg-gradient-to-r from-purple-400/20 via-pink-400/20 to-rose-400/20 rounded-3xl blur-2xl opacity-50" />
+              <div className="card-premium relative overflow-hidden">
+                {/* Animated Background */}
+                <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-pink-500/10 to-rose-500/10" />
                 
-                <div className="card-premium relative overflow-hidden">
-                  {/* Animated Background */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-purple-500/10 via-pink-500/10 to-rose-500/10" />
-                  
-                  <div className="relative z-10">
-                    <h3 className="text-3xl font-black text-white mb-6 tracking-wide">
-                      PREFERE O DIAGNÓSTICO COMPLETO?
-                    </h3>
-                    <p className="text-slate-300 mb-8 text-lg leading-relaxed">
-                      Responda nosso questionário rápido e receba uma análise personalizada das melhores soluções para sua empresa.
-                    </p>
-                    <Link
-                      href="/diagnostico"
-                      className="group relative inline-flex items-center justify-center w-full gap-3 bg-gradient-to-r from-purple-500 to-pink-600 text-white px-10 py-5 rounded-2xl font-black text-xl shadow-glow hover:shadow-futuristic transition-all hover:scale-105"
-                    >
-                      <span className="relative z-10 tracking-wide">DIAGNÓSTICO GRATUITO</span>
-                      <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                    </Link>
+                <div className="relative z-10">
+                  <h3 className="text-3xl font-black text-white mb-6 tracking-wide">
+                    ENTRE EM CONTATO
+                  </h3>
+                  <p className="text-slate-300 mb-8 text-lg leading-relaxed">
+                    Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.
+                  </p>
 
-                    <div className="mt-10 pt-10 border-t border-slate-700/50">
-                      <h4 className="font-black text-white mb-6 text-xl tracking-wide">
-                        POR QUE NOS ESCOLHER?
-                      </h4>
-                      <ul className="space-y-4">
-                        {[
-                          'Parceiro Oficial TOTVS Certificado',
-                          'Experiência em múltiplos setores',
-                          'Metodologia ágil e comprovada',
-                          'Suporte especializado e contínuo',
-                        ].map((item, index) => (
-                          <motion.li
-                            key={index}
-                            initial={{ opacity: 0, x: -20 }}
-                            whileInView={{ opacity: 1, x: 0 }}
-                            transition={{ duration: 0.4, delay: index * 0.1 }}
-                            className="flex items-start gap-3 group"
-                          >
-                            <CheckCircle className="w-6 h-6 flex-shrink-0 text-emerald-400 mt-0.5 group-hover:scale-110 transition-transform" />
-                            <span className="text-slate-100 text-lg font-medium">{item}</span>
-                          </motion.li>
-                        ))}
-                      </ul>
+                  <form className="space-y-6" action="https://formspree.io/f/xpwnqjqr" method="POST">
+                    {/* Dados Pessoais */}
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          Nome Completo *
+                        </label>
+                        <input
+                          type="text"
+                          name="nome"
+                          required
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          placeholder="Seu nome completo"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          E-mail *
+                        </label>
+                        <input
+                          type="email"
+                          name="email"
+                          required
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          placeholder="seu@email.com"
+                        />
+                      </div>
                     </div>
-                  </div>
+
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          Telefone *
+                        </label>
+                        <input
+                          type="tel"
+                          name="telefone"
+                          required
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          placeholder="(11) 99999-9999"
+                        />
+                      </div>
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          Empresa
+                        </label>
+                        <input
+                          type="text"
+                          name="empresa"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                          placeholder="Nome da sua empresa"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Dropdowns */}
+                    <div className="grid md:grid-cols-3 gap-6">
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          Solução de Interesse
+                        </label>
+                        <select
+                          name="solucao"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                        >
+                          <option value="">Selecione uma solução</option>
+                          <option value="ERP">ERP</option>
+                          <option value="Fluig">Fluig</option>
+                          <option value="iPaaS">iPaaS</option>
+                          <option value="CRM de Vendas">CRM de Vendas</option>
+                          <option value="Techfin">Techfin</option>
+                          <option value="Analytics">Analytics</option>
+                          <option value="Assinatura Eletrônica">Assinatura Eletrônica</option>
+                          <option value="Cloud">Cloud</option>
+                          <option value="RH">RH</option>
+                          <option value="Atendimento e Chatbot">Atendimento e Chatbot</option>
+                          <option value="Crédito">Crédito</option>
+                          <option value="Inteligência Artificial">Inteligência Artificial</option>
+                          <option value="Marketing Digital">Marketing Digital</option>
+                          <option value="Pagamentos">Pagamentos</option>
+                          <option value="SFA">SFA</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          Setor de Atuação
+                        </label>
+                        <select
+                          name="setor"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                        >
+                          <option value="">Selecione um setor</option>
+                          <option value="Agro">Agro</option>
+                          <option value="Construção">Construção</option>
+                          <option value="Distribuição">Distribuição</option>
+                          <option value="Serviços Financeiros">Serviços Financeiros</option>
+                          <option value="Logística">Logística</option>
+                          <option value="Manufatura">Manufatura</option>
+                          <option value="Prestadores de Serviços">Prestadores de Serviços</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-bold text-slate-300 mb-2">
+                          Tipo de Consultoria
+                        </label>
+                        <select
+                          name="consultoria"
+                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300"
+                        >
+                          <option value="">Selecione o tipo</option>
+                          <option value="Diagnóstico Estratégico">Diagnóstico Estratégico</option>
+                          <option value="Planejamento Inteligente">Planejamento Inteligente</option>
+                          <option value="Implementação Ágil">Implementação Ágil</option>
+                          <option value="Otimização Contínua">Otimização Contínua</option>
+                          <option value="Consultoria Completa">Consultoria Completa</option>
+                        </select>
+                      </div>
+                    </div>
+
+                    {/* Mensagem */}
+                    <div>
+                      <label className="block text-sm font-bold text-slate-300 mb-2">
+                        Mensagem *
+                      </label>
+                      <textarea
+                        name="mensagem"
+                        required
+                        rows={5}
+                        className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 transition-all duration-300 resize-none"
+                        placeholder="Conte-nos sobre seu projeto, desafios ou necessidades..."
+                      />
+                    </div>
+
+                    {/* Botão de Envio */}
+                    <div className="pt-4">
+                      <button
+                        type="submit"
+                        className="w-full bg-gradient-to-r from-purple-500 to-pink-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-glow hover:shadow-futuristic transition-all hover:scale-105"
+                      >
+                        ENVIAR MENSAGEM
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </motion.div>
