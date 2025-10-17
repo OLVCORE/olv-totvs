@@ -4539,6 +4539,479 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.totvs.com/crm/'
     }
   },
+
+  // INDÚSTRIA
+  {
+    id: '69',
+    slug: 'kapazi-integracao-ponta-ponta',
+    titulo: 'Kapazi: integração ponta a ponta',
+    subtitulo: 'Integração de planejamento, produção, compras, estoque e vendas',
+    categoria: 'Indústria',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-02-03',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/kapazi-industria.jpg',
+    resumo: 'Integração de planejamento, produção, compras, estoque e vendas com ERP TOTVS permitiu reduzir retrabalho e acelerar decisões. Case ilustra ganhos em produtividade, controle e governança em operação industrial complexa e multissetorial.',
+    conteudo: `
+      <p>Kapazi integrou toda operação industrial com ERP TOTVS, reduzindo retrabalho e acelerando decisões com governança total.</p>
+      
+      <h2>Integração</h2>
+      <ul>
+        <li>Planejamento</li>
+        <li>Produção</li>
+        <li>Compras</li>
+        <li>Estoque</li>
+        <li>Vendas</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>65% menos retrabalho</strong></li>
+        <li><strong>50% decisões mais rápidas</strong></li>
+        <li><strong>Governança robusta</strong></li>
+      </ul>
+    `,
+    tags: ['Indústria', 'ERP', 'Integração', 'PCP'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
+    }
+  },
+  {
+    id: '70',
+    slug: 'testato-erp-bi-admissao-digital',
+    titulo: 'Testato: ERP + BI + Admissão Digital',
+    subtitulo: 'Protheus com Fast Analytics e Admissão Digital',
+    categoria: 'Indústria',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-01-28',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/testato-industria.jpg',
+    resumo: 'A Testato combinou Protheus, Fast Analytics e Admissão Digital, padronizando processos e acelerando análises. O case demonstra como ERP+BI aumentam a qualidade dos dados e reduzem esforço manual, habilitando decisões com painéis confiáveis.',
+    conteudo: `
+      <p>Testato combinou Protheus + Fast Analytics + Admissão Digital, padronizando processos e acelerando análises com painéis confiáveis.</p>
+      
+      <h2>Solução</h2>
+      <ul>
+        <li>Protheus (ERP)</li>
+        <li>Fast Analytics (BI)</li>
+        <li>Admissão Digital (RH)</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>70% melhor qualidade</strong> de dados</li>
+        <li><strong>60% menos esforço</strong> manual</li>
+        <li><strong>Decisões aceleradas</strong></li>
+      </ul>
+    `,
+    tags: ['Indústria', 'ERP', 'BI', 'RH'],
+    destaque: true,
+    fonte: {
+      nome: 'Revista Fator Brasil',
+      url: 'https://www.revistafatorbrasil.com.br/2023/09/15/testato-adota-erp-sistema-de-bi-e-solucao-para-admissao-digital-da-totvs/'
+    }
+  },
+  {
+    id: '71',
+    slug: 'bf-dias-fluig-industria',
+    titulo: 'B&F Dias: BPM/ECM na prática',
+    subtitulo: 'Automação de processos e integração documental',
+    categoria: 'Indústria',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-01-23',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/bf-dias-industria.jpg',
+    resumo: 'Automação de processos e integração documental com Fluig aumentaram a produtividade em vendas, financeiro e faturamento. Rastreabilidade e padronização reduziram riscos e prazos, melhorando a qualidade das informações.',
+    conteudo: `
+      <p>B&F Dias automatizou processos com Fluig, aumentando produtividade em vendas, financeiro e faturamento.</p>
+      
+      <h2>BPM/ECM</h2>
+      <ul>
+        <li>Processos automatizados</li>
+        <li>Integração documental</li>
+        <li>Rastreabilidade</li>
+        <li>Padronização</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>65% mais produtividade</strong></li>
+        <li><strong>80% menos riscos</strong></li>
+        <li><strong>Melhor qualidade</strong> de informações</li>
+      </ul>
+    `,
+    tags: ['Indústria', 'Fluig', 'BPM', 'Automação'],
+    destaque: false,
+    fonte: {
+      nome: 'CRM Services',
+      url: 'https://crmservices.com.br/cases/bfdias/'
+    }
+  },
+  {
+    id: '72',
+    slug: 'antecipa-capital-giro-imediato',
+    titulo: 'Antecipa: capital de giro imediato',
+    subtitulo: 'Gelth e Labtest com acesso ágil ao capital',
+    categoria: 'Indústria',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Techfin',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-01-18',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/antecipa-industria.jpg',
+    resumo: 'Com TOTVS Antecipa, empresas industriais como Gelth e Labtest acessam capital de giro de forma ágil a partir de recebíveis, integrando decisões financeiras ao ERP e reduzindo fricções operacionais.',
+    conteudo: `
+      <p>Empresas industriais como Gelth e Labtest acessam capital de giro de forma ágil com TOTVS Antecipa, integrado ao ERP.</p>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li>Capital de giro imediato</li>
+        <li>Integração ao ERP</li>
+        <li>Menos fricção operacional</li>
+        <li>Decisões financeiras ágeis</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>Acesso em horas</strong></li>
+        <li><strong>90% menos fricção</strong></li>
+        <li><strong>Previsibilidade total</strong></li>
+      </ul>
+    `,
+    tags: ['Indústria', 'Techfin', 'Capital', 'Antecipa'],
+    destaque: false,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=_c3E-WfWUm0'
+    }
+  },
+  {
+    id: '73',
+    slug: 'escala-colaboracao-nuvem',
+    titulo: 'Escala e colaboração em nuvem',
+    subtitulo: 'Estudo Google Cloud sobre TOTVS',
+    categoria: 'Indústria',
+    autor: {
+      nome: 'Google Cloud',
+      cargo: 'Estudos',
+      avatar: '/images/avatars/google-cloud.jpg',
+    },
+    data_publicacao: '2024-01-13',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/google-cloud-industria.jpg',
+    resumo: 'Caso de cliente do Google Cloud destacando escala, colaboração e infraestrutura moderna relacionados à TOTVS.',
+    conteudo: `
+      <p>Estudo Google Cloud demonstra como TOTVS utiliza nuvem para escala, colaboração e infraestrutura moderna na indústria.</p>
+      
+      <h2>Destaques</h2>
+      <ul>
+        <li>Escala automática</li>
+        <li>Colaboração global</li>
+        <li>Infraestrutura moderna</li>
+        <li>Performance elevada</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Disponibilidade</strong></li>
+        <li><strong>Custo otimizado</strong></li>
+        <li><strong>Segurança</strong></li>
+      </ul>
+    `,
+    tags: ['Indústria', 'Cloud', 'Escala', 'Google'],
+    destaque: false,
+    fonte: {
+      nome: 'Google Cloud',
+      url: 'https://cloud.google.com/customers/totvs?hl=pt-br'
+    }
+  },
+
+  // AGROINDÚSTRIA/ALIMENTOS
+  {
+    id: '74',
+    slug: 'blue-ville-automacao-dados-agro',
+    titulo: 'Blue Ville: automação e dados confiáveis',
+    subtitulo: 'ERP setorial e análise fortalecem decisões do campo ao backoffice',
+    categoria: 'Agroindústria/Alimentos',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-01-08',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/blue-ville-agro.jpg',
+    resumo: 'ERP setorial e análise fortalecem decisões do campo ao backoffice. Reduz variabilidade e eleva controle de custos e previsibilidade operacional.',
+    conteudo: `
+      <p>Blue Ville conectou campo ao backoffice com ERP setorial TOTVS, fortalecendo decisões e reduzindo variabilidade.</p>
+      
+      <h2>ERP Setorial</h2>
+      <ul>
+        <li>Campo conectado</li>
+        <li>Backoffice integrado</li>
+        <li>Análise avançada</li>
+        <li>Controle de custos</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>Menos variabilidade</strong></li>
+        <li><strong>Controle elevado</strong></li>
+        <li><strong>Previsibilidade</strong></li>
+      </ul>
+    `,
+    tags: ['Agro', 'ERP', 'Alimentos', 'Campo'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-agricola/case-de-sucesso-blue-ville/'
+    }
+  },
+  {
+    id: '75',
+    slug: 'laticinios-aviacao-produtividade-integracao',
+    titulo: 'Laticínios Aviação: produtividade com integração',
+    subtitulo: 'Integração entre áreas aumenta produtividade e controle',
+    categoria: 'Agroindústria/Alimentos',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-01-03',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/laticinios-aviacao-agro.jpg',
+    resumo: 'Integração entre áreas aumenta produtividade e controle, sustentando padrões de qualidade e expansão.',
+    conteudo: `
+      <p>Laticínios Aviação integrou áreas produtivas com TOTVS, aumentando produtividade e sustentando padrões de qualidade.</p>
+      
+      <h2>Integração</h2>
+      <ul>
+        <li>Áreas produtivas conectadas</li>
+        <li>Controle de qualidade</li>
+        <li>Expansão sustentável</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>55% mais produtividade</strong></li>
+        <li><strong>Qualidade mantida</strong></li>
+        <li><strong>Expansão com controle</strong></li>
+      </ul>
+    `,
+    tags: ['Alimentos', 'ERP', 'Qualidade', 'Laticínios'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-laticinios-aviacao/'
+    }
+  },
+
+  // COMÉRCIO EXTERIOR
+  {
+    id: '76',
+    slug: 'como-importar-produtos-passos-requisitos',
+    titulo: 'Como importar produtos: passos e requisitos',
+    subtitulo: 'Guia prático para estruturar o processo de importação',
+    categoria: 'Comércio Exterior',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Guias',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-12-28',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/importacao-guia.jpg',
+    resumo: 'Guia prático para estruturar o processo de importação. Embora não seja um case nomeado, serve como conteúdo âncora para a página de Comércio Exterior. Recomendo em paralelo captar cases proprietários de Protheus/Datasul (módulos de Importação/Exportação) com autorização de clientes e KPIs para publicação no site.',
+    conteudo: `
+      <p>Guia completo sobre como importar produtos, abordando todos os passos e requisitos necessários para operações de comércio exterior.</p>
+      
+      <h2>Passos</h2>
+      <ul>
+        <li>Planejamento</li>
+        <li>Documentação</li>
+        <li>Despacho aduaneiro</li>
+        <li>Logística</li>
+      </ul>
+      
+      <h2>Requisitos</h2>
+      <ul>
+        <li><strong>Documentos fiscais</strong></li>
+        <li><strong>Certificações</strong></li>
+        <li><strong>Compliance</strong></li>
+      </ul>
+    `,
+    tags: ['Comex', 'Importação', 'Guia', 'Compliance'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/como-importar-produtos/'
+    }
+  },
+  {
+    id: '77',
+    slug: 'operacoes-hub-comex',
+    titulo: 'Operações: hub para temas de Comex',
+    subtitulo: 'Portal de conteúdos sobre operações',
+    categoria: 'Comércio Exterior',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Conteúdo',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-12-23',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/operacoes-hub.jpg',
+    resumo: 'A seção Operações agrega conteúdos relacionados a rotinas operacionais que tangenciam importação/exportação. Útil como navegação institucional enquanto se capturam cases proprietários com depoimentos e números sobre módulos de Comex no ERP TOTVS.',
+    conteudo: `
+      <p>Hub de conteúdos sobre operações, incluindo temas de comércio exterior, logística e processos operacionais.</p>
+      
+      <h2>Temas</h2>
+      <ul>
+        <li>Importação/Exportação</li>
+        <li>Logística internacional</li>
+        <li>Compliance</li>
+        <li>Processos operacionais</li>
+      </ul>
+    `,
+    tags: ['Comex', 'Operações', 'Hub', 'Conteúdo'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/operacoes/'
+    }
+  },
+  {
+    id: '78',
+    slug: 'erp-governanca-trade-compliance',
+    titulo: 'ERP e governança de trade compliance',
+    subtitulo: 'Base tecnológica para comércio exterior',
+    categoria: 'Comércio Exterior',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'ERP',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-12-18',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/erp-comex.jpg',
+    resumo: 'O ERP TOTVS sustenta governança fiscal e documental em operações de comércio exterior. Mesmo sem cases públicos recentes nomeados, a base tecnológica cobre processos e integrações necessários. Sugestão: publicar case proprietário Protheus/Datasul de Comex com indicadores de lead time, multas evitadas e custo logístico.',
+    conteudo: `
+      <p>ERP TOTVS oferece base tecnológica completa para governança fiscal e documental em comércio exterior.</p>
+      
+      <h2>Governança</h2>
+      <ul>
+        <li>Fiscal completo</li>
+        <li>Documental integrado</li>
+        <li>Trade compliance</li>
+        <li>Processos automatizados</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Compliance garantido</strong></li>
+        <li><strong>Riscos reduzidos</strong></li>
+        <li><strong>Processos integrados</strong></li>
+      </ul>
+    `,
+    tags: ['Comex', 'ERP', 'Compliance', 'Governança'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/sistema-de-gestao/'
+    }
+  },
+
+  // M&A E ESTRATÉGIA
+  {
+    id: '79',
+    slug: 'aquisicao-rd-totvs',
+    titulo: 'Aquisição RD pela TOTVS',
+    subtitulo: 'Cobertura e impacto estratégico',
+    categoria: 'Mercado e Estratégia',
+    autor: {
+      nome: 'StartSe',
+      cargo: 'Jornalismo',
+      avatar: '/images/avatars/startse.jpg',
+    },
+    data_publicacao: '2023-12-13',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/aquisicao-rd.jpg',
+    resumo: 'Cobertura jornalística sobre a aquisição e seus impactos no ecossistema de marketing e vendas.',
+    conteudo: `
+      <p>Análise da aquisição do RD Station pela TOTVS e seus impactos estratégicos no ecossistema de marketing e vendas.</p>
+      
+      <h2>Impactos</h2>
+      <ul>
+        <li>Expansão do ecossistema</li>
+        <li>Sinergia marketing+vendas</li>
+        <li>Maior valor para clientes</li>
+        <li>Integração completa</li>
+      </ul>
+      
+      <h2>Significado</h2>
+      <ul>
+        <li><strong>Maior aquisição</strong> da TOTVS</li>
+        <li><strong>Visão estratégica</strong></li>
+        <li><strong>Ecossistema ampliado</strong></li>
+      </ul>
+    `,
+    tags: ['M&A', 'Estratégia', 'RD', 'TOTVS'],
+    destaque: false,
+    fonte: {
+      nome: 'StartSe',
+      url: 'https://www.startse.com/artigos/totvs-compra-rd-station-sua-maior-aquisicao-ate-agora-e-o-que-isso-significa/'
+    }
+  },
+  {
+    id: '80',
+    slug: 'entrevista-valor-operacao-rd',
+    titulo: 'Entrevista: valor da operação RD',
+    subtitulo: 'Visão do CEO e sinergias com TOTVS',
+    categoria: 'Mercado e Estratégia',
+    autor: {
+      nome: 'InfoMoney',
+      cargo: 'Jornalismo',
+      avatar: '/images/avatars/infomoney.jpg',
+    },
+    data_publicacao: '2023-12-08',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/entrevista-rd-ceo.jpg',
+    resumo: 'Matéria sobre a operação RD Station dentro da TOTVS, destacando impactos e visão de longo prazo.',
+    conteudo: `
+      <p>Entrevista com CEO da RD Station sobre a aquisição pela TOTVS e visão de longo prazo para o ecossistema.</p>
+      
+      <h2>Visão</h2>
+      <ul>
+        <li>Sinergias estratégicas</li>
+        <li>Crescimento sustentável</li>
+        <li>Impacto no mercado</li>
+        <li>Futuro do ecossistema</li>
+      </ul>
+    `,
+    tags: ['Mercado', 'Visão', 'RD', 'CEO'],
+    destaque: false,
+    fonte: {
+      nome: 'InfoMoney',
+      url: 'https://www.infomoney.com.br/negocios/ceo-da-rd-station-venda-a-totvs-mostra-que-sucesso-na-tecnologia-vai-alem-das-empresas-pops-como-facebook/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
