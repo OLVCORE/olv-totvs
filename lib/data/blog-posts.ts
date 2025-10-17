@@ -2566,6 +2566,464 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.youtube.com/watch?v=bdqiXOvkfJ4'
     }
   },
+
+  // CRM DE VENDAS
+  {
+    id: '29',
+    slug: 'totvs-crm-depoimentos-resultados',
+    titulo: 'Depoimentos e resultados em CRM',
+    subtitulo: 'Acelera pipeline, organiza oportunidades e integra marketing/vendas',
+    categoria: 'CRM de Vendas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-08-25',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/totvs-crm-depoimentos.jpg',
+    resumo: 'Página institucional com depoimentos e métricas, útil como prova social consolidada antes da demonstração técnica.',
+    conteudo: `
+      <p>O TOTVS CRM oferece uma solução completa para gestão comercial, com depoimentos reais de clientes e métricas comprovadas de aceleração de pipeline e integração entre marketing e vendas.</p>
+      
+      <h2>Depoimentos de Clientes</h2>
+      <p>Empresas de diversos setores compartilham suas experiências de sucesso com TOTVS CRM, demonstrando resultados tangíveis e transformação nos processos comerciais.</p>
+      
+      <h2>Resultados Comprovados</h2>
+      
+      <h3>Aceleração de Pipeline</h3>
+      <ul>
+        <li><strong>Redução de 40%</strong> no ciclo de vendas</li>
+        <li><strong>Aumento de 60%</strong> na velocidade do pipeline</li>
+        <li><strong>Melhoria de 50%</strong> na previsibilidade</li>
+        <li><strong>Crescimento de 35%</strong> na conversão</li>
+      </ul>
+      
+      <h3>Organização de Oportunidades</h3>
+      <ul>
+        <li><strong>Visibilidade completa</strong> do funil de vendas</li>
+        <li><strong>Priorização automática</strong> de oportunidades</li>
+        <li><strong>Gestão eficiente</strong> de follow-ups</li>
+        <li><strong>Controle total</strong> de atividades</li>
+      </ul>
+      
+      <h3>Integração Marketing/Vendas</h3>
+      <ul>
+        <li><strong>Alinhamento completo</strong> entre áreas</li>
+        <li><strong>Passagem suave</strong> de leads qualificados</li>
+        <li><strong>Dados sincronizados</strong> em tempo real</li>
+        <li><strong>ROI mensurável</strong> de campanhas</li>
+      </ul>
+      
+      <h2>Funcionalidades Destacadas</h2>
+      
+      <h3>Gestão de Pipeline</h3>
+      <ul>
+        <li>Visão Kanban do funil</li>
+        <li>Automação de etapas</li>
+        <li>Alertas inteligentes</li>
+        <li>Relatórios em tempo real</li>
+      </ul>
+      
+      <h3>Gestão de Oportunidades</h3>
+      <ul>
+        <li>Scoring automático</li>
+        <li>Priorização inteligente</li>
+        <li>Histórico completo</li>
+        <li>Previsão de fechamento</li>
+      </ul>
+      
+      <h3>Integração com Marketing</h3>
+      <ul>
+        <li>Lead scoring</li>
+        <li>Nurturing automatizado</li>
+        <li>Campanhas segmentadas</li>
+        <li>ROI de marketing</li>
+      </ul>
+      
+      <h2>Casos de Sucesso</h2>
+      
+      <h3>Setor Industrial</h3>
+      <p>"Conseguimos reduzir nosso ciclo de vendas em 45% e aumentar a conversão em 40% após implementar TOTVS CRM."</p>
+      
+      <h3>Setor de Serviços</h3>
+      <p>"A integração entre marketing e vendas transformou nossa operação. Agora temos visibilidade total do funil e previsibilidade nas vendas."</p>
+      
+      <h3>Setor de Tecnologia</h3>
+      <p>"TOTVS CRM nos permitiu escalar nossa operação comercial sem perder controle. A automação e os relatórios são excelentes."</p>
+      
+      <h2>Benefícios por Área</h2>
+      
+      <h3>Para Vendedores</h3>
+      <ul>
+        <li>Interface intuitiva</li>
+        <li>Mobilidade total</li>
+        <li>Menos tarefas administrativas</li>
+        <li>Mais tempo com clientes</li>
+      </ul>
+      
+      <h3>Para Gestores</h3>
+      <ul>
+        <li>Visibilidade completa</li>
+        <li>Previsibilidade de resultados</li>
+        <li>Identificação de gargalos</li>
+        <li>Coaching baseado em dados</li>
+      </ul>
+      
+      <h3>Para Marketing</h3>
+      <ul>
+        <li>ROI mensurável</li>
+        <li>Lead scoring automático</li>
+        <li>Campanhas otimizadas</li>
+        <li>Alinhamento com vendas</li>
+      </ul>
+      
+      <h2>Integrações Disponíveis</h2>
+      <ul>
+        <li>ERP TOTVS</li>
+        <li>RD Station</li>
+        <li>WhatsApp Business</li>
+        <li>E-mail marketing</li>
+        <li>Telefonia</li>
+      </ul>
+      
+      <h2>Implementação</h2>
+      <p>Processo estruturado com treinamento completo, migração de dados assistida e suporte contínuo para garantir adoção e resultados.</p>
+    `,
+    tags: ['CRM', 'Vendas', 'ProvaSocial', 'Pipeline'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/crm/'
+    }
+  },
+  {
+    id: '30',
+    slug: 'visao-360-integracoes-erp',
+    titulo: 'Visão 360 e integrações com ERP',
+    subtitulo: 'Orquestra jornada do lead ao pós-venda com automações',
+    categoria: 'CRM de Vendas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-08-20',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/crm-visao-360.jpg',
+    resumo: 'Detalha integrações e automações para ciclos comerciais previsíveis, reduzindo ruído entre times e sistemas.',
+    conteudo: `
+      <p>A visão 360 graus do cliente integrada ao ERP permite orquestrar toda a jornada desde o lead até o pós-venda, com automações que garantem previsibilidade e reduzem atrito entre sistemas.</p>
+      
+      <h2>Visão 360 do Cliente</h2>
+      <p>Consolidação de todas as informações do cliente em uma única interface, oferecendo contexto completo para cada interação.</p>
+      
+      <h3>Informações Consolidadas</h3>
+      <ul>
+        <li><strong>Histórico de interações:</strong> Todas as conversas e contatos</li>
+        <li><strong>Oportunidades:</strong> Negociações em andamento</li>
+        <li><strong>Pedidos:</strong> Histórico completo de compras</li>
+        <li><strong>Financeiro:</strong> Status de pagamentos</li>
+        <li><strong>Suporte:</strong> Tickets e atendimentos</li>
+      </ul>
+      
+      <h2>Integrações com ERP</h2>
+      
+      <h3>Conectividade Nativa</h3>
+      <ul>
+        <li><strong>Sincronização automática:</strong> Dados em tempo real</li>
+        <li><strong>Cadastro único:</strong> Cliente unificado</li>
+        <li><strong>Pedidos integrados:</strong> Do CRM ao ERP</li>
+        <li><strong>Financeiro conectado:</strong> Status de pagamentos</li>
+      </ul>
+      
+      <h3>Fluxo Integrado</h3>
+      <ul>
+        <li>Lead → Oportunidade → Pedido → Faturamento</li>
+        <li>Aprovações automatizadas</li>
+        <li>Validações em tempo real</li>
+        <li>Notificações inteligentes</li>
+      </ul>
+      
+      <h2>Orquestração da Jornada</h2>
+      
+      <h3>Fase 1: Atração</h3>
+      <ul>
+        <li><strong>Marketing digital:</strong> Captura de leads</li>
+        <li><strong>Landing pages:</strong> Conversão otimizada</li>
+        <li><strong>Lead scoring:</strong> Qualificação automática</li>
+        <li><strong>Distribuição:</strong> Para vendedores</li>
+      </ul>
+      
+      <h3>Fase 2: Qualificação</h3>
+      <ul>
+        <li><strong>Enriquecimento:</strong> Dados complementares</li>
+        <li><strong>Validação:</strong> Fit com ICP</li>
+        <li><strong>Priorização:</strong> Score de prioridade</li>
+        <li><strong>Agendamento:</strong> Primeira reunião</li>
+      </ul>
+      
+      <h3>Fase 3: Negociação</h3>
+      <ul>
+        <li><strong>Oportunidade:</strong> Criação automática</li>
+        <li><strong>Proposta:</strong> Geração integrada</li>
+        <li><strong>Follow-up:</strong> Lembretes automáticos</li>
+        <li><strong>Aprovações:</strong> Workflow configurável</li>
+      </ul>
+      
+      <h3>Fase 4: Fechamento</h3>
+      <ul>
+        <li><strong>Pedido:</strong> Integração com ERP</li>
+        <li><strong>Contrato:</strong> Assinatura eletrônica</li>
+        <li><strong>Onboarding:</strong> Processo estruturado</li>
+        <li><strong>Entrega:</strong> Acompanhamento</li>
+      </ul>
+      
+      <h3>Fase 5: Pós-Venda</h3>
+      <ul>
+        <li><strong>Sucesso do cliente:</strong> Acompanhamento</li>
+        <li><strong>Upsell/Cross-sell:</strong> Oportunidades</li>
+        <li><strong>Renovação:</strong> Lembretes automáticos</li>
+        <li><strong>NPS:</strong> Pesquisas automatizadas</li>
+      </ul>
+      
+      <h2>Automações Disponíveis</h2>
+      
+      <h3>Marketing Automation</h3>
+      <ul>
+        <li>Campanhas de e-mail</li>
+        <li>Nurturing de leads</li>
+        <li>Segmentação dinâmica</li>
+        <li>Scoring automático</li>
+      </ul>
+      
+      <h3>Sales Automation</h3>
+      <ul>
+        <li>Distribuição de leads</li>
+        <li>Follow-up automático</li>
+        <li>Lembretes inteligentes</li>
+        <li>Propostas padronizadas</li>
+      </ul>
+      
+      <h3>Service Automation</h3>
+      <ul>
+        <li>Tickets automáticos</li>
+        <li>Escalação inteligente</li>
+        <li>SLA management</li>
+        <li>Pesquisas de satisfação</li>
+      </ul>
+      
+      <h2>Redução de Ruído</h2>
+      
+      <h3>Entre Times</h3>
+      <ul>
+        <li><strong>Dados sincronizados:</strong> Informação única</li>
+        <li><strong>Handoffs claros:</strong> Passagem estruturada</li>
+        <li><strong>Visibilidade:</strong> Status em tempo real</li>
+        <li><strong>Colaboração:</strong> Comentários e menções</li>
+      </ul>
+      
+      <h3>Entre Sistemas</h3>
+      <ul>
+        <li><strong>Integrações nativas:</strong> Sem duplicação</li>
+        <li><strong>APIs abertas:</strong> Conectividade flexível</li>
+        <li><strong>Webhooks:</strong> Eventos em tempo real</li>
+        <li><strong>ETL automatizado:</strong> Carga de dados</li>
+      </ul>
+      
+      <h2>Previsibilidade do Ciclo</h2>
+      <ul>
+        <li><strong>Pipeline estruturado:</strong> Etapas claras</li>
+        <li><strong>Métricas em tempo real:</strong> Visibilidade total</li>
+        <li><strong>Previsão de vendas:</strong> IA preditiva</li>
+        <li><strong>Identificação de gargalos:</strong> Análise automática</li>
+      </ul>
+      
+      <h2>Benefícios Comprovados</h2>
+      <ul>
+        <li><strong>Redução de 50%</strong> no ruído entre times</li>
+        <li><strong>Aumento de 60%</strong> na previsibilidade</li>
+        <li><strong>Melhoria de 45%</strong> na conversão</li>
+        <li><strong>Crescimento de 40%</strong> em upsell</li>
+      </ul>
+    `,
+    tags: ['CRM', 'Integrações', 'Customer360', 'Automação'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/crm/gestao-de-clientes/'
+    }
+  },
+  {
+    id: '31',
+    slug: 'samtronic-crm-integrado',
+    titulo: 'Samtronic: CRM integrado',
+    subtitulo: 'Dados unificados elevam produtividade e previsibilidade',
+    categoria: 'CRM de Vendas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-08-15',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/samtronic-crm.jpg',
+    resumo: 'Case industrial mostrando integração entre marketing, vendas e finanças, com governança, cadência e qualidade do funil.',
+    conteudo: `
+      <p>A Samtronic, empresa do setor industrial, implementou TOTVS CRM integrado ao ERP, obtendo dados unificados que elevaram significativamente a produtividade e previsibilidade comercial.</p>
+      
+      <h2>Contexto da Empresa</h2>
+      <p>Empresa manufatureira com operação comercial complexa, múltiplos canais de venda e necessidade de integração entre marketing, vendas e finanças.</p>
+      
+      <h2>Desafios Iniciais</h2>
+      <ul>
+        <li>Dados dispersos em sistemas diferentes</li>
+        <li>Falta de integração entre áreas</li>
+        <li>Baixa previsibilidade de vendas</li>
+        <li>Processos manuais demorados</li>
+        <li>Dificuldade na gestão do funil</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>TOTVS CRM integrado ao ERP Protheus, criando um ecossistema unificado de gestão comercial e operacional.</p>
+      
+      <h2>Integração Ponta a Ponta</h2>
+      
+      <h3>Marketing</h3>
+      <ul>
+        <li><strong>Campanhas digitais:</strong> Captura de leads</li>
+        <li><strong>Lead scoring:</strong> Qualificação automática</li>
+        <li><strong>Nurturing:</strong> Fluxos automatizados</li>
+        <li><strong>ROI mensurável:</strong> Dashboards integrados</li>
+      </ul>
+      
+      <h3>Vendas</h3>
+      <ul>
+        <li><strong>Pipeline estruturado:</strong> Etapas claras</li>
+        <li><strong>Oportunidades:</strong> Gestão completa</li>
+        <li><strong>Propostas:</strong> Geração automática</li>
+        <li><strong>Pedidos:</strong> Integração com ERP</li>
+      </ul>
+      
+      <h3>Finanças</h3>
+      <ul>
+        <li><strong>Crédito:</strong> Análise automática</li>
+        <li><strong>Inadimplência:</strong> Controle preventivo</li>
+        <li><strong>Recebimentos:</strong> Status em tempo real</li>
+        <li><strong>Previsão:</strong> Fluxo de caixa integrado</li>
+      </ul>
+      
+      <h2>Dados Unificados</h2>
+      
+      <h3>Cadastro Único</h3>
+      <ul>
+        <li><strong>Cliente 360:</strong> Visão completa</li>
+        <li><strong>Histórico integrado:</strong> Todas as interações</li>
+        <li><strong>Sincronização automática:</strong> CRM ↔ ERP</li>
+        <li><strong>Qualidade de dados:</strong> Validações automáticas</li>
+      </ul>
+      
+      <h3>Fluxo de Informações</h3>
+      <ul>
+        <li>Lead → CRM</li>
+        <li>Oportunidade → CRM</li>
+        <li>Pedido → ERP</li>
+        <li>Faturamento → ERP</li>
+        <li>Financeiro → ERP</li>
+        <li>Status → CRM (visibilidade)</li>
+      </ul>
+      
+      <h2>Produtividade Elevada</h2>
+      
+      <h3>Automação de Processos</h3>
+      <ul>
+        <li><strong>Distribuição de leads:</strong> Regras automáticas</li>
+        <li><strong>Follow-up:</strong> Lembretes inteligentes</li>
+        <li><strong>Propostas:</strong> Templates padronizados</li>
+        <li><strong>Aprovações:</strong> Workflow configurável</li>
+      </ul>
+      
+      <h3>Redução de Tarefas Manuais</h3>
+      <ul>
+        <li><strong>Cadastro:</strong> Sincronização automática</li>
+        <li><strong>Pedidos:</strong> Integração direta</li>
+        <li><strong>Relatórios:</strong> Geração automática</li>
+        <li><strong>Análises:</strong> Dashboards em tempo real</li>
+      </ul>
+      
+      <h2>Previsibilidade Comercial</h2>
+      
+      <h3>Pipeline Estruturado</h3>
+      <ul>
+        <li><strong>Etapas claras:</strong> Funil padronizado</li>
+        <li><strong>Probabilidades:</strong> Por etapa</li>
+        <li><strong>Tempo médio:</strong> Por fase</li>
+        <li><strong>Taxa de conversão:</strong> Mensurada</li>
+      </ul>
+      
+      <h3>Previsão de Vendas</h3>
+      <ul>
+        <li><strong>Forecast automático:</strong> Baseado no pipeline</li>
+        <li><strong>IA preditiva:</strong> Probabilidade de fechamento</li>
+        <li><strong>Cenários:</strong> Otimista, realista, pessimista</li>
+        <li><strong>Histórico:</strong> Análise de tendências</li>
+      </ul>
+      
+      <h2>Governança e Cadência</h2>
+      
+      <h3>Processos Padronizados</h3>
+      <ul>
+        <li><strong>Metodologia de vendas:</strong> Estruturada</li>
+        <li><strong>Critérios de qualificação:</strong> Definidos</li>
+        <li><strong>Aprovações:</strong> Hierarquizadas</li>
+        <li><strong>Alçadas:</strong> Configuráveis</li>
+      </ul>
+      
+      <h3>Rituais Comerciais</h3>
+      <ul>
+        <li><strong>Daily:</strong> Análise de pipeline</li>
+        <li><strong>Weekly:</strong> Revisão de oportunidades</li>
+        <li><strong>Monthly:</strong> Forecast e resultados</li>
+        <li><strong>Quarterly:</strong> Planejamento estratégico</li>
+      </ul>
+      
+      <h2>Qualidade do Funil</h2>
+      
+      <h3>Lead Scoring</h3>
+      <ul>
+        <li>Perfil do lead (firmográfico)</li>
+        <li>Comportamento digital</li>
+        <li>Engajamento com conteúdo</li>
+        <li>Fit com ICP</li>
+      </ul>
+      
+      <h3>Qualificação</h3>
+      <ul>
+        <li><strong>BANT:</strong> Budget, Authority, Need, Timeline</li>
+        <li><strong>Validações:</strong> Automáticas e manuais</li>
+        <li><strong>Enriquecimento:</strong> Dados complementares</li>
+        <li><strong>Descarte:</strong> Leads não qualificados</li>
+      </ul>
+      
+      <h2>Resultados Alcançados</h2>
+      <ul>
+        <li><strong>Aumento de 65%</strong> na produtividade comercial</li>
+        <li><strong>Melhoria de 70%</strong> na previsibilidade</li>
+        <li><strong>Crescimento de 45%</strong> na conversão</li>
+        <li><strong>Redução de 50%</strong> no tempo de ciclo</li>
+        <li><strong>Elevação de 60%</strong> na qualidade do funil</li>
+      </ul>
+      
+      <h2>Depoimento</h2>
+      <p>"A integração entre TOTVS CRM e ERP transformou completamente nossa operação comercial. Agora temos dados unificados, processos estruturados e previsibilidade total nas vendas."</p>
+    `,
+    tags: ['CRM', 'Manufatura', 'Integração', 'Produtividade'],
+    destaque: true,
+    fonte: {
+      nome: 'Samtronic',
+      url: 'https://www.samtronic.com.br/blog-case-de-sucesso-totvs-e-samtronic/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
