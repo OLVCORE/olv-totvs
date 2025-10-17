@@ -96,6 +96,66 @@ const Hero = () => {
               Soluções TOTVS completas com consultoria especializada OLV.
             </p>
 
+            {/* Chat Elaborado - Consultoria Empresarial */}
+            <div className="mb-8 p-6 bg-gradient-to-r from-slate-800/50 to-slate-900/50 backdrop-blur-xl rounded-2xl border border-slate-700/50 shadow-2xl">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-amber-500/20 to-yellow-500/20 rounded-full flex items-center justify-center border border-amber-400/30 flex-shrink-0">
+                  <div className="w-8 h-8 bg-gradient-to-r from-amber-400 to-yellow-400 rounded-full flex items-center justify-center">
+                    <div className="w-4 h-4 bg-white rounded-full"></div>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-amber-400 mb-2 tracking-wide">
+                    CONSULTORIA PREMIUM
+                  </div>
+                  <div className="text-slate-300 leading-relaxed">
+                    <span className="text-white font-medium">Supply Chain, Comércio Exterior, Internacionalização e Inovação.</span> 
+                    <span className="block mt-2 text-amber-300 font-medium">Evoluímos Negócios.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Chat Tecnológico - Dashboards Inteligentes */}
+            <div className="mb-8 p-6 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 backdrop-blur-xl rounded-2xl border border-cyan-400/30 shadow-2xl">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-full flex items-center justify-center border border-cyan-400/30 flex-shrink-0">
+                  <div className="w-8 h-8 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full flex items-center justify-center">
+                    <div className="w-4 h-4 bg-white rounded-full"></div>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-cyan-400 mb-2 tracking-wide">
+                    DASHBOARDS INTELIGENTES
+                  </div>
+                  <div className="text-slate-300 leading-relaxed">
+                    <span className="text-white font-medium">Decisões baseadas em dados em tempo real.</span> 
+                    <span className="block mt-2 text-cyan-300 font-medium">Analytics Avançado + BI Integrado.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Chat de Resultados - ROI e Eficiência */}
+            <div className="mb-8 p-6 bg-gradient-to-r from-emerald-500/10 to-teal-500/10 backdrop-blur-xl rounded-2xl border border-emerald-400/30 shadow-2xl">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-full flex items-center justify-center border border-emerald-400/30 flex-shrink-0">
+                  <div className="w-8 h-8 bg-gradient-to-r from-emerald-400 to-teal-400 rounded-full flex items-center justify-center">
+                    <div className="w-4 h-4 bg-white rounded-full"></div>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="text-sm font-semibold text-emerald-400 mb-2 tracking-wide">
+                    +40% EFICIÊNCIA | ROI ALTO
+                  </div>
+                  <div className="text-slate-300 leading-relaxed">
+                    <span className="text-white font-medium">Em processos internos com retorno garantido.</span> 
+                    <span className="block mt-2 text-emerald-300 font-medium">Resultados Comprovados.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-6 mb-12">
               <Link 
                 href="/diagnostico" 

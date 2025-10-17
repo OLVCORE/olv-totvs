@@ -76,13 +76,13 @@ const Header = () => {
           <Link href="/" className="flex flex-col items-center group">
             <div className="relative">
               {/* Moldura redonda com hover dourado */}
-              <div className="w-20 h-20 rounded-full border-4 border-slate-600 bg-slate-800/50 p-3 group-hover:border-amber-400 group-hover:shadow-lg group-hover:shadow-amber-400/30 transition-all duration-300 group-hover:scale-105 overflow-hidden">
+              <div className="w-24 h-24 rounded-full border-4 border-slate-600 bg-slate-800/50 p-1 group-hover:border-amber-400 group-hover:shadow-lg group-hover:shadow-amber-400/30 transition-all duration-300 group-hover:scale-105 overflow-hidden">
                 {/* Logo original OLV - Imagem real do GitHub */}
                 <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative">
                   <img
                     src="/images/logo-olv-github.png"
                     alt="OLV Internacional Logo"
-                    className="w-full h-full object-contain rounded-full"
+                    className="w-full h-full object-cover rounded-full"
                   />
                 </div>
               </div>
@@ -93,7 +93,7 @@ const Header = () => {
             
             {/* Slogan em dourado abaixo da moldura */}
             <div className="hidden md:block mt-3">
-              <div className="text-sm font-light text-amber-400 tracking-wider leading-tight group-hover:text-yellow-300 transition-all duration-300 text-center">
+              <div className="text-xs font-medium text-amber-400 tracking-[0.2em] leading-tight group-hover:text-yellow-300 transition-all duration-300 text-center uppercase">
                 Integramos estratégia, operação e resultado
               </div>
             </div>
