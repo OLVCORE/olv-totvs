@@ -114,3 +114,4 @@ export function getDepoimentoBySolucao(solucao: string): Depoimento[] {
   return DEPOIMENTOS.filter(d => d.solucoes.includes(solucao));
 }
 
+
