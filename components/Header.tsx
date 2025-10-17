@@ -66,17 +66,17 @@ const Header = () => {
     <header
       className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${
         isScrolled
-          ? 'bg-slate-900/95 backdrop-blur-xl shadow-premium py-3'
-          : 'bg-slate-900/90 backdrop-blur-xl py-4'
+          ? 'bg-slate-900/95 backdrop-blur-xl shadow-premium py-2 sm:py-3'
+          : 'bg-slate-900/90 backdrop-blur-xl py-3 sm:py-4'
       }`}
     >
-      <nav className="container-custom">
+      <nav className="container-custom px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          {/* Premium Logo */}
+          {/* Premium Logo - Responsivo */}
           <Link href="/" className="flex flex-col items-center group">
             <div className="relative">
-              {/* Moldura redonda com hover dourado */}
-              <div className="w-24 h-24 rounded-full border-4 border-slate-600 bg-slate-800/50 p-1 group-hover:border-amber-400 group-hover:shadow-lg group-hover:shadow-amber-400/30 transition-all duration-300 group-hover:scale-105 overflow-hidden">
+              {/* Moldura redonda com hover dourado - Responsiva */}
+              <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full border-2 sm:border-3 md:border-4 border-slate-600 bg-slate-800/50 p-1 group-hover:border-amber-400 group-hover:shadow-lg group-hover:shadow-amber-400/30 transition-all duration-300 group-hover:scale-105 overflow-hidden">
                 {/* Logo original OLV - Imagem real do GitHub */}
                 <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative">
                   <img
@@ -91,16 +91,16 @@ const Header = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-amber-400/20 to-yellow-500/20 rounded-full opacity-0 group-hover:opacity-100 blur-sm transition-all duration-500 scale-110" />
             </div>
             
-            {/* Slogan em dourado abaixo da moldura */}
-            <div className="hidden md:block mt-3">
-              <div className="text-xs font-bold italic text-amber-400 whitespace-nowrap group-hover:text-yellow-300 transition-all duration-300">
+            {/* Slogan em dourado abaixo da moldura - Responsivo */}
+            <div className="hidden sm:block mt-2 sm:mt-3">
+              <div className="text-xs sm:text-xs font-bold italic text-amber-400 whitespace-nowrap group-hover:text-yellow-300 transition-all duration-300 text-center">
                 Integramos estratégia, operação e resultado
               </div>
             </div>
           </Link>
 
-          {/* Premium Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-2">
+          {/* Premium Desktop Navigation - Responsivo */}
+          <div className="hidden lg:flex items-center gap-1 xl:gap-2">
             {navigation.map((item) => (
               <div
                 key={item.name}
@@ -111,15 +111,15 @@ const Header = () => {
                 {item.dropdown ? (
                   <>
                     <button 
-                      className="flex items-center gap-2 px-5 py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow"
+                      className="flex items-center gap-1 xl:gap-2 px-3 xl:px-5 py-2 xl:py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow text-sm xl:text-base"
                       onClick={() => setOpenDropdown(openDropdown === item.name ? null : item.name)}
                     >
                       {item.name}
-                      <ChevronDown className={`w-4 h-4 transition-transform duration-300 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
+                      <ChevronDown className={`w-3 h-3 xl:w-4 xl:h-4 transition-transform duration-300 ${openDropdown === item.name ? 'rotate-180' : ''}`} />
                     </button>
                     {openDropdown === item.name && (
                       <div 
-                        className="absolute top-full left-0 mt-2 w-72 bg-slate-800/95 backdrop-blur-xl rounded-2xl shadow-premium py-3 border border-slate-700/50 animate-fade-in z-50"
+                        className="absolute top-full left-0 mt-2 w-64 xl:w-72 bg-slate-800/95 backdrop-blur-xl rounded-2xl shadow-premium py-3 border border-slate-700/50 animate-fade-in z-50"
                         onMouseEnter={() => setOpenDropdown(item.name)}
                         onMouseLeave={() => setOpenDropdown(null)}
                       >
@@ -127,7 +127,7 @@ const Header = () => {
                           <Link
                             key={subItem.name}
                             href={subItem.href}
-                            className="block px-5 py-3 text-sm text-slate-300 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-blue-500/10 hover:text-cyan-300 transition-all duration-300 font-medium"
+                            className="block px-4 xl:px-5 py-2 xl:py-3 text-xs xl:text-sm text-slate-300 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-blue-500/10 hover:text-cyan-300 transition-all duration-300 font-medium"
                             onClick={() => setOpenDropdown(null)}
                           >
                             {subItem.name}
@@ -139,7 +139,7 @@ const Header = () => {
                 ) : (
                   <Link
                     href={item.href}
-                    className="block px-5 py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow"
+                    className="block px-3 xl:px-5 py-2 xl:py-3 text-slate-300 hover:text-cyan-300 font-semibold transition-all duration-300 rounded-xl hover:bg-slate-800/50 hover:shadow-glow text-sm xl:text-base"
                   >
                     {item.name}
                   </Link>
@@ -148,35 +148,35 @@ const Header = () => {
             ))}
           </div>
 
-          {/* Premium CTA Button */}
+          {/* Premium CTA Button - Responsivo */}
           <div className="hidden lg:block">
             <Link 
               href="/diagnostico" 
-              className="group relative inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-glow hover:shadow-futuristic transition-all duration-300 hover:scale-105 animate-pulse"
+              className="group relative inline-flex items-center justify-center px-4 xl:px-6 py-2 xl:py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-glow hover:shadow-futuristic transition-all duration-300 hover:scale-105 animate-pulse text-xs xl:text-sm"
             >
               <span className="relative z-10 tracking-wide">PEÇA SEU DIAGNÓSTICO</span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Link>
           </div>
 
-          {/* Premium Mobile Menu Button */}
+          {/* Premium Mobile Menu Button - Responsivo */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-3 text-slate-300 hover:bg-slate-800/50 rounded-xl transition-all duration-300 hover:text-cyan-300"
+            className="lg:hidden p-2 sm:p-3 text-slate-300 hover:bg-slate-800/50 rounded-xl transition-all duration-300 hover:text-cyan-300"
             aria-label="Menu"
           >
             {isMobileMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-5 h-5 sm:w-6 sm:h-6" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-5 h-5 sm:w-6 sm:h-6" />
             )}
           </button>
         </div>
 
-        {/* Premium Mobile Menu */}
+        {/* Premium Mobile Menu - Responsivo */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden mt-6 pb-6 animate-fade-in">
-            <div className="flex flex-col gap-2">
+          <div className="lg:hidden mt-4 sm:mt-6 pb-4 sm:pb-6 animate-fade-in">
+            <div className="flex flex-col gap-1 sm:gap-2">
               {navigation.map((item) => (
                 <div key={item.name}>
                   {item.dropdown ? (
@@ -187,7 +187,7 @@ const Header = () => {
                             openDropdown === item.name ? null : item.name
                           )
                         }
-                        className="flex items-center justify-between w-full px-5 py-3 text-slate-300 hover:bg-slate-800/50 rounded-xl transition-all duration-300 font-semibold"
+                        className="flex items-center justify-between w-full px-4 sm:px-5 py-3 sm:py-3 text-slate-300 hover:bg-slate-800/50 rounded-xl transition-all duration-300 font-semibold text-sm sm:text-base"
                       >
                         {item.name}
                         <ChevronDown
@@ -197,12 +197,12 @@ const Header = () => {
                         />
                       </button>
                       {openDropdown === item.name && (
-                        <div className="ml-4 mt-2 flex flex-col gap-1">
+                        <div className="ml-3 sm:ml-4 mt-2 flex flex-col gap-1">
                           {item.dropdown.map((subItem) => (
                             <Link
                               key={subItem.name}
                               href={subItem.href}
-                              className="block px-5 py-3 text-sm text-slate-400 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-blue-500/10 hover:text-cyan-300 rounded-xl transition-all duration-300 font-medium"
+                              className="block px-4 sm:px-5 py-2 sm:py-3 text-xs sm:text-sm text-slate-400 hover:bg-gradient-to-r hover:from-cyan-500/10 hover:to-blue-500/10 hover:text-cyan-300 rounded-xl transition-all duration-300 font-medium"
                               onClick={() => setIsMobileMenuOpen(false)}
                             >
                               {subItem.name}
@@ -214,7 +214,7 @@ const Header = () => {
                   ) : (
                     <Link
                       href={item.href}
-                      className="block px-5 py-3 text-slate-300 hover:bg-slate-800/50 rounded-xl transition-all duration-300 font-semibold"
+                      className="block px-4 sm:px-5 py-3 sm:py-3 text-slate-300 hover:bg-slate-800/50 rounded-xl transition-all duration-300 font-semibold text-sm sm:text-base"
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
                       {item.name}
@@ -224,7 +224,7 @@ const Header = () => {
               ))}
               <Link
                 href="/diagnostico"
-                className="group relative inline-flex items-center justify-center px-6 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-glow hover:shadow-futuristic transition-all duration-300 hover:scale-105 mt-6"
+                className="group relative inline-flex items-center justify-center px-4 sm:px-6 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-bold rounded-xl shadow-glow hover:shadow-futuristic transition-all duration-300 hover:scale-105 mt-4 sm:mt-6 text-sm sm:text-base"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <span className="relative z-10 tracking-wide">PEÇA SEU DIAGNÓSTICO</span>
