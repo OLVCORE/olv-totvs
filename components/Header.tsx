@@ -80,13 +80,14 @@ const Header = () => {
                 {/* Logo original OLV - Imagem real */}
                 <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative bg-gradient-to-br from-amber-500 to-yellow-600">
                   <img
-                    src="/images/logo-olv.jpeg"
+                    src="/images/logo-olv.jpeg?v=1"
                     alt="OLV Internacional Logo"
                     className="w-full h-full object-contain rounded-full"
                     onError={(e) => {
-                      console.log('Erro ao carregar imagem:', e);
-                      e.currentTarget.src = '/images/logo-olv.png';
+                      console.log('Erro ao carregar JPEG, tentando PNG:', e);
+                      e.currentTarget.src = '/images/logo-olv.png?v=1';
                     }}
+                    onLoad={() => console.log('Logo carregado com sucesso!')}
                   />
                   {/* Fallback caso nenhuma imagem carregue */}
                   <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-xs opacity-0" id="logo-fallback">
