@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight, Play, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Hero = () => {
