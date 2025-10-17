@@ -213,11 +213,11 @@ const Hero = () => {
               </div>
               <div className="flex-1">
                 <div className="text-xs sm:text-sm font-semibold text-amber-400 mb-2 tracking-wide">
-                  CONSULTORIA PREMIUM
+                  CONSULTORIA PREMIUM OLV
                 </div>
                 <div className="text-slate-300 leading-relaxed text-sm sm:text-base">
-                  <span className="text-white font-medium">Supply Chain, Comércio Exterior, Internacionalização e Inovação.</span>
-                  <span className="block mt-2 text-amber-300 font-medium">Evoluímos Negócios.</span>
+                  <span className="text-white font-medium">Estratégia, Operações, Tecnologia e Pessoas</span>
+                  <span className="block mt-2 text-amber-300 font-medium">Integramos Visões em Resultados Concretos</span>
                 </div>
               </div>
             </div>
