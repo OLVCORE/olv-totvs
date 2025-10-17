@@ -1162,6 +1162,365 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/assinatura-eletronica-para-logistica/'
     }
   },
+
+  // ATENDIMENTO E CHATBOT
+  {
+    id: '19',
+    slug: 'whatsapp-escolas-rd-conversas',
+    titulo: 'WhatsApp para escolas (RD Conversas)',
+    subtitulo: 'Automação e IA para captação e atendimento no WhatsApp',
+    categoria: 'Atendimento e Chatbot',
+    autor: {
+      nome: 'Equipe RD Station',
+      cargo: 'Especialistas em Conversas',
+      avatar: '/images/avatars/rd-station.jpg',
+    },
+    data_publicacao: '2024-10-15',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/whatsapp-escolas.jpg',
+    resumo: 'Demonstra o uso de automações e IA em educação para agilizar comunicação, com integrações e atenção a privacidade. Exemplo setorial replicável para outros segmentos.',
+    conteudo: `
+      <p>O WhatsApp está revolucionando a comunicação nas escolas através de automações inteligentes e IA, oferecendo soluções práticas para captação e atendimento educacional.</p>
+      
+      <h2>Desafios da Comunicação Educacional</h2>
+      <ul>
+        <li>Alto volume de consultas repetitivas</li>
+        <li>Horários de atendimento limitados</li>
+        <li>Dificuldade na captação de alunos</li>
+        <li>Falta de personalização no atendimento</li>
+        <li>Conformidade com LGPD</li>
+      </ul>
+      
+      <h2>Solução RD Conversas</h2>
+      <p>Plataforma de automação e IA integrada ao WhatsApp, especialmente desenvolvida para o setor educacional.</p>
+      
+      <h2>Funcionalidades Principais</h2>
+      
+      <h3>Automação Inteligente</h3>
+      <ul>
+        <li>Respostas automáticas para dúvidas frequentes</li>
+        <li>Agendamento de visitas e reuniões</li>
+        <li>Envio de materiais informativos</li>
+        <li>Lembretes de prazos e eventos</li>
+      </ul>
+      
+      <h3>Captação de Alunos</h3>
+      <ul>
+        <li>Qualificação automática de leads</li>
+        <li>Jornadas personalizadas de conversão</li>
+        <li>Integração com CRM educacional</li>
+        <li>Follow-up automatizado</li>
+      </ul>
+      
+      <h3>Atendimento Humanizado</h3>
+      <ul>
+        <li>Transição suave para atendimento humano</li>
+        <li>Histórico completo de conversas</li>
+        <li>Contexto preservado entre atendentes</li>
+        <li>Métricas de satisfação</li>
+      </ul>
+      
+      <h2>Integrações Disponíveis</h2>
+      <ul>
+        <li><strong>CRM educacional:</strong> Gestão de relacionamento</li>
+        <li><strong>Sistema acadêmico:</strong> Dados de alunos</li>
+        <li><strong>Marketing automation:</strong> Campanhas segmentadas</li>
+        <li><strong>Analytics:</strong> Métricas de performance</li>
+      </ul>
+      
+      <h2>Privacidade e Conformidade</h2>
+      <ul>
+        <li><strong>LGPD compliance:</strong> Proteção total de dados</li>
+        <li><strong>Consentimento explícito:</strong> Opt-in obrigatório</li>
+        <li><strong>Criptografia:</strong> Comunicação segura</li>
+        <li><strong>Auditoria:</strong> Trilhas de acesso</li>
+      </ul>
+      
+      <h2>Benefícios Comprovados</h2>
+      <ul>
+        <li><strong>Redução de 70%</strong> no tempo de resposta</li>
+        <li><strong>Aumento de 45%</strong> na captação de leads</li>
+        <li><strong>Melhoria de 60%</strong> na satisfação</li>
+        <li><strong>Disponibilidade 24/7</strong> para consultas</li>
+      </ul>
+      
+      <h2>Aplicações Replicáveis</h2>
+      <p>Esta solução pode ser adaptada para outros segmentos como saúde, varejo e serviços, mantendo os mesmos princípios de automação e personalização.</p>
+    `,
+    tags: ['Chatbot', 'WhatsApp', 'Educação', 'Automação'],
+    destaque: true,
+    fonte: {
+      nome: 'RD Station',
+      url: 'https://www.rdstation.com/produtos/conversas/solucoes/whatsapp-para-escolas/'
+    }
+  },
+  {
+    id: '20',
+    slug: 'guia-marketing-conversacional-atendimento',
+    titulo: 'Guia: marketing conversacional',
+    subtitulo: 'Estratégia para conversas com IA e medição de ROI',
+    categoria: 'Atendimento e Chatbot',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em Marketing',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-10-10',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/marketing-conversacional-guia.jpg',
+    resumo: 'Ajuda a alinhar marketing, vendas e CX em cadência de conversas, padronizando experimentação e garantindo métricas robustas para escala.',
+    conteudo: `
+      <p>O marketing conversacional está transformando a forma como empresas se relacionam com clientes, oferecendo estratégias eficazes para conversas com IA e medição precisa de ROI.</p>
+      
+      <h2>Fundamentos do Marketing Conversacional</h2>
+      <p>Estratégia que utiliza IA para criar conversas personalizadas e eficazes, conectando marketing, vendas e experiência do cliente.</p>
+      
+      <h2>Alinhamento entre Áreas</h2>
+      
+      <h3>Marketing</h3>
+      <ul>
+        <li>Geração de leads qualificados</li>
+        <li>Nurturing automatizado</li>
+        <li>Segmentação inteligente</li>
+        <li>Campanhas conversacionais</li>
+      </ul>
+      
+      <h3>Vendas</h3>
+      <ul>
+        <li>Qualificação automática de leads</li>
+        <li>Agendamento de reuniões</li>
+        <li>Follow-up personalizado</li>
+        <li>Pipeline otimizado</li>
+      </ul>
+      
+      <h3>Experiência do Cliente (CX)</h3>
+      <ul>
+        <li>Atendimento proativo</li>
+        <li>Resolução rápida de problemas</li>
+        <li>Suporte personalizado</li>
+        <li>Fidelização de clientes</li>
+      </ul>
+      
+      <h2>Cadência de Conversas</h2>
+      
+      <h3>Planejamento</h3>
+      <ul>
+        <li>Definição de personas</li>
+        <li>Mapeamento de jornadas</li>
+        <li>Criação de fluxos</li>
+        <li>Estabelecimento de KPIs</li>
+      </ul>
+      
+      <h3>Execução</h3>
+      <ul>
+        <li>Ativação em múltiplos canais</li>
+        <li>Monitoramento em tempo real</li>
+        <li>Ajustes dinâmicos</li>
+        <li>Otimização contínua</li>
+      </ul>
+      
+      <h3>Medição</h3>
+      <ul>
+        <li>Análise de conversões</li>
+        <li>Métricas de engajamento</li>
+        <li>ROI por canal</li>
+        <li>Impacto na receita</li>
+      </ul>
+      
+      <h2>Padronização e Experimentação</h2>
+      
+      <h3>Metodologia Padronizada</h3>
+      <ul>
+        <li>Protocolos de teste</li>
+        <li>Variáveis controladas</li>
+        <li>Medição consistente</li>
+        <li>Documentação de resultados</li>
+      </ul>
+      
+      <h3>Experimentos Estruturados</h3>
+      <ul>
+        <li>Testes A/B em conversas</li>
+        <li>Segmentação por comportamento</li>
+        <li>Personalização dinâmica</li>
+        <li>Otimização automática</li>
+      </ul>
+      
+      <h2>Métricas Robustas</h2>
+      
+      <h3>Métricas de Conversa</h3>
+      <ul>
+        <li>Taxa de abertura</li>
+        <li>Taxa de resposta</li>
+        <li>Tempo de resposta</li>
+        <li>Satisfação do cliente</li>
+      </ul>
+      
+      <h3>Métricas de Negócio</h3>
+      <ul>
+        <li>Leads gerados</li>
+        <li>Taxa de conversão</li>
+        <li>CAC (Custo de Aquisição)</li>
+        <li>LTV (Lifetime Value)</li>
+      </ul>
+      
+      <h3>Métricas de Escala</h3>
+      <ul>
+        <li>Volume de conversas</li>
+        <li>Eficiência operacional</li>
+        <li>Custo por conversa</li>
+        <li>ROI total</li>
+      </ul>
+      
+      <h2>Benefícios da Estratégia</h2>
+      <ul>
+        <li><strong>Alinhamento:</strong> Marketing, vendas e CX sincronizados</li>
+        <li><strong>Eficiência:</strong> Processos automatizados</li>
+        <li><strong>Personalização:</strong> Experiências únicas</li>
+        <li><strong>Escalabilidade:</strong> Crescimento sustentável</li>
+        <li><strong>ROI mensurável:</strong> Resultados comprovados</li>
+      </ul>
+    `,
+    tags: ['Chatbot', 'IA', 'Funil', 'Marketing'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/marketing-conversacional/'
+    }
+  },
+  {
+    id: '21',
+    slug: '10-estrategias-cx-atendimento',
+    titulo: '10 estratégias de CX',
+    subtitulo: 'Dicas acionáveis para elevar a experiência com dados e automação',
+    categoria: 'Atendimento e Chatbot',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em CX',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-10-05',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/10-estrategias-cx.jpg',
+    resumo: 'Aborda mapeamento de jornada, personalização e automações que reduzem atrito, elevando satisfação e retenção com governança de dados.',
+    conteudo: `
+      <p>As estratégias de CX (Experiência do Cliente) estão sendo revolucionadas por dados e automação, oferecendo oportunidades únicas de elevar satisfação e retenção.</p>
+      
+      <h2>As 10 Estratégias de CX</h2>
+      
+      <h3>1. Mapeamento de Jornada do Cliente</h3>
+      <ul>
+        <li>Identificação de todos os touchpoints</li>
+        <li>Análise de pontos de atrito</li>
+        <li>Mapeamento de emoções</li>
+        <li>Otimização de cada etapa</li>
+      </ul>
+      
+      <h3>2. Personalização Baseada em Dados</h3>
+      <ul>
+        <li>Segmentação comportamental</li>
+        <li>Recomendações personalizadas</li>
+        <li>Conteúdo dinâmico</li>
+        <li>Experiências únicas</li>
+      </ul>
+      
+      <h3>3. Automação Inteligente</h3>
+      <ul>
+        <li>Chatbots conversacionais</li>
+        <li>Respostas automáticas</li>
+        <li>Workflows inteligentes</li>
+        <li>Escalação automática</li>
+      </ul>
+      
+      <h3>4. Comunicação Proativa</h3>
+      <ul>
+        <li>Alertas preventivos</li>
+        <li>Notificações relevantes</li>
+        <li>Atualizações em tempo real</li>
+        <li>Antecipação de necessidades</li>
+      </ul>
+      
+      <h3>5. Feedback Contínuo</h3>
+      <ul>
+        <li>Coleta automática de feedback</li>
+        <li>Análise de sentimento</li>
+        <li>Métricas de satisfação</li>
+        <li>Melhoria contínua</li>
+      </ul>
+      
+      <h3>6. Integração Omnichannel</h3>
+      <ul>
+        <li>Experiência consistente</li>
+        <li>Sincronização de dados</li>
+        <li>Contexto preservado</li>
+        <li>Transição suave entre canais</li>
+      </ul>
+      
+      <h3>7. Autoatendimento Inteligente</h3>
+      <ul>
+        <li>Bases de conhecimento dinâmicas</li>
+        <li>Busca inteligente</li>
+        <li>Tutoriais interativos</li>
+        <li>Resolução self-service</li>
+      </ul>
+      
+      <h3>8. Análise Preditiva</h3>
+      <ul>
+        <li>Identificação de churn</li>
+        <li>Predição de necessidades</li>
+        <li>Oportunidades de upsell</li>
+        <li>Intervenções preventivas</li>
+      </ul>
+      
+      <h3>9. Gamificação</h3>
+      <ul>
+        <li>Programas de fidelidade</li>
+        <li>Recompensas personalizadas</li>
+        <li>Desafios interativos</li>
+        <li>Engajamento aumentado</li>
+      </ul>
+      
+      <h3>10. Governança de Dados</h3>
+      <ul>
+        <li>Qualidade de dados</li>
+        <li>Privacidade e segurança</li>
+        <li>Compliance regulatório</li>
+        <li>Transparência total</li>
+      </ul>
+      
+      <h2>Redução de Atrito</h2>
+      <ul>
+        <li><strong>Identificação proativa:</strong> Antecipa problemas</li>
+        <li><strong>Resolução rápida:</strong> Minimiza tempo de solução</li>
+        <li><strong>Comunicação clara:</strong> Evita mal-entendidos</li>
+        <li><strong>Processos simplificados:</strong> Reduz etapas desnecessárias</li>
+      </ul>
+      
+      <h2>Elevação de Satisfação</h2>
+      <ul>
+        <li><strong>Experiências personalizadas:</strong> Relevância máxima</li>
+        <li><strong>Atendimento proativo:</strong> Antecipa necessidades</li>
+        <li><strong>Resolução eficiente:</strong> Soluções rápidas</li>
+        <li><strong>Feedback valorizado:</strong> Cliente ouvido</li>
+      </ul>
+      
+      <h2>Retenção de Clientes</h2>
+      <ul>
+        <li><strong>Relacionamento duradouro:</strong> Conexão emocional</li>
+        <li><strong>Valor contínuo:</strong> Benefícios constantes</li>
+        <li><strong>Experiências memoráveis:</strong> Momentos únicos</li>
+        <li><strong>Programas de fidelidade:</strong> Incentivos à permanência</li>
+      </ul>
+      
+      <h2>Impacto nos Resultados</h2>
+      <p>Empresas que implementaram essas estratégias reportam aumento de 40% na satisfação do cliente, redução de 30% no churn e crescimento de 25% na receita por cliente.</p>
+    `,
+    tags: ['CX', 'IA', 'Retenção', 'Atendimento'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/experiencia-do-cliente/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
