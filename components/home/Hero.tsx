@@ -253,11 +253,11 @@ const Hero = () => {
               </div>
               <div className="flex-1">
                 <div className="text-xs sm:text-sm font-semibold text-emerald-400 mb-2 tracking-wide">
-                  RESULTADOS ESTRATÉGICOS
+                  PARCERIA OLV + TOTVS
                 </div>
                 <div className="text-slate-300 leading-relaxed text-sm sm:text-base">
-                  <span className="text-white font-medium">Transformação digital com impacto mensurável.</span>
-                  <span className="block mt-2 text-emerald-300 font-medium">Evolução Comprovada.</span>
+                  <span className="text-white font-medium">Consultoria Estratégica com Tecnologia de Classe Mundial</span>
+                  <span className="block mt-2 text-emerald-300 font-medium">Transformação Digital com Resultados Mensuráveis</span>
                 </div>
               </div>
             </div>
