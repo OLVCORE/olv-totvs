@@ -3024,6 +3024,340 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.samtronic.com.br/blog-case-de-sucesso-totvs-e-samtronic/'
     }
   },
+
+  // FLUIG (BPM/ECM)
+  {
+    id: '32',
+    slug: 'bf-dias-automacao-fluig',
+    titulo: 'B&F Dias: automação com Fluig',
+    subtitulo: 'Padronização de processos e ganho de produtividade',
+    categoria: 'Fluig',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-08-10',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/bf-dias-fluig.jpg',
+    resumo: 'Integração RM + Fluig trouxe rastreabilidade, redução de riscos e velocidade em vendas, financeiro e faturamento. Exemplo direto de valor do BPM/ECM.',
+    conteudo: `
+      <p>A B&F Dias implementou Fluig integrado ao RM, obtendo automação de processos, padronização e ganhos significativos de produtividade em vendas, financeiro e faturamento.</p>
+      
+      <h2>Funcionalidades Implementadas</h2>
+      <ul>
+        <li>Workflows automatizados</li>
+        <li>Gestão documental completa</li>
+        <li>Aprovações hierárquicas</li>
+        <li>Rastreabilidade total</li>
+        <li>Integração com ERP RM</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>70% mais velocidade</strong> em aprovações</li>
+        <li><strong>60% redução</strong> de retrabalho</li>
+        <li><strong>80% menos papel</strong></li>
+        <li><strong>50% ganho</strong> em produtividade</li>
+      </ul>
+    `,
+    tags: ['Fluig', 'BPM', 'ECM', 'Automação'],
+    destaque: true,
+    fonte: {
+      nome: 'CRM Services',
+      url: 'https://crmservices.com.br/cases/bfdias/'
+    }
+  },
+  {
+    id: '33',
+    slug: 'notre-dame-bpm-ecm',
+    titulo: 'Notre Dame: BPM e ECM',
+    subtitulo: 'Solicitações e documentos com acesso móvel e governança',
+    categoria: 'Fluig',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-08-05',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/notre-dame-fluig.jpg',
+    resumo: 'Notícia sobre adoção na educação, reforçando versatilidade do Fluig para diferentes setores.',
+    conteudo: `
+      <p>O Colégio Notre Dame adotou Fluig para gestão de processos e documentos educacionais, com mobilidade e governança total.</p>
+      
+      <h2>Aplicações</h2>
+      <ul>
+        <li>Solicitações acadêmicas</li>
+        <li>Gestão documental</li>
+        <li>Aprovações pedagógicas</li>
+        <li>Acesso mobile</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Mobilidade total</strong></li>
+        <li><strong>Processos digitais</strong></li>
+        <li><strong>Governança completa</strong></li>
+        <li><strong>Rastreabilidade</strong></li>
+      </ul>
+    `,
+    tags: ['Fluig', 'Educação', 'Processos', 'Mobile'],
+    destaque: false,
+    fonte: {
+      nome: 'Baguete',
+      url: 'https://www.baguete.com.br/noticias/colegio-notre-dame-adota-fluig-da-totvs'
+    }
+  },
+  {
+    id: '34',
+    slug: 'certisign-fluig-sso',
+    titulo: 'Certisign: Fluig com SSO',
+    subtitulo: 'ECM/BPM com acesso único via certificado digital',
+    categoria: 'Fluig',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-07-30',
+    tempo_leitura: '4 min',
+    imagem_destaque: '/images/blog/certisign-fluig.jpg',
+    resumo: 'Integração segura e padronização de fluxos corporativos de conteúdo e processos, com alto volume documental.',
+    conteudo: `
+      <p>A Certisign implementou Fluig com SSO via certificado digital, garantindo segurança máxima na gestão de processos e documentos.</p>
+      
+      <h2>Segurança</h2>
+      <ul>
+        <li>SSO com certificado digital</li>
+        <li>Autenticação forte</li>
+        <li>Trilhas de auditoria</li>
+        <li>Conformidade total</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>Segurança máxima</strong></li>
+        <li><strong>Alto volume</strong> documental</li>
+        <li><strong>Processos padronizados</strong></li>
+        <li><strong>Conformidade garantida</strong></li>
+      </ul>
+    `,
+    tags: ['Fluig', 'Segurança', 'SSO', 'Certificação'],
+    destaque: false,
+    fonte: {
+      nome: 'Baguete',
+      url: 'https://www.baguete.com.br/noticias/certisign-adota-fluig-da-totvs'
+    }
+  },
+  {
+    id: '35',
+    slug: 'cr-almeida-contratos-fluig',
+    titulo: 'CR Almeida (EcoRodovias): contratos com Fluig',
+    subtitulo: 'Validações jurídicas aceleradas e intranet corporativa',
+    categoria: 'Fluig',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-07-25',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/cr-almeida-fluig.jpg',
+    resumo: 'Digitalização e padronização do ciclo de contratos com rastreabilidade, mitigando riscos e prazos em operações sensíveis e reguladas.',
+    conteudo: `
+      <p>A CR Almeida (EcoRodovias) digitalizou seu ciclo contratual com Fluig, acelerando validações jurídicas e criando uma intranet corporativa eficiente.</p>
+      
+      <h2>Processos Digitalizados</h2>
+      <ul>
+        <li>Ciclo de contratos completo</li>
+        <li>Validações jurídicas</li>
+        <li>Aprovações hierárquicas</li>
+        <li>Intranet corporativa</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>80% mais rápido</strong> em validações</li>
+        <li><strong>90% redução</strong> de riscos</li>
+        <li><strong>Conformidade</strong> regulatória</li>
+        <li><strong>Rastreabilidade</strong> total</li>
+      </ul>
+    `,
+    tags: ['Fluig', 'Jurídico', 'Contratos', 'Rodovias'],
+    destaque: true,
+    fonte: {
+      nome: 'Baguete',
+      url: 'https://www.baguete.com.br/noticias/cr-almeida-adota-fluig-da-totvs'
+    }
+  },
+
+  // iPaaS
+  {
+    id: '36',
+    slug: 'totvs-ipaas-integracao-low-code',
+    titulo: 'TOTVS iPaaS: integração sem fricção',
+    subtitulo: 'Integra ERP e apps com mapas, transformação e monitoramento',
+    categoria: 'iPaaS',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-07-20',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/totvs-ipaas.jpg',
+    resumo: 'Plataforma de integração Low Code com rastreabilidade, reprocessamento e dashboards em tempo real. Reduz custo de manutenção e riscos de interface.',
+    conteudo: `
+      <p>TOTVS iPaaS é uma plataforma de integração Low Code que conecta ERP e aplicações com facilidade, oferecendo rastreabilidade, transformação de dados e monitoramento em tempo real.</p>
+      
+      <h2>Funcionalidades</h2>
+      <ul>
+        <li>Integração Low Code</li>
+        <li>Mapas visuais de integração</li>
+        <li>Transformação de dados</li>
+        <li>Monitoramento em tempo real</li>
+        <li>Reprocessamento automático</li>
+        <li>Dashboards inteligentes</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>70% redução</strong> em custo de manutenção</li>
+        <li><strong>80% menos riscos</strong> de interface</li>
+        <li><strong>90% mais rápido</strong> para integrar</li>
+        <li><strong>Rastreabilidade</strong> completa</li>
+      </ul>
+    `,
+    tags: ['iPaaS', 'Integração', 'Observabilidade', 'LowCode'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/totvs-ipaas/'
+    }
+  },
+  {
+    id: '37',
+    slug: 'guia-pratico-ipaas',
+    titulo: 'Guia prático iPaaS',
+    subtitulo: 'Cenários de uso e ganhos de custo e confiabilidade',
+    categoria: 'iPaaS',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-07-15',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/guia-ipaas.jpg',
+    resumo: 'Artigo educacional para orientar estratégia de integração, governança de dados e escalabilidade.',
+    conteudo: `
+      <p>Guia completo sobre iPaaS, abordando cenários de uso, benefícios de custo e confiabilidade, além de melhores práticas para integração empresarial.</p>
+      
+      <h2>Cenários de Uso</h2>
+      <ul>
+        <li>Integração ERP com aplicações</li>
+        <li>Sincronização de dados</li>
+        <li>Automação de processos</li>
+        <li>APIs gerenciadas</li>
+      </ul>
+      
+      <h2>Ganhos</h2>
+      <ul>
+        <li><strong>Custo reduzido</strong></li>
+        <li><strong>Confiabilidade elevada</strong></li>
+        <li><strong>Escalabilidade garantida</strong></li>
+        <li><strong>Governança de dados</strong></li>
+      </ul>
+    `,
+    tags: ['iPaaS', 'ROI', 'Governança', 'Integração'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/totvs-ipaas/'
+    }
+  },
+  {
+    id: '38',
+    slug: 'ficha-tecnica-ipaas',
+    titulo: 'Tudo sobre iPaaS',
+    subtitulo: 'Funcionalidades e perfis de usuário em Low Code',
+    categoria: 'iPaaS',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-07-10',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/ficha-ipaas.jpg',
+    resumo: 'Ficha técnica detalhada para avaliação por TI e arquitetura, com aderência e esforço de implantação.',
+    conteudo: `
+      <p>Ficha técnica completa do TOTVS iPaaS, detalhando funcionalidades, perfis de usuário e características técnicas da plataforma.</p>
+      
+      <h2>Funcionalidades</h2>
+      <ul>
+        <li>Designer visual Low Code</li>
+        <li>Conectores pré-construídos</li>
+        <li>Transformação de dados</li>
+        <li>Monitoramento e logs</li>
+        <li>Reprocessamento automático</li>
+      </ul>
+      
+      <h2>Perfis</h2>
+      <ul>
+        <li><strong>Desenvolvedores:</strong> APIs e customizações</li>
+        <li><strong>Analistas:</strong> Configuração visual</li>
+        <li><strong>Gestores:</strong> Monitoramento e dashboards</li>
+      </ul>
+    `,
+    tags: ['iPaaS', 'Ficha', 'LowCode', 'Técnica'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Produtos',
+      url: 'https://produtos.totvs.com/ficha-tecnica/tudo-sobre-o-totvs-ipaas/'
+    }
+  },
+  {
+    id: '39',
+    slug: 'demo-ipaas-1-minuto',
+    titulo: 'Demo 1 minuto: iPaaS',
+    subtitulo: 'Demonstração objetiva para públicos técnicos e não técnicos',
+    categoria: 'iPaaS',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-07-05',
+    tempo_leitura: '2 min',
+    imagem_destaque: '/images/blog/demo-ipaas.jpg',
+    resumo: 'Vídeo rápido que tangibiliza valor, gatilho de interesse para pilotos de integração e adoção gradual.',
+    conteudo: `
+      <p>Demonstração rápida de 1 minuto do TOTVS iPaaS, mostrando na prática como a plataforma facilita integrações empresariais.</p>
+      
+      <h2>Destaques da Demo</h2>
+      <ul>
+        <li>Interface visual intuitiva</li>
+        <li>Criação de integração em minutos</li>
+        <li>Monitoramento em tempo real</li>
+        <li>Facilidade de uso</li>
+      </ul>
+      
+      <h2>Time to Value</h2>
+      <ul>
+        <li><strong>Minutos</strong> para primeira integração</li>
+        <li><strong>Horas</strong> para piloto</li>
+        <li><strong>Dias</strong> para produção</li>
+      </ul>
+    `,
+    tags: ['iPaaS', 'Demo', 'TimeToValue', 'Vídeo'],
+    destaque: false,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=dmYkLXMSrbg'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
