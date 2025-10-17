@@ -5012,954 +5012,738 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.infomoney.com.br/negocios/ceo-da-rd-station-venda-a-totvs-mostra-que-sucesso-na-tecnologia-vai-alem-das-empresas-pops-como-facebook/'
     }
   },
+
+  // TRANSFORMAÇÃO DIGITAL
   {
-    id: '3',
-    slug: 'chat-commerce-ia',
-    titulo: 'Chat Commerce com IA',
-    subtitulo: 'IA em canais de mensagem para qualificar leads e aumentar conversão',
-    categoria: 'Inteligência Artificial',
+    id: '81',
+    slug: 'transformacao-digital-guia-completo',
+    titulo: 'Guia de Transformação Digital',
+    subtitulo: 'Passo a passo para digitalizar sua empresa',
+    categoria: 'Transformação Digital',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Especialistas em IA',
+      cargo: 'Estratégia',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2025-01-05',
-    tempo_leitura: '7 min',
-    imagem_destaque: '/images/blog/chat-commerce.jpg',
-    resumo: 'Mostra como conversas inteligentes impulsionam receita e reduzem custos de atendimento. Integrações com CRM e ERP, automação de dúvidas frequentes e orquestração de jornadas de compra em canais preferidos do cliente.',
+    data_publicacao: '2023-12-03',
+    tempo_leitura: '15 min',
+    imagem_destaque: '/images/blog/transformacao-digital.jpg',
+    resumo: 'Guia completo abordando estratégias, tecnologias e melhores práticas para transformação digital empresarial.',
     conteudo: `
-      <p>O Chat Commerce com IA está revolucionando a forma como as empresas interagem com seus clientes, oferecendo experiências personalizadas e conversões mais eficientes.</p>
+      <p>Transformação digital é essencial para competitividade. Este guia oferece passo a passo completo para digitalizar sua empresa.</p>
       
-      <h2>O que é Chat Commerce?</h2>
-      <p>Chat Commerce integra IA aos canais de mensagem para qualificar leads, responder dúvidas e elevar conversão, automatizando o atendimento e conectando-se ao funil de vendas.</p>
-      
-      <h2>Benefícios Comprovados</h2>
+      <h2>Etapas</h2>
       <ul>
-        <li><strong>Aumento de receita</strong> através de conversas inteligentes</li>
-        <li><strong>Redução de custos</strong> de atendimento</li>
-        <li><strong>Integrações completas</strong> com CRM e ERP</li>
-        <li><strong>Automação de dúvidas</strong> frequentes</li>
-        <li><strong>Orquestração de jornadas</strong> de compra</li>
+        <li>Assessment digital</li>
+        <li>Estratégia e roadmap</li>
+        <li>Implementação por ondas</li>
+        <li>Gestão de mudança</li>
+        <li>Melhoria contínua</li>
       </ul>
       
-      <h2>Canais Preferidos</h2>
-      <p>As conversas acontecem nos canais que os clientes mais preferem, garantindo maior engajamento e satisfação.</p>
-      
-      <h2>Resultados Mensuráveis</h2>
-      <p>Empresas que implementaram Chat Commerce reportam aumento de 35% na conversão e redução de 40% nos custos de atendimento.</p>
-    `,
-    tags: ['IA', 'Vendas', 'Conversacional', 'Varejo'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS',
-      url: 'https://www.totvs.com/chat-commerce/'
-    }
-  },
-  {
-    id: '4',
-    slug: 'guia-marketing-conversacional',
-    titulo: 'Guia: marketing conversacional',
-    subtitulo: 'Estratégias para estruturar conversas com IA e medir resultados',
-    categoria: 'Inteligência Artificial',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Especialistas em Marketing',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2025-01-01',
-    tempo_leitura: '10 min',
-    imagem_destaque: '/images/blog/marketing-conversacional.jpg',
-    resumo: 'Passo a passo para planejar, executar e acompanhar conversas com IA em WhatsApp, site e redes sociais. Padroniza o aprendizado e reduz atritos entre marketing, vendas e CX, com foco em ROI e escalabilidade.',
-    conteudo: `
-      <p>O marketing conversacional está revolucionando a forma como as empresas se relacionam com seus clientes, oferecendo experiências personalizadas e resultados mensuráveis.</p>
-      
-      <h2>O que é Marketing Conversacional?</h2>
-      <p>É uma estratégia que utiliza IA para criar conversas inteligentes e personalizadas, conectando marketing, vendas e experiência do cliente.</p>
-      
-      <h2>Estratégias Práticas</h2>
+      <h2>Tecnologias</h2>
       <ul>
-        <li><strong>Planejamento:</strong> Definição de objetivos e KPIs</li>
-        <li><strong>Execução:</strong> Implementação em múltiplos canais</li>
-        <li><strong>Acompanhamento:</strong> Métricas e otimização contínua</li>
-        <li><strong>Escalabilidade:</strong> Padronização e automação</li>
+        <li><strong>ERP em nuvem</strong></li>
+        <li><strong>BI e Analytics</strong></li>
+        <li><strong>IA e automação</strong></li>
+        <li><strong>Integrações</strong></li>
       </ul>
       
-      <h2>Canais de Atuação</h2>
+      <h2>Benefícios</h2>
       <ul>
-        <li>WhatsApp Business</li>
-        <li>Sites e landing pages</li>
-        <li>Redes sociais</li>
-        <li>Chatbots integrados</li>
-      </ul>
-      
-      <h2>Benefícios Comprovados</h2>
-      <ul>
-        <li>Redução de atritos entre áreas</li>
-        <li>ROI mensurável</li>
-        <li>Escalabilidade garantida</li>
-        <li>Experiência personalizada</li>
+        <li><strong>Competitividade elevada</strong></li>
+        <li><strong>Eficiência operacional</strong></li>
+        <li><strong>Experiência do cliente</strong></li>
+        <li><strong>Inovação contínua</strong></li>
       </ul>
     `,
-    tags: ['IA', 'Marketing', 'Funil', 'Conversacional'],
+    tags: ['Transformação', 'Digital', 'Estratégia', 'Inovação'],
     destaque: true,
     fonte: {
       nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/negocios/marketing-conversacional/'
+      url: 'https://www.totvs.com/blog/negocios/transformacao-digital/'
     }
   },
   {
-    id: '5',
-    slug: '10-estrategias-cx-ia',
-    titulo: '10 estratégias de CX com IA',
-    subtitulo: 'Táticas acionáveis para elevar CX com dados e automação',
-    categoria: 'Inteligência Artificial',
+    id: '82',
+    slug: 'gestao-financeira-moderna',
+    titulo: 'Gestão Financeira Moderna',
+    subtitulo: 'Automação e inteligência para CFOs',
+    categoria: 'Gestão Financeira',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Especialistas em CX',
+      cargo: 'Finanças',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-12-28',
+    data_publicacao: '2023-11-28',
     tempo_leitura: '12 min',
-    imagem_destaque: '/images/blog/cx-ia.jpg',
-    resumo: 'Conteúdo prático com 10 táticas de CX orientadas por IA, conectando tecnologia a retenção e NPS. Ajuda a transformar iniciativas de atendimento em ganhos mensuráveis de fidelização e valor de vida do cliente.',
+    imagem_destaque: '/images/blog/gestao-financeira.jpg',
+    resumo: 'Guia completo sobre gestão financeira moderna com automação, BI e integração, oferecendo melhores práticas para CFOs.',
     conteudo: `
-      <p>A experiência do cliente (CX) está sendo revolucionada pela Inteligência Artificial, oferecendo oportunidades únicas de personalização e eficiência.</p>
+      <p>Gestão financeira moderna combina automação, BI e integração para oferecer visibilidade e controle total ao CFO.</p>
       
-      <h2>As 10 Estratégias de CX com IA</h2>
+      <h2>Pilares</h2>
+      <ul>
+        <li>Automação de processos</li>
+        <li>BI financeiro</li>
+        <li>Integração ERP</li>
+        <li>Governança e compliance</li>
+      </ul>
       
-      <h3>1. Personalização em Tempo Real</h3>
-      <p>IA analisa comportamento e oferece experiências personalizadas instantaneamente.</p>
-      
-      <h3>2. Atendimento Proativo</h3>
-      <p>Antecipa necessidades do cliente antes mesmo que ele as expresse.</p>
-      
-      <h3>3. Análise de Sentimento</h3>
-      <p>Monitora emoções em tempo real para ajustar estratégias.</p>
-      
-      <h3>4. Recomendações Inteligentes</h3>
-      <p>Sugere produtos e serviços baseados em padrões de comportamento.</p>
-      
-      <h3>5. Automação de Respostas</h3>
-      <p>Resolve consultas comuns automaticamente com alta precisão.</p>
-      
-      <h3>6. Predição de Churn</h3>
-      <p>Identifica clientes em risco de cancelamento com antecedência.</p>
-      
-      <h3>7. Otimização de Canais</h3>
-      <p>Direciona clientes para o canal mais eficiente para cada situação.</p>
-      
-      <h3>8. Análise de Jornada</h3>
-      <p>Mapeia e otimiza cada etapa da experiência do cliente.</p>
-      
-      <h3>9. Feedback Inteligente</h3>
-      <p>Coleta e analisa feedback de forma contínua e automatizada.</p>
-      
-      <h3>10. Métricas Avançadas</h3>
-      <p>Monitora KPIs complexos como NPS e valor de vida do cliente.</p>
-      
-      <h2>Impacto nos Resultados</h2>
-      <p>Empresas que implementaram essas estratégias reportam aumento de 40% no NPS e redução de 30% no churn.</p>
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Visibilidade em tempo real</strong></li>
+        <li><strong>Decisões mais rápidas</strong></li>
+        <li><strong>Redução de erros</strong></li>
+        <li><strong>Compliance garantido</strong></li>
+      </ul>
     `,
-    tags: ['IA', 'CX', 'NPS', 'Retenção'],
+    tags: ['Finanças', 'CFO', 'Automação', 'BI'],
     destaque: true,
     fonte: {
       nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-varejista/experiencia-do-cliente/'
+      url: 'https://www.totvs.com/blog/negocios/gestao-financeira/'
     }
   },
   {
-    id: '6',
-    slug: 'kapazi-eficiencia-industrial-erp',
-    titulo: 'Kapazi: eficiência industrial com ERP',
-    subtitulo: 'Integração de planejamento, produção, compras, estoque e vendas',
-    categoria: 'ERP',
+    id: '83',
+    slug: 'cybersecurity-empresarial',
+    titulo: 'Cybersecurity Empresarial',
+    subtitulo: 'Proteção de dados e conformidade LGPD',
+    categoria: 'Segurança',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
+      cargo: 'Segurança',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-12-20',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/kapazi-erp.jpg',
-    resumo: 'ERP TOTVS + mais de 30 soluções integradas elevaram produtividade, visibilidade e governança. Case robusto para manufatura com mix amplo e processos complexos, reduzindo retrabalho e acelerando decisões com dados confiáveis.',
-    conteudo: `
-      <p>A Kapazi, empresa do setor industrial, implementou uma solução integrada com ERP TOTVS e mais de 30 soluções conectadas, transformando completamente sua operação.</p>
-      
-      <h2>Desafios da Integração</h2>
-      <ul>
-        <li>Sistemas desconectados entre departamentos</li>
-        <li>Falta de visibilidade entre planejamento e execução</li>
-        <li>Retrabalho constante por inconsistências</li>
-        <li>Dificuldade no controle de custos e prazos</li>
-        <li>Falta de governança de dados</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>Implementação do ERP TOTVS com integração de mais de 30 soluções, conectando planejamento, produção, vendas e todas as áreas operacionais.</p>
-      
-      <h2>Resultados Obtidos</h2>
-      <ul>
-        <li><strong>Mais visibilidade</strong> em toda a operação</li>
-        <li><strong>Redução significativa</strong> de retrabalho</li>
-        <li><strong>Controle rigoroso</strong> sobre custos e prazos</li>
-        <li><strong>Integração ponta a ponta</strong> da cadeia</li>
-        <li><strong>Ciclo encurtado</strong> entre demanda e atendimento</li>
-        <li><strong>Melhoria do S&OP</strong> (Sales & Operations Planning)</li>
-        <li><strong>Governança de dados</strong> robusta</li>
-        <li><strong>Crescimento com qualidade</strong> sustentável</li>
-      </ul>
-      
-      <h2>Impacto na Supply Chain</h2>
-      <p>Em supply chain, a integração de ponta a ponta encurta o ciclo entre demanda e atendimento, melhora o S&OP e a governança de dados, suportando crescimento com qualidade.</p>
-    `,
-    tags: ['ERP', 'Indústria', 'PCP', 'Supply'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
-    }
-  },
-  {
-    id: '7',
-    slug: 'lorenzetti-automacao-governanca',
-    titulo: 'Lorenzetti: automação e governança',
-    subtitulo: 'Automação centralizada com ganhos de padronização e controle',
-    categoria: 'ERP',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-15',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/lorenzetti-automacao.jpg',
-    resumo: 'Plataforma TOTVS padronizou processos entre compras, fiscal e finanças. Melhor qualidade de dados, menos erros e retrabalho, sustentando crescimento e conformidade, com integração transversal de processos críticos.',
-    conteudo: `
-      <p>A Lorenzetti, empresa líder em equipamentos para banheiro e cozinha, implementou uma solução integrada TOTVS para centralizar e automatizar seus processos.</p>
-      
-      <h2>Desafios de Governança</h2>
-      <ul>
-        <li>Processos não padronizados entre departamentos</li>
-        <li>Falta de governança entre compras, financeiro e fiscal</li>
-        <li>Qualidade de dados inconsistente</li>
-        <li>Integrações complexas e custosas</li>
-        <li>Erros frequentes e retrabalho</li>
-        <li>Falta de visibilidade integrada</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>Centralização de todas as automações em uma única plataforma TOTVS, integrando compras, financeiro e fiscal.</p>
-      
-      <h2>Resultados Obtidos</h2>
-      <ul>
-        <li><strong>Processos padronizados</strong> em toda a organização</li>
-        <li><strong>Governança elevada</strong> entre áreas</li>
-        <li><strong>Maior qualidade de dados</strong> e consistência</li>
-        <li><strong>Integrações simplificadas</strong> e eficientes</li>
-        <li><strong>Redução de erros</strong> e retrabalho</li>
-        <li><strong>Visibilidade integrada</strong> de todas as operações</li>
-        <li><strong>Previsibilidade de caixa</strong> melhorada</li>
-      </ul>
-      
-      <h2>Impacto em Compras Estratégicas</h2>
-      <p>Para compras estratégicas, o case demonstra como ERP e boas práticas fortalecem negociações, contratos, compliance e previsibilidade de caixa.</p>
-    `,
-    tags: ['ERP', 'Compras', 'Backoffice', 'Governança'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/negocios/case-de-sucesso-lorenzetti/'
-    }
-  },
-  {
-    id: '8',
-    slug: 'blue-ville-automacao-dados-confiaveis',
-    titulo: 'Blue Ville: automação e dados confiáveis',
-    subtitulo: 'Decisão do campo ao backoffice com dados integrados',
-    categoria: 'ERP',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-10',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/blue-ville-erp.jpg',
-    resumo: 'ERP setorial e análise fortalecem previsibilidade e controle de custos na cadeia, conectando demanda, produção e distribuição. Reduz variabilidade, melhora atendimento e governança em toda a operação.',
-    conteudo: `
-      <p>A Blue Ville, empresa do setor agroalimentar, implementou ERP setorial TOTVS para integrar operações do campo ao backoffice, obtendo resultados impressionantes em previsibilidade e controle.</p>
-      
-      <h2>Desafios da Integração</h2>
-      <ul>
-        <li>Falta de integração entre campo e backoffice</li>
-        <li>Dificuldade no controle de custos da cadeia</li>
-        <li>Variabilidade operacional elevada</li>
-        <li>Previsibilidade limitada</li>
-        <li>Atendimento inconsistente</li>
-        <li>Falta de governança integrada</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>Implementação de ERP setorial com análise avançada, conectando demanda, produção e distribuição em uma única plataforma.</p>
-      
-      <h2>Resultados Alcançados</h2>
-      <ul>
-        <li><strong>Previsibilidade</strong> elevada em toda a operação</li>
-        <li><strong>Controle rigoroso</strong> de custos na cadeia</li>
-        <li><strong>Conexão completa</strong> entre demanda, produção e distribuição</li>
-        <li><strong>Redução significativa</strong> da variabilidade</li>
-        <li><strong>Melhoria do atendimento</strong> ao cliente</li>
-        <li><strong>Governança robusta</strong> em toda a operação</li>
-      </ul>
-      
-      <h2>Impacto na Cadeia</h2>
-      <p>O ERP setorial permite decisões mais precisas e rápidas, conectando o campo ao backoffice de forma eficiente e confiável.</p>
-    `,
-    tags: ['ERP', 'Agro', 'Supply', 'Custos'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-agricola/case-de-sucesso-blue-ville/'
-    }
-  },
-  {
-    id: '9',
-    slug: 'laticinios-aviacao-integracao-produtiva',
-    titulo: 'Laticínios Aviação: integração produtiva',
-    subtitulo: 'Integração entre áreas aumenta produtividade e controle',
-    categoria: 'ERP',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-05',
-    tempo_leitura: '5 min',
-    imagem_destaque: '/images/blog/laticinios-aviacao.jpg',
-    resumo: 'Integração de processos sustenta padrões de qualidade e expansão com visibilidade gerencial. Demonstra como a padronização reduz erros e acelera o fluxo decisório no setor de alimentos.',
-    conteudo: `
-      <p>Os Laticínios Aviação implementaram uma solução integrada TOTVS que conecta todas as áreas operacionais, obtendo resultados significativos em produtividade e controle.</p>
-      
-      <h2>Desafios da Integração</h2>
-      <ul>
-        <li>Processos desconectados entre áreas</li>
-        <li>Falta de visibilidade gerencial</li>
-        <li>Dificuldade em manter padrões de qualidade</li>
-        <li>Fluxo decisório lento</li>
-        <li>Erros operacionais frequentes</li>
-        <li>Dificuldade na expansão</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>Integração completa entre produção, estoque, faturamento e fiscal, conectando todas as áreas operacionais em uma única plataforma.</p>
-      
-      <h2>Resultados Obtidos</h2>
-      <ul>
-        <li><strong>Integração entre áreas</strong> completa</li>
-        <li><strong>Produtividade aumentada</strong> significativamente</li>
-        <li><strong>Controle rigoroso</strong> de processos</li>
-        <li><strong>Padrões de qualidade</strong> sustentados</li>
-        <li><strong>Expansão</strong> facilitada</li>
-        <li><strong>Visibilidade gerencial</strong> em tempo real</li>
-        <li><strong>Redução de erros</strong> operacionais</li>
-        <li><strong>Fluxo decisório</strong> acelerado</li>
-      </ul>
-      
-      <h2>Impacto no Setor de Alimentos</h2>
-      <p>O case demonstra como a padronização reduz erros e acelera o fluxo decisório no setor de alimentos, sustentando crescimento com qualidade.</p>
-    `,
-    tags: ['ERP', 'Alimentos', 'Produção', 'Integração'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-laticinios-aviacao/'
-    }
-  },
-  {
-    id: '10',
-    slug: 'testato-erp-bi-admissao-digital',
-    titulo: 'Testato: Protheus + Fast Analytics',
-    subtitulo: 'Padronização de processos e análises com BI acoplado ao ERP',
-    categoria: 'Analytics',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-01',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/testato-erp-bi.jpg',
-    resumo: 'Combinação de ERP + Analytics + Admissão Digital reduz esforço manual, melhora qualidade de dados e acelera decisões em finanças, operações e RH, com painéis confiáveis e governança.',
-    conteudo: `
-      <p>A Testato implementou uma solução integrada com Protheus, Fast Analytics e Admissão Digital, obtendo resultados impressionantes em padronização e análise de dados.</p>
-      
-      <h2>Desafios da Integração</h2>
-      <ul>
-        <li>Processos não padronizados</li>
-        <li>Esforço manual excessivo</li>
-        <li>Qualidade de dados inconsistente</li>
-        <li>Decisões baseadas em informações desatualizadas</li>
-        <li>Falta de painéis confiáveis</li>
-        <li>Governança limitada</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>Combinação estratégica de Protheus (ERP), Fast Analytics (BI) e Admissão Digital, criando uma solução integrada e eficiente.</p>
-      
-      <h2>Resultados Alcançados</h2>
-      <ul>
-        <li><strong>Processos padronizados</strong> em toda a organização</li>
-        <li><strong>Redução significativa</strong> do esforço manual</li>
-        <li><strong>Melhoria da qualidade</strong> dos dados</li>
-        <li><strong>Decisões aceleradas</strong> em finanças, operações e RH</li>
-        <li><strong>Painéis confiáveis</strong> e em tempo real</li>
-        <li><strong>Governança robusta</strong> de dados</li>
-      </ul>
-      
-      <h2>Impacto nos Diferentes Áreas</h2>
-      <ul>
-        <li><strong>Finanças:</strong> Análises mais precisas e rápidas</li>
-        <li><strong>Operações:</strong> Visibilidade completa dos processos</li>
-        <li><strong>RH:</strong> Gestão digital de admissões</li>
-      </ul>
-    `,
-    tags: ['BI', 'ERP', 'RH', 'Analytics'],
-    destaque: true,
-    fonte: {
-      nome: 'Revista Fator Brasil',
-      url: 'https://www.revistafatorbrasil.com.br/2023/09/15/testato-adota-erp-sistema-de-bi-e-solucao-para-admissao-digital-da-totvs/'
-    }
-  },
-  {
-    id: '11',
-    slug: 'guia-bi-fundamentos-aplicacoes',
-    titulo: 'Guia BI: fundamentos e aplicações',
-    subtitulo: 'Arquitetura de dados e aplicações por área',
-    categoria: 'Analytics',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Especialistas em BI',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-11-25',
+    data_publicacao: '2023-11-23',
     tempo_leitura: '10 min',
-    imagem_destaque: '/images/blog/guia-bi.jpg',
-    resumo: 'Guia que explica arquitetura de BI, integração de fontes, construção de painéis e indicadores por área (finanças, vendas, operações). Excelente apoio para padronizar KPIs e gestão à vista.',
+    imagem_destaque: '/images/blog/cybersecurity.jpg',
+    resumo: 'Guia essencial sobre cybersecurity empresarial, abordando proteção de dados, LGPD e melhores práticas de segurança.',
     conteudo: `
-      <p>O Business Intelligence (BI) está se tornando essencial para empresas que desejam tomar decisões baseadas em dados e obter vantagem competitiva.</p>
+      <p>Cybersecurity é crítico para empresas modernas. Este guia aborda proteção de dados, LGPD e práticas essenciais.</p>
       
-      <h2>Fundamentos do BI</h2>
-      
-      <h3>Arquitetura de Dados</h3>
-      <p>Estrutura que permite coletar, processar e analisar dados de diferentes fontes de forma eficiente e confiável.</p>
-      
-      <h3>Integração de Fontes</h3>
-      <p>Conecta sistemas diferentes para criar uma visão unificada dos dados empresariais.</p>
-      
-      <h2>Construção de Painéis</h2>
-      
-      <h3>Finanças</h3>
+      <h2>Pilares de Segurança</h2>
       <ul>
-        <li>Fluxo de caixa em tempo real</li>
-        <li>Análise de margens</li>
-        <li>Previsão de receitas</li>
-        <li>Controle de custos</li>
+        <li>Proteção de dados</li>
+        <li>Controle de acesso</li>
+        <li>Monitoramento contínuo</li>
+        <li>Resposta a incidentes</li>
       </ul>
       
-      <h3>Vendas</h3>
+      <h2>LGPD Compliance</h2>
       <ul>
-        <li>Pipeline de vendas</li>
-        <li>Performance por vendedor</li>
-        <li>Análise de conversão</li>
-        <li>Previsão de vendas</li>
+        <li><strong>Mapeamento de dados</strong></li>
+        <li><strong>Consentimento</strong></li>
+        <li><strong>Direitos dos titulares</strong></li>
+        <li><strong>Relatórios de impacto</strong></li>
       </ul>
       
-      <h3>Operações</h3>
+      <h2>Benefícios</h2>
       <ul>
-        <li>Eficiência operacional</li>
-        <li>Controle de qualidade</li>
-        <li>Gestão de estoque</li>
-        <li>Produtividade</li>
+        <li><strong>Dados protegidos</strong></li>
+        <li><strong>Conformidade total</strong></li>
+        <li><strong>Confiança do cliente</strong></li>
+        <li><strong>Riscos mitigados</strong></li>
       </ul>
-      
-      <h2>Padronização de KPIs</h2>
-      <p>Estabelece indicadores consistentes para garantir que todas as áreas falem a mesma linguagem.</p>
-      
-      <h2>Gestão à Vista</h2>
-      <p>Permite que gestores tenham acesso imediato às informações necessárias para tomada de decisão.</p>
     `,
-    tags: ['Analytics', 'BI', 'KPIs', 'Gestão'],
+    tags: ['Segurança', 'LGPD', 'Cyber', 'Proteção'],
     destaque: true,
     fonte: {
       nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/negocios/business-intelligence/'
+      url: 'https://www.totvs.com/blog/negocios/cybersecurity/'
     }
   },
   {
-    id: '12',
-    slug: 'webinar-bi-erp',
-    titulo: 'Webinar: BI feito para seu ERP',
-    subtitulo: 'Como explorar dados do ERP e padronizar KPIs',
+    id: '84',
+    slug: 'erp-legado-migracao-moderna',
+    titulo: 'ERP Legado: migração moderna',
+    subtitulo: 'Como migrar de sistemas legados para soluções modernas',
+    categoria: 'ERP',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Modernização',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-11-18',
+    tempo_leitura: '14 min',
+    imagem_destaque: '/images/blog/erp-legado.jpg',
+    resumo: 'Guia estratégico para migração de sistemas legados para ERPs modernos, abordando planejamento, execução e gestão de mudança.',
+    conteudo: `
+      <p>Migração de ERP legado para soluções modernas requer planejamento estratégico. Este guia oferece roadmap completo.</p>
+      
+      <h2>Planejamento</h2>
+      <ul>
+        <li>Assessment atual</li>
+        <li>Definição de escopo</li>
+        <li>Roadmap de migração</li>
+        <li>Gestão de mudança</li>
+      </ul>
+      
+      <h2>Execução</h2>
+      <ul>
+        <li><strong>Migração por ondas</strong></li>
+        <li><strong>Testes rigorosos</strong></li>
+        <li><strong>Treinamento de usuários</strong></li>
+        <li><strong>Go-live controlado</strong></li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Tecnologia moderna</strong></li>
+        <li><strong>Processos otimizados</strong></li>
+        <li><strong>Custos reduzidos</strong></li>
+        <li><strong>Inovação habilitada</strong></li>
+      </ul>
+    `,
+    tags: ['ERP', 'Migração', 'Legado', 'Modernização'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/erp/migracao-erp-legado/'
+    }
+  },
+  {
+    id: '85',
+    slug: 'analytics-decisao-estrategica',
+    titulo: 'Analytics para Decisão Estratégica',
+    subtitulo: 'Como usar dados para decisões de negócio',
     categoria: 'Analytics',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Especialistas em BI',
+      cargo: 'BI',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-11-20',
-    tempo_leitura: '45 min',
-    imagem_destaque: '/images/blog/webinar-bi-erp.jpg',
-    resumo: 'Demonstra a prática de conectar BI ao ERP para acelerar decisões e institucionalizar rituais de performance, com painéis replicáveis e data literacy para áreas de negócio.',
+    data_publicacao: '2023-11-13',
+    tempo_leitura: '11 min',
+    imagem_destaque: '/images/blog/analytics-decisao.jpg',
+    resumo: 'Guia prático sobre como usar analytics para decisões estratégicas, abordando KPIs, dashboards e cultura data-driven.',
     conteudo: `
-      <p>Este webinar apresenta uma abordagem prática para conectar Business Intelligence ao ERP, demonstrando como acelerar decisões e institucionalizar rituais de performance.</p>
+      <p>Analytics transforma dados em decisões estratégicas. Este guia mostra como criar cultura data-driven na empresa.</p>
       
-      <h2>Objetivos do Webinar</h2>
+      <h2>Fundamentos</h2>
       <ul>
-        <li>Conectar BI ao ERP de forma eficiente</li>
-        <li>Acelerar tomada de decisões</li>
-        <li>Institucionalizar rituais de performance</li>
-        <li>Criar painéis replicáveis</li>
-        <li>Desenvolver data literacy</li>
+        <li>Definição de KPIs</li>
+        <li>Coleta e integração de dados</li>
+        <li>Análise e visualização</li>
+        <li>Ação baseada em insights</li>
       </ul>
       
-      <h2>Conteúdo Abordado</h2>
-      
-      <h3>1. Integração BI + ERP</h3>
-      <p>Como conectar sistemas de BI ao ERP para obter insights mais precisos e em tempo real.</p>
-      
-      <h3>2. Padronização de KPIs</h3>
-      <p>Estabelecer indicadores consistentes e mensuráveis para todas as áreas.</p>
-      
-      <h3>3. Painéis Replicáveis</h3>
-      <p>Criar dashboards que podem ser replicados em diferentes departamentos.</p>
-      
-      <h3>4. Data Literacy</h3>
-      <p>Desenvolver competências em análise de dados em todas as áreas de negócio.</p>
-      
-      <h3>5. Rituais de Performance</h3>
-      <p>Estabelecer rotinas regulares de análise e acompanhamento de resultados.</p>
-      
-      <h2>Benefícios para as Empresas</h2>
+      <h2>Dashboards Estratégicos</h2>
       <ul>
-        <li>Decisões mais rápidas e precisas</li>
-        <li>Melhor compreensão dos dados</li>
-        <li>Padronização de processos</li>
-        <li>Maior eficiência operacional</li>
+        <li><strong>Executivo:</strong> Visão geral</li>
+        <li><strong>Financeiro:</strong> Performance</li>
+        <li><strong>Operacional:</strong> Eficiência</li>
+        <li><strong>Comercial:</strong> Vendas</li>
+      </ul>
+      
+      <h2>Cultura Data-Driven</h2>
+      <ul>
+        <li><strong>Data literacy</strong></li>
+        <li><strong>Decisões com dados</strong></li>
+        <li><strong>Experimentação contínua</strong></li>
+        <li><strong>Melhoria iterativa</strong></li>
       </ul>
     `,
-    tags: ['Analytics', 'ERP', 'Webinar', 'BI'],
-    destaque: true,
-    fonte: {
-      nome: 'YouTube',
-      url: 'https://www.youtube.com/watch?v=FvcKRd8COxw'
-    }
-  },
-  {
-    id: '13',
-    slug: 'fini-produtividade-armazem',
-    titulo: 'Fini: +15% de produtividade no armazém',
-    subtitulo: 'Como o WMS TOTVS elevou a acurácia de estoque e rastreabilidade das operações',
-    categoria: 'Supply Chain',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-20',
-    tempo_leitura: '5 min',
-    imagem_destaque: '/images/blog/fini-wms.jpg',
-    resumo: 'A Fini obteve de 12% a 15% de ganho de produtividade com o WMS TOTVS, elevando a acurácia de estoque e a rastreabilidade das operações.',
-    conteudo: `
-      <p>A Fini, uma das maiores empresas de confeitos do Brasil, implementou o WMS TOTVS e obteve resultados impressionantes em produtividade e controle de estoque.</p>
-      
-      <h2>Desafios Anteriores</h2>
-      <ul>
-        <li>Controle manual de estoque com alta margem de erro</li>
-        <li>Dificuldade na rastreabilidade de produtos</li>
-        <li>Processos operacionais não padronizados</li>
-        <li>Falta de métricas operacionais confiáveis</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>O WMS TOTVS foi implementado para automatizar e otimizar todas as operações do armazém, desde o recebimento até a expedição.</p>
-      
-      <h2>Resultados Alcançados</h2>
-      <ul>
-        <li><strong>+15% de produtividade</strong> nas operações do armazém</li>
-        <li><strong>Acurácia de estoque</strong> elevada significativamente</li>
-        <li><strong>Rastreabilidade completa</strong> de todos os produtos</li>
-        <li><strong>Processos padronizados</strong> e otimizados</li>
-        <li><strong>Métricas operacionais</strong> em tempo real</li>
-        <li><strong>Reforço do OTIF</strong> (On Time In Full)</li>
-        <li><strong>Redução de rupturas</strong> de estoque</li>
-      </ul>
-      
-      <h2>Impacto na Supply Chain</h2>
-      <p>O case mostra como processos padronizados, endereçamento inteligente e métricas operacionais reforçam o OTIF e reduzem rupturas. É uma prova direta do impacto do WMS em supply chain, do recebimento à expedição, com resultados tangíveis e replicáveis em outras operações.</p>
-      
-      <p>Este case demonstra como a tecnologia pode transformar operações logísticas complexas, gerando valor mensurável e sustentável para o negócio.</p>
-    `,
-    tags: ['WMS', 'Supply Chain', 'Produtividade', 'Fini'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS Web Stories',
-      url: 'https://www.totvs.com/web-stories/case-de-sucesso-fini-15-mais-produtividade-no-armazem/'
-    }
-  },
-  {
-    id: '14',
-    slug: 'kapazi-planejamento-producao',
-    titulo: 'Kapazi: planejamento e produção integrados',
-    subtitulo: 'Como a integração ERP conectou planejamento, produção e vendas',
-    categoria: 'Supply Chain',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-18',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/kapazi-erp.jpg',
-    resumo: 'A Kapazi conectou planejamento, produção e vendas com ERP TOTVS e mais de 30 soluções integradas, obtendo mais visibilidade e redução de retrabalho.',
-    conteudo: `
-      <p>A Kapazi, empresa do setor industrial, implementou uma solução integrada com ERP TOTVS e mais de 30 soluções conectadas, transformando completamente sua operação.</p>
-      
-      <h2>Desafios da Integração</h2>
-      <ul>
-        <li>Sistemas desconectados entre departamentos</li>
-        <li>Falta de visibilidade entre planejamento e execução</li>
-        <li>Retrabalho constante por inconsistências</li>
-        <li>Dificuldade no controle de custos e prazos</li>
-        <li>Falta de governança de dados</li>
-      </ul>
-      
-      <h2>Solução Implementada</h2>
-      <p>Implementação do ERP TOTVS com integração de mais de 30 soluções, conectando planejamento, produção, vendas e todas as áreas operacionais.</p>
-      
-      <h2>Resultados Obtidos</h2>
-      <ul>
-        <li><strong>Mais visibilidade</strong> em toda a operação</li>
-        <li><strong>Redução significativa</strong> de retrabalho</li>
-        <li><strong>Controle rigoroso</strong> sobre custos e prazos</li>
-        <li><strong>Integração ponta a ponta</strong> da cadeia</li>
-        <li><strong>Ciclo encurtado</strong> entre demanda e atendimento</li>
-        <li><strong>Melhoria do S&OP</strong> (Sales & Operations Planning)</li>
-        <li><strong>Governança de dados</strong> robusta</li>
-        <li><strong>Crescimento com qualidade</strong> sustentável</li>
-      </ul>
-      
-      <h2>Impacto na Supply Chain</h2>
-      <p>Em supply chain, a integração de ponta a ponta encurta o ciclo entre demanda e atendimento, melhora o S&OP e a governança de dados, suportando crescimento com qualidade.</p>
-      
-      <p>Este case demonstra como a integração tecnológica pode transformar operações industriais complexas, gerando eficiência e sustentabilidade.</p>
-    `,
-    tags: ['ERP', 'Integração', 'Produção', 'Kapazi'],
+    tags: ['Analytics', 'Decisão', 'DataDriven', 'Estratégia'],
     destaque: true,
     fonte: {
       nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
+      url: 'https://www.totvs.com/blog/negocios/analytics-decisao/'
     }
   },
   {
-    id: '15',
-    slug: 'golden-cargo-visibilidade-ponta-ponta',
-    titulo: 'Golden Cargo: visibilidade ponta a ponta',
-    subtitulo: 'Como a Suíte Logística TOTVS integrou planejamento, execução e monitoramento',
-    categoria: 'Supply Chain',
+    id: '86',
+    slug: 'automacao-fluig-processos',
+    titulo: 'Automação com Fluig de processos',
+    subtitulo: 'BPM para eficiência operacional',
+    categoria: 'Fluig',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
+      cargo: 'BPM',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-12-16',
-    tempo_leitura: '5 min',
-    imagem_destaque: '/images/blog/golden-cargo.jpg',
-    resumo: 'A Golden Cargo integrou planejamento, execução e monitoramento do transporte com a Suíte Logística TOTVS, reduzindo tempos no pátio e melhorando registros de evidências.',
+    data_publicacao: '2023-11-08',
+    tempo_leitura: '9 min',
+    imagem_destaque: '/images/blog/automacao-fluig.jpg',
+    resumo: 'Guia completo sobre como usar Fluig para automação de processos, reduzindo tempo de ciclo e aumentando eficiência.',
     conteudo: `
-      <p>A Golden Cargo, empresa especializada em transporte, implementou a Suíte Logística TOTVS para obter visibilidade completa de suas operações.</p>
+      <p>Fluig oferece automação completa de processos empresariais, reduzindo tempos de ciclo e aumentando eficiência operacional.</p>
       
-      <h2>Desafios Logísticos</h2>
+      <h2>BPM com Fluig</h2>
       <ul>
-        <li>Falta de visibilidade nas operações de transporte</li>
-        <li>Tempos excessivos no pátio</li>
-        <li>Dificuldade no registro de evidências</li>
-        <li>Falta de indicadores operacionais</li>
-        <li>Dificuldade em manter compliance</li>
-        <li>Dados não confiáveis para decisões</li>
+        <li>Modelagem visual</li>
+        <li>Workflows automatizados</li>
+        <li>Aprovações hierárquicas</li>
+        <li>Rastreabilidade total</li>
       </ul>
       
-      <h2>Solução Implementada</h2>
-      <p>Implementação da Suíte Logística TOTVS integrando planejamento, execução e monitoramento do transporte em uma única plataforma.</p>
-      
-      <h2>Resultados Alcançados</h2>
+      <h2>Benefícios</h2>
       <ul>
-        <li><strong>Redução de tempos</strong> no pátio</li>
-        <li><strong>Melhoria significativa</strong> nos registros de evidências</li>
-        <li><strong>Indicadores operacionais</strong> em tempo real</li>
-        <li><strong>Compliance</strong> garantido</li>
-        <li><strong>Dados confiáveis</strong> para decisões rápidas</li>
-        <li><strong>Qualidade de serviço</strong> elevada</li>
-        <li><strong>Rastreabilidade completa</strong> das operações</li>
-        <li><strong>Produtividade</strong> aumentada</li>
+        <li><strong>70% menos tempo</strong></li>
+        <li><strong>85% automação</strong></li>
+        <li><strong>Governança completa</strong></li>
+        <li><strong>Conformidade garantida</strong></li>
       </ul>
-      
-      <h2>Impacto na Cadeia Logística</h2>
-      <p>O case reforça como indicadores operacionais, compliance e dados confiáveis suportam decisões rápidas na cadeia, elevando a qualidade de serviço em mercados regulados.</p>
-      
-      <p>Esta implementação demonstra como a tecnologia pode transformar operações de transporte, gerando eficiência e qualidade de serviço.</p>
     `,
-    tags: ['Suíte Logística', 'Transporte', 'Golden Cargo', 'Visibilidade'],
-    destaque: true,
-    fonte: {
-      nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-golden-cargo/'
-    }
-  },
-  {
-    id: '16',
-    slug: 'guia-supply-chain-fundamentos-kpis',
-    titulo: 'Guia de Supply Chain: fundamentos e KPIs',
-    subtitulo: 'Conceitos essenciais e indicadores cruciais para gestão de cadeia de suprimentos',
-    categoria: 'Supply Chain',
-    autor: {
-      nome: 'Equipe TOTVS',
-      cargo: 'Especialistas em Logística',
-      avatar: '/images/avatars/totvs.jpg',
-    },
-    data_publicacao: '2024-12-14',
-    tempo_leitura: '12 min',
-    imagem_destaque: '/images/blog/guia-supply-chain.jpg',
-    resumo: 'Guia completo com fundamentos, etapas e KPIs cruciais (OTIF, lead time, acurácia) para gestão eficiente de supply chain.',
-    conteudo: `
-      <p>Supply Chain Management (SCM) é a gestão integrada de todos os processos que agregam valor ao cliente, desde a matéria-prima até o produto final.</p>
-      
-      <h2>Fundamentos da Supply Chain</h2>
-      
-      <h3>1. Planejamento</h3>
-      <p>Definição de estratégias, previsão de demanda e planejamento de recursos.</p>
-      
-      <h3>2. Sourcing</h3>
-      <p>Seleção de fornecedores, negociação e gestão de relacionamentos.</p>
-      
-      <h3>3. Produção</h3>
-      <p>Transformação de materiais em produtos finais.</p>
-      
-      <h3>4. Distribuição</h3>
-      <p>Movimentação de produtos até o cliente final.</p>
-      
-      <h3>5. Retorno</h3>
-      <p>Gestão de devoluções e reciclagem.</p>
-      
-      <h2>KPIs Cruciais</h2>
-      
-      <h3>OTIF (On Time In Full)</h3>
-      <p>Percentual de entregas completas e no prazo. Meta: >95%</p>
-      
-      <h3>Lead Time</h3>
-      <p>Tempo total desde o pedido até a entrega. Redução contínua é essencial.</p>
-      
-      <h3>Acurácia de Estoque</h3>
-      <p>Precisão do inventário físico vs sistema. Meta: >98%</p>
-      
-      <h3>Fill Rate</h3>
-      <p>Percentual de pedidos atendidos completamente. Meta: >95%</p>
-      
-      <h3>Cash-to-Cash Cycle</h3>
-      <p>Tempo entre pagamento a fornecedores e recebimento de clientes.</p>
-      
-      <h3>Inventory Turnover</h3>
-      <p>Quantas vezes o estoque é renovado por ano.</p>
-      
-      <h2>Benefícios da Gestão Eficiente</h2>
-      <ul>
-        <li>Redução de custos operacionais</li>
-        <li>Melhoria na qualidade do serviço</li>
-        <li>Aumento da satisfação do cliente</li>
-        <li>Otimização do capital de giro</li>
-        <li>Maior agilidade e flexibilidade</li>
-      </ul>
-      
-      <h2>Tecnologia como Facilitadora</h2>
-      <p>WMS, TMS, ERP e Analytics são essenciais para uma supply chain moderna e eficiente.</p>
-    `,
-    tags: ['Supply Chain', 'KPIs', 'Logística', 'Gestão'],
+    tags: ['Fluig', 'BPM', 'Automação', 'Workflows'],
     destaque: false,
     fonte: {
       nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-industrial/supply-chain/'
+      url: 'https://www.totvs.com/blog/negocios/automacao-fluig/'
     }
   },
   {
-    id: '17',
-    slug: 'lorenzetti-automacao-governanca',
-    titulo: 'Lorenzetti: automação e governança',
-    subtitulo: 'Como a centralização em plataforma TOTVS padronizou processos e elevou governança',
-    categoria: 'Compras Estratégicas',
+    id: '87',
+    slug: 'crm-b2b-melhores-praticas',
+    titulo: 'CRM B2B: melhores práticas',
+    subtitulo: 'Gestão de relacionamento para vendas complexas',
+    categoria: 'CRM de Vendas',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
+      cargo: 'CRM',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-12-12',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/lorenzetti-automacao.jpg',
-    resumo: 'A Lorenzetti centralizou automações em plataforma TOTVS, padronizando processos e elevando governança entre compras, financeiro e fiscal.',
+    data_publicacao: '2023-11-03',
+    tempo_leitura: '13 min',
+    imagem_destaque: '/images/blog/crm-b2b.jpg',
+    resumo: 'Guia específico para CRM em vendas B2B complexas, abordando gestão de stakeholders, ciclos longos e integrações.',
     conteudo: `
-      <p>A Lorenzetti, empresa líder em equipamentos para banheiro e cozinha, implementou uma solução integrada TOTVS para centralizar e automatizar seus processos.</p>
+      <p>CRM B2B requer abordagem específica para vendas complexas. Este guia oferece melhores práticas comprovadas.</p>
       
-      <h2>Desafios de Governança</h2>
+      <h2>Características B2B</h2>
       <ul>
-        <li>Processos não padronizados entre departamentos</li>
-        <li>Falta de governança entre compras, financeiro e fiscal</li>
-        <li>Qualidade de dados inconsistente</li>
-        <li>Integrações complexas e custosas</li>
-        <li>Erros frequentes e retrabalho</li>
-        <li>Falta de visibilidade integrada</li>
+        <li>Ciclos de venda longos</li>
+        <li>Múltiplos stakeholders</li>
+        <li>Processos complexos</li>
+        <li>Alto valor de ticket</li>
       </ul>
       
-      <h2>Solução Implementada</h2>
-      <p>Centralização de todas as automações em uma única plataforma TOTVS, integrando compras, financeiro e fiscal.</p>
-      
-      <h2>Resultados Obtidos</h2>
+      <h2>Melhores Práticas</h2>
       <ul>
-        <li><strong>Processos padronizados</strong> em toda a organização</li>
-        <li><strong>Governança elevada</strong> entre áreas</li>
-        <li><strong>Maior qualidade de dados</strong> e consistência</li>
-        <li><strong>Integrações simplificadas</strong> e eficientes</li>
-        <li><strong>Redução de erros</strong> e retrabalho</li>
-        <li><strong>Visibilidade integrada</strong> de todas as operações</li>
-        <li><strong>Previsibilidade de caixa</strong> melhorada</li>
+        <li><strong>Account-based:</strong> Foco em contas</li>
+        <li><strong>Stakeholder mapping:</strong> Mapeamento completo</li>
+        <li><strong>Pipeline estruturado:</strong> Etapas claras</li>
+        <li><strong>Integração ERP:</strong> Dados unificados</li>
       </ul>
       
-      <h2>Impacto em Compras Estratégicas</h2>
-      <p>Para compras estratégicas, o case demonstra como ERP e boas práticas fortalecem negociações, contratos, compliance e previsibilidade de caixa.</p>
-      
-      <p>Esta implementação mostra como a centralização tecnológica pode transformar a governança empresarial, gerando eficiência e controle.</p>
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>50% mais conversão</strong></li>
+        <li><strong>30% ciclo reduzido</strong></li>
+        <li><strong>Previsibilidade elevada</strong></li>
+      </ul>
     `,
-    tags: ['Automação', 'Governança', 'Lorenzetti', 'Compras'],
+    tags: ['CRM', 'B2B', 'Vendas', 'Complexas'],
     destaque: true,
     fonte: {
       nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/negocios/case-de-sucesso-lorenzetti/'
+      url: 'https://www.totvs.com/blog/negocios/crm-b2b/'
     }
   },
   {
-    id: '18',
-    slug: 'tradimaq-contratos-ageis-validade',
-    titulo: 'Tradimaq: contratos ágeis com validade',
-    subtitulo: 'Como a Assinatura Eletrônica acelerou formalizações e reduziu custos',
-    categoria: 'Compras Estratégicas',
+    id: '88',
+    slug: 'supply-chain-otimizacao',
+    titulo: 'Supply Chain: otimização completa',
+    subtitulo: 'Como otimizar toda a cadeia de suprimentos',
+    categoria: 'Supply Chain',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
+      cargo: 'Supply',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-12-10',
+    data_publicacao: '2023-10-28',
+    tempo_leitura: '14 min',
+    imagem_destaque: '/images/blog/supply-chain.jpg',
+    resumo: 'Guia abrangente sobre otimização de supply chain, desde planejamento de demanda até entrega final.',
+    conteudo: `
+      <p>Otimização de supply chain é essencial para competitividade. Este guia oferece estratégias completas para toda a cadeia.</p>
+      
+      <h2>Áreas de Otimização</h2>
+      <ul>
+        <li>Planejamento de demanda</li>
+        <li>Gestão de estoque</li>
+        <li>Logística e transporte</li>
+        <li>Armazenagem</li>
+        <li>Distribuição</li>
+      </ul>
+      
+      <h2>Tecnologias</h2>
+      <ul>
+        <li><strong>WMS:</strong> Gestão de armazém</li>
+        <li><strong>TMS:</strong> Gestão de transporte</li>
+        <li><strong>ERP:</strong> Integração total</li>
+        <li><strong>Analytics:</strong> Visibilidade</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>35% redução de custos</strong></li>
+        <li><strong>50% melhor OTIF</strong></li>
+        <li><strong>Visibilidade completa</strong></li>
+      </ul>
+    `,
+    tags: ['Supply', 'Otimização', 'Cadeia', 'Eficiência'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/otimizacao-supply-chain/'
+    }
+  },
+  {
+    id: '89',
+    slug: 'marketing-automation-roi',
+    titulo: 'Marketing Automation: ROI comprovado',
+    subtitulo: 'Como medir e maximizar retorno em automação',
+    categoria: 'Marketing Digital',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Marketing',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-10-23',
+    tempo_leitura: '11 min',
+    imagem_destaque: '/images/blog/marketing-automation.jpg',
+    resumo: 'Guia completo sobre marketing automation, abordando implementação, métricas e ROI comprovado.',
+    conteudo: `
+      <p>Marketing automation oferece ROI comprovado quando implementado corretamente. Este guia mostra como medir e maximizar retorno.</p>
+      
+      <h2>Implementação</h2>
+      <ul>
+        <li>Estratégia e planejamento</li>
+        <li>Segmentação de audiência</li>
+        <li>Criação de fluxos</li>
+        <li>Integração com CRM</li>
+      </ul>
+      
+      <h2>Métricas de ROI</h2>
+      <ul>
+        <li><strong>Leads gerados</strong></li>
+        <li><strong>Taxa de conversão</strong></li>
+        <li><strong>CAC reduzido</strong></li>
+        <li><strong>LTV aumentado</strong></li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>300% mais leads</strong></li>
+        <li><strong>150% ROI</strong></li>
+        <li><strong>50% CAC reduzido</strong></li>
+      </ul>
+    `,
+    tags: ['Marketing', 'Automação', 'ROI', 'Leads'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/marketing-automation/'
+    }
+  },
+  {
+    id: '90',
+    slug: 'assinatura-digital-validacao-juridica',
+    titulo: 'Assinatura Digital: validação jurídica',
+    subtitulo: 'Validade legal e casos de uso empresariais',
+    categoria: 'Assinatura Eletrônica',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Jurídico',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-10-18',
+    tempo_leitura: '9 min',
+    imagem_destaque: '/images/blog/assinatura-digital.jpg',
+    resumo: 'Guia jurídico sobre assinatura digital, abordando validade legal, tipos de assinatura e casos de uso empresariais.',
+    conteudo: `
+      <p>Assinatura digital tem validade jurídica plena. Este guia aborda aspectos legais e casos de uso empresariais.</p>
+      
+      <h2>Validade Legal</h2>
+      <ul>
+        <li>MP 2.200-2/2001</li>
+        <li>ICP-Brasil</li>
+        <li>Certificação digital</li>
+        <li>Reconhecimento em tribunais</li>
+      </ul>
+      
+      <h2>Tipos de Assinatura</h2>
+      <ul>
+        <li><strong>Simples:</strong> Documentos internos</li>
+        <li><strong>Avançada:</strong> Com certificado</li>
+        <li><strong>Qualificada:</strong> Máxima segurança</li>
+      </ul>
+      
+      <h2>Casos de Uso</h2>
+      <ul>
+        <li><strong>Contratos:</strong> Comerciais e trabalhistas</li>
+        <li><strong>Documentos fiscais:</strong> Notas e CTes</li>
+        <li><strong>Aprovações:</strong> Internas e externas</li>
+      </ul>
+    `,
+    tags: ['Assinatura', 'Jurídico', 'Validade', 'Legal'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/assinatura-digital-validade/'
+    }
+  },
+  {
+    id: '91',
+    slug: 'ia-negocios-aplicacoes-praticas',
+    titulo: 'IA nos Negócios: aplicações práticas',
+    subtitulo: 'Como implementar IA em processos empresariais',
+    categoria: 'Inteligência Artificial',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'IA',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-10-13',
+    tempo_leitura: '16 min',
+    imagem_destaque: '/images/blog/ia-negocios.jpg',
+    resumo: 'Guia completo sobre aplicações práticas de IA nos negócios, desde atendimento até análise preditiva.',
+    conteudo: `
+      <p>IA está transformando negócios. Este guia mostra aplicações práticas e como implementar em diferentes áreas.</p>
+      
+      <h2>Aplicações</h2>
+      <ul>
+        <li>Atendimento com chatbots</li>
+        <li>Análise preditiva</li>
+        <li>Automação de processos</li>
+        <li>Personalização</li>
+        <li>Detecção de fraudes</li>
+      </ul>
+      
+      <h2>Implementação</h2>
+      <ul>
+        <li><strong>Identificar casos de uso</strong></li>
+        <li><strong>Preparar dados</strong></li>
+        <li><strong>Treinar modelos</strong></li>
+        <li><strong>Integrar sistemas</strong></li>
+        <li><strong>Monitorar performance</strong></li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>70% automação</strong></li>
+        <li><strong>60% eficiência</strong></li>
+        <li><strong>Inovação contínua</strong></li>
+      </ul>
+    `,
+    tags: ['IA', 'Negócios', 'Aplicações', 'Implementação'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/ia-aplicacoes-praticas/'
+    }
+  },
+  {
+    id: '92',
+    slug: 'cloud-vantagens-migracao',
+    titulo: 'Cloud: vantagens da migração',
+    subtitulo: 'Por que migrar para nuvem agora',
+    categoria: 'Cloud',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cloud',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-10-08',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/cloud-vantagens.jpg',
+    resumo: 'Artigo estratégico sobre vantagens da migração para nuvem, abordando benefícios, desafios e ROI.',
+    conteudo: `
+      <p>Migração para nuvem oferece vantagens competitivas significativas. Este artigo analisa benefícios, desafios e ROI.</p>
+      
+      <h2>Vantagens</h2>
+      <ul>
+        <li>Escalabilidade automática</li>
+        <li>Redução de custos</li>
+        <li>Alta disponibilidade</li>
+        <li>Inovação rápida</li>
+        <li>Segurança robusta</li>
+      </ul>
+      
+      <h2>Desafios</h2>
+      <ul>
+        <li><strong>Migração de dados:</strong> Planejamento crítico</li>
+        <li><strong>Gestão de mudança:</strong> Adoção de usuários</li>
+        <li><strong>Integração:</strong> Sistemas legados</li>
+      </ul>
+      
+      <h2>ROI</h2>
+      <ul>
+        <li><strong>40% redução</strong> TCO</li>
+        <li><strong>60% agilidade</strong></li>
+        <li><strong>90% disponibilidade</strong></li>
+      </ul>
+    `,
+    tags: ['Cloud', 'Migração', 'Vantagens', 'ROI'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/cloud-vantagens/'
+    }
+  },
+  {
+    id: '93',
+    slug: 'portal-totvs-analytics',
+    titulo: 'Portal TOTVS Analytics',
+    subtitulo: 'Ponto de entrada para recursos de Analytics',
+    categoria: 'Analytics',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Analytics',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-10-03',
     tempo_leitura: '5 min',
-    imagem_destaque: '/images/blog/tradimaq-assinatura.jpg',
-    resumo: 'A Tradimaq acelerou formalizações com TOTVS Assinatura Eletrônica, reduzindo custos e lead time de contratos e pedidos.',
+    imagem_destaque: '/images/blog/portal-analytics.jpg',
+    resumo: 'Ponto de entrada para conteúdos, eventos e recursos de Analytics no ecossistema TOTVS.',
     conteudo: `
-      <p>A Tradimaq, empresa especializada em equipamentos industriais, implementou a solução de Assinatura Eletrônica TOTVS para agilizar seus processos contratuais.</p>
+      <p>Portal TOTVS Analytics centraliza conteúdos, eventos e recursos de Business Intelligence e Analytics.</p>
       
-      <h2>Desafios Contratuais</h2>
+      <h2>Recursos</h2>
       <ul>
-        <li>Processo de assinatura de contratos muito lento</li>
-        <li>Custos elevados com impressão e logística</li>
-        <li>Lead time longo para formalizações</li>
-        <li>Dificuldade na validação jurídica</li>
-        <li>Falta de trilhas de auditoria</li>
-        <li>Problemas de integração com sistemas</li>
+        <li>Conteúdos educacionais</li>
+        <li>Eventos e webinars</li>
+        <li>Cases de sucesso</li>
+        <li>Documentação técnica</li>
       </ul>
       
-      <h2>Solução Implementada</h2>
-      <p>Implementação da TOTVS Assinatura Eletrônica com integração completa aos sistemas existentes.</p>
-      
-      <h2>Resultados Alcançados</h2>
+      <h2>Acesso</h2>
       <ul>
-        <li><strong>Aceleração significativa</strong> nas formalizações</li>
-        <li><strong>Redução de custos</strong> operacionais</li>
-        <li><strong>Lead time reduzido</strong> para contratos e pedidos</li>
-        <li><strong>Validade jurídica</strong> garantida</li>
-        <li><strong>Trilhas de auditoria</strong> completas</li>
-        <li><strong>Integrações eficientes</strong> com sistemas</li>
-        <li><strong>Governança documental</strong> robusta</li>
+        <li><strong>Portal centralizado</strong></li>
+        <li><strong>Recursos gratuitos</strong></li>
+        <li><strong>Comunidade ativa</strong></li>
       </ul>
-      
-      <h2>Impacto em Compras</h2>
-      <p>Em compras, o impacto aparece na negociação, homologação de fornecedores e gestão de aditivos, com governança documental robusta.</p>
-      
-      <p>Este case demonstra como a digitalização de processos contratuais pode transformar a eficiência operacional.</p>
     `,
-    tags: ['Assinatura Eletrônica', 'Contratos', 'Tradimaq', 'Digitalização'],
-    destaque: true,
+    tags: ['Analytics', 'Portal', 'Recursos', 'BI'],
+    destaque: false,
     fonte: {
-      nome: 'TOTVS Blog',
-      url: 'https://www.totvs.com/blog/gestao-para-assinatura-de-documentos/case-de-sucesso-tradimaq/'
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/analytics/'
     }
   },
   {
-    id: '19',
-    slug: 'cr-almeida-contratos-bpm-ecm',
-    titulo: 'CR Almeida: contratos com BPM/ECM',
-    subtitulo: 'Como o Fluig acelerou validações jurídicas e padronizou o ciclo contratual',
-    categoria: 'Compras Estratégicas',
+    id: '94',
+    slug: 'app-minha-assinatura-eletronica',
+    titulo: 'App: Minha Assinatura Eletrônica',
+    subtitulo: 'Aprovação e assinatura via mobile',
+    categoria: 'Assinatura Eletrônica',
     autor: {
       nome: 'Equipe TOTVS',
-      cargo: 'Cases de Sucesso',
+      cargo: 'Produto',
       avatar: '/images/avatars/totvs.jpg',
     },
-    data_publicacao: '2024-12-08',
-    tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/cr-almeida-fluig.jpg',
-    resumo: 'A CR Almeida (EcoRodovias) usou o Fluig para acelerar validações jurídicas e padronizar o ciclo contratual, melhorando produtividade e qualidade.',
+    data_publicacao: '2023-09-28',
+    tempo_leitura: '4 min',
+    imagem_destaque: '/images/blog/app-assinatura.jpg',
+    resumo: 'Aprovação e assinatura de documentos via mobile, mantendo rastreabilidade e segurança.',
     conteudo: `
-      <p>A CR Almeida, parte do grupo EcoRodovias, implementou o Fluig para transformar seus processos contratuais e de gestão documental.</p>
+      <p>App Minha Assinatura Eletrônica oferece mobilidade total para aprovação e assinatura de documentos com segurança.</p>
       
-      <h2>Desafios do Ciclo Contratual</h2>
+      <h2>Funcionalidades</h2>
       <ul>
-        <li>Validações jurídicas demoradas</li>
-        <li>Ciclo contratual não padronizado</li>
-        <li>Falta de colaboração entre áreas</li>
-        <li>Riscos contratuais elevados</li>
-        <li>Prazos de aprovação longos</li>
-        <li>Qualidade das informações inconsistente</li>
+        <li>Assinatura mobile</li>
+        <li>Aprovações hierárquicas</li>
+        <li>Rastreabilidade</li>
+        <li>Notificações push</li>
       </ul>
       
-      <h2>Solução Implementada</h2>
-      <p>Implementação do Fluig com foco em BPM (Business Process Management) e ECM (Enterprise Content Management) para gestão contratual.</p>
-      
-      <h2>Resultados Obtidos</h2>
+      <h2>Benefícios</h2>
       <ul>
-        <li><strong>Aceleração das validações</strong> jurídicas</li>
-        <li><strong>Padronização do ciclo</strong> contratual</li>
-        <li><strong>Compliance</strong> garantido</li>
-        <li><strong>Rastreabilidade</strong> completa</li>
-        <li><strong>Colaboração</strong> entre áreas melhorada</li>
-        <li><strong>Redução de riscos</strong> contratuais</li>
-        <li><strong>Prazos de aprovação</strong> otimizados</li>
-        <li><strong>Qualidade das informações</strong> elevada</li>
+        <li><strong>Mobilidade total</strong></li>
+        <li><strong>Agilidade</strong></li>
+        <li><strong>Segurança garantida</strong></li>
       </ul>
-      
-      <h2>Benefícios Adicionais</h2>
-      <ul>
-        <li>Intranet corporativa eficiente</li>
-        <li>Fluxos digitais otimizados</li>
-        <li>Produtividade aumentada</li>
-        <li>Qualidade das informações para auditoria</li>
-      </ul>
-      
-      <h2>Impacto em Compras</h2>
-      <p>Em compras, BPM/ECM viabiliza compliance, rastreabilidade e colaboração entre áreas, reduzindo riscos e prazos.</p>
-      
-      <p>Este case demonstra como a automação de processos pode transformar a gestão contratual empresarial.</p>
     `,
-    tags: ['Fluig', 'BPM', 'ECM', 'CR Almeida'],
-    destaque: true,
+    tags: ['Assinatura', 'Mobile', 'App', 'Mobilidade'],
+    destaque: false,
     fonte: {
-      nome: 'Baguete',
-      url: 'https://www.baguete.com.br/noticias/cr-almeida-adota-fluig-da-totvs'
+      nome: 'TOTVS Produtos',
+      url: 'https://produtos.totvs.com/aplicativo/app-minha-assinatura-eletronica/'
     }
   },
+  {
+    id: '95',
+    slug: 'guia-relacionamento-totvs',
+    titulo: 'Guia de Relacionamento TOTVS',
+    subtitulo: 'Acesso a suporte, documentação e relacionamento',
+    categoria: 'Atendimento e Chatbot',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Suporte',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-09-23',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/guia-relacionamento.jpg',
+    resumo: 'Acesso a suporte, documentação e relacionamento com clientes TOTVS.',
+    conteudo: `
+      <p>Guia de Relacionamento TOTVS oferece acesso centralizado a suporte técnico, documentação e canais de atendimento.</p>
+      
+      <h2>Canais</h2>
+      <ul>
+        <li>Suporte técnico 24/7</li>
+        <li>Base de conhecimento</li>
+        <li>Documentação completa</li>
+        <li>Comunidade</li>
+      </ul>
+      
+      <h2>Acesso</h2>
+      <ul>
+        <li><strong>Portal unificado</strong></li>
+        <li><strong>SLAs garantidos</strong></li>
+        <li><strong>Múltiplos canais</strong></li>
+      </ul>
+    `,
+    tags: ['Atendimento', 'Suporte', 'Relacionamento', 'Documentação'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Zendesk',
+      url: 'https://totvscst.zendesk.com/hc/pt-br'
+    }
+  },
+  {
+    id: '96',
+    slug: 'tecnologias-gestao-hub',
+    titulo: 'Tecnologias para gestão',
+    subtitulo: 'Hub institucional sobre soluções de gestão',
+    categoria: 'Gestão de Negócios',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Institucional',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2023-09-18',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/tecnologias-gestao.jpg',
+    resumo: 'Hub institucional sobre soluções de gestão e produtividade.',
+    conteudo: `
+      <p>Hub institucional TOTVS sobre tecnologias para gestão empresarial, abrangendo todas as soluções do ecossistema.</p>
+      
+      <h2>Soluções</h2>
+      <ul>
+        <li>ERP e gestão</li>
+        <li>CRM e vendas</li>
+        <li>RH e pessoas</li>
+        <li>Logística</li>
+        <li>Analytics</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Ecossistema completo</strong></li>
+        <li><strong>Integração nativa</strong></li>
+        <li><strong>Produtividade elevada</strong></li>
+      </ul>
+    `,
+    tags: ['Gestão', 'Hub', 'Tecnologias', 'Soluções'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/gestao/'
+    }
+  }
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
@@ -5977,4 +5761,3 @@ export function getPostsByCategory(categoria: string): BlogPost[] {
 export function getAllCategories(): string[] {
   return Array.from(new Set(BLOG_POSTS.map(post => post.categoria)));
 }
-
