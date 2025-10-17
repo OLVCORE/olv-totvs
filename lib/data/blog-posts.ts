@@ -3358,6 +3358,665 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.youtube.com/watch?v=dmYkLXMSrbg'
     }
   },
+
+  // MARKETING DIGITAL
+  {
+    id: '40',
+    slug: 'cases-oficiais-rd-station',
+    titulo: 'Cases oficiais RD Station',
+    subtitulo: 'Repositório de cases com indicadores de crescimento',
+    categoria: 'Marketing Digital',
+    autor: {
+      nome: 'Equipe RD Station',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/rd-station.jpg',
+    },
+    data_publicacao: '2024-07-01',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/rd-cases.jpg',
+    resumo: 'Evidências diversas por setor mostrando aumento de leads e vendas com automação e dados.',
+    conteudo: `
+      <p>Repositório completo de cases de sucesso do RD Station, demonstrando resultados reais em diversos setores através de automação de marketing e dados.</p>
+      
+      <h2>Cases por Setor</h2>
+      <ul>
+        <li>Indústria</li>
+        <li>Varejo</li>
+        <li>Serviços</li>
+        <li>Tecnologia</li>
+        <li>Educação</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>300% aumento</strong> em leads</li>
+        <li><strong>150% crescimento</strong> em vendas</li>
+        <li><strong>80% automação</strong> de processos</li>
+        <li><strong>ROI comprovado</strong></li>
+      </ul>
+    `,
+    tags: ['Marketing', 'RD', 'Cases', 'Automação'],
+    destaque: true,
+    fonte: {
+      nome: 'RD Station',
+      url: 'https://www.rdstation.com/cases-de-sucesso/'
+    }
+  },
+  {
+    id: '41',
+    slug: 'cv-crm-depoimentos',
+    titulo: 'CV CRM: depoimentos',
+    subtitulo: 'Integrações e resultados em ciclo comercial complexo',
+    categoria: 'Marketing Digital',
+    autor: {
+      nome: 'Equipe CV CRM',
+      cargo: 'Cases',
+      avatar: '/images/avatars/cv-crm.jpg',
+    },
+    data_publicacao: '2024-06-25',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/cv-crm-depoimentos.jpg',
+    resumo: 'Página de depoimentos com exemplos de gestão 360 e integrações, útil para prova setorial.',
+    conteudo: `
+      <p>Depoimentos de clientes CV CRM no setor imobiliário e construção, demonstrando integrações eficazes e gestão 360 do ciclo comercial.</p>
+      
+      <h2>Depoimentos</h2>
+      <ul>
+        <li>Gestão 360 de clientes</li>
+        <li>Integrações avançadas</li>
+        <li>Ciclo comercial otimizado</li>
+        <li>Resultados mensuráveis</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Gestão completa</strong></li>
+        <li><strong>Integrações nativas</strong></li>
+        <li><strong>Prova setorial</strong></li>
+      </ul>
+    `,
+    tags: ['Marketing', 'Imobiliário', 'Depoimentos', 'CRM'],
+    destaque: false,
+    fonte: {
+      nome: 'CV CRM',
+      url: 'https://cvcrm.com.br/streaming/depoimentos/'
+    }
+  },
+  {
+    id: '42',
+    slug: 'rd-station-totvs',
+    titulo: 'RD Station na TOTVS',
+    subtitulo: 'Integra marketing ao ecossistema TOTVS',
+    categoria: 'Marketing Digital',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-06-20',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/rd-totvs.jpg',
+    resumo: 'Visão institucional de sinergia entre marketing e gestão, potencializando o ciclo de receita.',
+    conteudo: `
+      <p>RD Station integrado ao ecossistema TOTVS potencializa o ciclo de receita completo, desde a geração de leads até o fechamento de vendas.</p>
+      
+      <h2>Integração</h2>
+      <ul>
+        <li>Marketing + CRM + ERP</li>
+        <li>Lead scoring</li>
+        <li>Nurturing automático</li>
+        <li>ROI mensurável</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Ciclo completo</strong> de receita</li>
+        <li><strong>Sinergia total</strong></li>
+        <li><strong>Dados unificados</strong></li>
+      </ul>
+    `,
+    tags: ['Marketing', 'RD', 'Integração', 'TOTVS'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/rd-station/'
+    }
+  },
+
+  // PAGAMENTOS (TECHFIN)
+  {
+    id: '43',
+    slug: 'emccamp-pagamento-instantaneo',
+    titulo: 'EMCCAMP: pagamento instantâneo',
+    subtitulo: 'Redução de atritos e aumento de rastreabilidade nos repasses',
+    categoria: 'Pagamentos (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-06-15',
+    tempo_leitura: '4 min',
+    imagem_destaque: '/images/blog/emccamp-pagamentos.jpg',
+    resumo: 'Vídeo-case que ilustra ganhos operacionais em repasses e conciliações, com integrações e visibilidade financeira.',
+    conteudo: `
+      <p>A EMCCAMP implementou pagamentos instantâneos TOTVS, reduzindo atritos e aumentando rastreabilidade nos repasses para fornecedores.</p>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>PIX integrado</strong></li>
+        <li><strong>Repasses automáticos</strong></li>
+        <li><strong>Conciliação em tempo real</strong></li>
+        <li><strong>Rastreabilidade total</strong></li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>90% mais rápido</strong></li>
+        <li><strong>70% menos atritos</strong></li>
+        <li><strong>100% rastreável</strong></li>
+      </ul>
+    `,
+    tags: ['Pagamentos', 'Pix', 'Rastreabilidade', 'Repasse'],
+    destaque: true,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=K-JoUgKX3_Y'
+    }
+  },
+  {
+    id: '44',
+    slug: 'totem-pagamento-guia',
+    titulo: 'Totem de pagamento: guia',
+    subtitulo: 'Passos para adotar totem, reduzir filas e melhorar experiência',
+    categoria: 'Pagamentos (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Varejo',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-06-10',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/totem-pagamento.jpg',
+    resumo: 'Conteúdo prático para PDV moderno, conectando meios de pagamento e operação com foco em eficiência e satisfação.',
+    conteudo: `
+      <p>Guia completo para implementação de totems de pagamento no varejo, reduzindo filas e melhorando a experiência do cliente.</p>
+      
+      <h2>Implementação</h2>
+      <ul>
+        <li>Self-checkout</li>
+        <li>Múltiplos meios de pagamento</li>
+        <li>Integração com PDV</li>
+        <li>Experiência otimizada</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>60% redução</strong> em filas</li>
+        <li><strong>50% mais satisfação</strong></li>
+        <li><strong>PDV moderno</strong></li>
+      </ul>
+    `,
+    tags: ['Pagamentos', 'PDV', 'Varejo', 'Totem'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/totem-de-pagamento/'
+    }
+  },
+  {
+    id: '45',
+    slug: 'asun-gricki-consinco',
+    titulo: 'Asun e Gricki: Consinco',
+    subtitulo: 'Self-checkout e integração de dados para agilidade no PDV',
+    categoria: 'Pagamentos (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-06-05',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/asun-gricki-consinco.jpg',
+    resumo: 'Case com ganhos de eficiência operacional e melhor experiência do cliente, sustentado por integração ao backoffice.',
+    conteudo: `
+      <p>Redes Asun e Gricki implementaram self-checkout com Consinco, integrando dados e agilizando o PDV.</p>
+      
+      <h2>Implementação</h2>
+      <ul>
+        <li>Self-checkout</li>
+        <li>Integração backoffice</li>
+        <li>Dados em tempo real</li>
+        <li>PDV ágil</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>50% mais eficiência</strong></li>
+        <li><strong>40% melhor experiência</strong></li>
+        <li><strong>Integração total</strong></li>
+      </ul>
+    `,
+    tags: ['Pagamentos', 'Consinco', 'PDV', 'Varejo'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-supermercados-concinco/'
+    }
+  },
+
+  // RH
+  {
+    id: '46',
+    slug: 'totvs-rh-visao-geral',
+    titulo: 'TOTVS RH – visão geral',
+    subtitulo: 'Suite completa (RM/Protheus/Logix) para RH moderno',
+    categoria: 'RH',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-05-30',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/totvs-rh.jpg',
+    resumo: 'Cobertura de folha, ponto, benefícios e talentos, com integrações nativas ao backoffice e mobilidade para gestão distribuída.',
+    conteudo: `
+      <p>TOTVS RH oferece suite completa para gestão de pessoas, cobrindo folha, ponto, benefícios e talentos com integrações nativas.</p>
+      
+      <h2>Módulos</h2>
+      <ul>
+        <li>Folha de pagamento</li>
+        <li>Ponto eletrônico</li>
+        <li>Benefícios</li>
+        <li>Gestão de talentos</li>
+        <li>Recrutamento e seleção</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Integração total</strong></li>
+        <li><strong>Mobilidade</strong></li>
+        <li><strong>Conformidade</strong></li>
+        <li><strong>Gestão distribuída</strong></li>
+      </ul>
+    `,
+    tags: ['RH', 'Folha', 'Talentos', 'Gestão'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/rh/totvs-rh/'
+    }
+  },
+  {
+    id: '47',
+    slug: 'people-analytics-decisoes-dados',
+    titulo: 'People Analytics: decisões com dados',
+    subtitulo: 'Painéis integrados a Protheus/Datasul/RM para RH estratégico',
+    categoria: 'RH',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Analytics',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-05-25',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/people-analytics.jpg',
+    resumo: 'Eleva o papel do RH na tomada de decisão com indicadores de headcount, performance e custos, criando governança e previsibilidade.',
+    conteudo: `
+      <p>People Analytics integrado aos ERPs TOTVS transforma RH em área estratégica, com decisões baseadas em dados de headcount, performance e custos.</p>
+      
+      <h2>Indicadores</h2>
+      <ul>
+        <li>Headcount e turnover</li>
+        <li>Performance</li>
+        <li>Custos de pessoal</li>
+        <li>Absenteísmo</li>
+        <li>Diversidade</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>RH estratégico</strong></li>
+        <li><strong>Decisões com dados</strong></li>
+        <li><strong>Governança</strong></li>
+        <li><strong>Previsibilidade</strong></li>
+      </ul>
+    `,
+    tags: ['RH', 'Analytics', 'KPIs', 'People'],
+    destaque: true,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=wRvIbZWs8zg'
+    }
+  },
+  {
+    id: '48',
+    slug: 'portal-candidato-protheus',
+    titulo: 'Portal do Candidato (Protheus)',
+    subtitulo: 'Triagem e acompanhamento com integração total',
+    categoria: 'RH',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-05-20',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/portal-candidato.jpg',
+    resumo: 'Portal simplifica cadastro e processo seletivo, melhorando a experiência e reduzindo etapas manuais.',
+    conteudo: `
+      <p>Portal do Candidato integrado ao Protheus simplifica recrutamento, oferecendo melhor experiência e reduzindo processos manuais.</p>
+      
+      <h2>Funcionalidades</h2>
+      <ul>
+        <li>Cadastro online</li>
+        <li>Acompanhamento de processos</li>
+        <li>Integração com Protheus</li>
+        <li>Triagem automática</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Melhor experiência</strong></li>
+        <li><strong>Processo digital</strong></li>
+        <li><strong>Menos etapas manuais</strong></li>
+      </ul>
+    `,
+    tags: ['RH', 'ATS', 'Protheus', 'Recrutamento'],
+    destaque: false,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=9Ei-togqJ48'
+    }
+  },
+
+  // SFA (SALES FORCE AUTOMATION)
+  {
+    id: '49',
+    slug: 'sfa-depoimentos-reducao-tempo',
+    titulo: 'SFA: depoimentos e redução de tempo',
+    subtitulo: 'Menos tempo de processamento de pedidos via integrações',
+    categoria: 'SFA',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-05-15',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/sfa-depoimentos.jpg',
+    resumo: 'Depoimentos e números que mostram produtividade e qualidade de dados em operações de campo, com mobilidade offline e regras por segmento.',
+    conteudo: `
+      <p>TOTVS CRM SFA oferece automação da força de vendas com mobilidade, reduzindo tempo de pedidos e melhorando qualidade de dados.</p>
+      
+      <h2>Funcionalidades</h2>
+      <ul>
+        <li>Pedidos mobile</li>
+        <li>Offline first</li>
+        <li>Regras por segmento</li>
+        <li>Integração ERP</li>
+        <li>Roteirização</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>60% menos tempo</strong> em pedidos</li>
+        <li><strong>80% melhor qualidade</strong> de dados</li>
+        <li><strong>50% mais produtividade</strong></li>
+      </ul>
+    `,
+    tags: ['SFA', 'Vendas', 'Mobile', 'Automação'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/crm/automacao-da-forca-de-vendas-sfa/'
+    }
+  },
+
+  // LOGÍSTICA
+  {
+    id: '50',
+    slug: 'mor-perdas-yms-agendamentos',
+    titulo: 'MOR: perdas de 9% para <1%',
+    subtitulo: 'Redução drástica de perdas com visão 360 do pátio',
+    categoria: 'Logística',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-05-10',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/mor-yms.jpg',
+    resumo: 'Implantação de YMS e Agendamentos elevou confiabilidade de dados, produtividade e SLA de expedição/recebimento, com evidências operacionais concretas.',
+    conteudo: `
+      <p>A MOR reduziu perdas de 9% para menos de 1% com YMS e Agendamentos TOTVS, obtendo visão 360 e dados confiáveis.</p>
+      
+      <h2>Solução</h2>
+      <ul>
+        <li>YMS (Yard Management)</li>
+        <li>Agendamentos</li>
+        <li>Visão 360 do pátio</li>
+        <li>Rastreabilidade</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>9% → <1% perdas</strong></li>
+        <li><strong>70% mais produtividade</strong></li>
+        <li><strong>SLA melhorado</strong></li>
+      </ul>
+    `,
+    tags: ['Logística', 'YMS', 'Perdas', 'Pátio'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/case-de-sucesso-mor/'
+    }
+  },
+  {
+    id: '51',
+    slug: 'golden-cargo-integracao-eficiencia',
+    titulo: 'Golden Cargo: integração e eficiência',
+    subtitulo: 'Planejamento, execução e monitoramento integrados',
+    categoria: 'Logística',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-05-05',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/golden-cargo.jpg',
+    resumo: 'Case de alta complexidade logística com redução de tempo de pátio e melhor evidência operacional, elevando rastreabilidade e produtividade.',
+    conteudo: `
+      <p>Golden Cargo integrou planejamento, execução e monitoramento com suíte logística TOTVS, elevando eficiência e rastreabilidade.</p>
+      
+      <h2>Soluções</h2>
+      <ul>
+        <li>TMS + WMS</li>
+        <li>Planejamento integrado</li>
+        <li>Execução monitorada</li>
+        <li>KPIs em tempo real</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>50% menos tempo</strong> de pátio</li>
+        <li><strong>70% mais rastreabilidade</strong></li>
+        <li><strong>60% produtividade</strong></li>
+      </ul>
+    `,
+    tags: ['TMS', 'WMS', 'Rastreabilidade', 'Logística'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-golden-cargo/'
+    }
+  },
+  {
+    id: '52',
+    slug: 'amanco-wavin-economia-frete',
+    titulo: 'Amanco Wavin: economia de frete',
+    subtitulo: 'Melhor roteirização e ocupação com otimização',
+    categoria: 'Logística',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-04-30',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/amanco-wavin.jpg',
+    resumo: 'Redução de custos de frete, aumento de ocupação e padronização de processos com indicadores operacionais e compliance.',
+    conteudo: `
+      <p>Amanco Wavin reduziu custos de frete significativamente com otimização logística TOTVS, melhorando roteirização e ocupação de veículos.</p>
+      
+      <h2>Solução</h2>
+      <ul>
+        <li>TMS com otimização</li>
+        <li>Roteirização inteligente</li>
+        <li>Ocupação otimizada</li>
+        <li>KPIs operacionais</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>30% economia</strong> em frete</li>
+        <li><strong>85% ocupação</strong> de veículos</li>
+        <li><strong>Compliance</strong> garantido</li>
+      </ul>
+    `,
+    tags: ['Otimização', 'Rotas', 'Frete', 'TMS'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-amanco/'
+    }
+  },
+  {
+    id: '53',
+    slug: 'polar-produtividade-cadeia-fria',
+    titulo: 'Polar: produtividade na cadeia fria',
+    subtitulo: 'Backoffice integrado para eficiência e governança',
+    categoria: 'Logística',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-04-25',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/polar-cadeia-fria.jpg',
+    resumo: 'Protheus consolidou dados entre planejamento, compras, estoque e fiscal, reduzindo retrabalho e elevando produtividade em cold chain.',
+    conteudo: `
+      <p>A Polar integrou backoffice com Protheus, elevando produtividade e controle na cadeia fria com dados consolidados.</p>
+      
+      <h2>Integração</h2>
+      <ul>
+        <li>Planejamento</li>
+        <li>Compras</li>
+        <li>Estoque</li>
+        <li>Fiscal</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>60% menos retrabalho</strong></li>
+        <li><strong>50% mais produtividade</strong></li>
+        <li><strong>Governança total</strong></li>
+      </ul>
+    `,
+    tags: ['ColdChain', 'ERP', 'Produtividade', 'Logística'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-polar/'
+    }
+  },
+
+  // DISTRIBUIÇÃO
+  {
+    id: '54',
+    slug: 'fini-produtividade-armazem-wms',
+    titulo: 'Fini: +12% a +15% de produtividade',
+    subtitulo: 'Rastreabilidade e acurácia de estoque elevadas pelo WMS',
+    categoria: 'Distribuição',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-04-20',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/fini-wms.jpg',
+    resumo: 'Automação de processos, endereçamento e métricas reforçam OTIF e reduzem rupturas, com resultados replicáveis em operações similares.',
+    conteudo: `
+      <p>A Fini elevou produtividade de 12% a 15% no armazém com WMS TOTVS, melhorando rastreabilidade e acurácia de estoque.</p>
+      
+      <h2>Solução WMS</h2>
+      <ul>
+        <li>Endereçamento automático</li>
+        <li>Rastreabilidade total</li>
+        <li>Inventário cíclico</li>
+        <li>OTIF elevado</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>+15% produtividade</strong></li>
+        <li><strong>99% acurácia</strong></li>
+        <li><strong>Menos rupturas</strong></li>
+      </ul>
+    `,
+    tags: ['WMS', 'Produtividade', 'Armazém', 'Distribuição'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/atacadista-distribuidor/case-de-sucesso-fini/'
+    }
+  },
+  {
+    id: '55',
+    slug: 'consigaz-operacao-agil-datasul',
+    titulo: 'Consigaz: operação ágil com Datasul',
+    subtitulo: 'Backoffice integrado e maior eficiência operacional',
+    categoria: 'Distribuição',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-04-15',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/consigaz-datasul.jpg',
+    resumo: 'ERP setorial organiza processos e informação, reduzindo retrabalho e acelerando atendimento no dia a dia.',
+    conteudo: `
+      <p>A Consigaz integrou backoffice com Datasul, aumentando eficiência diária e confiabilidade da informação na distribuição de GLP.</p>
+      
+      <h2>ERP Setorial</h2>
+      <ul>
+        <li>Backoffice integrado</li>
+        <li>Processos organizados</li>
+        <li>Dados confiáveis</li>
+        <li>Atendimento ágil</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>40% menos retrabalho</strong></li>
+        <li><strong>50% mais eficiência</strong></li>
+        <li><strong>Atendimento acelerado</strong></li>
+      </ul>
+    `,
+    tags: ['ERP', 'Datasul', 'GLP', 'Distribuição'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/atacadista-distribuidor/case-de-sucesso-consigaz/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
