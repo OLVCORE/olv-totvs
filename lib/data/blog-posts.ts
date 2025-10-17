@@ -1980,6 +1980,592 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.totvs.com/blog/erp/on-premise-vs-cloud/'
     }
   },
+
+  // CRÉDITO (TECHFIN)
+  {
+    id: '25',
+    slug: 'totvs-techfin-visao-geral',
+    titulo: 'TOTVS Techfin – visão geral',
+    subtitulo: 'Crédito B2B e pagamentos integrados ao ERP',
+    categoria: 'Crédito (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-09-15',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/totvs-techfin.jpg',
+    resumo: 'Ecossistema financeiro acoplado à gestão, simplificando acesso a capital, prazos e repasses, com governança e integração nativa.',
+    conteudo: `
+      <p>A TOTVS Techfin é uma solução completa que integra crédito B2B e pagamentos diretamente ao ERP, criando um ecossistema financeiro unificado e eficiente.</p>
+      
+      <h2>O que é TOTVS Techfin</h2>
+      <p>Plataforma financeira integrada que oferece soluções de crédito e pagamentos para empresas, conectada nativamente ao ecossistema TOTVS.</p>
+      
+      <h2>Componentes Principais</h2>
+      
+      <h3>TOTVS Antecipa</h3>
+      <ul>
+        <li><strong>Antecipação de recebíveis:</strong> Acesso rápido ao capital</li>
+        <li><strong>Integração ERP:</strong> Dados em tempo real</li>
+        <li><strong>Análise automatizada:</strong> Aprovação inteligente</li>
+        <li><strong>Gestão de risco:</strong> Avaliação contínua</li>
+      </ul>
+      
+      <h3>TOTVS Pagamentos</h3>
+      <ul>
+        <li><strong>Pagamentos instantâneos:</strong> PIX e TED</li>
+        <li><strong>Repasses automáticos:</strong> Para fornecedores</li>
+        <li><strong>Conciliação:</strong> Automática e em tempo real</li>
+        <li><strong>Rastreabilidade:</strong> Total transparência</li>
+      </ul>
+      
+      <h3>TOTVS Crédito</h3>
+      <ul>
+        <li><strong>Linhas de crédito:</strong> Para empresas</li>
+        <li><strong>Análise de risco:</strong> Inteligência artificial</li>
+        <li><strong>Aprovação rápida:</strong> Processo automatizado</li>
+        <li><strong>Gestão de inadimplência:</strong> Controle preventivo</li>
+      </ul>
+      
+      <h2>Integração com ERP</h2>
+      
+      <h3>Conectividade Nativa</h3>
+      <ul>
+        <li><strong>Dados em tempo real:</strong> Sincronização automática</li>
+        <li><strong>Fluxo de caixa:</strong> Visibilidade completa</li>
+        <li><strong>Contas a receber:</strong> Gestão integrada</li>
+        <li><strong>Relatórios unificados:</strong> Visão 360°</li>
+      </ul>
+      
+      <h3>Automação de Processos</h3>
+      <ul>
+        <li><strong>Aprovações automáticas:</strong> Baseadas em regras</li>
+        <li><strong>Pagamentos programados:</strong> Cronograma automático</li>
+        <li><strong>Conciliação:</strong> Matching automático</li>
+        <li><strong>Alertas:</strong> Notificações inteligentes</li>
+      </ul>
+      
+      <h2>Benefícios para Empresas</h2>
+      
+      <h3>Acesso a Capital</h3>
+      <ul>
+        <li><strong>Antecipação rápida:</strong> Recebíveis como garantia</li>
+        <li><strong>Sem burocracia:</strong> Processo simplificado</li>
+        <li><strong>Taxas competitivas:</strong> Melhores condições</li>
+        <li><strong>Flexibilidade:</strong> Prazos adequados</li>
+      </ul>
+      
+      <h3>Gestão Financeira</h3>
+      <ul>
+        <li><strong>Fluxo de caixa:</strong> Previsibilidade</li>
+        <li><strong>Redução de inadimplência:</strong> Controle de risco</li>
+        <li><strong>Otimização de prazos:</strong> Negociação inteligente</li>
+        <li><strong>Relatórios avançados:</strong> Análise detalhada</li>
+      </ul>
+      
+      <h2>Governança e Compliance</h2>
+      
+      <h3>Controles Internos</h3>
+      <ul>
+        <li><strong>Limites de crédito:</strong> Controle automatizado</li>
+        <li><strong>Aprovações hierárquicas:</strong> Workflow configurável</li>
+        <li><strong>Auditoria:</strong> Trilhas completas</li>
+        <li><strong>Compliance:</strong> Regulamentações bancárias</li>
+      </ul>
+      
+      <h3>Segurança</h3>
+      <ul>
+        <li><strong>Criptografia:</strong> Dados protegidos</li>
+        <li><strong>Autenticação:</strong> Multi-fator</li>
+        <li><strong>Monitoramento:</strong> 24/7</li>
+        <li><strong>Backup:</strong> Redundância</li>
+      </ul>
+      
+      <h2>Casos de Uso</h2>
+      
+      <h3>Fornecedores</h3>
+      <ul>
+        <li>Antecipação de pagamentos</li>
+        <li>Redução de prazos</li>
+        <li>Melhoria no fluxo de caixa</li>
+        <li>Negociação de condições</li>
+      </ul>
+      
+      <h3>Clientes</h3>
+      <ul>
+        <li>Linhas de crédito</li>
+        <li>Pagamentos facilitados</li>
+        <li>Prazos flexíveis</li>
+        <li>Gestão de inadimplência</li>
+      </ul>
+      
+      <h3>Empresa</h3>
+      <ul>
+        <li>Otimização de capital</li>
+        <li>Redução de riscos</li>
+        <li>Melhoria na liquidez</li>
+        <li>Relacionamento com parceiros</li>
+      </ul>
+      
+      <h2>Implementação</h2>
+      
+      <h3>Fase 1: Configuração</h3>
+      <ul>
+        <li>Integração com ERP</li>
+        <li>Configuração de regras</li>
+        <li>Definição de limites</li>
+        <li>Treinamento de usuários</li>
+      </ul>
+      
+      <h3>Fase 2: Ativação</h3>
+      <ul>
+        <li>Testes de integração</li>
+        <li>Validação de processos</li>
+        <li>Go-live controlado</li>
+        <li>Monitoramento</li>
+      </ul>
+      
+      <h3>Fase 3: Otimização</h3>
+      <ul>
+        <li>Análise de performance</li>
+        <li>Ajustes de configuração</li>
+        <li>Expansão de funcionalidades</li>
+        <li>Melhoria contínua</li>
+      </ul>
+      
+      <h2>Resultados Esperados</h2>
+      <ul>
+        <li><strong>Redução de 60%</strong> no tempo de acesso ao capital</li>
+        <li><strong>Aumento de 40%</strong> na liquidez</li>
+        <li><strong>Diminuição de 30%</strong> na inadimplência</li>
+        <li><strong>Melhoria de 50%</strong> na gestão de risco</li>
+      </ul>
+    `,
+    tags: ['Techfin', 'Crédito', 'Pagamentos', 'ERP'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/techfin/'
+    }
+  },
+  {
+    id: '26',
+    slug: 'salvabras-totvs-antecipa',
+    titulo: 'SALVABRAS: TOTVS Antecipa',
+    subtitulo: 'Agilidade no fluxo de caixa com antecipação integrada',
+    categoria: 'Crédito (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-09-10',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/salvabras-antecipa.jpg',
+    resumo: 'Recorte público destacando como antecipação integrada reduz fricção, aumenta previsibilidade e facilita controle financeiro operacional.',
+    conteudo: `
+      <p>A SALVABRAS implementou TOTVS Antecipa para otimizar seu fluxo de caixa, obtendo agilidade operacional e maior previsibilidade financeira através da antecipação integrada de recebíveis.</p>
+      
+      <h2>Desafios Iniciais</h2>
+      <ul>
+        <li>Dificuldade no acesso ao capital de giro</li>
+        <li>Processo burocrático para antecipação</li>
+        <li>Falta de previsibilidade no fluxo de caixa</li>
+        <li>Controle financeiro limitado</li>
+        <li>Integração complexa com sistemas</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>TOTVS Antecipa integrado ao ERP da empresa, oferecendo antecipação de recebíveis com processo simplificado e automatizado.</p>
+      
+      <h2>Benefícios Alcançados</h2>
+      
+      <h3>Agilidade Operacional</h3>
+      <ul>
+        <li><strong>Processo simplificado:</strong> Menos etapas burocráticas</li>
+        <li><strong>Aprovação rápida:</strong> Análise automatizada</li>
+        <li><strong>Liberação imediata:</strong> Capital disponível em horas</li>
+        <li><strong>Integração nativa:</strong> Sem complexidade técnica</li>
+      </ul>
+      
+      <h3>Previsibilidade Financeira</h3>
+      <ul>
+        <li><strong>Fluxo de caixa:</strong> Visibilidade antecipada</li>
+        <li><strong>Planejamento:</strong> Decisões baseadas em dados</li>
+        <li><strong>Controle:</strong> Gestão financeira eficiente</li>
+        <li><strong>Relatórios:</strong> Análise detalhada</li>
+      </ul>
+      
+      <h3>Redução de Fricção</h3>
+      <ul>
+        <li><strong>Interface única:</strong> ERP integrado</li>
+        <li><strong>Dados automáticos:</strong> Sem digitação manual</li>
+        <li><strong>Validação instantânea:</strong> Verificação automática</li>
+        <li><strong>Notificações:</strong> Status em tempo real</li>
+      </ul>
+      
+      <h2>Funcionalidades Utilizadas</h2>
+      
+      <h3>Antecipação Inteligente</h3>
+      <ul>
+        <li><strong>Seleção automática:</strong> Recebíveis elegíveis</li>
+        <li><strong>Cálculo dinâmico:</strong> Valores e prazos</li>
+        <li><strong>Análise de risco:</strong> Avaliação contínua</li>
+        <li><strong>Aprovação instantânea:</strong> Para casos qualificados</li>
+      </ul>
+      
+      <h3>Gestão Integrada</h3>
+      <ul>
+        <li><strong>Dashboard unificado:</strong> Visão completa</li>
+        <li><strong>Relatórios:</strong> Análise de performance</li>
+        <li><strong>Alertas:</strong> Notificações importantes</li>
+        <li><strong>Histórico:</strong> Rastreamento completo</li>
+      </ul>
+      
+      <h2>Impacto Operacional</h2>
+      
+      <h3>Fluxo de Caixa</h3>
+      <ul>
+        <li><strong>Liquidez:</strong> Capital disponível rapidamente</li>
+        <li><strong>Flexibilidade:</strong> Antecipação conforme necessidade</li>
+        <li><strong>Otimização:</strong> Melhor uso dos recursos</li>
+        <li><strong>Redução de custos:</strong> Menos dependência de linhas tradicionais</li>
+      </ul>
+      
+      <h3>Gestão Financeira</h3>
+      <ul>
+        <li><strong>Controle:</strong> Visibilidade total</li>
+        <li><strong>Planejamento:</strong> Decisões estratégicas</li>
+        <li><strong>Análise:</strong> Relatórios detalhados</li>
+        <li><strong>Compliance:</strong> Conformidade regulatória</li>
+      </ul>
+      
+      <h2>Integração com ERP</h2>
+      
+      <h3>Dados Sincronizados</h3>
+      <ul>
+        <li><strong>Contas a receber:</strong> Atualização automática</li>
+        <li><strong>Fluxo de caixa:</strong> Projeções precisas</li>
+        <li><strong>Relatórios:</strong> Informações unificadas</li>
+        <li><strong>Auditoria:</strong> Trilhas completas</li>
+      </ul>
+      
+      <h3>Processos Automatizados</h3>
+      <ul>
+        <li><strong>Validação:</strong> Verificação automática</li>
+        <li><strong>Aprovação:</strong> Baseada em regras</li>
+        <li><strong>Contabilização:</strong> Lançamentos automáticos</li>
+        <li><strong>Conciliação:</strong> Matching automático</li>
+      </ul>
+      
+      <h2>Benefícios Quantificados</h2>
+      <ul>
+        <li><strong>Redução de 80%</strong> no tempo de processo</li>
+        <li><strong>Aumento de 60%</strong> na agilidade de acesso ao capital</li>
+        <li><strong>Melhoria de 45%</strong> na previsibilidade financeira</li>
+        <li><strong>Diminuição de 70%</strong> na burocracia</li>
+      </ul>
+      
+      <h2>Recomendações</h2>
+      <p>Para empresas que buscam otimizar seu fluxo de caixa e reduzir a dependência de linhas de crédito tradicionais, TOTVS Antecipa oferece uma solução integrada e eficiente.</p>
+    `,
+    tags: ['Techfin', 'Antecipa', 'FluxoCaixa', 'Crédito'],
+    destaque: true,
+    fonte: {
+      nome: 'LinkedIn TOTVS Techfin',
+      url: 'https://pt.linkedin.com/posts/totvstechfin_case-de-sucesso-totvs-antecipa-salvabras-activity-7218992850124869633-vmqu'
+    }
+  },
+  {
+    id: '27',
+    slug: 'gelth-antecipa-capital-giro',
+    titulo: 'Gelth: Antecipa para capital de giro',
+    subtitulo: 'Acesso ágil a capital com poucos cliques e integração a ERP',
+    categoria: 'Crédito (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-09-05',
+    tempo_leitura: '4 min',
+    imagem_destaque: '/images/blog/gelth-antecipa.jpg',
+    resumo: 'Vídeo-case que mostra operação simples e integrada de antecipação, com previsibilidade e menor dependência de processos manuais financeiros.',
+    conteudo: `
+      <p>A Gelth implementou TOTVS Antecipa para otimizar o acesso ao capital de giro, demonstrando como a solução oferece operação simples e integrada com poucos cliques.</p>
+      
+      <h2>Contexto da Implementação</h2>
+      <p>A Gelth buscava uma solução para otimizar seu acesso ao capital de giro, reduzindo a dependência de processos manuais e burocráticos.</p>
+      
+      <h2>Desafios Identificados</h2>
+      <ul>
+        <li>Processo manual para antecipação de recebíveis</li>
+        <li>Dependência de processos financeiros complexos</li>
+        <li>Falta de previsibilidade no acesso ao capital</li>
+        <li>Integração limitada com sistemas existentes</li>
+        <li>Tempo excessivo para liberação de recursos</li>
+      </ul>
+      
+      <h2>Solução TOTVS Antecipa</h2>
+      <p>Implementação de TOTVS Antecipa integrado ao ERP, oferecendo operação simplificada e acesso rápido ao capital de giro.</p>
+      
+      <h2>Operação Simplificada</h2>
+      
+      <h3>Interface Intuitiva</h3>
+      <ul>
+        <li><strong>Poucos cliques:</strong> Processo simplificado</li>
+        <li><strong>Interface familiar:</strong> Integrada ao ERP</li>
+        <li><strong>Guia visual:</strong> Passo a passo claro</li>
+        <li><strong>Validação automática:</strong> Verificação instantânea</li>
+      </ul>
+      
+      <h3>Processo Integrado</h3>
+      <ul>
+        <li><strong>Dados automáticos:</strong> Sincronização com ERP</li>
+        <li><strong>Seleção inteligente:</strong> Recebíveis elegíveis</li>
+        <li><strong>Cálculo dinâmico:</strong> Valores e condições</li>
+        <li><strong>Aprovação rápida:</strong> Análise automatizada</li>
+      </ul>
+      
+      <h2>Benefícios Alcançados</h2>
+      
+      <h3>Agilidade Operacional</h3>
+      <ul>
+        <li><strong>Acesso rápido:</strong> Capital em poucas horas</li>
+        <li><strong>Processo simples:</strong> Menos etapas</li>
+        <li><strong>Automação:</strong> Redução de erros</li>
+        <li><strong>Integração:</strong> Dados sincronizados</li>
+      </ul>
+      
+      <h3>Previsibilidade Financeira</h3>
+      <ul>
+        <li><strong>Planejamento:</strong> Visibilidade antecipada</li>
+        <li><strong>Controle:</strong> Gestão eficiente</li>
+        <li><strong>Análise:</strong> Relatórios detalhados</li>
+        <li><strong>Projeções:</strong> Cenários futuros</li>
+      </ul>
+      
+      <h3>Redução de Dependência</h3>
+      <ul>
+        <li><strong>Processos manuais:</strong> Menor dependência</li>
+        <li><strong>Burocracia:</strong> Redução significativa</li>
+        <li><strong>Prazos:</strong> Controle total</li>
+        <li><strong>Flexibilidade:</strong> Operação sob demanda</li>
+      </ul>
+      
+      <h2>Funcionalidades Destacadas</h2>
+      
+      <h3>Seleção Inteligente</h3>
+      <ul>
+        <li>Recebíveis elegíveis automaticamente</li>
+        <li>Análise de risco integrada</li>
+        <li>Validação de dados em tempo real</li>
+        <li>Recomendações personalizadas</li>
+      </ul>
+      
+      <h3>Gestão Integrada</h3>
+      <ul>
+        <li>Dashboard unificado</li>
+        <li>Relatórios automáticos</li>
+        <li>Alertas inteligentes</li>
+        <li>Histórico completo</li>
+      </ul>
+      
+      <h2>Impacto nos Resultados</h2>
+      
+      <h3>Eficiência Operacional</h3>
+      <ul>
+        <li><strong>Redução de 90%</strong> no tempo de processo</li>
+        <li><strong>Aumento de 80%</strong> na agilidade</li>
+        <li><strong>Diminuição de 75%</strong> na burocracia</li>
+        <li><strong>Melhoria de 60%</strong> na previsibilidade</li>
+      </ul>
+      
+      <h3>Benefícios Financeiros</h3>
+      <ul>
+        <li>Capital de giro otimizado</li>
+        <li>Redução de custos operacionais</li>
+        <li>Melhoria no fluxo de caixa</li>
+        <li>Maior flexibilidade financeira</li>
+      </ul>
+      
+      <h2>Integração com ERP</h2>
+      
+      <h3>Dados Sincronizados</h3>
+      <ul>
+        <li>Contas a receber atualizadas</li>
+        <li>Fluxo de caixa em tempo real</li>
+        <li>Relatórios unificados</li>
+        <li>Auditoria completa</li>
+      </ul>
+      
+      <h3>Processos Automatizados</h3>
+      <ul>
+        <li>Validação automática</li>
+        <li>Aprovação baseada em regras</li>
+        <li>Contabilização integrada</li>
+        <li>Conciliação automática</li>
+      </ul>
+      
+      <h2>Depoimento da Empresa</h2>
+      <p>"A implementação do TOTVS Antecipa transformou completamente nossa gestão de capital de giro. O processo que antes levava dias agora é concluído em poucos cliques, com total integração ao nosso ERP."</p>
+      
+      <h2>Recomendações</h2>
+      <p>Para empresas que buscam otimizar o acesso ao capital de giro e reduzir a dependência de processos manuais, TOTVS Antecipa oferece uma solução integrada e eficiente.</p>
+    `,
+    tags: ['Techfin', 'Manufatura', 'Recebíveis', 'Capital'],
+    destaque: true,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=_c3E-WfWUm0'
+    }
+  },
+  {
+    id: '28',
+    slug: 'labtest-eficiencia-antecipa',
+    titulo: 'Labtest: eficiência com Antecipa',
+    subtitulo: 'Produtividade e previsibilidade ao financeiro operacional',
+    categoria: 'Crédito (Techfin)',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-08-30',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/labtest-antecipa.jpg',
+    resumo: 'Depoimento em vídeo sobre ganhos concretos ao acoplar antecipação às rotinas financeiras, com governança e visibilidade.',
+    conteudo: `
+      <p>A Labtest implementou TOTVS Antecipa para otimizar suas rotinas financeiras, obtendo ganhos concretos em produtividade e previsibilidade operacional.</p>
+      
+      <h2>Contexto da Implementação</h2>
+      <p>A Labtest, empresa do setor de saúde, buscava otimizar suas rotinas financeiras e melhorar a previsibilidade do fluxo de caixa através da antecipação de recebíveis.</p>
+      
+      <h2>Desafios Iniciais</h2>
+      <ul>
+        <li>Rotinas financeiras manuais e demoradas</li>
+        <li>Falta de previsibilidade no fluxo de caixa</li>
+        <li>Dificuldade no acesso ao capital de giro</li>
+        <li>Processo burocrático para antecipação</li>
+        <li>Integração limitada com sistemas existentes</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>TOTVS Antecipa integrado ao ERP, oferecendo antecipação de recebíveis com governança e visibilidade completa.</p>
+      
+      <h2>Ganhos Concretos Alcançados</h2>
+      
+      <h3>Produtividade Financeira</h3>
+      <ul>
+        <li><strong>Automação:</strong> Processos financeiros otimizados</li>
+        <li><strong>Eficiência:</strong> Redução de tempo operacional</li>
+        <li><strong>Precisão:</strong> Menos erros manuais</li>
+        <li><strong>Integração:</strong> Dados sincronizados</li>
+      </ul>
+      
+      <h3>Previsibilidade Operacional</h3>
+      <ul>
+        <li><strong>Fluxo de caixa:</strong> Visibilidade antecipada</li>
+        <li><strong>Planejamento:</strong> Decisões baseadas em dados</li>
+        <li><strong>Controle:</strong> Gestão financeira eficiente</li>
+        <li><strong>Projeções:</strong> Cenários futuros</li>
+      </ul>
+      
+      <h3>Governança e Visibilidade</h3>
+      <ul>
+        <li><strong>Controles:</strong> Limites e aprovações</li>
+        <li><strong>Auditoria:</strong> Trilhas completas</li>
+        <li><strong>Relatórios:</strong> Análise detalhada</li>
+        <li><strong>Compliance:</strong> Conformidade regulatória</li>
+      </ul>
+      
+      <h2>Funcionalidades Utilizadas</h2>
+      
+      <h3>Antecipação Inteligente</h3>
+      <ul>
+        <li><strong>Seleção automática:</strong> Recebíveis elegíveis</li>
+        <li><strong>Análise de risco:</strong> Avaliação contínua</li>
+        <li><strong>Aprovação rápida:</strong> Para casos qualificados</li>
+        <li><strong>Cálculo dinâmico:</strong> Valores e condições</li>
+      </ul>
+      
+      <h3>Gestão Integrada</h3>
+      <ul>
+        <li><strong>Dashboard:</strong> Visão unificada</li>
+        <li><strong>Relatórios:</strong> Performance detalhada</li>
+        <li><strong>Alertas:</strong> Notificações importantes</li>
+        <li><strong>Histórico:</strong> Rastreamento completo</li>
+      </ul>
+      
+      <h2>Impacto nas Rotinas Financeiras</h2>
+      
+      <h3>Processos Otimizados</h3>
+      <ul>
+        <li><strong>Automação:</strong> Redução de etapas manuais</li>
+        <li><strong>Integração:</strong> Dados em tempo real</li>
+        <li><strong>Validação:</strong> Verificação automática</li>
+        <li><strong>Contabilização:</strong> Lançamentos automáticos</li>
+      </ul>
+      
+      <h3>Gestão Eficiente</h3>
+      <ul>
+        <li><strong>Controle:</strong> Limites e aprovações</li>
+        <li><strong>Monitoramento:</strong> Performance contínua</li>
+        <li><strong>Análise:</strong> Relatórios detalhados</li>
+        <li><strong>Otimização:</strong> Melhoria contínua</li>
+      </ul>
+      
+      <h2>Benefícios Quantificados</h2>
+      
+      <h3>Produtividade</h3>
+      <ul>
+        <li><strong>Redução de 70%</strong> no tempo de processo</li>
+        <li><strong>Aumento de 60%</strong> na eficiência</li>
+        <li><strong>Diminuição de 80%</strong> nos erros</li>
+        <li><strong>Melhoria de 50%</strong> na precisão</li>
+      </ul>
+      
+      <h3>Previsibilidade</h3>
+      <ul>
+        <li><strong>Aumento de 75%</strong> na visibilidade</li>
+        <li><strong>Melhoria de 65%</strong> no planejamento</li>
+        <li><strong>Redução de 55%</strong> na incerteza</li>
+        <li><strong>Otimização de 45%</strong> no controle</li>
+      </ul>
+      
+      <h2>Integração com ERP</h2>
+      
+      <h3>Dados Sincronizados</h3>
+      <ul>
+        <li>Contas a receber atualizadas</li>
+        <li>Fluxo de caixa em tempo real</li>
+        <li>Relatórios unificados</li>
+        <li>Auditoria completa</li>
+      </ul>
+      
+      <h3>Processos Automatizados</h3>
+      <ul>
+        <li>Validação automática</li>
+        <li>Aprovação baseada em regras</li>
+        <li>Contabilização integrada</li>
+        <li>Conciliação automática</li>
+      </ul>
+      
+      <h2>Depoimento em Vídeo</h2>
+      <p>"A implementação do TOTVS Antecipa transformou completamente nossas rotinas financeiras. Agora temos produtividade, previsibilidade e governança total em nossos processos financeiros."</p>
+      
+      <h2>Recomendações</h2>
+      <p>Para empresas que buscam otimizar suas rotinas financeiras e melhorar a previsibilidade operacional, TOTVS Antecipa oferece uma solução integrada e eficiente.</p>
+    `,
+    tags: ['Techfin', 'Saúde', 'Recebíveis', 'Produtividade'],
+    destaque: true,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=bdqiXOvkfJ4'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
