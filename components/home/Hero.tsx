@@ -233,11 +233,11 @@ const Hero = () => {
               </div>
               <div className="flex-1">
                 <div className="text-sm font-semibold text-cyan-400 mb-2 tracking-wide">
-                  DASHBOARDS INTELIGENTES
+                  TECNOLOGIA TOTVS INTEGRADA
                 </div>
                 <div className="text-slate-300 leading-relaxed">
-                  <span className="text-white font-medium">Decisões baseadas em dados em tempo real.</span> 
-                  <span className="block mt-2 text-cyan-300 font-medium">Analytics Avançado + BI Integrado.</span>
+                  <span className="text-white font-medium">Ecossistema completo para gestão empresarial, da ponta ao backoffice.</span> 
+                  <span className="block mt-2 text-cyan-300 font-medium">Inovação, escalabilidade e inteligência para seu crescimento.</span>
                 </div>
               </div>
             </div>
