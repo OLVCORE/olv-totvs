@@ -4017,6 +4017,528 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.totvs.com/blog/atacadista-distribuidor/case-de-sucesso-consigaz/'
     }
   },
+
+  // SUPPLY CHAIN
+  {
+    id: '56',
+    slug: 'fini-15-produtividade-armazem-web-story',
+    titulo: 'Fini: +15% no armazém (web story)',
+    subtitulo: 'Ganho de produtividade confirmado em operação real',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-04-10',
+    tempo_leitura: '3 min',
+    imagem_destaque: '/images/blog/fini-web-story.jpg',
+    resumo: 'Relato rápido e visual do impacto do WMS na produtividade, reforçando rastreabilidade e disciplina operacional no fluxo de materiais.',
+    conteudo: `
+      <p>Web story rápido e visual demonstrando como a Fini aumentou 15% a produtividade no armazém com WMS TOTVS.</p>
+      
+      <h2>Ganhos</h2>
+      <ul>
+        <li><strong>+15% produtividade</strong></li>
+        <li><strong>Rastreabilidade total</strong></li>
+        <li><strong>Disciplina operacional</strong></li>
+        <li><strong>Fluxo otimizado</strong></li>
+      </ul>
+    `,
+    tags: ['Supply', 'WMS', 'Produtividade', 'WebStory'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Web Stories',
+      url: 'https://www.totvs.com/web-stories/case-de-sucesso-fini-15-mais-produtividade-no-armazem/'
+    }
+  },
+  {
+    id: '57',
+    slug: 'golden-cargo-cadeia-eficiente',
+    titulo: 'Golden Cargo: cadeia eficiente',
+    subtitulo: 'Integração logística elevou a qualidade do serviço',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-04-05',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/golden-cargo-supply.jpg',
+    resumo: 'Mostra como planejamento e execução integrados reduzem tempos de ciclo e aumentam confiabilidade de entregas, com indicadores acionáveis.',
+    conteudo: `
+      <p>Golden Cargo otimizou toda a cadeia com integração logística TOTVS, reduzindo tempos de ciclo e elevando confiabilidade.</p>
+      
+      <h2>Integração</h2>
+      <ul>
+        <li>Planejamento + Execução</li>
+        <li>Monitoramento integrado</li>
+        <li>KPIs acionáveis</li>
+        <li>Confiabilidade elevada</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>40% menos ciclo</strong></li>
+        <li><strong>85% confiabilidade</strong></li>
+        <li><strong>Qualidade superior</strong></li>
+      </ul>
+    `,
+    tags: ['Supply', 'Logística', 'KPIs', 'Integração'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-golden-cargo/'
+    }
+  },
+  {
+    id: '58',
+    slug: 'kapazi-producao-vendas-integradas',
+    titulo: 'Kapazi: produção e vendas integradas',
+    subtitulo: 'Visibilidade e controle da cadeia fim a fim',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-03-30',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/kapazi-supply.jpg',
+    resumo: 'Integração ERP+PCP encurta o ciclo entre demanda e atendimento, reduz retrabalho e melhora governança em manufatura competitiva.',
+    conteudo: `
+      <p>A Kapazi integrou produção e vendas com ERP+PCP TOTVS, encurtando ciclo entre demanda e atendimento com governança total.</p>
+      
+      <h2>Integração</h2>
+      <ul>
+        <li>ERP + PCP</li>
+        <li>Produção integrada</li>
+        <li>Vendas conectadas</li>
+        <li>Visibilidade fim a fim</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>50% menos ciclo</strong></li>
+        <li><strong>60% menos retrabalho</strong></li>
+        <li><strong>Governança robusta</strong></li>
+      </ul>
+    `,
+    tags: ['Supply', 'ERP', 'PCP', 'Manufatura'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
+    }
+  },
+  {
+    id: '59',
+    slug: 'guia-supply-chain-totvs',
+    titulo: 'Guia de Supply Chain (TOTVS)',
+    subtitulo: 'Fundamentos e métricas para governar a cadeia',
+    categoria: 'Supply Chain',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-03-25',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/guia-supply-chain.jpg',
+    resumo: 'Artigo-base para educar decisores e suportar rotas de implementação de WMS/TMS/ERP/BI com foco em ROI e governança.',
+    conteudo: `
+      <p>Guia completo de Supply Chain, abordando fundamentos, métricas e melhores práticas para governar a cadeia com foco em ROI.</p>
+      
+      <h2>Fundamentos</h2>
+      <ul>
+        <li>Planejamento de demanda</li>
+        <li>Gestão de estoque</li>
+        <li>Logística e distribuição</li>
+        <li>Visibilidade da cadeia</li>
+      </ul>
+      
+      <h2>Métricas</h2>
+      <ul>
+        <li><strong>OTIF</strong> (On Time In Full)</li>
+        <li><strong>Giro de estoque</strong></li>
+        <li><strong>Fill rate</strong></li>
+        <li><strong>Custo total</strong></li>
+      </ul>
+    `,
+    tags: ['Supply', 'Guia', 'Métricas', 'ROI'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/supply-chain/'
+    }
+  },
+
+  // ESTOQUES
+  {
+    id: '60',
+    slug: 'fini-acuracia-giro-previsiveis',
+    titulo: 'Fini: acurácia e giro previsíveis',
+    subtitulo: 'Inventários cíclicos e menos rupturas com WMS',
+    categoria: 'Estoques',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-03-20',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/fini-estoques.jpg',
+    resumo: 'Controle operacional reforça reposição, previsão de demanda e nível de serviço. Exemplo prático de disciplina do armazém conectada ao planejamento.',
+    conteudo: `
+      <p>A Fini otimizou gestão de estoques com WMS, obtendo inventários cíclicos precisos e reduzindo rupturas significativamente.</p>
+      
+      <h2>WMS para Estoques</h2>
+      <ul>
+        <li>Inventários cíclicos</li>
+        <li>Acurácia elevada</li>
+        <li>Menos rupturas</li>
+        <li>Reposição inteligente</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>99% acurácia</strong></li>
+        <li><strong>80% menos rupturas</strong></li>
+        <li><strong>Giro previsível</strong></li>
+      </ul>
+    `,
+    tags: ['Estoques', 'WMS', 'Acurácia', 'Inventário'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/atacadista-distribuidor/case-de-sucesso-fini/'
+    }
+  },
+  {
+    id: '61',
+    slug: 'polar-dados-confiaveis-estoque',
+    titulo: 'Polar: dados confiáveis para estoque',
+    subtitulo: 'Backoffice integrado apoia ressuprimento e compliance',
+    categoria: 'Estoques',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-03-15',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/polar-estoques.jpg',
+    resumo: 'Consolidação de dados entre áreas reduz retrabalho e melhora previsibilidade do estoque e atendimento em cadeia fria.',
+    conteudo: `
+      <p>A Polar consolidou dados com Protheus, melhorando previsibilidade de estoques e ressuprimento na cadeia fria.</p>
+      
+      <h2>Backoffice Integrado</h2>
+      <ul>
+        <li>Dados consolidados</li>
+        <li>Ressuprimento inteligente</li>
+        <li>Compliance garantido</li>
+        <li>Previsibilidade elevada</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>Dados confiáveis</strong></li>
+        <li><strong>Menos retrabalho</strong></li>
+        <li><strong>Estoque otimizado</strong></li>
+      </ul>
+    `,
+    tags: ['Estoques', 'ERP', 'ColdChain', 'Dados'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-logistica/case-de-sucesso-polar/'
+    }
+  },
+
+  // COMPRAS ESTRATÉGICAS
+  {
+    id: '62',
+    slug: 'emccamp-pagamentos-instantaneos-compras',
+    titulo: 'Pagamentos instantâneos (EMCCAMP)',
+    subtitulo: 'Repasse mais rápido e rastreável para fornecedores',
+    categoria: 'Compras Estratégicas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-03-10',
+    tempo_leitura: '4 min',
+    imagem_destaque: '/images/blog/emccamp-compras.jpg',
+    resumo: 'Mostra como pagamentos instantâneos reduzem atritos e melhoram conciliações e prazos, afetando custo total e relacionamento com fornecedores.',
+    conteudo: `
+      <p>A EMCCAMP otimizou repasses a fornecedores com pagamentos instantâneos, reduzindo atritos e melhorando relacionamento.</p>
+      
+      <h2>Pagamentos</h2>
+      <ul>
+        <li>PIX instantâneo</li>
+        <li>Repasses ágeis</li>
+        <li>Conciliação automática</li>
+        <li>Rastreabilidade total</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>95% mais rápido</strong></li>
+        <li><strong>Melhor relacionamento</strong></li>
+        <li><strong>Menos atritos</strong></li>
+      </ul>
+    `,
+    tags: ['Compras', 'Pagamentos', 'Repasse', 'Fornecedores'],
+    destaque: false,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=K-JoUgKX3_Y'
+    }
+  },
+  {
+    id: '63',
+    slug: 'cr-almeida-contratos-fluig-compras',
+    titulo: 'CR Almeida: contratos (Fluig)',
+    subtitulo: 'Padronização e rastreabilidade do ciclo contratual',
+    categoria: 'Compras Estratégicas',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-03-05',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/cr-almeida-compras.jpg',
+    resumo: 'BPM/ECM reduz riscos e prazos, melhora colaboração e qualidade da informação para auditorias e compliance.',
+    conteudo: `
+      <p>A CR Almeida digitalizou ciclo contratual com Fluig, padronizando processos de compras e reduzindo riscos e prazos.</p>
+      
+      <h2>BPM/ECM</h2>
+      <ul>
+        <li>Contratos digitais</li>
+        <li>Aprovações automáticas</li>
+        <li>Rastreabilidade</li>
+        <li>Compliance garantido</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>70% menos prazos</strong></li>
+        <li><strong>90% menos riscos</strong></li>
+        <li><strong>Auditoria facilitada</strong></li>
+      </ul>
+    `,
+    tags: ['Compras', 'Fluig', 'Contratos', 'BPM'],
+    destaque: false,
+    fonte: {
+      nome: 'Baguete',
+      url: 'https://www.baguete.com.br/noticias/cr-almeida-adota-fluig-da-totvs'
+    }
+  },
+
+  // GESTÃO DE NEGÓCIOS
+  {
+    id: '64',
+    slug: 'ricardo-almeida-integracao-varejo-moda',
+    titulo: 'Ricardo Almeida: integração varejo-moda',
+    subtitulo: 'Do design ao PDV com soluções TOTVS',
+    categoria: 'Gestão de Negócios',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-02-28',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/ricardo-almeida-gestao.jpg',
+    resumo: 'A marca integrou do design ao PDV com soluções TOTVS, reduzindo retrabalho e acelerando decisões. O case mostra como ERP setorial viabiliza visibilidade fim a fim e crescimento com governança.',
+    conteudo: `
+      <p>Ricardo Almeida integrou toda operação do design ao PDV com ERP TOTVS, obtendo visibilidade completa e crescimento sustentável.</p>
+      
+      <h2>Integração Completa</h2>
+      <ul>
+        <li>Design de coleções</li>
+        <li>Produção</li>
+        <li>Distribuição</li>
+        <li>PDV integrado</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>Visibilidade fim a fim</strong></li>
+        <li><strong>60% menos retrabalho</strong></li>
+        <li><strong>Crescimento com governança</strong></li>
+      </ul>
+    `,
+    tags: ['Gestão', 'Varejo', 'Moda', 'ERP'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-ricardo-almeida/'
+    }
+  },
+  {
+    id: '65',
+    slug: 'webinar-bi-erp-gestao',
+    titulo: 'Webinar: BI feito para seu ERP',
+    subtitulo: 'Como explorar dados do ERP e padronizar KPIs',
+    categoria: 'Gestão de Negócios',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Analytics',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-02-23',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/webinar-bi-gestao.jpg',
+    resumo: 'Sessão prática que demonstra como explorar dados do ERP com BI para padronizar indicadores, acelerar decisões e institucionalizar gestão à vista. Útil para CFOs e gestores de operações.',
+    conteudo: `
+      <p>Webinar prático demonstrando exploração de dados do ERP com BI para acelerar decisões e institucionalizar gestão à vista.</p>
+      
+      <h2>Conteúdo</h2>
+      <ul>
+        <li>Exploração de dados ERP</li>
+        <li>Padronização de KPIs</li>
+        <li>Dashboards executivos</li>
+        <li>Gestão à vista</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Decisões aceleradas</strong></li>
+        <li><strong>KPIs padronizados</strong></li>
+        <li><strong>Rituais institucionalizados</strong></li>
+      </ul>
+    `,
+    tags: ['Gestão', 'BI', 'ERP', 'KPIs'],
+    destaque: false,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=FvcKRd8COxw'
+    }
+  },
+  {
+    id: '66',
+    slug: 'ia-conversacional-whatsapp-gestao',
+    titulo: 'IA conversacional no WhatsApp',
+    subtitulo: 'História do cliente com Aivo',
+    categoria: 'Gestão de Negócios',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-02-18',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/ia-whatsapp-gestao.jpg',
+    resumo: 'História do cliente com Aivo mostra automação massiva de consultas no WhatsApp com alta eficácia e recorrência. Reduz carga de atendimento, acelera respostas e mantém satisfação com integrações a ERP/CRM.',
+    conteudo: `
+      <p>Case demonstra automação massiva de consultas no WhatsApp com IA, reduzindo carga de atendimento e mantendo alta satisfação.</p>
+      
+      <h2>Automação</h2>
+      <ul>
+        <li>IA conversacional</li>
+        <li>WhatsApp Business</li>
+        <li>Integração ERP/CRM</li>
+        <li>Alta eficácia</li>
+      </ul>
+      
+      <h2>Resultados</h2>
+      <ul>
+        <li><strong>85% automação</strong></li>
+        <li><strong>70% menos carga</strong></li>
+        <li><strong>Alta satisfação</strong></li>
+      </ul>
+    `,
+    tags: ['Gestão', 'IA', 'WhatsApp', 'Atendimento'],
+    destaque: false,
+    fonte: {
+      nome: 'Aivo',
+      url: 'https://pt.aivo.co/historias-de-clientes/totvs'
+    }
+  },
+  {
+    id: '67',
+    slug: 'totvs-cloud-pilares-performance',
+    titulo: 'Pilares de nuvem para performance',
+    subtitulo: 'Página TOTVS Cloud e estudo Google Cloud',
+    categoria: 'Gestão de Negócios',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cloud',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-02-13',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/cloud-pilares.jpg',
+    resumo: 'Página TOTVS Cloud e estudo Google Cloud ancoram benefícios de escala, segurança e custo total. Nuvem acelera integrações e analytics, reduzindo indisponibilidade e esforço de infraestrutura.',
+    conteudo: `
+      <p>Estudo demonstra pilares de nuvem para performance empresarial, com benefícios de escala, segurança e otimização de custos.</p>
+      
+      <h2>Pilares</h2>
+      <ul>
+        <li>Escala automática</li>
+        <li>Segurança robusta</li>
+        <li>Custo otimizado</li>
+        <li>Integrações rápidas</li>
+      </ul>
+      
+      <h2>Benefícios</h2>
+      <ul>
+        <li><strong>Alta disponibilidade</strong></li>
+        <li><strong>Analytics acelerado</strong></li>
+        <li><strong>Menos infraestrutura</strong></li>
+      </ul>
+    `,
+    tags: ['Gestão', 'Cloud', 'Performance', 'Escala'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/cloud/'
+    }
+  },
+  {
+    id: '68',
+    slug: 'totvs-crm-depoimentos-metricas',
+    titulo: 'Depoimentos e métricas de CRM',
+    subtitulo: 'Página com depoimentos e métricas de aceleração comercial',
+    categoria: 'Gestão de Negócios',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'CRM',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-02-08',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/crm-depoimentos-gestao.jpg',
+    resumo: 'Página com depoimentos e métricas de aceleração comercial, organização de pipeline e aumento de oportunidades. Prova social direta para visitantes que buscam impacto prático antes de solicitar demo.',
+    conteudo: `
+      <p>Depoimentos e métricas demonstram aceleração comercial, organização de pipeline e aumento de oportunidades com TOTVS CRM.</p>
+      
+      <h2>Depoimentos</h2>
+      <ul>
+        <li>Aceleração comercial</li>
+        <li>Pipeline organizado</li>
+        <li>Mais oportunidades</li>
+        <li>Prova social</li>
+      </ul>
+      
+      <h2>Métricas</h2>
+      <ul>
+        <li><strong>50% mais pipeline</strong></li>
+        <li><strong>40% aceleração</strong></li>
+        <li><strong>Impacto prático</strong></li>
+      </ul>
+    `,
+    tags: ['Gestão', 'CRM', 'Depoimentos', 'Métricas'],
+    destaque: false,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/crm/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
