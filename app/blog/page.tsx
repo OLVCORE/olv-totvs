@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { Calendar, Clock, Tag, ArrowRight, Search, Filter } from 'lucide-react';
+import { Calendar, Clock, Tag, ArrowRight, Search, Filter, ExternalLink } from 'lucide-react';
 import { BLOG_POSTS, getAllCategories } from '@/lib/data/blog-posts';
 
 export default function BlogPage() {
@@ -97,9 +97,46 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Filtro de Categorias */}
+      {/* Painel de Contagem por Categoria */}
       <section className="relative z-10 -mt-8 mb-16">
         <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8"
+          >
+            <div className="bg-slate-800/30 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/30">
+              <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+                <Filter className="w-5 h-5 text-cyan-400" />
+                Estatísticas do Blog
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                {getAllCategories().map((categoria) => (
+                  <div
+                    key={categoria}
+                    className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-xl p-4 border border-slate-600/30 hover:border-cyan-500/30 transition-all duration-300"
+                  >
+                    <div className="text-2xl font-bold text-cyan-400 mb-1">
+                      {BLOG_POSTS.filter(post => post.categoria === categoria).length}
+                    </div>
+                    <div className="text-sm text-slate-300 font-medium">
+                      {categoria}
+                    </div>
+                  </div>
+                ))}
+                <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl p-4 border border-cyan-500/30">
+                  <div className="text-2xl font-bold text-cyan-300 mb-1">
+                    {BLOG_POSTS.length}
+                  </div>
+                  <div className="text-sm text-cyan-200 font-medium">
+                    Total de Artigos
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -202,6 +239,21 @@ export default function BlogPage() {
                             <ArrowRight className="w-5 h-5" />
                           </div>
                         </div>
+
+                        {/* Botão da Fonte Original */}
+                        {post.fonte && (
+                          <div className="mt-4 pt-4 border-t border-slate-700/50">
+                            <a
+                              href={post.fonte.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 text-sm text-slate-400 hover:text-amber-400 transition-colors duration-300"
+                            >
+                              <ExternalLink className="w-4 h-4" />
+                              Fonte: {post.fonte.nome}
+                            </a>
+                          </div>
+                        )}
                       </div>
                     </div>
                   </Link>
@@ -282,9 +334,24 @@ export default function BlogPage() {
                         </div>
                       </div>
 
-                      <div className="flex items-center gap-2 text-cyan-300 font-semibold group-hover:gap-4 transition-all duration-300">
-                        Continuar lendo
-                        <ArrowRight className="w-5 h-5" />
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-2 text-cyan-300 font-semibold group-hover:gap-4 transition-all duration-300">
+                          Continuar lendo
+                          <ArrowRight className="w-5 h-5" />
+                        </div>
+
+                        {/* Botão da Fonte Original */}
+                        {post.fonte && (
+                          <a
+                            href={post.fonte.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-2 text-xs text-slate-500 hover:text-amber-400 transition-colors duration-300"
+                          >
+                            <ExternalLink className="w-3 h-3" />
+                            {post.fonte.nome}
+                          </a>
+                        )}
                       </div>
                     </div>
                   </Link>
