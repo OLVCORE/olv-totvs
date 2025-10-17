@@ -1521,6 +1521,465 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.totvs.com/blog/gestao-varejista/experiencia-do-cliente/'
     }
   },
+
+  // CLOUD
+  {
+    id: '22',
+    slug: 'estudo-totvs-google-cloud',
+    titulo: 'Estudo: TOTVS no Google Cloud',
+    subtitulo: 'Escala, colaboração e infraestrutura moderna no ecossistema TOTVS',
+    categoria: 'Cloud',
+    autor: {
+      nome: 'Google Cloud',
+      cargo: 'Especialistas em Cloud',
+      avatar: '/images/avatars/google-cloud.jpg',
+    },
+    data_publicacao: '2024-09-30',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/totvs-google-cloud.jpg',
+    resumo: 'Caso publicado pelo Google Cloud que ilustra benefícios de nuvem corporativa. Para clientes TOTVS, indica robustez, disponibilidade e bases para analytics e integrações.',
+    conteudo: `
+      <p>O Google Cloud publicou um estudo de caso detalhado sobre a TOTVS, ilustrando os benefícios reais de infraestrutura de nuvem corporativa para empresas de grande porte.</p>
+      
+      <h2>Contexto do Estudo</h2>
+      <p>O estudo analisa como a TOTVS utiliza a infraestrutura do Google Cloud para suportar seu ecossistema de soluções, oferecendo robustez, disponibilidade e bases sólidas para analytics e integrações.</p>
+      
+      <h2>Benefícios Demonstrados</h2>
+      
+      <h3>Escala e Performance</h3>
+      <ul>
+        <li><strong>Escalabilidade automática:</strong> Ajuste dinâmico de recursos</li>
+        <li><strong>Alta disponibilidade:</strong> 99.9% de uptime garantido</li>
+        <li><strong>Performance otimizada:</strong> Tempos de resposta reduzidos</li>
+        <li><strong>Capacidade global:</strong> Infraestrutura distribuída</li>
+      </ul>
+      
+      <h3>Colaboração e Produtividade</h3>
+      <ul>
+        <li><strong>Ferramentas integradas:</strong> Google Workspace integrado</li>
+        <li><strong>Colaboração em tempo real:</strong> Documentos compartilhados</li>
+        <li><strong>Comunicação eficiente:</strong> Meet, Chat e Drive</li>
+        <li><strong>Produtividade aumentada:</strong> Workflows otimizados</li>
+      </ul>
+      
+      <h3>Segurança e Compliance</h3>
+      <ul>
+        <li><strong>Segurança de nível empresarial:</strong> Proteção avançada</li>
+        <li><strong>Compliance automático:</strong> LGPD e outras regulamentações</li>
+        <li><strong>Backup e recuperação:</strong> Proteção de dados</li>
+        <li><strong>Monitoramento 24/7:</strong> Detecção de ameaças</li>
+      </ul>
+      
+      <h2>Infraestrutura Moderna</h2>
+      
+      <h3>Arquitetura Cloud-Native</h3>
+      <ul>
+        <li>Containerização com Kubernetes</li>
+        <li>Microserviços escaláveis</li>
+        <li>APIs RESTful</li>
+        <li>Integração contínua/entrega</li>
+      </ul>
+      
+      <h3>Serviços Utilizados</h3>
+      <ul>
+        <li><strong>Compute Engine:</strong> Máquinas virtuais</li>
+        <li><strong>Cloud Storage:</strong> Armazenamento escalável</li>
+        <li><strong>Cloud SQL:</strong> Bancos de dados gerenciados</li>
+        <li><strong>BigQuery:</strong> Analytics de dados</li>
+        <li><strong>Cloud Functions:</strong> Serverless computing</li>
+      </ul>
+      
+      <h2>Analytics e Inteligência</h2>
+      
+      <h3>Big Data e Analytics</h3>
+      <ul>
+        <li>Processamento de grandes volumes</li>
+        <li>Análise em tempo real</li>
+        <li>Machine Learning integrado</li>
+        <li>Dashboards interativos</li>
+      </ul>
+      
+      <h3>Integrações Avançadas</h3>
+      <ul>
+        <li>APIs conectadas</li>
+        <li>Webhooks automatizados</li>
+        <li>Integração com sistemas legados</li>
+        <li>Ecosistema aberto</li>
+      </ul>
+      
+      <h2>Impacto para Clientes TOTVS</h2>
+      
+      <h3>Robustez Operacional</h3>
+      <ul>
+        <li>Sistemas sempre disponíveis</li>
+        <li>Performance consistente</li>
+        <li>Recuperação rápida de falhas</li>
+        <li>Suporte 24/7</li>
+      </ul>
+      
+      <h3>Inovação Contínua</h3>
+      <ul>
+        <li>Acesso a tecnologias emergentes</li>
+        <li>Atualizações automáticas</li>
+        <li>Novos recursos constantemente</li>
+        <li>Roadmap transparente</li>
+      </ul>
+      
+      <h2>Benefícios Econômicos</h2>
+      <ul>
+        <li><strong>Redução de TCO:</strong> Custo total de propriedade menor</li>
+        <li><strong>Pay-per-use:</strong> Pague apenas pelo que usar</li>
+        <li><strong>Sem investimento inicial:</strong> Infraestrutura como serviço</li>
+        <li><strong>Economia de energia:</strong> Data centers eficientes</li>
+      </ul>
+      
+      <h2>Resultados Comprovados</h2>
+      <p>O estudo demonstra que empresas que migraram para a nuvem com TOTVS obtiveram redução de 40% nos custos de infraestrutura e aumento de 60% na agilidade de desenvolvimento.</p>
+    `,
+    tags: ['Cloud', 'Infra', 'Escala', 'Google'],
+    destaque: true,
+    fonte: {
+      nome: 'Google Cloud',
+      url: 'https://cloud.google.com/customers/totvs?hl=pt-br'
+    }
+  },
+  {
+    id: '23',
+    slug: 'pagina-totvs-cloud',
+    titulo: 'Página: TOTVS Cloud',
+    subtitulo: 'Ofertas e benefícios com integração nativa ao ecossistema',
+    categoria: 'Cloud',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Produto',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-09-25',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/totvs-cloud-pagina.jpg',
+    resumo: 'Base institucional para jornada de migração com segurança, suporte e custo total otimizados, acelerando integrações com soluções TOTVS.',
+    conteudo: `
+      <p>A TOTVS Cloud oferece uma plataforma completa de infraestrutura e serviços em nuvem, otimizada para o ecossistema TOTVS e integração nativa com todas as soluções.</p>
+      
+      <h2>Ofertas Disponíveis</h2>
+      
+      <h3>IaaS (Infrastructure as a Service)</h3>
+      <ul>
+        <li><strong>Servidores virtuais:</strong> Configuração flexível</li>
+        <li><strong>Armazenamento:</strong> Escalável e seguro</li>
+        <li><strong>Redes:</strong> Conectividade global</li>
+        <li><strong>Backup automático:</strong> Proteção garantida</li>
+      </ul>
+      
+      <h3>PaaS (Platform as a Service)</h3>
+      <ul>
+        <li><strong>Ambientes de desenvolvimento:</strong> DevOps integrado</li>
+        <li><strong>Bancos de dados gerenciados:</strong> SQL e NoSQL</li>
+        <li><strong>APIs e integrações:</strong> Conectividade nativa</li>
+        <li><strong>Monitoramento:</strong> Observabilidade completa</li>
+      </ul>
+      
+      <h3>SaaS (Software as a Service)</h3>
+      <ul>
+        <li><strong>ERP em nuvem:</strong> Protheus Cloud</li>
+        <li><strong>CRM online:</strong> Gestão de relacionamento</li>
+        <li><strong>Analytics:</strong> Business Intelligence</li>
+        <li><strong>Colaboração:</strong> Ferramentas integradas</li>
+      </ul>
+      
+      <h2>Integração Nativa ao Ecossistema</h2>
+      
+      <h3>Conectividade Automática</h3>
+      <ul>
+        <li>Integração com ERP TOTVS</li>
+        <li>Conexão com CRM</li>
+        <li>Sincronização com BI</li>
+        <li>APIs pré-configuradas</li>
+      </ul>
+      
+      <h3>Migração Simplificada</h3>
+      <ul>
+        <li><strong>Assessment automatizado:</strong> Análise de compatibilidade</li>
+        <li><strong>Planejamento detalhado:</strong> Roadmap personalizado</li>
+        <li><strong>Migração assistida:</strong> Suporte especializado</li>
+        <li><strong>Validação completa:</strong> Testes automatizados</li>
+      </ul>
+      
+      <h2>Segurança e Compliance</h2>
+      
+      <h3>Segurança de Nível Empresarial</h3>
+      <ul>
+        <li><strong>Criptografia:</strong> Dados protegidos end-to-end</li>
+        <li><strong>Controle de acesso:</strong> IAM avançado</li>
+        <li><strong>Monitoramento:</strong> SIEM integrado</li>
+        <li><strong>Backup:</strong> Redundância geográfica</li>
+      </ul>
+      
+      <h3>Compliance Total</h3>
+      <ul>
+        <li><strong>LGPD:</strong> Conformidade automática</li>
+        <li><strong>ISO 27001:</strong> Certificação internacional</li>
+        <li><strong>SOX:</strong> Controles financeiros</li>
+        <li><strong>Auditoria:</strong> Trilhas completas</li>
+      </ul>
+      
+      <h2>Suporte Especializado</h2>
+      
+      <h3>Suporte Técnico</h3>
+      <ul>
+        <li><strong>24/7:</strong> Disponibilidade total</li>
+        <li><strong>Especialistas TOTVS:</strong> Conhecimento profundo</li>
+        <li><strong>SLAs garantidos:</strong> Tempos de resposta</li>
+        <li><strong>Escalação rápida:</strong> Resolução eficiente</li>
+      </ul>
+      
+      <h3>Suporte de Migração</h3>
+      <ul>
+        <li>Consultoria especializada</li>
+        <li>Treinamento de equipe</li>
+        <li>Documentação completa</li>
+        <li>Acompanhamento pós-migração</li>
+      </ul>
+      
+      <h2>Otimização de Custo Total</h2>
+      
+      <h3>Modelo de Preços Flexível</h3>
+      <ul>
+        <li><strong>Pay-per-use:</strong> Pague apenas pelo que usar</li>
+        <li><strong>Reserved instances:</strong> Desconto por compromisso</li>
+        <li><strong>Spot instances:</strong> Preços reduzidos</li>
+        <li><strong>Volume discounts:</strong> Desconto por volume</li>
+      </ul>
+      
+      <h3>Redução de Custos</h3>
+      <ul>
+        <li><strong>Sem investimento inicial:</strong> CAPEX zero</li>
+        <li><strong>Economia de energia:</strong> Data centers eficientes</li>
+        <li><strong>Manutenção reduzida:</strong> Infraestrutura gerenciada</li>
+        <li><strong>Escalabilidade:</strong> Ajuste dinâmico de recursos</li>
+      </ul>
+      
+      <h2>Aceleração de Integrações</h2>
+      
+      <h3>APIs Nativas</h3>
+      <ul>
+        <li>Conectores pré-construídos</li>
+        <li>Documentação completa</li>
+        <li>SDKs para desenvolvimento</li>
+        <li>Exemplos práticos</li>
+      </ul>
+      
+      <h3>Marketplace de Integrações</h3>
+      <ul>
+        <li>Soluções certificadas</li>
+        <li>Instalação em um clique</li>
+        <li>Configuração automática</li>
+        <li>Suporte incluído</li>
+      </ul>
+      
+      <h2>Benefícios Comprovados</h2>
+      <ul>
+        <li><strong>Redução de 50%</strong> no tempo de implementação</li>
+        <li><strong>Economia de 40%</strong> nos custos operacionais</li>
+        <li><strong>Aumento de 70%</strong> na agilidade de desenvolvimento</li>
+        <li><strong>Melhoria de 90%</strong> na disponibilidade</li>
+      </ul>
+    `,
+    tags: ['Cloud', 'IaaS', 'PaaS', 'Migração'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/cloud/'
+    }
+  },
+  {
+    id: '24',
+    slug: 'on-premise-vs-cloud',
+    titulo: 'On-premise vs Cloud',
+    subtitulo: 'Guia para escolha com foco em custo total e governança',
+    categoria: 'Cloud',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em Cloud',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-09-20',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/on-premise-vs-cloud.jpg',
+    resumo: 'Ajuda CIOs e CFOs a decidirem a estratégia de hospedagem, mapeando impactos de TCO, compliance e operação.',
+    conteudo: `
+      <p>Este guia ajuda CIOs e CFOs a tomarem decisões estratégicas sobre hospedagem, analisando detalhadamente os impactos de custo total de propriedade (TCO), compliance e operação.</p>
+      
+      <h2>Comparação Estratégica</h2>
+      
+      <h3>On-Premise (Local)</h3>
+      <ul>
+        <li><strong>Controle total:</strong> Infraestrutura própria</li>
+        <li><strong>Investimento inicial:</strong> Alto CAPEX</li>
+        <li><strong>Manutenção:</strong> Responsabilidade interna</li>
+        <li><strong>Segurança:</strong> Controle direto</li>
+        <li><strong>Customização:</strong> Total flexibilidade</li>
+      </ul>
+      
+      <h3>Cloud (Nuvem)</h3>
+      <ul>
+        <li><strong>Escalabilidade:</strong> Recursos sob demanda</li>
+        <li><strong>Modelo OPEX:</strong> Pague conforme usar</li>
+        <li><strong>Manutenção:</strong> Gerenciada pelo provedor</li>
+        <li><strong>Disponibilidade:</strong> Alta disponibilidade</li>
+        <li><strong>Atualizações:</strong> Automáticas e contínuas</li>
+      </ul>
+      
+      <h2>Análise de TCO (Total Cost of Ownership)</h2>
+      
+      <h3>Custos On-Premise</h3>
+      
+      <h4>Investimento Inicial (CAPEX)</h4>
+      <ul>
+        <li>Servidores e hardware</li>
+        <li>Licenças de software</li>
+        <li>Infraestrutura de rede</li>
+        <li>Sistemas de backup</li>
+        <li>Segurança física</li>
+      </ul>
+      
+      <h4>Custos Operacionais (OPEX)</h4>
+      <ul>
+        <li>Energia elétrica</li>
+        <li>Refrigeração e climatização</li>
+        <li>Manutenção de hardware</li>
+        <li>Licenças de software</li>
+        <li>Recursos humanos especializados</li>
+      </ul>
+      
+      <h3>Custos Cloud</h3>
+      
+      <h4>Modelo de Assinatura</h4>
+      <ul>
+        <li>Pay-per-use</li>
+        <li>Reserved instances</li>
+        <li>Volume discounts</li>
+        <li>Commitment discounts</li>
+      </ul>
+      
+      <h4>Custos Adicionais</h4>
+      <ul>
+        <li>Transferência de dados</li>
+        <li>Armazenamento adicional</li>
+        <li>Serviços premium</li>
+        <li>Suporte especializado</li>
+      </ul>
+      
+      <h2>Governança e Compliance</h2>
+      
+      <h3>On-Premise</h3>
+      <ul>
+        <li><strong>Controle total:</strong> Dados em ambiente próprio</li>
+        <li><strong>Compliance:</strong> Responsabilidade interna</li>
+        <li><strong>Auditoria:</strong> Processos internos</li>
+        <li><strong>Segurança:</strong> Políticas próprias</li>
+      </ul>
+      
+      <h3>Cloud</h3>
+      <ul>
+        <li><strong>Certificações:</strong> ISO 27001, SOC 2, etc.</li>
+        <li><strong>Compliance:</strong> LGPD, SOX automatizados</li>
+        <li><strong>Auditoria:</strong> Relatórios automatizados</li>
+        <li><strong>Segurança:</strong> Melhores práticas globais</li>
+      </ul>
+      
+      <h2>Operação e Manutenção</h2>
+      
+      <h3>On-Premise</h3>
+      <ul>
+        <li><strong>Equipe interna:</strong> Administradores de sistema</li>
+        <li><strong>Manutenção:</strong> Responsabilidade total</li>
+        <li><strong>Atualizações:</strong> Planejamento interno</li>
+        <li><strong>Backup:</strong> Estratégias próprias</li>
+      </ul>
+      
+      <h3>Cloud</h3>
+      <ul>
+        <li><strong>Equipe reduzida:</strong> Foco em negócio</li>
+        <li><strong>Manutenção:</strong> Gerenciada pelo provedor</li>
+        <li><strong>Atualizações:</strong> Automáticas e contínuas</li>
+        <li><strong>Backup:</strong> Redundância automática</li>
+      </ul>
+      
+      <h2>Fatores de Decisão</h2>
+      
+      <h3>Escolha On-Premise Quando:</h3>
+      <ul>
+        <li>Dados altamente sensíveis</li>
+        <li>Regulamentações específicas</li>
+        <li>Controle total necessário</li>
+        <li>Customização extrema</li>
+        <li>Custos de conectividade altos</li>
+      </ul>
+      
+      <h3>Escolha Cloud Quando:</h3>
+      <ul>
+        <li>Escalabilidade necessária</li>
+        <li>Redução de TCO desejada</li>
+        <li>Foco no core business</li>
+        <li>Acesso global necessário</li>
+        <li>Inovação constante</li>
+      </ul>
+      
+      <h2>Modelos Híbridos</h2>
+      
+      <h3>Cloud Híbrido</h3>
+      <ul>
+        <li><strong>Dados críticos:</strong> On-premise</li>
+        <li><strong>Aplicações:</strong> Cloud</li>
+        <li><strong>Backup:</strong> Cloud</li>
+        <li><strong>Desenvolvimento:</strong> Cloud</li>
+      </ul>
+      
+      <h3>Multi-Cloud</h3>
+      <ul>
+        <li><strong>Redundância:</strong> Múltiplos provedores</li>
+        <li><strong>Especialização:</strong> Melhor serviço por função</li>
+        <li><strong>Negociação:</strong> Melhores preços</li>
+        <li><strong>Risco:</strong> Distribuído</li>
+      </ul>
+      
+      <h2>Roadmap de Migração</h2>
+      
+      <h3>Fase 1: Assessment</h3>
+      <ul>
+        <li>Inventário de aplicações</li>
+        <li>Análise de dependências</li>
+        <li>Avaliação de compatibilidade</li>
+        <li>Cálculo de TCO</li>
+      </ul>
+      
+      <h3>Fase 2: Planejamento</h3>
+      <ul>
+        <li>Estratégia de migração</li>
+        <li>Cronograma detalhado</li>
+        <li>Plano de contingência</li>
+        <li>Treinamento de equipe</li>
+      </ul>
+      
+      <h3>Fase 3: Implementação</h3>
+      <ul>
+        <li>Migração gradual</li>
+        <li>Testes de validação</li>
+        <li>Monitoramento contínuo</li>
+        <li>Otimização</li>
+      </ul>
+      
+      <h2>Recomendações Finais</h2>
+      <p>Para a maioria das empresas, a migração para cloud oferece benefícios significativos em termos de TCO, agilidade e inovação. Considere uma abordagem híbrida para transição gradual e redução de riscos.</p>
+    `,
+    tags: ['Cloud', 'TCO', 'Governança', 'Migração'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/erp/on-premise-vs-cloud/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
