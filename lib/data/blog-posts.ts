@@ -23,6 +23,7 @@ export interface BlogPost {
 }
 
 export const BLOG_POSTS: BlogPost[] = [
+  // INTELIGÊNCIA ARTIFICIAL
   {
     id: '1',
     slug: 'universo-totvs-2025-ia-aplicada-negocios',
@@ -103,6 +104,161 @@ export const BLOG_POSTS: BlogPost[] = [
     fonte: {
       nome: 'Aivo',
       url: 'https://pt.aivo.co/historias-de-clientes/totvs'
+    }
+  },
+  {
+    id: '3',
+    slug: 'chat-commerce-ia',
+    titulo: 'Chat Commerce com IA',
+    subtitulo: 'IA em canais de mensagem para qualificar leads e aumentar conversão',
+    categoria: 'Inteligência Artificial',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em IA',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2025-01-05',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/chat-commerce.jpg',
+    resumo: 'Mostra como conversas inteligentes impulsionam receita e reduzem custos de atendimento. Integrações com CRM e ERP, automação de dúvidas frequentes e orquestração de jornadas de compra em canais preferidos do cliente.',
+    conteudo: `
+      <p>O Chat Commerce com IA está revolucionando a forma como as empresas interagem com seus clientes, oferecendo experiências personalizadas e conversões mais eficientes.</p>
+      
+      <h2>O que é Chat Commerce?</h2>
+      <p>Chat Commerce integra IA aos canais de mensagem para qualificar leads, responder dúvidas e elevar conversão, automatizando o atendimento e conectando-se ao funil de vendas.</p>
+      
+      <h2>Benefícios Comprovados</h2>
+      <ul>
+        <li><strong>Aumento de receita</strong> através de conversas inteligentes</li>
+        <li><strong>Redução de custos</strong> de atendimento</li>
+        <li><strong>Integrações completas</strong> com CRM e ERP</li>
+        <li><strong>Automação de dúvidas</strong> frequentes</li>
+        <li><strong>Orquestração de jornadas</strong> de compra</li>
+      </ul>
+      
+      <h2>Canais Preferidos</h2>
+      <p>As conversas acontecem nos canais que os clientes mais preferem, garantindo maior engajamento e satisfação.</p>
+      
+      <h2>Resultados Mensuráveis</h2>
+      <p>Empresas que implementaram Chat Commerce reportam aumento de 35% na conversão e redução de 40% nos custos de atendimento.</p>
+    `,
+    tags: ['IA', 'Vendas', 'Conversacional', 'Varejo'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/chat-commerce/'
+    }
+  },
+  {
+    id: '4',
+    slug: 'guia-marketing-conversacional',
+    titulo: 'Guia: marketing conversacional',
+    subtitulo: 'Estratégias para estruturar conversas com IA e medir resultados',
+    categoria: 'Inteligência Artificial',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em Marketing',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2025-01-01',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/marketing-conversacional.jpg',
+    resumo: 'Passo a passo para planejar, executar e acompanhar conversas com IA em WhatsApp, site e redes sociais. Padroniza o aprendizado e reduz atritos entre marketing, vendas e CX, com foco em ROI e escalabilidade.',
+    conteudo: `
+      <p>O marketing conversacional está revolucionando a forma como as empresas se relacionam com seus clientes, oferecendo experiências personalizadas e resultados mensuráveis.</p>
+      
+      <h2>O que é Marketing Conversacional?</h2>
+      <p>É uma estratégia que utiliza IA para criar conversas inteligentes e personalizadas, conectando marketing, vendas e experiência do cliente.</p>
+      
+      <h2>Estratégias Práticas</h2>
+      <ul>
+        <li><strong>Planejamento:</strong> Definição de objetivos e KPIs</li>
+        <li><strong>Execução:</strong> Implementação em múltiplos canais</li>
+        <li><strong>Acompanhamento:</strong> Métricas e otimização contínua</li>
+        <li><strong>Escalabilidade:</strong> Padronização e automação</li>
+      </ul>
+      
+      <h2>Canais de Atuação</h2>
+      <ul>
+        <li>WhatsApp Business</li>
+        <li>Sites e landing pages</li>
+        <li>Redes sociais</li>
+        <li>Chatbots integrados</li>
+      </ul>
+      
+      <h2>Benefícios Comprovados</h2>
+      <ul>
+        <li>Redução de atritos entre áreas</li>
+        <li>ROI mensurável</li>
+        <li>Escalabilidade garantida</li>
+        <li>Experiência personalizada</li>
+      </ul>
+    `,
+    tags: ['IA', 'Marketing', 'Funil', 'Conversacional'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/marketing-conversacional/'
+    }
+  },
+  {
+    id: '5',
+    slug: '10-estrategias-cx-ia',
+    titulo: '10 estratégias de CX com IA',
+    subtitulo: 'Táticas acionáveis para elevar CX com dados e automação',
+    categoria: 'Inteligência Artificial',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em CX',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-28',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/cx-ia.jpg',
+    resumo: 'Conteúdo prático com 10 táticas de CX orientadas por IA, conectando tecnologia a retenção e NPS. Ajuda a transformar iniciativas de atendimento em ganhos mensuráveis de fidelização e valor de vida do cliente.',
+    conteudo: `
+      <p>A experiência do cliente (CX) está sendo revolucionada pela Inteligência Artificial, oferecendo oportunidades únicas de personalização e eficiência.</p>
+      
+      <h2>As 10 Estratégias de CX com IA</h2>
+      
+      <h3>1. Personalização em Tempo Real</h3>
+      <p>IA analisa comportamento e oferece experiências personalizadas instantaneamente.</p>
+      
+      <h3>2. Atendimento Proativo</h3>
+      <p>Antecipa necessidades do cliente antes mesmo que ele as expresse.</p>
+      
+      <h3>3. Análise de Sentimento</h3>
+      <p>Monitora emoções em tempo real para ajustar estratégias.</p>
+      
+      <h3>4. Recomendações Inteligentes</h3>
+      <p>Sugere produtos e serviços baseados em padrões de comportamento.</p>
+      
+      <h3>5. Automação de Respostas</h3>
+      <p>Resolve consultas comuns automaticamente com alta precisão.</p>
+      
+      <h3>6. Predição de Churn</h3>
+      <p>Identifica clientes em risco de cancelamento com antecedência.</p>
+      
+      <h3>7. Otimização de Canais</h3>
+      <p>Direciona clientes para o canal mais eficiente para cada situação.</p>
+      
+      <h3>8. Análise de Jornada</h3>
+      <p>Mapeia e otimiza cada etapa da experiência do cliente.</p>
+      
+      <h3>9. Feedback Inteligente</h3>
+      <p>Coleta e analisa feedback de forma contínua e automatizada.</p>
+      
+      <h3>10. Métricas Avançadas</h3>
+      <p>Monitora KPIs complexos como NPS e valor de vida do cliente.</p>
+      
+      <h2>Impacto nos Resultados</h2>
+      <p>Empresas que implementaram essas estratégias reportam aumento de 40% no NPS e redução de 30% no churn.</p>
+    `,
+    tags: ['IA', 'CX', 'NPS', 'Retenção'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/experiencia-do-cliente/'
     }
   },
   {
