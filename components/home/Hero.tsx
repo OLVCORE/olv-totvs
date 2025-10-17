@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 pt-32 pb-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 pt-24 pb-20 overflow-hidden">
       {/* Futuristic Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div
@@ -136,8 +136,8 @@ const Hero = () => {
                 </div>
               </div>
               <div className="text-center">
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 rounded-2xl flex items-center justify-center border border-indigo-400/30">
-                  <div className="w-8 h-8 bg-gradient-to-r from-indigo-400 to-purple-400 rounded-lg" />
+                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-br from-blue-500/20 to-cyan-500/20 rounded-2xl flex items-center justify-center border border-blue-400/30">
+                  <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-cyan-400 rounded-lg" />
                 </div>
                 <div className="text-sm font-semibold text-indigo-300 mb-1 tracking-wide">
                   SUPORTE
