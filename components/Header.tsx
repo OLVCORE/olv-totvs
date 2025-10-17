@@ -77,21 +77,23 @@ const Header = () => {
             <div className="relative">
               {/* Moldura redonda com hover dourado */}
               <div className="w-20 h-20 rounded-full border-4 border-slate-600 bg-slate-800/50 p-3 group-hover:border-amber-400 group-hover:shadow-lg group-hover:shadow-amber-400/30 transition-all duration-300 group-hover:scale-105 overflow-hidden">
-                {/* Logo original OLV - Imagem real */}
-                <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative bg-gradient-to-br from-amber-500 to-yellow-600">
-                  <img
-                    src="/images/logo-olv.jpeg?v=1"
-                    alt="OLV Internacional Logo"
-                    className="w-full h-full object-contain rounded-full"
-                    onError={(e) => {
-                      console.log('Erro ao carregar JPEG, tentando PNG:', e);
-                      e.currentTarget.src = '/images/logo-olv.png?v=1';
-                    }}
-                    onLoad={() => console.log('Logo carregado com sucesso!')}
-                  />
-                  {/* Fallback caso nenhuma imagem carregue */}
-                  <div className="absolute inset-0 flex items-center justify-center text-white font-bold text-xs opacity-0" id="logo-fallback">
-                    OLV
+                {/* Logo original OLV - Círculo laranja com alvo/bússola */}
+                <div className="w-full h-full rounded-full overflow-hidden flex items-center justify-center relative bg-gradient-to-br from-orange-500 to-orange-600">
+                  {/* Símbolo de alvo/bússola branco */}
+                  <div className="w-full h-full relative flex items-center justify-center">
+                    {/* Linhas divisórias (cruz) */}
+                    <div className="absolute w-full h-px bg-white/90"></div>
+                    <div className="absolute w-px h-full bg-white/90"></div>
+                    
+                    {/* Pontos nos 4 quadrantes */}
+                    <div className="absolute top-1/4 left-1/4 w-1.5 h-1.5 bg-white rounded-full"></div>
+                    <div className="absolute top-1/4 right-1/4 w-1.5 h-1.5 bg-white rounded-full"></div>
+                    <div className="absolute bottom-1/4 left-1/4 w-1.5 h-1.5 bg-white rounded-full"></div>
+                    <div className="absolute bottom-1/4 right-1/4 w-1.5 h-1.5 bg-white rounded-full"></div>
+                    
+                    {/* Linha curva saindo do quadrante inferior direito */}
+                    <div className="absolute bottom-1/4 right-1/4 w-4 h-4 border-b-2 border-r-2 border-white/90 rounded-br-lg"></div>
+                    <div className="absolute bottom-1/6 right-1/6 w-3 h-3 border-b-2 border-r-2 border-white/90 rounded-br-lg"></div>
                   </div>
                 </div>
               </div>

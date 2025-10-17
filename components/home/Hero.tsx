@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 pt-32 pb-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 pt-48 pb-20 overflow-hidden">
       {/* Futuristic Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div
