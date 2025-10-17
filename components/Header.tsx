@@ -93,7 +93,7 @@ const Header = () => {
             
             {/* Slogan em dourado abaixo da moldura */}
             <div className="hidden md:block mt-3">
-              <div className="text-xs font-medium text-amber-400 tracking-[0.2em] leading-tight group-hover:text-yellow-300 transition-all duration-300 text-center uppercase">
+              <div className="text-xs font-bold italic text-amber-400 whitespace-nowrap group-hover:text-yellow-300 transition-all duration-300">
                 Integramos estratégia, operação e resultado
               </div>
             </div>
