@@ -25,555 +25,627 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: '1',
-    slug: 'transformacao-digital-erp',
-    titulo: 'Transformação Digital: Como o ERP TOTVS Revoluciona Sua Gestão',
-    subtitulo: 'Descubra como a tecnologia pode otimizar seus processos empresariais',
-    categoria: 'Gestão Empresarial',
+    slug: 'universo-totvs-2025-ia-aplicada-negocios',
+    titulo: 'Universo TOTVS 2025: IA aplicada aos negócios',
+    subtitulo: 'Panorama prático de IA aplicada à gestão e operações com tendências e demonstrações',
+    categoria: 'Inteligência Artificial',
     autor: {
-      nome: 'Carlos Silva',
-      cargo: 'Especialista em ERP',
-      avatar: '/images/avatars/carlos.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em IA',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2025-01-15',
     tempo_leitura: '8 min',
-    imagem_destaque: '/images/blog/transformacao-digital.jpg',
-    resumo: 'A transformação digital não é mais uma opção, mas uma necessidade para empresas que desejam se manter competitivas. Neste artigo, exploramos como o ERP TOTVS pode ser o catalisador dessa mudança.',
+    imagem_destaque: '/images/blog/ia-negocios.jpg',
+    resumo: 'Visão ampla e atual de como IA acelera atendimento, previsões e integrações com ERP/CRM, trazendo ganhos reais de eficiência e experiência. Útil como âncora estratégica para evidências setoriais e para conectar inovação a resultados tangíveis em diferentes ramos.',
     conteudo: `
-      <p>A transformação digital tem se tornado cada vez mais essencial para empresas de todos os tamanhos. Com a evolução tecnológica acelerada, processos manuais e sistemas desconectados podem significar a perda de competitividade no mercado.</p>
+      <p>O Universo TOTVS 2025 apresenta um panorama prático das aplicações de IA em processos de negócio, cobrindo ganhos de eficiência, novas experiências e integrações com ERP/CRM.</p>
       
-      <h2>O que é Transformação Digital?</h2>
-      <p>Transformação digital é a integração de tecnologia digital em todas as áreas de um negócio, mudando fundamentalmente como você opera e entrega valor aos clientes.</p>
+      <h2>IA em Processos de Negócio</h2>
+      <p>A Inteligência Artificial está revolucionando a forma como as empresas operam, desde atendimento ao cliente até análise de dados complexos.</p>
       
-      <h2>Como o ERP TOTVS Ajuda</h2>
+      <h2>Aplicações Práticas</h2>
       <ul>
-        <li>Centralização de dados em tempo real</li>
-        <li>Automação de processos manuais</li>
-        <li>Análises preditivas com IA</li>
-        <li>Integração com outros sistemas</li>
+        <li><strong>Atendimento Acelerado:</strong> Chatbots inteligentes que respondem em tempo real</li>
+        <li><strong>Previsões Avançadas:</strong> Análise preditiva para demandas e vendas</li>
+        <li><strong>Integrações Inteligentes:</strong> Conectividade automática entre sistemas</li>
+        <li><strong>Experiência Personalizada:</strong> Recomendações baseadas em comportamento</li>
       </ul>
       
-      <h2>Resultados Comprovados</h2>
-      <p>Empresas que implementaram o ERP TOTVS reportam redução de até 40% no tempo de fechamento contábil e aumento de 35% na produtividade operacional.</p>
+      <h2>Resultados Mensuráveis</h2>
+      <p>Empresas que implementaram IA reportam redução de até 70% em custos operacionais e aumento de 45% na satisfação do cliente.</p>
     `,
-    tags: ['ERP', 'Transformação Digital', 'Gestão', 'TOTVS'],
+    tags: ['IA', 'Estratégia', 'Inovação', 'Gestão'],
     destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/universo-totvs-2025/'
+    }
   },
   {
     id: '2',
-    slug: 'automacao-processos-fluig',
-    titulo: 'Automação de Processos: 5 Casos de Uso do Fluig',
-    subtitulo: 'Elimine papel e ganhe eficiência com workflows inteligentes',
-    categoria: 'Automação',
+    slug: 'ia-conversacional-whatsapp-cliente-totvs',
+    titulo: 'IA conversacional no WhatsApp (história do cliente)',
+    subtitulo: 'Automação de alto volume com eficácia e recorrência no WhatsApp',
+    categoria: 'Inteligência Artificial',
     autor: {
-      nome: 'Maria Santos',
-      cargo: 'Consultora de BPM',
-      avatar: '/images/avatars/maria.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2025-01-10',
     tempo_leitura: '6 min',
-    imagem_destaque: '/images/blog/automacao-fluig.jpg',
-    resumo: 'Descubra 5 casos práticos de como o Fluig pode automatizar processos críticos da sua empresa, reduzindo tempo e custos operacionais.',
+    imagem_destaque: '/images/blog/ia-whatsapp.jpg',
+    resumo: 'História de cliente em que IA conversacional automatiza grande parte das consultas com alta satisfação. Replicável em vendas, suporte e sucesso do cliente, reduzindo carga do time e tempo de resposta com integrações a sistemas de gestão.',
     conteudo: `
-      <p>O Fluig é a plataforma de automação de processos da TOTVS que permite criar workflows inteligentes sem necessidade de programação complexa.</p>
+      <p>A implementação de IA conversacional no WhatsApp está transformando o atendimento ao cliente, oferecendo respostas instantâneas e personalizadas 24 horas por dia.</p>
       
-      <h2>5 Casos de Uso Essenciais</h2>
+      <h2>O Case de Sucesso</h2>
+      <p>Uma empresa implementou IA conversacional no WhatsApp e conseguiu automatizar mais de 80% das consultas iniciais, mantendo alta satisfação do cliente.</p>
       
-      <h3>1. Aprovação de Compras</h3>
-      <p>Automatize todo o fluxo de solicitação, cotação e aprovação de compras com múltiplos níveis de aprovação baseados em valores.</p>
+      <h2>Benefícios Alcançados</h2>
+      <ul>
+        <li><strong>Redução de 70%</strong> na carga do time de atendimento</li>
+        <li><strong>Resposta instantânea</strong> 24/7</li>
+        <li><strong>Alta satisfação</strong> dos clientes</li>
+        <li><strong>Integração completa</strong> com sistemas de gestão</li>
+        <li><strong>Escalabilidade</strong> para alto volume</li>
+      </ul>
       
-      <h3>2. Gestão de Documentos</h3>
-      <p>Digitalize e organize todos os documentos da empresa com controle de versão e rastreabilidade completa.</p>
+      <h2>Aplicações Replicáveis</h2>
+      <p>Esta solução pode ser aplicada em vendas, suporte e sucesso do cliente, oferecendo uma experiência consistente e eficiente.</p>
       
-      <h3>3. Onboarding de Funcionários</h3>
-      <p>Crie um processo estruturado de integração que garante que todos os passos sejam seguidos.</p>
-      
-      <h3>4. Solicitações de Férias</h3>
-      <p>Simplifique pedidos e aprovações de férias com validação automática de saldo.</p>
-      
-      <h3>5. Controle de Qualidade</h3>
-      <p>Implemente checklists e inspeções com registro fotográfico e assinaturas digitais.</p>
+      <h2>Integração com Sistemas</h2>
+      <p>A IA conversacional se integra perfeitamente com ERP, CRM e outros sistemas, proporcionando respostas contextualizadas e precisas.</p>
     `,
-    tags: ['Fluig', 'Automação', 'BPM', 'Workflows'],
+    tags: ['IA', 'CX', 'WhatsApp', 'Atendimento'],
     destaque: true,
+    fonte: {
+      nome: 'Aivo',
+      url: 'https://pt.aivo.co/historias-de-clientes/totvs'
+    }
   },
   {
     id: '3',
-    slug: 'inteligencia-artificial-negocios',
-    titulo: 'IA nos Negócios: Como Começar Sua Jornada',
-    subtitulo: 'Guia prático para implementar inteligência artificial na sua empresa',
+    slug: 'chat-commerce-ia',
+    titulo: 'Chat Commerce com IA',
+    subtitulo: 'IA em canais de mensagem para qualificar leads e aumentar conversão',
     categoria: 'Inteligência Artificial',
     autor: {
-      nome: 'Rafael Costa',
-      cargo: 'Especialista em IA',
-      avatar: '/images/avatars/rafael.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em IA',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2025-01-05',
-    tempo_leitura: '10 min',
-    imagem_destaque: '/images/blog/ia-negocios.jpg',
-    resumo: 'A Inteligência Artificial não é mais ficção científica. Veja como aplicar IA de forma prática e acessível no seu negócio.',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/chat-commerce.jpg',
+    resumo: 'Mostra como conversas inteligentes impulsionam receita e reduzem custos de atendimento. Integrações com CRM e ERP, automação de dúvidas frequentes e orquestração de jornadas de compra em canais preferidos do cliente.',
     conteudo: `
-      <p>Inteligência Artificial (IA) está transformando a maneira como as empresas operam, desde atendimento ao cliente até análise de dados complexos.</p>
+      <p>O Chat Commerce com IA está revolucionando a forma como as empresas interagem com seus clientes, oferecendo experiências personalizadas e conversões mais eficientes.</p>
       
-      <h2>Por Onde Começar?</h2>
-      <p>A implementação de IA deve ser gradual e focada em resolver problemas específicos do seu negócio.</p>
+      <h2>O que é Chat Commerce?</h2>
+      <p>Chat Commerce integra IA aos canais de mensagem para qualificar leads, responder dúvidas e elevar conversão, automatizando o atendimento e conectando-se ao funil de vendas.</p>
       
-      <h2>Aplicações Práticas de IA</h2>
+      <h2>Benefícios Comprovados</h2>
       <ul>
-        <li><strong>Chatbots Inteligentes:</strong> Atendimento 24/7 automatizado</li>
-        <li><strong>Análise Preditiva:</strong> Previsão de demanda e vendas</li>
-        <li><strong>Detecção de Fraudes:</strong> Identificação automática de anomalias</li>
-        <li><strong>Recomendações:</strong> Personalização da experiência do cliente</li>
+        <li><strong>Aumento de receita</strong> através de conversas inteligentes</li>
+        <li><strong>Redução de custos</strong> de atendimento</li>
+        <li><strong>Integrações completas</strong> com CRM e ERP</li>
+        <li><strong>Automação de dúvidas</strong> frequentes</li>
+        <li><strong>Orquestração de jornadas</strong> de compra</li>
       </ul>
       
-      <h2>ROI da IA</h2>
-      <p>Empresas que implementaram IA reportam redução de até 70% em custos operacionais e aumento de 45% na satisfação do cliente.</p>
+      <h2>Canais Preferidos</h2>
+      <p>As conversas acontecem nos canais que os clientes mais preferem, garantindo maior engajamento e satisfação.</p>
+      
+      <h2>Resultados Mensuráveis</h2>
+      <p>Empresas que implementaram Chat Commerce reportam aumento de 35% na conversão e redução de 40% nos custos de atendimento.</p>
     `,
-    tags: ['IA', 'Machine Learning', 'Inovação', 'Tecnologia'],
+    tags: ['IA', 'Vendas', 'Conversacional', 'Varejo'],
     destaque: true,
+    fonte: {
+      nome: 'TOTVS',
+      url: 'https://www.totvs.com/chat-commerce/'
+    }
   },
   {
     id: '4',
-    slug: 'cloud-computing-vantagens',
-    titulo: 'Cloud Computing: 7 Vantagens para Seu Negócio',
-    subtitulo: 'Entenda por que migrar para a nuvem é estratégico',
-    categoria: 'Cloud',
+    slug: 'guia-marketing-conversacional',
+    titulo: 'Guia: marketing conversacional',
+    subtitulo: 'Estratégias para estruturar conversas com IA e medir resultados',
+    categoria: 'Inteligência Artificial',
     autor: {
-      nome: 'Ana Paula',
-      cargo: 'Arquiteta de Soluções Cloud',
-      avatar: '/images/avatars/ana.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em Marketing',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2025-01-01',
-    tempo_leitura: '7 min',
-    imagem_destaque: '/images/blog/cloud-vantagens.jpg',
-    resumo: 'Descubra as principais vantagens de migrar seus sistemas para a nuvem e como isso pode impulsionar seu negócio.',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/marketing-conversacional.jpg',
+    resumo: 'Passo a passo para planejar, executar e acompanhar conversas com IA em WhatsApp, site e redes sociais. Padroniza o aprendizado e reduz atritos entre marketing, vendas e CX, com foco em ROI e escalabilidade.',
     conteudo: `
-      <p>A computação em nuvem deixou de ser tendência para se tornar padrão de mercado. Empresas de todos os portes estão migrando para a cloud.</p>
+      <p>O marketing conversacional está revolucionando a forma como as empresas se relacionam com seus clientes, oferecendo experiências personalizadas e resultados mensuráveis.</p>
       
-      <h2>7 Vantagens Principais</h2>
+      <h2>O que é Marketing Conversacional?</h2>
+      <p>É uma estratégia que utiliza IA para criar conversas inteligentes e personalizadas, conectando marketing, vendas e experiência do cliente.</p>
       
-      <h3>1. Redução de Custos</h3>
-      <p>Elimine investimentos em infraestrutura física e pague apenas pelo que usar.</p>
+      <h2>Estratégias Práticas</h2>
+      <ul>
+        <li><strong>Planejamento:</strong> Definição de objetivos e KPIs</li>
+        <li><strong>Execução:</strong> Implementação em múltiplos canais</li>
+        <li><strong>Acompanhamento:</strong> Métricas e otimização contínua</li>
+        <li><strong>Escalabilidade:</strong> Padronização e automação</li>
+      </ul>
       
-      <h3>2. Escalabilidade</h3>
-      <p>Aumente ou reduza recursos conforme a demanda, sem desperdícios.</p>
+      <h2>Canais de Atuação</h2>
+      <ul>
+        <li>WhatsApp Business</li>
+        <li>Sites e landing pages</li>
+        <li>Redes sociais</li>
+        <li>Chatbots integrados</li>
+      </ul>
       
-      <h3>3. Disponibilidade 99.9%</h3>
-      <p>Garanta que seus sistemas estejam sempre disponíveis.</p>
-      
-      <h3>4. Segurança Avançada</h3>
-      <p>Proteção de dados com criptografia e compliance garantido.</p>
-      
-      <h3>5. Trabalho Remoto</h3>
-      <p>Acesse seus sistemas de qualquer lugar, com segurança.</p>
-      
-      <h3>6. Backup Automático</h3>
-      <p>Nunca perca dados com backups contínuos e disaster recovery.</p>
-      
-      <h3>7. Atualizações Automáticas</h3>
-      <p>Sempre na última versão, sem downtime.</p>
+      <h2>Benefícios Comprovados</h2>
+      <ul>
+        <li>Redução de atritos entre áreas</li>
+        <li>ROI mensurável</li>
+        <li>Escalabilidade garantida</li>
+        <li>Experiência personalizada</li>
+      </ul>
     `,
-    tags: ['Cloud', 'Infraestrutura', 'Segurança', 'TOTVS Cloud'],
-    destaque: false,
+    tags: ['IA', 'Marketing', 'Funil', 'Conversacional'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/marketing-conversacional/'
+    }
   },
   {
     id: '5',
-    slug: 'crm-vendas-b2b',
-    titulo: 'CRM para Vendas B2B: Guia Completo',
-    subtitulo: 'Como escolher e implementar um CRM que aumenta suas vendas',
-    categoria: 'Vendas',
+    slug: '10-estrategias-cx-ia',
+    titulo: '10 estratégias de CX com IA',
+    subtitulo: 'Táticas acionáveis para elevar CX com dados e automação',
+    categoria: 'Inteligência Artificial',
     autor: {
-      nome: 'Pedro Oliveira',
-      cargo: 'Consultor de Vendas',
-      avatar: '/images/avatars/pedro.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em CX',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-12-28',
-    tempo_leitura: '9 min',
-    imagem_destaque: '/images/blog/crm-b2b.jpg',
-    resumo: 'Um CRM bem implementado pode aumentar suas vendas em até 30%. Veja como escolher a ferramenta certa e implementar com sucesso.',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/cx-ia.jpg',
+    resumo: 'Conteúdo prático com 10 táticas de CX orientadas por IA, conectando tecnologia a retenção e NPS. Ajuda a transformar iniciativas de atendimento em ganhos mensuráveis de fidelização e valor de vida do cliente.',
     conteudo: `
-      <p>No mundo B2B, onde os ciclos de vendas são longos e complexos, um CRM robusto é essencial para gerenciar relacionamentos e oportunidades.</p>
+      <p>A experiência do cliente (CX) está sendo revolucionada pela Inteligência Artificial, oferecendo oportunidades únicas de personalização e eficiência.</p>
       
-      <h2>O que Procurar em um CRM B2B</h2>
-      <ul>
-        <li>Gestão de pipeline visual</li>
-        <li>Automação de follow-ups</li>
-        <li>Integração com e-mail e WhatsApp</li>
-        <li>Relatórios de performance</li>
-        <li>Previsão de vendas com IA</li>
-      </ul>
+      <h2>As 10 Estratégias de CX com IA</h2>
       
-      <h2>Implementação de Sucesso</h2>
-      <p>A chave para o sucesso está na adoção pela equipe. Treinamento e processos claros são fundamentais.</p>
+      <h3>1. Personalização em Tempo Real</h3>
+      <p>IA analisa comportamento e oferece experiências personalizadas instantaneamente.</p>
       
-      <h2>Resultados Esperados</h2>
-      <p>Empresas que implementaram CRM adequadamente reportam aumento de 30% na conversão e redução de 50% no ciclo de vendas.</p>
+      <h3>2. Atendimento Proativo</h3>
+      <p>Antecipa necessidades do cliente antes mesmo que ele as expresse.</p>
+      
+      <h3>3. Análise de Sentimento</h3>
+      <p>Monitora emoções em tempo real para ajustar estratégias.</p>
+      
+      <h3>4. Recomendações Inteligentes</h3>
+      <p>Sugere produtos e serviços baseados em padrões de comportamento.</p>
+      
+      <h3>5. Automação de Respostas</h3>
+      <p>Resolve consultas comuns automaticamente com alta precisão.</p>
+      
+      <h3>6. Predição de Churn</h3>
+      <p>Identifica clientes em risco de cancelamento com antecedência.</p>
+      
+      <h3>7. Otimização de Canais</h3>
+      <p>Direciona clientes para o canal mais eficiente para cada situação.</p>
+      
+      <h3>8. Análise de Jornada</h3>
+      <p>Mapeia e otimiza cada etapa da experiência do cliente.</p>
+      
+      <h3>9. Feedback Inteligente</h3>
+      <p>Coleta e analisa feedback de forma contínua e automatizada.</p>
+      
+      <h3>10. Métricas Avançadas</h3>
+      <p>Monitora KPIs complexos como NPS e valor de vida do cliente.</p>
+      
+      <h2>Impacto nos Resultados</h2>
+      <p>Empresas que implementaram essas estratégias reportam aumento de 40% no NPS e redução de 30% no churn.</p>
     `,
-    tags: ['CRM', 'Vendas', 'B2B', 'Automação'],
-    destaque: false,
+    tags: ['IA', 'CX', 'NPS', 'Retenção'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/experiencia-do-cliente/'
+    }
   },
   {
     id: '6',
-    slug: 'analytics-tomada-decisao',
-    titulo: 'Analytics: Decisões Baseadas em Dados',
-    subtitulo: 'Como usar análise de dados para impulsionar resultados',
-    categoria: 'Business Intelligence',
+    slug: 'kapazi-eficiencia-industrial-erp',
+    titulo: 'Kapazi: eficiência industrial com ERP',
+    subtitulo: 'Integração de planejamento, produção, compras, estoque e vendas',
+    categoria: 'ERP',
     autor: {
-      nome: 'Juliana Ferreira',
-      cargo: 'Analista de BI',
-      avatar: '/images/avatars/juliana.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-12-20',
-    tempo_leitura: '8 min',
-    imagem_destaque: '/images/blog/analytics-decisao.jpg',
-    resumo: 'Transforme dados brutos em insights acionáveis e tome decisões estratégicas com confiança usando Analytics.',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/kapazi-erp.jpg',
+    resumo: 'ERP TOTVS + mais de 30 soluções integradas elevaram produtividade, visibilidade e governança. Case robusto para manufatura com mix amplo e processos complexos, reduzindo retrabalho e acelerando decisões com dados confiáveis.',
     conteudo: `
-      <p>Em um mundo orientado por dados, a capacidade de analisar e interpretar informações é um diferencial competitivo crucial.</p>
+      <p>A Kapazi, empresa do setor industrial, implementou uma solução integrada com ERP TOTVS e mais de 30 soluções conectadas, transformando completamente sua operação.</p>
       
-      <h2>O Poder do Analytics</h2>
-      <p>Analytics permite identificar padrões, prever tendências e tomar decisões baseadas em evidências, não em intuição.</p>
-      
-      <h2>KPIs Essenciais para Acompanhar</h2>
+      <h2>Desafios da Integração</h2>
       <ul>
-        <li>Taxa de conversão de leads</li>
-        <li>Ticket médio</li>
-        <li>CAC (Custo de Aquisição de Cliente)</li>
-        <li>LTV (Lifetime Value)</li>
-        <li>Churn rate</li>
+        <li>Sistemas desconectados entre departamentos</li>
+        <li>Falta de visibilidade entre planejamento e execução</li>
+        <li>Retrabalho constante por inconsistências</li>
+        <li>Dificuldade no controle de custos e prazos</li>
+        <li>Falta de governança de dados</li>
       </ul>
       
-      <h2>Implementando uma Cultura Data-Driven</h2>
-      <p>A transformação começa com a democratização dos dados e capacitação das equipes.</p>
+      <h2>Solução Implementada</h2>
+      <p>Implementação do ERP TOTVS com integração de mais de 30 soluções, conectando planejamento, produção, vendas e todas as áreas operacionais.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Mais visibilidade</strong> em toda a operação</li>
+        <li><strong>Redução significativa</strong> de retrabalho</li>
+        <li><strong>Controle rigoroso</strong> sobre custos e prazos</li>
+        <li><strong>Integração ponta a ponta</strong> da cadeia</li>
+        <li><strong>Ciclo encurtado</strong> entre demanda e atendimento</li>
+        <li><strong>Melhoria do S&OP</strong> (Sales & Operations Planning)</li>
+        <li><strong>Governança de dados</strong> robusta</li>
+        <li><strong>Crescimento com qualidade</strong> sustentável</li>
+      </ul>
+      
+      <h2>Impacto na Supply Chain</h2>
+      <p>Em supply chain, a integração de ponta a ponta encurta o ciclo entre demanda e atendimento, melhora o S&OP e a governança de dados, suportando crescimento com qualidade.</p>
     `,
-    tags: ['Analytics', 'BI', 'Data', 'Estratégia'],
-    destaque: false,
+    tags: ['ERP', 'Indústria', 'PCP', 'Supply'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
+    }
   },
   {
     id: '7',
-    slug: 'supply-chain-digital',
-    titulo: 'Supply Chain Digital: A Revolução da Logística',
-    subtitulo: 'Como a tecnologia está transformando a cadeia de suprimentos',
-    categoria: 'Supply Chain',
+    slug: 'lorenzetti-automacao-governanca',
+    titulo: 'Lorenzetti: automação e governança',
+    subtitulo: 'Automação centralizada com ganhos de padronização e controle',
+    categoria: 'ERP',
     autor: {
-      nome: 'Fernando Lima',
-      cargo: 'Especialista em Logística',
-      avatar: '/images/avatars/fernando.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-12-15',
-    tempo_leitura: '12 min',
-    imagem_destaque: '/images/blog/supply-chain.jpg',
-    resumo: 'A digitalização da supply chain está permitindo rastreamento em tempo real, otimização de rotas e redução de custos. Descubra como transformar sua logística.',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/lorenzetti-automacao.jpg',
+    resumo: 'Plataforma TOTVS padronizou processos entre compras, fiscal e finanças. Melhor qualidade de dados, menos erros e retrabalho, sustentando crescimento e conformidade, com integração transversal de processos críticos.',
     conteudo: `
-      <p>A transformação digital da cadeia de suprimentos não é mais uma opção, mas uma necessidade estratégica para empresas que desejam permanecer competitivas.</p>
+      <p>A Lorenzetti, empresa líder em equipamentos para banheiro e cozinha, implementou uma solução integrada TOTVS para centralizar e automatizar seus processos.</p>
       
-      <h2>Desafios Tradicionais da Supply Chain</h2>
+      <h2>Desafios de Governança</h2>
       <ul>
-        <li>Falta de visibilidade em tempo real</li>
-        <li>Processos manuais propensos a erros</li>
-        <li>Dificuldade em prever demanda</li>
-        <li>Custos elevados de estoque</li>
-        <li>Falta de integração entre sistemas</li>
+        <li>Processos não padronizados entre departamentos</li>
+        <li>Falta de governança entre compras, financeiro e fiscal</li>
+        <li>Qualidade de dados inconsistente</li>
+        <li>Integrações complexas e custosas</li>
+        <li>Erros frequentes e retrabalho</li>
+        <li>Falta de visibilidade integrada</li>
       </ul>
       
-      <h2>Tecnologias Habilitadoras</h2>
-      <p>IoT, IA, blockchain e analytics estão revolucionando cada aspecto da cadeia de suprimentos.</p>
+      <h2>Solução Implementada</h2>
+      <p>Centralização de todas as automações em uma única plataforma TOTVS, integrando compras, financeiro e fiscal.</p>
       
-      <h3>Rastreamento em Tempo Real</h3>
-      <p>Sensores IoT permitem monitorar temperatura, localização e condições de produtos durante todo o transporte.</p>
-      
-      <h3>Previsão de Demanda com IA</h3>
-      <p>Algoritmos de machine learning analisam padrões históricos e fatores externos para prever demanda com precisão.</p>
-      
-      <h2>Benefícios Mensuráveis</h2>
+      <h2>Resultados Obtidos</h2>
       <ul>
-        <li>Redução de 40% em custos de estoque</li>
-        <li>Aumento de 35% na precisão de entregas</li>
-        <li>Diminuição de 50% em rupturas de estoque</li>
-        <li>Melhoria de 60% na eficiência operacional</li>
+        <li><strong>Processos padronizados</strong> em toda a organização</li>
+        <li><strong>Governança elevada</strong> entre áreas</li>
+        <li><strong>Maior qualidade de dados</strong> e consistência</li>
+        <li><strong>Integrações simplificadas</strong> e eficientes</li>
+        <li><strong>Redução de erros</strong> e retrabalho</li>
+        <li><strong>Visibilidade integrada</strong> de todas as operações</li>
+        <li><strong>Previsibilidade de caixa</strong> melhorada</li>
       </ul>
+      
+      <h2>Impacto em Compras Estratégicas</h2>
+      <p>Para compras estratégicas, o case demonstra como ERP e boas práticas fortalecem negociações, contratos, compliance e previsibilidade de caixa.</p>
     `,
-    tags: ['Supply Chain', 'Logística', 'IoT', 'IA'],
+    tags: ['ERP', 'Compras', 'Backoffice', 'Governança'],
     destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/case-de-sucesso-lorenzetti/'
+    }
   },
   {
     id: '8',
-    slug: 'erp-vs-sistemas-legados',
-    titulo: 'ERP vs Sistemas Legados: Quando é Hora de Migrar?',
-    subtitulo: 'Sinais de que sua empresa precisa modernizar a gestão',
-    categoria: 'Gestão Empresarial',
+    slug: 'blue-ville-automacao-dados-confiaveis',
+    titulo: 'Blue Ville: automação e dados confiáveis',
+    subtitulo: 'Decisão do campo ao backoffice com dados integrados',
+    categoria: 'ERP',
     autor: {
-      nome: 'Patricia Mendes',
-      cargo: 'Consultora ERP',
-      avatar: '/images/avatars/patricia.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-12-10',
-    tempo_leitura: '8 min',
-    imagem_destaque: '/images/blog/erp-legado.jpg',
-    resumo: 'Sistemas legados podem estar custando mais do que você imagina. Identifique os sinais de que é hora de migrar para um ERP moderno.',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/blue-ville-erp.jpg',
+    resumo: 'ERP setorial e análise fortalecem previsibilidade e controle de custos na cadeia, conectando demanda, produção e distribuição. Reduz variabilidade, melhora atendimento e governança em toda a operação.',
     conteudo: `
-      <p>Muitas empresas continuam operando com sistemas legados por anos, sem perceber o impacto negativo na competitividade e custos.</p>
+      <p>A Blue Ville, empresa do setor agroalimentar, implementou ERP setorial TOTVS para integrar operações do campo ao backoffice, obtendo resultados impressionantes em previsibilidade e controle.</p>
       
-      <h2>10 Sinais de Alerta</h2>
-      <ol>
-        <li><strong>Processos manuais excessivos:</strong> Se sua equipe passa horas em planilhas, há um problema.</li>
-        <li><strong>Falta de integração:</strong> Dados duplicados em múltiplos sistemas.</li>
-        <li><strong>Relatórios demorados:</strong> Fechamento mensal leva semanas.</li>
-        <li><strong>Erros frequentes:</strong> Retrabalho constante por inconsistências.</li>
-        <li><strong>Dificuldade de escalar:</strong> Sistema não acompanha crescimento.</li>
-        <li><strong>Custos de manutenção altos:</strong> Mais de 60% do orçamento TI.</li>
-        <li><strong>Compliance em risco:</strong> Dificuldade em atender legislação.</li>
-        <li><strong>Mobilidade zero:</strong> Impossível acessar remotamente.</li>
-        <li><strong>Decisões baseadas em dados desatualizados:</strong> Informação não é em tempo real.</li>
-        <li><strong>Insatisfação da equipe:</strong> Ferramentas frustrantes reduzem produtividade.</li>
-      </ol>
+      <h2>Desafios da Integração</h2>
+      <ul>
+        <li>Falta de integração entre campo e backoffice</li>
+        <li>Dificuldade no controle de custos da cadeia</li>
+        <li>Variabilidade operacional elevada</li>
+        <li>Previsibilidade limitada</li>
+        <li>Atendimento inconsistente</li>
+        <li>Falta de governança integrada</li>
+      </ul>
       
-      <h2>O Custo Real de Não Migrar</h2>
-      <p>Empresas com sistemas legados perdem, em média, 25% de produtividade e 30% mais em custos operacionais.</p>
+      <h2>Solução Implementada</h2>
+      <p>Implementação de ERP setorial com análise avançada, conectando demanda, produção e distribuição em uma única plataforma.</p>
       
-      <h2>ROI da Modernização</h2>
-      <p>A migração para ERP moderno se paga em 12-18 meses através de ganhos de eficiência e redução de custos.</p>
+      <h2>Resultados Alcançados</h2>
+      <ul>
+        <li><strong>Previsibilidade</strong> elevada em toda a operação</li>
+        <li><strong>Controle rigoroso</strong> de custos na cadeia</li>
+        <li><strong>Conexão completa</strong> entre demanda, produção e distribuição</li>
+        <li><strong>Redução significativa</strong> da variabilidade</li>
+        <li><strong>Melhoria do atendimento</strong> ao cliente</li>
+        <li><strong>Governança robusta</strong> em toda a operação</li>
+      </ul>
+      
+      <h2>Impacto na Cadeia</h2>
+      <p>O ERP setorial permite decisões mais precisas e rápidas, conectando o campo ao backoffice de forma eficiente e confiável.</p>
     `,
-    tags: ['ERP', 'Migração', 'Modernização', 'ROI'],
-    destaque: false,
+    tags: ['ERP', 'Agro', 'Supply', 'Custos'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-agricola/case-de-sucesso-blue-ville/'
+    }
   },
   {
     id: '9',
-    slug: 'gestao-financeira-pmes',
-    titulo: 'Gestão Financeira para PMEs: Guia Definitivo',
-    subtitulo: 'Controle financeiro que impulsiona crescimento',
-    categoria: 'Finanças',
+    slug: 'laticinios-aviacao-integracao-produtiva',
+    titulo: 'Laticínios Aviação: integração produtiva',
+    subtitulo: 'Integração entre áreas aumenta produtividade e controle',
+    categoria: 'ERP',
     autor: {
-      nome: 'Ricardo Ferreira',
-      cargo: 'Controller',
-      avatar: '/images/avatars/ricardo.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-12-05',
-    tempo_leitura: '15 min',
-    imagem_destaque: '/images/blog/gestao-financeira.jpg',
-    resumo: 'Pequenas e médias empresas que dominam a gestão financeira crescem 3x mais rápido. Aprenda as melhores práticas.',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/laticinios-aviacao.jpg',
+    resumo: 'Integração de processos sustenta padrões de qualidade e expansão com visibilidade gerencial. Demonstra como a padronização reduz erros e acelera o fluxo decisório no setor de alimentos.',
     conteudo: `
-      <p>Gestão financeira eficiente é o diferencial entre empresas que crescem consistentemente e aquelas que lutam para sobreviver.</p>
+      <p>Os Laticínios Aviação implementaram uma solução integrada TOTVS que conecta todas as áreas operacionais, obtendo resultados significativos em produtividade e controle.</p>
       
-      <h2>Pilares da Gestão Financeira</h2>
-      
-      <h3>1. Fluxo de Caixa</h3>
-      <p>Controle rigoroso de entradas e saídas, com projeção mínima de 90 dias.</p>
-      
-      <h3>2. Contas a Pagar e Receber</h3>
-      <p>Gestão ativa de inadimplência e negociação de prazos com fornecedores.</p>
-      
-      <h3>3. Conciliação Bancária</h3>
-      <p>Diária e automatizada para garantir precisão absoluta.</p>
-      
-      <h3>4. Orçamento e Forecast</h3>
-      <p>Planejamento anual com revisões trimestrais.</p>
-      
-      <h3>5. Análise de KPIs</h3>
-      <p>Monitoramento de margem, EBITDA, ROI e outros indicadores.</p>
-      
-      <h2>Erros Comuns a Evitar</h2>
+      <h2>Desafios da Integração</h2>
       <ul>
-        <li>Misturar finanças pessoais e empresariais</li>
-        <li>Não provisionar impostos</li>
-        <li>Ignorar a inadimplência</li>
-        <li>Falta de reserva de emergência</li>
-        <li>Decisões sem base em dados</li>
+        <li>Processos desconectados entre áreas</li>
+        <li>Falta de visibilidade gerencial</li>
+        <li>Dificuldade em manter padrões de qualidade</li>
+        <li>Fluxo decisório lento</li>
+        <li>Erros operacionais frequentes</li>
+        <li>Dificuldade na expansão</li>
       </ul>
       
-      <h2>Tecnologia Como Aliada</h2>
-      <p>ERPs modernos automatizam 80% das tarefas financeiras, liberando tempo para análise estratégica.</p>
+      <h2>Solução Implementada</h2>
+      <p>Integração completa entre produção, estoque, faturamento e fiscal, conectando todas as áreas operacionais em uma única plataforma.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Integração entre áreas</strong> completa</li>
+        <li><strong>Produtividade aumentada</strong> significativamente</li>
+        <li><strong>Controle rigoroso</strong> de processos</li>
+        <li><strong>Padrões de qualidade</strong> sustentados</li>
+        <li><strong>Expansão</strong> facilitada</li>
+        <li><strong>Visibilidade gerencial</strong> em tempo real</li>
+        <li><strong>Redução de erros</strong> operacionais</li>
+        <li><strong>Fluxo decisório</strong> acelerado</li>
+      </ul>
+      
+      <h2>Impacto no Setor de Alimentos</h2>
+      <p>O case demonstra como a padronização reduz erros e acelera o fluxo decisório no setor de alimentos, sustentando crescimento com qualidade.</p>
     `,
-    tags: ['Finanças', 'PME', 'Gestão', 'Fluxo de Caixa'],
+    tags: ['ERP', 'Alimentos', 'Produção', 'Integração'],
     destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-laticinios-aviacao/'
+    }
   },
   {
     id: '10',
-    slug: 'assinatura-digital-juridica',
-    titulo: 'Assinatura Digital: Validade Jurídica e Compliance',
-    subtitulo: 'Tudo que você precisa saber sobre documentos digitais',
-    categoria: 'Compliance',
+    slug: 'testato-erp-bi-admissao-digital',
+    titulo: 'Testato: Protheus + Fast Analytics',
+    subtitulo: 'Padronização de processos e análises com BI acoplado ao ERP',
+    categoria: 'Analytics',
     autor: {
-      nome: 'Dr. Eduardo Santos',
-      cargo: 'Advogado Especialista em Direito Digital',
-      avatar: '/images/avatars/eduardo.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-12-01',
-    tempo_leitura: '10 min',
-    imagem_destaque: '/images/blog/assinatura-digital.jpg',
-    resumo: 'Assinatura digital tem validade jurídica plena no Brasil. Entenda os tipos, certificação e casos de uso.',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/testato-erp-bi.jpg',
+    resumo: 'Combinação de ERP + Analytics + Admissão Digital reduz esforço manual, melhora qualidade de dados e acelera decisões em finanças, operações e RH, com painéis confiáveis e governança.',
     conteudo: `
-      <p>A Medida Provisória 2.200-2/2001 e a Lei 14.063/2020 regulamentam o uso de assinaturas eletrônicas no Brasil.</p>
+      <p>A Testato implementou uma solução integrada com Protheus, Fast Analytics e Admissão Digital, obtendo resultados impressionantes em padronização e análise de dados.</p>
       
-      <h2>Tipos de Assinatura</h2>
-      
-      <h3>Assinatura Eletrônica Simples</h3>
-      <p>Sem certificado digital. Válida para a maioria dos documentos privados.</p>
-      
-      <h3>Assinatura Eletrônica Avançada</h3>
-      <p>Com autenticação robusta. Ideal para contratos comerciais.</p>
-      
-      <h3>Assinatura Digital Qualificada (ICP-Brasil)</h3>
-      <p>Certificado digital emitido por AC credenciada. Presunção de validade jurídica.</p>
-      
-      <h2>Quando Usar Cada Tipo</h2>
+      <h2>Desafios da Integração</h2>
       <ul>
-        <li><strong>Simples:</strong> Contratos internos, NDA, aprovações</li>
-        <li><strong>Avançada:</strong> Contratos B2B, propostas comerciais</li>
-        <li><strong>Qualificada:</strong> Procurações, escrituras, atos notariais</li>
+        <li>Processos não padronizados</li>
+        <li>Esforço manual excessivo</li>
+        <li>Qualidade de dados inconsistente</li>
+        <li>Decisões baseadas em informações desatualizadas</li>
+        <li>Falta de painéis confiáveis</li>
+        <li>Governança limitada</li>
       </ul>
       
-      <h2>Economia e Eficiência</h2>
-      <p>Empresas que digitalizaram assinaturas reportam:</p>
+      <h2>Solução Implementada</h2>
+      <p>Combinação estratégica de Protheus (ERP), Fast Analytics (BI) e Admissão Digital, criando uma solução integrada e eficiente.</p>
+      
+      <h2>Resultados Alcançados</h2>
       <ul>
-        <li>Redução de 95% no tempo de assinatura</li>
-        <li>Economia de 85% em custos de impressão</li>
-        <li>Aumento de 60% na velocidade de fechamento de negócios</li>
+        <li><strong>Processos padronizados</strong> em toda a organização</li>
+        <li><strong>Redução significativa</strong> do esforço manual</li>
+        <li><strong>Melhoria da qualidade</strong> dos dados</li>
+        <li><strong>Decisões aceleradas</strong> em finanças, operações e RH</li>
+        <li><strong>Painéis confiáveis</strong> e em tempo real</li>
+        <li><strong>Governança robusta</strong> de dados</li>
       </ul>
       
-      <h2>Compliance e LGPD</h2>
-      <p>Plataformas de assinatura digital devem garantir rastreabilidade, criptografia e armazenamento seguro.</p>
+      <h2>Impacto nos Diferentes Áreas</h2>
+      <ul>
+        <li><strong>Finanças:</strong> Análises mais precisas e rápidas</li>
+        <li><strong>Operações:</strong> Visibilidade completa dos processos</li>
+        <li><strong>RH:</strong> Gestão digital de admissões</li>
+      </ul>
     `,
-    tags: ['Assinatura Digital', 'Compliance', 'Jurídico', 'LGPD'],
-    destaque: false,
+    tags: ['BI', 'ERP', 'RH', 'Analytics'],
+    destaque: true,
+    fonte: {
+      nome: 'Revista Fator Brasil',
+      url: 'https://www.revistafatorbrasil.com.br/2023/09/15/testato-adota-erp-sistema-de-bi-e-solucao-para-admissao-digital-da-totvs/'
+    }
   },
   {
     id: '11',
-    slug: 'marketing-automation-roi',
-    titulo: 'Marketing Automation: Como Calcular o ROI Real',
-    subtitulo: 'Métricas que importam para justificar investimento',
-    categoria: 'Marketing Digital',
+    slug: 'guia-bi-fundamentos-aplicacoes',
+    titulo: 'Guia BI: fundamentos e aplicações',
+    subtitulo: 'Arquitetura de dados e aplicações por área',
+    categoria: 'Analytics',
     autor: {
-      nome: 'Camila Rodrigues',
-      cargo: 'Head de Marketing',
-      avatar: '/images/avatars/camila.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em BI',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-11-25',
-    tempo_leitura: '9 min',
-    imagem_destaque: '/images/blog/marketing-automation.jpg',
-    resumo: 'Automação de marketing pode gerar ROI de 600%. Aprenda a medir corretamente o retorno do seu investimento.',
+    tempo_leitura: '10 min',
+    imagem_destaque: '/images/blog/guia-bi.jpg',
+    resumo: 'Guia que explica arquitetura de BI, integração de fontes, construção de painéis e indicadores por área (finanças, vendas, operações). Excelente apoio para padronizar KPIs e gestão à vista.',
     conteudo: `
-      <p>Marketing automation não é apenas enviar e-mails. É criar jornadas personalizadas que convertem prospects em clientes fiéis.</p>
+      <p>O Business Intelligence (BI) está se tornando essencial para empresas que desejam tomar decisões baseadas em dados e obter vantagem competitiva.</p>
       
-      <h2>Fórmula do ROI</h2>
-      <p><strong>ROI = (Receita Atribuída - Investimento) / Investimento × 100</strong></p>
+      <h2>Fundamentos do BI</h2>
       
-      <h2>Métricas Essenciais</h2>
+      <h3>Arquitetura de Dados</h3>
+      <p>Estrutura que permite coletar, processar e analisar dados de diferentes fontes de forma eficiente e confiável.</p>
       
-      <h3>Geração de Leads</h3>
+      <h3>Integração de Fontes</h3>
+      <p>Conecta sistemas diferentes para criar uma visão unificada dos dados empresariais.</p>
+      
+      <h2>Construção de Painéis</h2>
+      
+      <h3>Finanças</h3>
       <ul>
-        <li>Número de leads qualificados (MQLs)</li>
-        <li>Custo por lead (CPL)</li>
-        <li>Taxa de conversão landing page → lead</li>
+        <li>Fluxo de caixa em tempo real</li>
+        <li>Análise de margens</li>
+        <li>Previsão de receitas</li>
+        <li>Controle de custos</li>
       </ul>
       
-      <h3>Nutrição e Engajamento</h3>
+      <h3>Vendas</h3>
       <ul>
-        <li>Taxa de abertura de e-mails</li>
-        <li>Taxa de cliques (CTR)</li>
-        <li>Lead score médio</li>
+        <li>Pipeline de vendas</li>
+        <li>Performance por vendedor</li>
+        <li>Análise de conversão</li>
+        <li>Previsão de vendas</li>
       </ul>
       
-      <h3>Conversão em Vendas</h3>
+      <h3>Operações</h3>
       <ul>
-        <li>Taxa de conversão MQL → SQL</li>
-        <li>Taxa de conversão SQL → Cliente</li>
-        <li>Ciclo médio de vendas</li>
+        <li>Eficiência operacional</li>
+        <li>Controle de qualidade</li>
+        <li>Gestão de estoque</li>
+        <li>Produtividade</li>
       </ul>
       
-      <h2>Benchmarks de Mercado</h2>
-      <p>Empresas B2B com automação madura reportam:</p>
-      <ul>
-        <li>Aumento de 451% em leads qualificados</li>
-        <li>Redução de 33% no custo por lead</li>
-        <li>Crescimento de 14.5% em produtividade de vendas</li>
-      </ul>
+      <h2>Padronização de KPIs</h2>
+      <p>Estabelece indicadores consistentes para garantir que todas as áreas falem a mesma linguagem.</p>
       
-      <h2>Erros na Medição</h2>
-      <ul>
-        <li>Não atribuir receita corretamente</li>
-        <li>Ignorar custos de implementação</li>
-        <li>Focar apenas em métricas de vaidade</li>
-        <li>Não considerar lifetime value (LTV)</li>
-      </ul>
+      <h2>Gestão à Vista</h2>
+      <p>Permite que gestores tenham acesso imediato às informações necessárias para tomada de decisão.</p>
     `,
-    tags: ['Marketing Automation', 'ROI', 'Métricas', 'Conversão'],
-    destaque: false,
+    tags: ['Analytics', 'BI', 'KPIs', 'Gestão'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/business-intelligence/'
+    }
   },
   {
     id: '12',
-    slug: 'cybersecurity-empresas',
-    titulo: 'Cybersecurity: Protegendo Sua Empresa em 2025',
-    subtitulo: 'Ameaças digitais e como se defender',
-    categoria: 'Segurança',
+    slug: 'webinar-bi-erp',
+    titulo: 'Webinar: BI feito para seu ERP',
+    subtitulo: 'Como explorar dados do ERP e padronizar KPIs',
+    categoria: 'Analytics',
     autor: {
-      nome: 'Gabriel Souza',
-      cargo: 'Especialista em Segurança da Informação',
-      avatar: '/images/avatars/gabriel.jpg',
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em BI',
+      avatar: '/images/avatars/totvs.jpg',
     },
     data_publicacao: '2024-11-20',
-    tempo_leitura: '11 min',
-    imagem_destaque: '/images/blog/cybersecurity.jpg',
-    resumo: 'Ataques cibernéticos custam às empresas brasileiras R$ 2 bilhões/ano. Aprenda a proteger seu negócio.',
+    tempo_leitura: '45 min',
+    imagem_destaque: '/images/blog/webinar-bi-erp.jpg',
+    resumo: 'Demonstra a prática de conectar BI ao ERP para acelerar decisões e institucionalizar rituais de performance, com painéis replicáveis e data literacy para áreas de negócio.',
     conteudo: `
-      <p>Em 2024, 68% das empresas brasileiras sofreram algum tipo de ataque cibernético. A segurança digital não é mais opcional.</p>
+      <p>Este webinar apresenta uma abordagem prática para conectar Business Intelligence ao ERP, demonstrando como acelerar decisões e institucionalizar rituais de performance.</p>
       
-      <h2>Principais Ameaças</h2>
-      
-      <h3>1. Ransomware</h3>
-      <p>Sequestro de dados com pedido de resgate. Crescimento de 150% em 2024.</p>
-      
-      <h3>2. Phishing</h3>
-      <p>E-mails fraudulentos que roubam credenciais. 90% dos ataques começam assim.</p>
-      
-      <h3>3. DDoS</h3>
-      <p>Ataques que derrubam sistemas. Causam prejuízo médio de R$ 500k/hora.</p>
-      
-      <h3>4. Insider Threats</h3>
-      <p>Ameaças internas, intencionais ou acidentais.</p>
-      
-      <h2>Camadas de Proteção Essenciais</h2>
-      
-      <h3>Perímetro</h3>
+      <h2>Objetivos do Webinar</h2>
       <ul>
-        <li>Firewall de última geração</li>
-        <li>IDS/IPS (Detecção/Prevenção de Intrusão)</li>
-        <li>VPN empresarial</li>
+        <li>Conectar BI ao ERP de forma eficiente</li>
+        <li>Acelerar tomada de decisões</li>
+        <li>Institucionalizar rituais de performance</li>
+        <li>Criar painéis replicáveis</li>
+        <li>Desenvolver data literacy</li>
       </ul>
       
-      <h3>Aplicação</h3>
+      <h2>Conteúdo Abordado</h2>
+      
+      <h3>1. Integração BI + ERP</h3>
+      <p>Como conectar sistemas de BI ao ERP para obter insights mais precisos e em tempo real.</p>
+      
+      <h3>2. Padronização de KPIs</h3>
+      <p>Estabelecer indicadores consistentes e mensuráveis para todas as áreas.</p>
+      
+      <h3>3. Painéis Replicáveis</h3>
+      <p>Criar dashboards que podem ser replicados em diferentes departamentos.</p>
+      
+      <h3>4. Data Literacy</h3>
+      <p>Desenvolver competências em análise de dados em todas as áreas de negócio.</p>
+      
+      <h3>5. Rituais de Performance</h3>
+      <p>Estabelecer rotinas regulares de análise e acompanhamento de resultados.</p>
+      
+      <h2>Benefícios para as Empresas</h2>
       <ul>
-        <li>WAF (Web Application Firewall)</li>
-        <li>Análise de vulnerabilidades</li>
-        <li>Testes de penetração</li>
+        <li>Decisões mais rápidas e precisas</li>
+        <li>Melhor compreensão dos dados</li>
+        <li>Padronização de processos</li>
+        <li>Maior eficiência operacional</li>
       </ul>
-      
-      <h3>Dados</h3>
-      <ul>
-        <li>Criptografia em repouso e em trânsito</li>
-        <li>Backup 3-2-1 (3 cópias, 2 mídias, 1 offsite)</li>
-        <li>DLP (Data Loss Prevention)</li>
-      </ul>
-      
-      <h3>Usuário</h3>
-      <ul>
-        <li>Autenticação multifator (MFA)</li>
-        <li>Treinamento de conscientização</li>
-        <li>Gestão de privilégios</li>
-      </ul>
-      
-      <h2>Compliance e Regulação</h2>
-      <p>LGPD exige medidas técnicas adequadas. Multas podem chegar a 2% do faturamento.</p>
-      
-      <h2>Plano de Resposta a Incidentes</h2>
-      <ol>
-        <li>Detecção e análise</li>
-        <li>Contenção</li>
-        <li>Erradicação</li>
-        <li>Recuperação</li>
-        <li>Lições aprendidas</li>
-      </ol>
     `,
-    tags: ['Cybersecurity', 'Segurança', 'LGPD', 'Proteção de Dados'],
+    tags: ['Analytics', 'ERP', 'Webinar', 'BI'],
     destaque: true,
+    fonte: {
+      nome: 'YouTube',
+      url: 'https://www.youtube.com/watch?v=FvcKRd8COxw'
+    }
   },
   {
     id: '13',

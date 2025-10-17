@@ -97,7 +97,7 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Painel de Contagem por Categoria */}
+      {/* Painel de Categorias - Sutil e Profissional */}
       <section className="relative z-10 -mt-8 mb-16">
         <div className="container-custom">
           <motion.div
@@ -106,33 +106,24 @@ export default function BlogPage() {
             viewport={{ once: true }}
             className="mb-8"
           >
-            <div className="bg-slate-800/30 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/30">
-              <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-                <Filter className="w-5 h-5 text-cyan-400" />
-                Estatísticas do Blog
+            <div className="bg-slate-800/40 backdrop-blur-xl rounded-xl p-6 border border-slate-700/40 max-w-md">
+              <h3 className="text-sm font-medium text-slate-400 mb-4 tracking-wide">
+                Categorias
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="space-y-3">
                 {getAllCategories().map((categoria) => (
                   <div
                     key={categoria}
-                    className="bg-gradient-to-br from-slate-700/50 to-slate-800/50 rounded-xl p-4 border border-slate-600/30 hover:border-cyan-500/30 transition-all duration-300"
+                    className="flex items-center justify-between py-1 hover:bg-slate-700/30 rounded-lg px-2 transition-colors duration-200"
                   >
-                    <div className="text-2xl font-bold text-cyan-400 mb-1">
-                      {BLOG_POSTS.filter(post => post.categoria === categoria).length}
-                    </div>
-                    <div className="text-sm text-slate-300 font-medium">
+                    <span className="text-sm text-slate-200 font-medium">
                       {categoria}
-                    </div>
+                    </span>
+                    <span className="bg-slate-600/50 text-slate-300 text-xs px-2 py-1 rounded-full font-medium">
+                      {BLOG_POSTS.filter(post => post.categoria === categoria).length}
+                    </span>
                   </div>
                 ))}
-                <div className="bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl p-4 border border-cyan-500/30">
-                  <div className="text-2xl font-bold text-cyan-300 mb-1">
-                    {BLOG_POSTS.length}
-                  </div>
-                  <div className="text-sm text-cyan-200 font-medium">
-                    Total de Artigos
-                  </div>
-                </div>
               </div>
             </div>
           </motion.div>
