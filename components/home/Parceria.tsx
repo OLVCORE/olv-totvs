@@ -159,23 +159,147 @@ const Parceria = () => {
                 
                 <div className="relative z-10">
                   <h3 className="text-3xl font-black text-white mb-8 tracking-wide">
-                    O QUE ESTÁ INCLUÍDO NA PARCERIA
+                    CONSULTORIA ESTRATÉGICA PREMIUM
                   </h3>
 
-                  <ul className="space-y-5 mb-10">
-                    {beneficios.map((beneficio, index) => (
-                      <motion.li 
-                        key={index}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.4, delay: index * 0.05 }}
-                        className="flex items-start gap-4 group"
-                      >
-                        <CheckCircle2 className="w-7 h-7 flex-shrink-0 text-emerald-400 mt-0.5 group-hover:scale-110 transition-transform" />
-                        <span className="text-slate-100 text-lg font-medium">{beneficio}</span>
-                      </motion.li>
-                    ))}
-                  </ul>
+                  {/* Cards de Consultoria Estratégica */}
+                  <div className="grid md:grid-cols-2 gap-6 mb-10">
+                    {/* Card 1: Consultoria Empresarial Premium */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.6 }}
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300"
+                    >
+                      <div className="flex items-start gap-4 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl flex items-center justify-center border border-cyan-400/30 flex-shrink-0">
+                          <Award className="w-6 h-6 text-cyan-400" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="text-lg font-bold text-white mb-2">Consultoria Empresarial Premium</h4>
+                          <p className="text-slate-300 text-sm leading-relaxed">
+                            Gestão de Projetos 360º que integra estratégia, execução e governança para transformar objetivos em resultados mensuráveis.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Diagnóstico 360º e Roadmap de Valor</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>PMO de Alta Performance</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Execução Ponta a Ponta</span>
+                        </div>
+                      </div>
+                    </motion.div>
+
+                    {/* Card 2: Dashboards Inteligentes */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.6, delay: 0.1 }}
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/50 hover:border-purple-400/30 transition-all duration-300"
+                    >
+                      <div className="flex items-start gap-4 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-xl flex items-center justify-center border border-purple-400/30 flex-shrink-0">
+                          <Users2 className="w-6 h-6 text-purple-400" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="text-lg font-bold text-white mb-2">Dashboards Inteligentes</h4>
+                          <p className="text-slate-300 text-sm leading-relaxed">
+                            Analytics Avançado + BI Integrado com uma única fonte de verdade, consolidando operações, finanças e logística.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>KPIs críticos em tempo real</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Alertas e previsões inteligentes</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Decisões baseadas em dados</span>
+                        </div>
+                      </div>
+                    </motion.div>
+
+                    {/* Card 3: Eficiência Operacional */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.6, delay: 0.2 }}
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/50 hover:border-emerald-400/30 transition-all duration-300"
+                    >
+                      <div className="flex items-start gap-4 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl flex items-center justify-center border border-emerald-400/30 flex-shrink-0">
+                          <Zap className="w-6 h-6 text-emerald-400" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="text-lg font-bold text-white mb-2">Eficiência Operacional</h4>
+                          <p className="text-slate-300 text-sm leading-relaxed">
+                            Ganhos sustentados por padronização, automação e governança de processos com retorno comprovado.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Padronização e automação</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Governança de processos</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>ROI mensurável e tracking</span>
+                        </div>
+                      </div>
+                    </motion.div>
+
+                    {/* Card 4: Supply Chain & Internacionalização */}
+                    <motion.div
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ duration: 0.6, delay: 0.3 }}
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-2xl p-6 border border-slate-700/50 hover:border-orange-400/30 transition-all duration-300"
+                    >
+                      <div className="flex items-start gap-4 mb-4">
+                        <div className="w-12 h-12 bg-gradient-to-br from-orange-500/20 to-rose-500/20 rounded-xl flex items-center justify-center border border-orange-400/30 flex-shrink-0">
+                          <CheckCircle2 className="w-6 h-6 text-orange-400" />
+                        </div>
+                        <div className="flex-1">
+                          <h4 className="text-lg font-bold text-white mb-2">Supply Chain & Internacionalização</h4>
+                          <p className="text-slate-300 text-sm leading-relaxed">
+                            Estratégias sob medida para transformar operações complexas em vantagem competitiva global.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="space-y-2">
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Comércio Exterior</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Internacionalização</span>
+                        </div>
+                        <div className="flex items-center gap-2 text-sm text-slate-400">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+                          <span>Inovação estratégica</span>
+                        </div>
+                      </div>
+                    </motion.div>
+                  </div>
 
                   {/* Premium Guarantee Badge */}
                   <div className="relative">
@@ -186,9 +310,9 @@ const Parceria = () => {
                           <Zap className="w-8 h-8 text-white" />
                         </div>
                         <div>
-                          <div className="font-black text-white text-xl mb-1 tracking-wide">GARANTIA DE RESULTADOS</div>
+                          <div className="font-black text-white text-xl mb-1 tracking-wide">CONSULTORIA PREMIUM</div>
                           <div className="text-base text-slate-200">
-                            ROI mensurável e acompanhamento constante
+                            Estratégia + Execução + Dados para resultados mensuráveis
                           </div>
                         </div>
                       </div>
