@@ -97,37 +97,9 @@ export default function BlogPage() {
         </div>
       </section>
 
-      {/* Painel de Categorias - Sutil e Profissional */}
+      {/* Barra de Filtros - Clean e Funcional */}
       <section className="relative z-10 -mt-8 mb-16">
         <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mb-8"
-          >
-            <div className="bg-slate-800/40 backdrop-blur-xl rounded-xl p-6 border border-slate-700/40 max-w-md">
-              <h3 className="text-sm font-medium text-slate-400 mb-4 tracking-wide">
-                Categorias
-              </h3>
-              <div className="space-y-3">
-                {getAllCategories().map((categoria) => (
-                  <div
-                    key={categoria}
-                    className="flex items-center justify-between py-1 hover:bg-slate-700/30 rounded-lg px-2 transition-colors duration-200"
-                  >
-                    <span className="text-sm text-slate-200 font-medium">
-                      {categoria}
-                    </span>
-                    <span className="bg-slate-600/50 text-slate-300 text-xs px-2 py-1 rounded-full font-medium">
-                      {BLOG_POSTS.filter(post => post.categoria === categoria).length}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
