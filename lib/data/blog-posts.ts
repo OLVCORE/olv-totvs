@@ -261,6 +261,575 @@ export const BLOG_POSTS: BlogPost[] = [
       url: 'https://www.totvs.com/blog/gestao-varejista/experiencia-do-cliente/'
     }
   },
+
+  // ERP
+  {
+    id: '6',
+    slug: 'kapazi-eficiencia-industrial-erp',
+    titulo: 'Kapazi: eficiência industrial com ERP',
+    subtitulo: 'Integração de planejamento, produção, compras, estoque e vendas',
+    categoria: 'ERP',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-20',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/kapazi-erp.jpg',
+    resumo: 'ERP TOTVS + mais de 30 soluções integradas elevaram produtividade, visibilidade e governança. Case robusto para manufatura com mix amplo e processos complexos, reduzindo retrabalho e acelerando decisões com dados confiáveis.',
+    conteudo: `
+      <p>A Kapazi, empresa do setor industrial, implementou uma solução integrada com ERP TOTVS e mais de 30 soluções conectadas, transformando completamente sua operação.</p>
+      
+      <h2>Desafios da Integração</h2>
+      <ul>
+        <li>Sistemas desconectados entre departamentos</li>
+        <li>Falta de visibilidade entre planejamento e execução</li>
+        <li>Retrabalho constante por inconsistências</li>
+        <li>Dificuldade no controle de custos e prazos</li>
+        <li>Falta de governança de dados</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Implementação do ERP TOTVS com integração de mais de 30 soluções, conectando planejamento, produção, vendas e todas as áreas operacionais.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Mais visibilidade</strong> em toda a operação</li>
+        <li><strong>Redução significativa</strong> de retrabalho</li>
+        <li><strong>Controle rigoroso</strong> sobre custos e prazos</li>
+        <li><strong>Integração ponta a ponta</strong> da cadeia</li>
+        <li><strong>Ciclo encurtado</strong> entre demanda e atendimento</li>
+        <li><strong>Melhoria do S&OP</strong> (Sales & Operations Planning)</li>
+        <li><strong>Governança de dados</strong> robusta</li>
+        <li><strong>Crescimento com qualidade</strong> sustentável</li>
+      </ul>
+      
+      <h2>Impacto na Supply Chain</h2>
+      <p>Em supply chain, a integração de ponta a ponta encurta o ciclo entre demanda e atendimento, melhora o S&OP e a governança de dados, suportando crescimento com qualidade.</p>
+    `,
+    tags: ['ERP', 'Indústria', 'PCP', 'Supply'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-industrial/case-de-sucesso-kapazi/'
+    }
+  },
+  {
+    id: '7',
+    slug: 'lorenzetti-automacao-governanca',
+    titulo: 'Lorenzetti: automação e governança',
+    subtitulo: 'Automação centralizada com ganhos de padronização e controle',
+    categoria: 'ERP',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-15',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/lorenzetti-erp.jpg',
+    resumo: 'Plataforma TOTVS padronizou processos entre compras, fiscal e finanças. Melhor qualidade de dados, menos erros e retrabalho, sustentando crescimento e conformidade, com integração transversal de processos críticos.',
+    conteudo: `
+      <p>A Lorenzetti, empresa de bens de consumo, implementou uma solução TOTVS que transformou seus processos de compras, fiscal e finanças através da automação centralizada.</p>
+      
+      <h2>Desafios Iniciais</h2>
+      <ul>
+        <li>Processos manuais e desconectados</li>
+        <li>Falta de padronização entre áreas</li>
+        <li>Alto índice de erros e retrabalho</li>
+        <li>Dificuldade na conformidade fiscal</li>
+        <li>Falta de visibilidade financeira</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Plataforma TOTVS integrada que padronizou processos entre compras, fiscal e finanças, criando um fluxo único e automatizado.</p>
+      
+      <h2>Benefícios Alcançados</h2>
+      <ul>
+        <li><strong>Padronização</strong> de processos críticos</li>
+        <li><strong>Melhor qualidade</strong> de dados</li>
+        <li><strong>Redução significativa</strong> de erros</li>
+        <li><strong>Menos retrabalho</strong> operacional</li>
+        <li><strong>Conformidade</strong> fiscal garantida</li>
+        <li><strong>Integração transversal</strong> de processos</li>
+        <li><strong>Crescimento sustentável</strong> com controle</li>
+      </ul>
+      
+      <h2>Impacto na Governança</h2>
+      <p>A integração transversal de processos críticos fortaleceu a governança empresarial, garantindo conformidade e sustentabilidade do crescimento.</p>
+    `,
+    tags: ['ERP', 'Compras', 'Backoffice', 'Governança'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/case-de-sucesso-lorenzetti/'
+    }
+  },
+  {
+    id: '8',
+    slug: 'blue-ville-automacao-dados-confiaveis',
+    titulo: 'Blue Ville: automação e dados confiáveis',
+    subtitulo: 'Decisão do campo ao backoffice com dados integrados',
+    categoria: 'ERP',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-10',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/blue-ville-erp.jpg',
+    resumo: 'ERP setorial e análise fortalecem previsibilidade e controle de custos na cadeia, conectando demanda, produção e distribuição. Reduz variabilidade, melhora atendimento e governança em toda a operação.',
+    conteudo: `
+      <p>A Blue Ville, empresa do setor agro/alimentos, implementou ERP setorial TOTVS que conecta o campo ao backoffice, transformando a tomada de decisões com dados integrados e confiáveis.</p>
+      
+      <h2>Desafios do Setor</h2>
+      <ul>
+        <li>Desconexão entre campo e escritório</li>
+        <li>Falta de previsibilidade na cadeia</li>
+        <li>Dificuldade no controle de custos</li>
+        <li>Variabilidade operacional alta</li>
+        <li>Falta de governança integrada</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>ERP setorial TOTVS com análise avançada que conecta demanda, produção e distribuição, oferecendo visibilidade completa da operação.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Previsibilidade</strong> fortalecida na cadeia</li>
+        <li><strong>Controle rigoroso</strong> de custos</li>
+        <li><strong>Conectividade</strong> demanda-produção-distribuição</li>
+        <li><strong>Redução da variabilidade</strong> operacional</li>
+        <li><strong>Melhoria no atendimento</strong> ao cliente</li>
+        <li><strong>Governança</strong> em toda a operação</li>
+        <li><strong>Dados confiáveis</strong> para decisões</li>
+      </ul>
+      
+      <h2>Impacto na Gestão</h2>
+      <p>O ERP setorial permitiu decisões mais assertivas, conectando o campo ao backoffice com dados em tempo real e análises precisas.</p>
+    `,
+    tags: ['ERP', 'Supply', 'Alimentos', 'Agro'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-agricola/case-de-sucesso-blue-ville/'
+    }
+  },
+  {
+    id: '9',
+    slug: 'laticinios-aviacao-integracao-produtiva',
+    titulo: 'Laticínios Aviação: integração produtiva',
+    subtitulo: 'Integração entre áreas aumenta produtividade e controle',
+    categoria: 'ERP',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-12-05',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/laticinios-aviacao.jpg',
+    resumo: 'Integração de processos sustenta padrões de qualidade e expansão com visibilidade gerencial. Demonstra como a padronização reduz erros e acelera o fluxo decisório no setor de alimentos.',
+    conteudo: `
+      <p>Os Laticínios Aviação implementaram uma solução TOTVS que integrou todas as áreas produtivas, elevando a produtividade e o controle de qualidade em todo o processo.</p>
+      
+      <h2>Desafios da Integração</h2>
+      <ul>
+        <li>Processos desconectados entre áreas</li>
+        <li>Falta de visibilidade gerencial</li>
+        <li>Dificuldade no controle de qualidade</li>
+        <li>Retrabalho por inconsistências</li>
+        <li>Fluxo decisório lento</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>ERP TOTVS que integrou todas as áreas produtivas, desde a recepção de matéria-prima até a expedição dos produtos finais.</p>
+      
+      <h2>Benefícios Alcançados</h2>
+      <ul>
+        <li><strong>Integração completa</strong> entre áreas</li>
+        <li><strong>Visibilidade gerencial</strong> em tempo real</li>
+        <li><strong>Controle rigoroso</strong> de qualidade</li>
+        <li><strong>Padronização</strong> de processos</li>
+        <li><strong>Redução de erros</strong> significativa</li>
+        <li><strong>Fluxo decisório</strong> mais ágil</li>
+        <li><strong>Expansão sustentável</strong> com qualidade</li>
+      </ul>
+      
+      <h2>Impacto na Qualidade</h2>
+      <p>A integração sustentou padrões de qualidade rigorosos e viabilizou a expansão da empresa com controle total dos processos.</p>
+    `,
+    tags: ['ERP', 'Alimentos', 'Qualidade', 'Integração'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-laticinios-aviacao/'
+    }
+  },
+  {
+    id: '10',
+    slug: 'ricardo-almeida-design-pdv',
+    titulo: 'Ricardo Almeida: do design ao PDV',
+    subtitulo: 'ERP especializado integra ponta a ponta e reduz retrabalho',
+    categoria: 'ERP',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-11-30',
+    tempo_leitura: '5 min',
+    imagem_destaque: '/images/blog/ricardo-almeida-erp.jpg',
+    resumo: 'Fluxo integrado do desenvolvimento ao ponto de venda, com informação consistente, governança e velocidade comercial. Case forte para varejo de moda com múltiplos canais.',
+    conteudo: `
+      <p>A Ricardo Almeida, marca de moda, implementou ERP especializado TOTVS que integra todo o fluxo desde o design até o ponto de venda, eliminando retrabalho e acelerando a velocidade comercial.</p>
+      
+      <h2>Desafios do Varejo de Moda</h2>
+      <ul>
+        <li>Fluxo desconectado do design ao PDV</li>
+        <li>Informações inconsistentes entre canais</li>
+        <li>Alto retrabalho operacional</li>
+        <li>Falta de governança no processo</li>
+        <li>Velocidade comercial comprometida</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>ERP especializado para moda que conecta desenvolvimento, produção, estoque e vendas em um fluxo único e integrado.</p>
+      
+      <h2>Resultados Obtidos</h2>
+      <ul>
+        <li><strong>Fluxo integrado</strong> do design ao PDV</li>
+        <li><strong>Informação consistente</strong> entre canais</li>
+        <li><strong>Governança</strong> em todo o processo</li>
+        <li><strong>Velocidade comercial</strong> elevada</li>
+        <li><strong>Redução significativa</strong> de retrabalho</li>
+        <li><strong>Controle total</strong> da operação</li>
+        <li><strong>Múltiplos canais</strong> integrados</li>
+      </ul>
+      
+      <h2>Impacto no Varejo</h2>
+      <p>O case demonstra como ERP especializado pode transformar completamente a operação de varejo de moda, oferecendo controle total e velocidade comercial.</p>
+    `,
+    tags: ['ERP', 'Varejo', 'Moda', 'PDV'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/gestao-varejista/case-de-sucesso-ricardo-almeida/'
+    }
+  },
+
+  // ANALYTICS
+  {
+    id: '11',
+    slug: 'testato-protheus-fast-analytics',
+    titulo: 'Testato: Protheus + Fast Analytics',
+    subtitulo: 'Padronização de processos e análises com BI acoplado ao ERP',
+    categoria: 'Analytics',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Cases de Sucesso',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-11-25',
+    tempo_leitura: '7 min',
+    imagem_destaque: '/images/blog/testato-analytics.jpg',
+    resumo: 'Combinação de ERP + Analytics + Admissão Digital reduz esforço manual, melhora qualidade de dados e acelera decisões em finanças, operações e RH, com painéis confiáveis e governança.',
+    conteudo: `
+      <p>A Testato implementou uma solução integrada com Protheus, Fast Analytics e Admissão Digital, transformando completamente sua gestão de dados e processos.</p>
+      
+      <h2>Desafios Iniciais</h2>
+      <ul>
+        <li>Processos manuais e demorados</li>
+        <li>Qualidade de dados inconsistente</li>
+        <li>Decisões lentas por falta de informações</li>
+        <li>Esforço manual excessivo</li>
+        <li>Falta de governança de dados</li>
+      </ul>
+      
+      <h2>Solução Implementada</h2>
+      <p>Combinação estratégica de ERP Protheus + Fast Analytics + Admissão Digital, criando um ecossistema integrado e inteligente.</p>
+      
+      <h2>Benefícios Alcançados</h2>
+      <ul>
+        <li><strong>Padronização</strong> de processos</li>
+        <li><strong>Redução significativa</strong> de esforço manual</li>
+        <li><strong>Melhoria da qualidade</strong> de dados</li>
+        <li><strong>Decisões mais ágeis</strong> em todas as áreas</li>
+        <li><strong>Painéis confiáveis</strong> e atualizados</li>
+        <li><strong>Governança</strong> de dados robusta</li>
+        <li><strong>Integração completa</strong> entre sistemas</li>
+      </ul>
+      
+      <h2>Impacto por Área</h2>
+      <ul>
+        <li><strong>Finanças:</strong> Relatórios automatizados e precisos</li>
+        <li><strong>Operações:</strong> Visibilidade em tempo real</li>
+        <li><strong>RH:</strong> Processos digitais e eficientes</li>
+      </ul>
+    `,
+    tags: ['BI', 'ERP', 'RH', 'Analytics'],
+    destaque: true,
+    fonte: {
+      nome: 'Revista Fator Brasil',
+      url: 'https://www.revistafatorbrasil.com.br/2023/09/15/testato-adota-erp-sistema-de-bi-e-solucao-para-admissao-digital-da-totvs/'
+    }
+  },
+  {
+    id: '12',
+    slug: 'guia-bi-fundamentos-usos',
+    titulo: 'Guia de BI: fundamentos e usos',
+    subtitulo: 'Arquitetura, integrações e práticas de BI por área',
+    categoria: 'Analytics',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em BI',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-11-20',
+    tempo_leitura: '12 min',
+    imagem_destaque: '/images/blog/bi-fundamentos.jpg',
+    resumo: 'Conteúdo didático para construir governança, integrar fontes e gerar insights acionáveis. Ajuda CFOs e líderes a padronizar indicadores e gestão à vista com menor atrito operacional.',
+    conteudo: `
+      <p>O Business Intelligence (BI) é fundamental para transformar dados em insights acionáveis e acelerar a tomada de decisões estratégicas nas empresas.</p>
+      
+      <h2>Fundamentos do BI</h2>
+      <p>BI é a capacidade de transformar dados brutos em informações estratégicas que orientam decisões de negócio.</p>
+      
+      <h2>Arquitetura de BI</h2>
+      <ul>
+        <li><strong>Coleta de Dados:</strong> Integração de múltiplas fontes</li>
+        <li><strong>Armazenamento:</strong> Data warehouses e data lakes</li>
+        <li><strong>Processamento:</strong> ETL e transformação de dados</li>
+        <li><strong>Análise:</strong> Modelagem e algoritmos</li>
+        <li><strong>Visualização:</strong> Dashboards e relatórios</li>
+      </ul>
+      
+      <h2>Integrações Essenciais</h2>
+      <ul>
+        <li>ERP (Enterprise Resource Planning)</li>
+        <li>CRM (Customer Relationship Management)</li>
+        <li>Sistemas financeiros</li>
+        <li>Fontes externas de mercado</li>
+        <li>APIs e conectores</li>
+      </ul>
+      
+      <h2>Práticas por Área</h2>
+      
+      <h3>Finanças</h3>
+      <ul>
+        <li>Análise de fluxo de caixa</li>
+        <li>Previsões orçamentárias</li>
+        <li>Indicadores de performance financeira</li>
+        <li>Análise de custos e margens</li>
+      </ul>
+      
+      <h3>Vendas</h3>
+      <ul>
+        <li>Análise de pipeline</li>
+        <li>Performance por vendedor</li>
+        <li>Análise de clientes</li>
+        <li>Previsões de vendas</li>
+      </ul>
+      
+      <h3>Operações</h3>
+      <ul>
+        <li>KPIs operacionais</li>
+        <li>Análise de produtividade</li>
+        <li>Gestão de estoque</li>
+        <li>Otimização de processos</li>
+      </ul>
+      
+      <h2>Benefícios do BI</h2>
+      <ul>
+        <li><strong>Decisões mais rápidas</strong> e precisas</li>
+        <li><strong>Visibilidade completa</strong> da operação</li>
+        <li><strong>Identificação de oportunidades</strong></li>
+        <li><strong>Redução de riscos</strong></li>
+        <li><strong>Competitividade</strong> no mercado</li>
+      </ul>
+    `,
+    tags: ['BI', 'Governança', 'KPIs', 'Analytics'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Blog',
+      url: 'https://www.totvs.com/blog/negocios/business-intelligence/'
+    }
+  },
+  {
+    id: '13',
+    slug: 'webinar-bi-feito-para-seu-erp',
+    titulo: 'Webinar: BI feito para seu ERP',
+    subtitulo: 'Como explorar dados do ERP e padronizar KPIs',
+    categoria: 'Analytics',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em BI',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-11-15',
+    tempo_leitura: '8 min',
+    imagem_destaque: '/images/blog/webinar-bi-erp.jpg',
+    resumo: 'Demonstra a prática de conectar BI ao ERP para acelerar decisões e institucionalizar rituais de performance, com painéis replicáveis e data literacy para áreas de negócio.',
+    conteudo: `
+      <p>Este webinar demonstra como conectar efetivamente BI ao ERP para acelerar decisões e institucionalizar rituais de performance na empresa.</p>
+      
+      <h2>Objetivos do Webinar</h2>
+      <ul>
+        <li>Mostrar como explorar dados do ERP</li>
+        <li>Padronizar KPIs essenciais</li>
+        <li>Acelerar tomada de decisões</li>
+        <li>Institucionalizar rituais de performance</li>
+      </ul>
+      
+      <h2>Conteúdo Abordado</h2>
+      
+      <h3>1. Conexão BI + ERP</h3>
+      <p>Como integrar efetivamente Business Intelligence com sistemas ERP para maximizar o valor dos dados.</p>
+      
+      <h3>2. Exploração de Dados</h3>
+      <ul>
+        <li>Identificação de fontes de dados relevantes</li>
+        <li>Extraction, Transformation, Loading (ETL)</li>
+        <li>Modelagem dimensional</li>
+        <li>Definição de métricas-chave</li>
+      </ul>
+      
+      <h3>3. Padronização de KPIs</h3>
+      <ul>
+        <li>Definição de indicadores estratégicos</li>
+        <li>Metodologias de cálculo</li>
+        <li>Benchmarking e metas</li>
+        <li>Frequência de atualização</li>
+      </ul>
+      
+      <h3>4. Painéis Replicáveis</h3>
+      <ul>
+        <li>Design de dashboards eficazes</li>
+        <li>Personalização por área</li>
+        <li>Automação de relatórios</li>
+        <li>Distribuição e acesso</li>
+      </ul>
+      
+      <h3>5. Data Literacy</h3>
+      <ul>
+        <li>Capacitação de usuários finais</li>
+        <li>Interpretação de dados</li>
+        <li>Tomada de decisão baseada em dados</li>
+        <li>Cultura analítica</li>
+      </ul>
+      
+      <h2>Benefícios Práticos</h2>
+      <ul>
+        <li><strong>Decisões mais rápidas</strong> e precisas</li>
+        <li><strong>Rituais de performance</strong> institucionalizados</li>
+        <li><strong>Painéis replicáveis</strong> em toda a empresa</li>
+        <li><strong>Data literacy</strong> desenvolvida</li>
+        <li><strong>ROI mensurável</strong> do BI</li>
+      </ul>
+    `,
+    tags: ['BI', 'ERP', 'Decisão', 'KPIs'],
+    destaque: true,
+    fonte: {
+      nome: 'YouTube TOTVS',
+      url: 'https://www.youtube.com/watch?v=FvcKRd8COxw'
+    }
+  },
+  {
+    id: '14',
+    slug: 'tms-analytics-indicadores-tempo-real',
+    titulo: 'TMS + Analytics: indicadores em tempo real',
+    subtitulo: 'Dashboards de receita, entregas, ocorrências e faturamento',
+    categoria: 'Analytics',
+    autor: {
+      nome: 'Equipe TOTVS',
+      cargo: 'Especialistas em Logística',
+      avatar: '/images/avatars/totvs.jpg',
+    },
+    data_publicacao: '2024-11-10',
+    tempo_leitura: '6 min',
+    imagem_destaque: '/images/blog/tms-analytics.jpg',
+    resumo: 'Ficha técnica do TMS com visão de indicadores críticos para governar operação logística, roteirização e alocação de recursos com base em dados.',
+    conteudo: `
+      <p>O TMS (Transportation Management System) integrado com Analytics oferece visão completa e em tempo real dos indicadores críticos da operação logística.</p>
+      
+      <h2>Indicadores Principais</h2>
+      
+      <h3>Receita</h3>
+      <ul>
+        <li>Faturamento por período</li>
+        <li>Receita por cliente</li>
+        <li>Receita por rota</li>
+        <li>Análise de margens</li>
+      </ul>
+      
+      <h3>Entregas</h3>
+      <ul>
+        <li>Taxa de entrega no prazo (OTIF)</li>
+        <li>Tempo médio de entrega</li>
+        <li>Distância percorrida</li>
+        <li>Eficiência de rotas</li>
+      </ul>
+      
+      <h3>Ocorrências</h3>
+      <ul>
+        <li>Número de ocorrências por período</li>
+        <li>Tipos de ocorrências mais frequentes</li>
+        <li>Impacto financeiro das ocorrências</li>
+        <li>Tempo médio de resolução</li>
+      </ul>
+      
+      <h3>Faturamento</h3>
+      <ul>
+        <li>Valor faturado por período</li>
+        <li>Faturamento por modal</li>
+        <li>Análise de inadimplência</li>
+        <li>Projeções de receita</li>
+      </ul>
+      
+      <h2>Dashboards Disponíveis</h2>
+      
+      <h3>Dashboard Operacional</h3>
+      <ul>
+        <li>Status das entregas em tempo real</li>
+        <li>Performance dos motoristas</li>
+        <li>Utilização da frota</li>
+        <li>Alertas e exceções</li>
+      </ul>
+      
+      <h3>Dashboard Gerencial</h3>
+      <ul>
+        <li>KPIs consolidados</li>
+        <li>Análise de tendências</li>
+        <li>Comparativo de períodos</li>
+        <li>Indicadores de qualidade</li>
+      </ul>
+      
+      <h3>Dashboard Financeiro</h3>
+      <ul>
+        <li>Análise de receita e custos</li>
+        <li>Margem por operação</li>
+        <li>Projeções financeiras</li>
+        <li>Análise de rentabilidade</li>
+      </ul>
+      
+      <h2>Benefícios dos Indicadores</h2>
+      <ul>
+        <li><strong>Governança</strong> da operação logística</li>
+        <li><strong>Roteirização</strong> otimizada</li>
+        <li><strong>Alocação</strong> eficiente de recursos</li>
+        <li><strong>Decisões</strong> baseadas em dados</li>
+        <li><strong>Melhoria contínua</strong> dos processos</li>
+      </ul>
+    `,
+    tags: ['Logística', 'TMS', 'KPIs', 'Analytics'],
+    destaque: true,
+    fonte: {
+      nome: 'TOTVS Produtos',
+      url: 'https://produtos.totvs.com/ficha-tecnica/tudo-sobre-o-totvs-logistica-tms/'
+    }
+  },
   {
     id: '3',
     slug: 'chat-commerce-ia',
