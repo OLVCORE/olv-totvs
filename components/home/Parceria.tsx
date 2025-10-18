@@ -163,8 +163,8 @@ const Parceria = () => {
                     <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 mx-auto rounded-full"></div>
                   </div>
 
-                  {/* Cards de Consultoria Estratégica - Layout Horizontal Top Premium */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 mb-10 sm:mb-12">
+                  {/* Cards de Consultoria Estratégica - Grid 2x2 Top Premium */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-10 sm:mb-12">
                     {/* Card 1: Consultoria Empresarial Premium - Responsivo */}
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
