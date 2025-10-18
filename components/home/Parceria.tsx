@@ -162,14 +162,14 @@ const Parceria = () => {
                     CONSULTORIA ESTRATÉGICA PREMIUM
                   </h3>
 
-                  {/* Cards de Consultoria Estratégica - Responsivo */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-10">
+                  {/* Cards de Consultoria Estratégica - Grid 2x2 Responsivo */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-10">
                     {/* Card 1: Consultoria Empresarial Premium - Responsivo */}
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300"
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 h-full flex flex-col"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl flex items-center justify-center border border-cyan-400/30 flex-shrink-0">
@@ -182,7 +182,7 @@ const Parceria = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="space-y-1 sm:space-y-2">
+                      <div className="space-y-1 sm:space-y-2 mt-auto">
                         <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-400">
                           <CheckCircle2 className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-400" />
                           <span>Diagnóstico 360º e Roadmap de Valor</span>
@@ -203,7 +203,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.1 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-purple-400/30 transition-all duration-300"
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-purple-400/30 transition-all duration-300 h-full flex flex-col"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-xl flex items-center justify-center border border-purple-400/30 flex-shrink-0">
@@ -216,7 +216,7 @@ const Parceria = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="space-y-1 sm:space-y-2">
+                      <div className="space-y-1 sm:space-y-2 mt-auto">
                         <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-400">
                           <CheckCircle2 className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-400" />
                           <span>KPIs críticos em tempo real</span>
@@ -237,7 +237,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.2 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-emerald-400/30 transition-all duration-300"
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-emerald-400/30 transition-all duration-300 h-full flex flex-col"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl flex items-center justify-center border border-emerald-400/30 flex-shrink-0">
@@ -250,7 +250,7 @@ const Parceria = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="space-y-1 sm:space-y-2">
+                      <div className="space-y-1 sm:space-y-2 mt-auto">
                         <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-400">
                           <CheckCircle2 className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-400" />
                           <span>Padronização e automação</span>
@@ -271,7 +271,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.3 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-orange-400/30 transition-all duration-300"
+                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-orange-400/30 transition-all duration-300 h-full flex flex-col"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-500/20 to-rose-500/20 rounded-xl flex items-center justify-center border border-orange-400/30 flex-shrink-0">
@@ -284,7 +284,7 @@ const Parceria = () => {
                           </p>
                         </div>
                       </div>
-                      <div className="space-y-1 sm:space-y-2">
+                      <div className="space-y-1 sm:space-y-2 mt-auto">
                         <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-400">
                           <CheckCircle2 className="w-3 h-3 sm:w-4 sm:h-4 text-emerald-400" />
                           <span>Comércio Exterior</span>
