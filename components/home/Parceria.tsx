@@ -84,12 +84,13 @@ const Parceria = () => {
       </div>
 
       <div className="container-custom relative z-10 px-4 sm:px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           {/* Lado Esquerdo - Premium Content */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="lg:col-span-5"
           >
             <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 text-cyan-300 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-bold mb-6 sm:mb-8">
               <Award className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -148,6 +149,7 @@ const Parceria = () => {
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
+            className="lg:col-span-7"
           >
             <div className="relative">
               {/* Premium Glow Effect - Responsivo */}
@@ -157,19 +159,22 @@ const Parceria = () => {
                 {/* Animated Background */}
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 via-blue-500/10 to-purple-500/10" />
                 
-                <div className="relative z-10 p-4 sm:p-6 lg:p-8">
-                  <h3 className="text-xl sm:text-2xl lg:text-3xl font-black text-white mb-6 sm:mb-8 tracking-wide">
-                    CONSULTORIA ESTRATÉGICA PREMIUM
-                  </h3>
+                <div className="relative z-10 p-6 sm:p-8 lg:p-10">
+                  <div className="text-center mb-8 sm:mb-10">
+                    <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-3 tracking-wide">
+                      CONSULTORIA ESTRATÉGICA PREMIUM
+                    </h3>
+                    <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 mx-auto rounded-full"></div>
+                  </div>
 
-                  {/* Cards de Consultoria Estratégica - Grid 2x2 Responsivo */}
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 mb-8 sm:mb-10">
+                  {/* Cards de Consultoria Estratégica - Grid 2x2 Sofisticado */}
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mb-10 sm:mb-12">
                     {/* Card 1: Consultoria Empresarial Premium - Responsivo */}
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-cyan-400/30 transition-all duration-300 h-full flex flex-col"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-700/50 hover:border-cyan-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-cyan-400/20 hover:-translate-y-2"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl flex items-center justify-center border border-cyan-400/30 flex-shrink-0">
@@ -203,7 +208,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.1 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-purple-400/30 transition-all duration-300 h-full flex flex-col"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-700/50 hover:border-purple-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-purple-400/20 hover:-translate-y-2"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-xl flex items-center justify-center border border-purple-400/30 flex-shrink-0">
@@ -237,7 +242,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.2 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-emerald-400/30 transition-all duration-300 h-full flex flex-col"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-emerald-400/20 hover:-translate-y-2"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl flex items-center justify-center border border-emerald-400/30 flex-shrink-0">
@@ -271,7 +276,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.3 }}
-                      className="bg-gradient-to-br from-slate-800/60 to-slate-900/80 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 lg:p-6 border border-slate-700/50 hover:border-orange-400/30 transition-all duration-300 h-full flex flex-col"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-2xl sm:rounded-3xl p-6 sm:p-8 border border-slate-700/50 hover:border-orange-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-orange-400/20 hover:-translate-y-2"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-500/20 to-rose-500/20 rounded-xl flex items-center justify-center border border-orange-400/30 flex-shrink-0">
@@ -301,17 +306,17 @@ const Parceria = () => {
                     </motion.div>
                   </div>
 
-                  {/* Premium Guarantee Badge - Responsivo */}
+                  {/* Premium Guarantee Badge - Sofisticado */}
                   <div className="relative">
-                    <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/20 to-teal-400/20 rounded-xl sm:rounded-2xl blur-xl" />
-                    <div className="bg-gradient-to-r from-emerald-500/20 to-teal-500/20 rounded-xl sm:rounded-2xl p-4 sm:p-6 backdrop-blur-sm border border-emerald-400/30 relative">
-                      <div className="flex items-center gap-3 sm:gap-4">
-                        <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-glow">
-                          <Zap className="w-6 h-6 sm:w-8 sm:h-8 text-white" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-emerald-400/30 to-teal-400/30 rounded-2xl sm:rounded-3xl blur-xl" />
+                    <div className="bg-gradient-to-r from-emerald-500/30 to-teal-500/30 rounded-2xl sm:rounded-3xl p-6 sm:p-8 backdrop-blur-sm border border-emerald-400/40 relative hover:border-emerald-400/60 transition-all duration-300">
+                      <div className="flex items-center gap-4 sm:gap-6">
+                        <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl sm:rounded-3xl flex items-center justify-center shadow-2xl shadow-emerald-400/30">
+                          <Zap className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                         </div>
                         <div>
-                          <div className="font-black text-white text-lg sm:text-xl mb-1 tracking-wide">CONSULTORIA PREMIUM</div>
-                          <div className="text-sm sm:text-base text-slate-200">
+                          <div className="font-black text-white text-xl sm:text-2xl mb-2 tracking-wide">CONSULTORIA PREMIUM</div>
+                          <div className="text-base sm:text-lg text-slate-200">
                             Estratégia + Execução + Dados para resultados mensuráveis
                           </div>
                         </div>
@@ -321,41 +326,41 @@ const Parceria = () => {
                 </div>
               </div>
 
-              {/* Premium Certifications - Responsivo */}
+              {/* Premium Certifications - Sofisticado */}
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.4 }}
-                className="mt-6 sm:mt-8"
+                className="mt-8 sm:mt-10"
               >
                 <div className="card-premium">
                   <div className="text-center">
-                    <div className="text-xs sm:text-sm text-slate-400 mb-4 sm:mb-6 font-bold tracking-wider">
+                    <div className="text-sm sm:text-base text-slate-400 mb-6 sm:mb-8 font-bold tracking-wider">
                       CERTIFICAÇÕES E PARCERIAS
                     </div>
-                    <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-6">
+                    <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8">
                       <motion.div 
-                        whileHover={{ scale: 1.1, y: -5 }}
-                        className="px-4 sm:px-8 py-3 sm:py-4 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl sm:rounded-2xl shadow-glow backdrop-blur-sm border border-cyan-400/30"
+                        whileHover={{ scale: 1.05, y: -3 }}
+                        className="px-6 sm:px-10 py-4 sm:py-6 bg-gradient-to-br from-cyan-500/30 to-blue-500/30 rounded-2xl sm:rounded-3xl shadow-2xl shadow-cyan-400/20 backdrop-blur-sm border border-cyan-400/40 hover:border-cyan-400/60 transition-all duration-300"
                       >
-                        <div className="font-black text-cyan-300 text-lg sm:text-xl mb-1">TOTVS</div>
-                        <div className="text-xs sm:text-sm text-slate-300 font-bold">
+                        <div className="font-black text-cyan-300 text-xl sm:text-2xl mb-2">TOTVS</div>
+                        <div className="text-sm sm:text-base text-slate-300 font-bold">
                           Parceiro Oficial
                         </div>
                       </motion.div>
                       <motion.div 
-                        whileHover={{ scale: 1.1, y: -5 }}
-                        className="px-4 sm:px-8 py-3 sm:py-4 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl sm:rounded-2xl shadow-glow backdrop-blur-sm border border-emerald-400/30"
+                        whileHover={{ scale: 1.05, y: -3 }}
+                        className="px-6 sm:px-10 py-4 sm:py-6 bg-gradient-to-br from-emerald-500/30 to-teal-500/30 rounded-2xl sm:rounded-3xl shadow-2xl shadow-emerald-400/20 backdrop-blur-sm border border-emerald-400/40 hover:border-emerald-400/60 transition-all duration-300"
                       >
-                        <div className="font-black text-emerald-300 text-lg sm:text-xl mb-1">ISO 9001</div>
-                        <div className="text-xs sm:text-sm text-slate-300 font-bold">Certificado</div>
+                        <div className="font-black text-emerald-300 text-xl sm:text-2xl mb-2">ISO 9001</div>
+                        <div className="text-sm sm:text-base text-slate-300 font-bold">Certificado</div>
                       </motion.div>
                       <motion.div 
-                        whileHover={{ scale: 1.1, y: -5 }}
-                        className="px-4 sm:px-8 py-3 sm:py-4 bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-xl sm:rounded-2xl shadow-glow backdrop-blur-sm border border-purple-400/30"
+                        whileHover={{ scale: 1.05, y: -3 }}
+                        className="px-6 sm:px-10 py-4 sm:py-6 bg-gradient-to-br from-purple-500/30 to-pink-500/30 rounded-2xl sm:rounded-3xl shadow-2xl shadow-purple-400/20 backdrop-blur-sm border border-purple-400/40 hover:border-purple-400/60 transition-all duration-300"
                       >
-                        <div className="font-black text-purple-300 text-lg sm:text-xl mb-1">LGPD</div>
-                        <div className="text-xs sm:text-sm text-slate-300 font-bold">Compliance</div>
+                        <div className="font-black text-purple-300 text-xl sm:text-2xl mb-2">LGPD</div>
+                        <div className="text-sm sm:text-base text-slate-300 font-bold">Compliance</div>
                       </motion.div>
                     </div>
                   </div>
