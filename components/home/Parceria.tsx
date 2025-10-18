@@ -84,13 +84,14 @@ const Parceria = () => {
       </div>
 
       <div className="container-custom relative z-10 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col xl:flex-row gap-8 lg:gap-16 xl:gap-20 items-start">
-          {/* Lado Esquerdo - Premium Content */}
+        {/* Container Principal - Layout Vertical com Cards Horizontais */}
+        <div className="flex flex-col gap-8 lg:gap-12 xl:gap-16">
+          {/* Container 1: OLV + TOTVS - Full Width */}
           <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex-1 xl:max-w-lg"
+            className="w-full"
           >
             <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 text-cyan-300 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-bold mb-6 sm:mb-8">
               <Award className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -110,8 +111,8 @@ const Parceria = () => {
               com consultoria especializada em processos.
             </p>
 
-            {/* Premium Diferenciais - Layout Horizontal Top Premium */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
+            {/* Premium Diferenciais - Layout Horizontal */}
+            <div className="flex flex-row gap-3 sm:gap-4 lg:gap-6 flex-wrap">
               {diferenciais.map((item, index) => (
                 <motion.div 
                   key={index}
@@ -121,7 +122,7 @@ const Parceria = () => {
                   whileHover={{ scale: 1.05, y: -5 }}
                   className="group"
                 >
-                  <div className="card-premium hover:shadow-glow transition-all duration-300 relative overflow-hidden p-3 sm:p-4">
+                  <div className="card-premium hover:shadow-glow transition-all duration-300 relative overflow-hidden p-3 sm:p-4 flex-1 min-w-[200px]">
                     {/* Background Glow */}
                     <div className={`absolute inset-0 bg-gradient-to-br ${item.cor} opacity-0 group-hover:opacity-10 transition-opacity duration-300`} />
                     
@@ -130,8 +131,8 @@ const Parceria = () => {
                         <item.icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                       </div>
                       <h3 className="font-black text-white mb-1 sm:mb-2 text-xs sm:text-sm lg:text-base tracking-wide leading-tight">
-                        {item.titulo}
-                      </h3>
+                          {item.titulo}
+                        </h3>
                       <p className="text-xs sm:text-sm text-slate-300 leading-tight">{item.descricao}</p>
                     </div>
                   </div>
@@ -140,12 +141,12 @@ const Parceria = () => {
             </div>
           </motion.div>
 
-          {/* Lado Direito - Premium Benefits Card */}
+          {/* Container 2: CONSULTORIA ESTRATÉGICA PREMIUM - Full Width */}
           <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="flex-1 xl:flex-2"
+            className="w-full"
           >
             <div className="relative">
               {/* Premium Glow Effect - Responsivo */}
@@ -159,18 +160,18 @@ const Parceria = () => {
                   <div className="text-center mb-8 sm:mb-10">
                     <h3 className="text-2xl sm:text-3xl lg:text-4xl font-black text-white mb-3 tracking-wide">
                       CONSULTORIA ESTRATÉGICA PREMIUM
-                    </h3>
+                  </h3>
                     <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-purple-400 mx-auto rounded-full"></div>
                   </div>
 
-                  {/* Cards de Consultoria Estratégica - Grid 2x2 Top Premium */}
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6 lg:gap-8 mb-10 sm:mb-12">
+                  {/* Cards de Consultoria Estratégica - Layout Horizontal */}
+                  <div className="flex flex-row gap-4 sm:gap-6 lg:gap-8 mb-10 sm:mb-12 flex-wrap">
                     {/* Card 1: Consultoria Empresarial Premium - Responsivo */}
                     <motion.div
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6 }}
-                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-cyan-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-cyan-400/20 hover:-translate-y-2"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-cyan-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-cyan-400/20 hover:-translate-y-2 flex-1 min-w-[250px]"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-cyan-500/20 to-blue-500/20 rounded-xl flex items-center justify-center border border-cyan-400/30 flex-shrink-0">
@@ -204,7 +205,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.1 }}
-                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-purple-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-purple-400/20 hover:-translate-y-2"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-purple-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-purple-400/20 hover:-translate-y-2 flex-1 min-w-[250px]"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-purple-500/20 to-indigo-500/20 rounded-xl flex items-center justify-center border border-purple-400/30 flex-shrink-0">
@@ -238,7 +239,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.2 }}
-                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-emerald-400/20 hover:-translate-y-2"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-emerald-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-emerald-400/20 hover:-translate-y-2 flex-1 min-w-[250px]"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-emerald-500/20 to-teal-500/20 rounded-xl flex items-center justify-center border border-emerald-400/30 flex-shrink-0">
@@ -272,7 +273,7 @@ const Parceria = () => {
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ duration: 0.6, delay: 0.3 }}
-                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-orange-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-orange-400/20 hover:-translate-y-2"
+                      className="group bg-gradient-to-br from-slate-800/70 to-slate-900/90 backdrop-blur-xl rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-slate-700/50 hover:border-orange-400/50 transition-all duration-500 h-full flex flex-col hover:shadow-2xl hover:shadow-orange-400/20 hover:-translate-y-2 flex-1 min-w-[250px]"
                     >
                       <div className="flex items-start gap-3 sm:gap-4 mb-3 sm:mb-4">
                         <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-orange-500/20 to-rose-500/20 rounded-xl flex items-center justify-center border border-orange-400/30 flex-shrink-0">
