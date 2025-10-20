@@ -1,18 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { LRUCache } from 'lru-cache';
 
 // ==========================================
-// CONFIGURAÇÃO DO CACHE IN-MEMORY
+// CONFIGURAÇÃO DO CACHE IN-MEMORY SIMPLES
 // ==========================================
 interface RateLimitCacheRecord {
   count: number;
   resetAt: number;
 }
 
-const rateLimitCache = new LRUCache<string, RateLimitCacheRecord>({
-  max: 500, // Número máximo de entradas no cache
-  ttl: 60 * 60 * 1000, // Tempo de vida de cada entrada (1 hora)
-});
+// Cache simples em memória (sem dependências externas)
+const rateLimitCache = new Map<string, RateLimitCacheRecord>();
 
 // ==========================================
 // TIPOS E INTERFACES
@@ -61,6 +58,15 @@ function rateLimitMemory(
   }
 
   rateLimitCache.set(identifier, record);
+
+  // Limpar entradas expiradas periodicamente
+  if (rateLimitCache.size > 1000) {
+    for (const [key, value] of rateLimitCache.entries()) {
+      if (value.resetAt <= now) {
+        rateLimitCache.delete(key);
+      }
+    }
+  }
 
   return {
     success: record.count <= config.maxRequests,

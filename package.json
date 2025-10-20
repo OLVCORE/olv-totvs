@@ -6,11 +6,48 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "type-check": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    
+    "test": "jest",
+    "test:unit": "jest --testPathPattern=__tests__",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:performance": "jest --testPathPattern=performance",
+    
+    "analyze": "ANALYZE=true next build",
+    "lighthouse:ci": "lhci autorun",
+    "lighthouse:ci:upload": "lhci upload",
+    
+    "security:audit": "npm audit",
+    "security:fix": "npm audit fix",
+    "security:snyk": "snyk test",
+    "security:snyk:fix": "snyk wizard",
+    
+    "db:seed": "tsx scripts/seed-database.ts",
+    "db:migrate": "tsx scripts/migrate-database.ts",
+    "db:backup": "tsx scripts/backup-database.ts",
+    
+    "deploy:staging": "vercel --prod --env staging",
+    "deploy:production": "vercel --prod --env production",
+    
+    "clean": "rm -rf .next out dist coverage .lighthouseci",
+    "clean:all": "npm run clean && rm -rf node_modules package-lock.json",
+    
+    "precommit": "npm run lint && npm run type-check && npm run test:unit",
+    "prepush": "npm run precommit && npm run test:e2e",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
     "@po-ui/ng-components": "^17.0.0",
+    "@sentry/nextjs": "^7.100.0",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
     "critters": "^0.0.23",
@@ -29,19 +66,124 @@
     "zod": "^3.23.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.23.0",
+    "@babel/preset-react": "^7.22.0",
+    "@babel/preset-typescript": "^7.23.0",
+    "@playwright/test": "^1.40.0",
+    "@testing-library/jest-dom": "^6.1.0",
+    "@testing-library/react": "^14.1.0",
+    "@testing-library/user-event": "^14.5.0",
     "@types/bcryptjs": "^2.4.6",
+    "@types/jest": "^29.5.0",
     "@types/jsonwebtoken": "^9.0.6",
     "@types/node": "^20.12.7",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
     "autoprefixer": "^10.4.19",
+    "babel-jest": "^29.7.0",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "lint-staged": "^15.0.0",
     "postcss": "^8.4.38",
+    "prettier": "^3.0.0",
     "tailwindcss": "^3.4.3",
+    "tsx": "^4.0.0",
     "typescript": "^5.4.5"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.{json,md,yml,yaml}": [
+      "prettier --write"
+    ]
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
+    "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/"],
+    "moduleNameMapping": {
+      "^@/(.*)$": "<rootDir>/$1"
+    },
+    "collectCoverageFrom": [
+      "components/**/*.{js,jsx,ts,tsx}",
+      "lib/**/*.{js,jsx,ts,tsx}",
+      "app/**/*.{js,jsx,ts,tsx}",
+      "!**/*.d.ts",
+      "!**/node_modules/**",
+      "!**/.next/**",
+      "!**/coverage/**",
+      "!**/e2e/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": 80
+      }
+    }
+  },
+  "playwright": {
+    "testDir": "./e2e",
+    "timeout": 30000,
+    "retries": 2,
+    "workers": 4,
+    "use": {
+      "baseURL": "http://localhost:3000",
+      "trace": "on-first-retry",
+      "screenshot": "only-on-failure"
+    },
+    "projects": [
+      {
+        "name": "chromium",
+        "use": { "browserName": "chromium" }
+      },
+      {
+        "name": "firefox",
+        "use": { "browserName": "firefox" }
+      },
+      {
+        "name": "webkit",
+        "use": { "browserName": "webkit" }
+      }
+    ]
+  },
+  "lighthouseci": {
+    "ci": {
+      "collect": {
+        "numberOfRuns": 3,
+        "url": [
+          "https://olvinternacional.com.br",
+          "https://olvinternacional.com.br/solucoes",
+          "https://olvinternacional.com.br/setores",
+          "https://olvinternacional.com.br/diagnostico"
+        ]
+      },
+      "assert": {
+        "assertions": {
+          "categories:performance": ["error", {"minScore": 0.9}],
+          "categories:accessibility": ["error", {"minScore": 0.9}],
+          "categories:best-practices": ["error", {"minScore": 0.9}],
+          "categories:seo": ["error", {"minScore": 0.9}]
+        }
+      },
+      "upload": {
+        "target": "temporary-public-storage"
+      }
+    }
   }
 }
