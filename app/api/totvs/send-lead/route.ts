@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import dbConnect from '@/lib/mongodb';
 import Lead from '@/models/Lead';
 import IntegracaoTOTVS from '@/models/IntegracaoTOTVS';
+
+export const dynamic = 'force-dynamic';
 import { verifyToken } from '@/lib/auth';
 
 /**

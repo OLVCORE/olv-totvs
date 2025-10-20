@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import { emailConfig } from '@/lib/config';
 
+export const dynamic = 'force-dynamic';
+
 // ==========================================
 // CONFIGURAÇÃO DO TRANSPORTER SMTP
 // ==========================================

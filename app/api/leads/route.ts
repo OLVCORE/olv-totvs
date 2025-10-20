@@ -3,6 +3,8 @@ import dbConnect from '@/lib/mongodb';
 import Lead from '@/models/Lead';
 import { DiagnosticoFormData } from '@/types';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     await dbConnect();
