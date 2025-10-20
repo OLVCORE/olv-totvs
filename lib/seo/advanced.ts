@@ -500,8 +500,8 @@ export async function generateAdvancedSitemap(): Promise<Array<{
   }));
 
   // Páginas de blog
-  const { blogPosts } = await import('@/lib/data/blog-posts');
-  const blogPages = blogPosts.map((post) => ({
+  const { BLOG_POSTS } = await import('@/lib/data/blog-posts');
+  const blogPages = BLOG_POSTS.map((post) => ({
     url: `${baseUrl}/blog/${post.slug}`,
     lastModified: new Date(post.publishedAt),
     changeFrequency: 'monthly' as const,

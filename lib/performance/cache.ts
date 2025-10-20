@@ -418,8 +418,8 @@ export const DataCache = {
   // Cache para depoimentos
   depoimentos: withCache(
     async () => {
-      const { depoimentos } = await import('@/lib/data/depoimentos');
-      return depoimentos;
+      const { DEPOIMENTOS } = await import('@/lib/data/depoimentos');
+      return DEPOIMENTOS;
     },
     () => 'depoimentos:all',
     30 * 60 * 1000, // 30 minutos
@@ -429,8 +429,8 @@ export const DataCache = {
   // Cache para blog posts
   blogPosts: withCache(
     async () => {
-      const { blogPosts } = await import('@/lib/data/blog-posts');
-      return blogPosts;
+      const { BLOG_POSTS } = await import('@/lib/data/blog-posts');
+      return BLOG_POSTS;
     },
     () => 'blog:all',
     15 * 60 * 1000, // 15 minutos
