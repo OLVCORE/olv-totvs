@@ -177,8 +177,10 @@ const Footer = () => {
                 <div>
                   <div className="text-sm sm:text-base font-bold text-white mb-1">TELEFONE / WHATSAPP</div>
                   <a
-                    href="tel:+5511910074444"
-                    className="text-xs sm:text-base hover:text-cyan-300 transition-colors font-medium block"
+                    href="https://wa.me/5511910074444"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs sm:text-base hover:text-green-400 transition-colors font-medium block"
                   >
                     +55 (11) 91007-4444
                   </a>
