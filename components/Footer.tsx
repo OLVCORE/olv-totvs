@@ -58,22 +58,27 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 lg:gap-16">
           {/* Coluna 1 - Premium Brand - Responsivo */}
           <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
+            <a 
+              href="https://olvinternacional.com.br/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8 group hover:scale-105 transition-transform duration-300"
+            >
               <div className="relative">
-                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-glow">
+                <div className="w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-cyan-500 to-blue-600 rounded-xl sm:rounded-2xl flex items-center justify-center shadow-glow group-hover:shadow-glow-lg transition-all duration-300">
                   <span className="text-white font-black text-lg sm:text-2xl tracking-wider">OLV</span>
                 </div>
-                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl sm:rounded-2xl opacity-30 blur" />
+                <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-blue-500 rounded-xl sm:rounded-2xl opacity-30 blur group-hover:opacity-50 transition-opacity duration-300" />
               </div>
               <div>
-                <div className="text-white font-black text-lg sm:text-xl tracking-wide">
+                <div className="text-white font-black text-lg sm:text-xl tracking-wide group-hover:text-cyan-300 transition-colors duration-300">
                   OLV Internacional
                 </div>
-                <div className="text-xs sm:text-sm text-cyan-300 font-semibold tracking-wider">
+                <div className="text-xs sm:text-sm text-cyan-300 font-semibold tracking-wider group-hover:text-cyan-200 transition-colors duration-300">
                   PARCEIRO OFICIAL TOTVS
                 </div>
               </div>
-            </div>
+            </a>
             <p className="text-sm sm:text-base text-slate-400 mb-6 sm:mb-8 leading-relaxed">
               Especialistas em integrar estratégia, tecnologia e operações para
               elevar a maturidade digital de empresas com soluções de última geração.
