@@ -332,16 +332,10 @@ export function withValidationMonitoring<T>(
 if (process.env.NODE_ENV === 'production') {
   // Configurações de produção
   Sentry.configureScope((scope) => {
-    scope.setTag('environment', 'production');
+    scope.setTag('environment', process.env.VERCEL_ENV || 'production');
     scope.setLevel('error');
   });
-} else if (process.env.NODE_ENV === 'staging') {
-  // Configurações de staging
-  Sentry.configureScope((scope) => {
-    scope.setTag('environment', 'staging');
-    scope.setLevel('warning');
-  });
-} else {
+} else if (process.env.NODE_ENV === 'development') {
   // Configurações de desenvolvimento
   Sentry.configureScope((scope) => {
     scope.setTag('environment', 'development');
