@@ -1,5 +1,5 @@
 import { MetadataRoute } from 'next';
-import { generateAdvancedSitemap } from './advanced';
+import { generateAdvancedSitemap } from '@/lib/seo/advanced';
 
 /**
  * 🗺️ SITEMAP DINÂMICO AVANÇADO
