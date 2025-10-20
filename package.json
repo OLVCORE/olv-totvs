@@ -11,7 +11,6 @@
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    
     "test": "jest",
     "test:unit": "jest --testPathPattern=__tests__",
     "test:watch": "jest --watch",
@@ -19,27 +18,22 @@
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "test:smoke": "playwright test --grep @smoke",
+    "test:email": "node scripts/test-email.js",
     "test:performance": "jest --testPathPattern=performance",
-    
     "analyze": "ANALYZE=true next build",
     "lighthouse:ci": "lhci autorun",
     "lighthouse:ci:upload": "lhci upload",
-    
     "security:audit": "npm audit",
     "security:fix": "npm audit fix",
     "security:snyk": "snyk test",
     "security:snyk:fix": "snyk wizard",
-    
     "db:seed": "tsx scripts/seed-database.ts",
     "db:migrate": "tsx scripts/migrate-database.ts",
     "db:backup": "tsx scripts/backup-database.ts",
-    
     "deploy:staging": "vercel --prod --env staging",
     "deploy:production": "vercel --prod --env production",
-    
     "clean": "rm -rf .next out dist coverage .lighthouseci",
     "clean:all": "npm run clean && rm -rf node_modules package-lock.json",
-    
     "precommit": "npm run lint && npm run type-check && npm run test:unit",
     "prepush": "npm run precommit && npm run test:e2e",
     "postinstall": "husky install"
@@ -48,6 +42,7 @@
     "@hookform/resolvers": "^3.3.4",
     "@po-ui/ng-components": "^17.0.0",
     "@sentry/nextjs": "^7.100.0",
+    "@types/nodemailer": "^7.0.2",
     "axios": "^1.6.8",
     "bcryptjs": "^2.4.3",
     "critters": "^0.0.23",
@@ -59,6 +54,7 @@
     "mongoose": "^8.19.1",
     "next": "^14.2.0",
     "next-auth": "^5.0.0-beta.17",
+    "nodemailer": "^6.10.1",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-hook-form": "^7.51.3",
@@ -113,8 +109,13 @@
   },
   "jest": {
     "testEnvironment": "jsdom",
-    "setupFilesAfterEnv": ["<rootDir>/jest.setup.js"],
-    "testPathIgnorePatterns": ["<rootDir>/.next/", "<rootDir>/node_modules/"],
+    "setupFilesAfterEnv": [
+      "<rootDir>/jest.setup.js"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/.next/",
+      "<rootDir>/node_modules/"
+    ],
     "moduleNameMapping": {
       "^@/(.*)$": "<rootDir>/$1"
     },
@@ -150,15 +151,21 @@
     "projects": [
       {
         "name": "chromium",
-        "use": { "browserName": "chromium" }
+        "use": {
+          "browserName": "chromium"
+        }
       },
       {
         "name": "firefox",
-        "use": { "browserName": "firefox" }
+        "use": {
+          "browserName": "firefox"
+        }
       },
       {
         "name": "webkit",
-        "use": { "browserName": "webkit" }
+        "use": {
+          "browserName": "webkit"
+        }
       }
     ]
   },
@@ -175,10 +182,30 @@
       },
       "assert": {
         "assertions": {
-          "categories:performance": ["error", {"minScore": 0.9}],
-          "categories:accessibility": ["error", {"minScore": 0.9}],
-          "categories:best-practices": ["error", {"minScore": 0.9}],
-          "categories:seo": ["error", {"minScore": 0.9}]
+          "categories:performance": [
+            "error",
+            {
+              "minScore": 0.9
+            }
+          ],
+          "categories:accessibility": [
+            "error",
+            {
+              "minScore": 0.9
+            }
+          ],
+          "categories:best-practices": [
+            "error",
+            {
+              "minScore": 0.9
+            }
+          ],
+          "categories:seo": [
+            "error",
+            {
+              "minScore": 0.9
+            }
+          ]
         }
       },
       "upload": {
