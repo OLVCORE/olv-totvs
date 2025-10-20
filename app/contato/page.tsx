@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Clock, Linkedin, Instagram, Facebook, CheckCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
+import { ContactForm } from '@/components/contact/ContactForm';
 
 export default function ContatoPage() {
   return (
@@ -206,149 +207,7 @@ export default function ContatoPage() {
                     Preencha o formulário abaixo e nossa equipe entrará em contato em até 24 horas.
                   </p>
 
-                  <form className="space-y-6" action="https://formspree.io/f/xpwnqjqr" method="POST">
-                    {/* Dados Pessoais */}
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          Nome Completo *
-                        </label>
-                        <input
-                          type="text"
-                          name="nome"
-                          required
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                          placeholder="Seu nome completo"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          E-mail *
-                        </label>
-                        <input
-                          type="email"
-                          name="email"
-                          required
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                          placeholder="seu@email.com"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          Telefone *
-                        </label>
-                        <input
-                          type="tel"
-                          name="telefone"
-                          required
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                          placeholder="(11) 99999-9999"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          Empresa
-                        </label>
-                        <input
-                          type="text"
-                          name="empresa"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                          placeholder="Nome da sua empresa"
-                        />
-                      </div>
-                    </div>
-
-                    {/* Dropdowns */}
-                    <div className="grid md:grid-cols-3 gap-6">
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          Solução de Interesse
-                        </label>
-                        <select
-                          name="solucao"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                        >
-                          <option value="">Selecione uma solução</option>
-                          <option value="ERP">ERP</option>
-                          <option value="Fluig">Fluig</option>
-                          <option value="iPaaS">iPaaS</option>
-                          <option value="CRM de Vendas">CRM de Vendas</option>
-                          <option value="Techfin">Techfin</option>
-                          <option value="Analytics">Analytics</option>
-                          <option value="Assinatura Eletrônica">Assinatura Eletrônica</option>
-                          <option value="Cloud">Cloud</option>
-                          <option value="RH">RH</option>
-                          <option value="Atendimento e Chatbot">Atendimento e Chatbot</option>
-                          <option value="Crédito">Crédito</option>
-                          <option value="Inteligência Artificial">Inteligência Artificial</option>
-                          <option value="Marketing Digital">Marketing Digital</option>
-                          <option value="Pagamentos">Pagamentos</option>
-                          <option value="SFA">SFA</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          Setor de Atuação
-                        </label>
-                        <select
-                          name="setor"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                        >
-                          <option value="">Selecione um setor</option>
-                          <option value="Agro">Agro</option>
-                          <option value="Construção">Construção</option>
-                          <option value="Distribuição">Distribuição</option>
-                          <option value="Serviços Financeiros">Serviços Financeiros</option>
-                          <option value="Logística">Logística</option>
-                          <option value="Manufatura">Manufatura</option>
-                          <option value="Prestadores de Serviços">Prestadores de Serviços</option>
-                        </select>
-                      </div>
-                      <div>
-                        <label className="block text-sm font-bold text-slate-300 mb-2">
-                          Tipo de Consultoria
-                        </label>
-                        <select
-                          name="consultoria"
-                          className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300"
-                        >
-                          <option value="">Selecione o tipo</option>
-                          <option value="Diagnóstico Estratégico">Diagnóstico Estratégico</option>
-                          <option value="Planejamento Inteligente">Planejamento Inteligente</option>
-                          <option value="Implementação Ágil">Implementação Ágil</option>
-                          <option value="Otimização Contínua">Otimização Contínua</option>
-                          <option value="Consultoria Completa">Consultoria Completa</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    {/* Mensagem */}
-                    <div>
-                      <label className="block text-sm font-bold text-slate-300 mb-2">
-                        Mensagem *
-                      </label>
-                      <textarea
-                        name="mensagem"
-                        required
-                        rows={5}
-                        className="w-full px-4 py-3 bg-slate-800/50 border border-slate-600 rounded-xl text-white placeholder-slate-400 focus:border-blue-500 focus:ring-2 focus:ring-blue-500/20 transition-all duration-300 resize-none"
-                        placeholder="Conte-nos sobre seu projeto, desafios ou necessidades..."
-                      />
-                    </div>
-
-                    {/* Botão de Envio */}
-                    <div className="pt-4">
-                      <button
-                        type="submit"
-                        className="w-full bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-8 py-4 rounded-2xl font-black text-lg shadow-glow hover:shadow-futuristic transition-all hover:scale-105"
-                      >
-                        ENVIAR MENSAGEM
-                      </button>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
             </motion.div>

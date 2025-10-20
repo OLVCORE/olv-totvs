@@ -33,6 +33,16 @@ interface ContactEmailData {
   company?: string;
   message: string;
   subject?: string;
+  solution?: string;
+  sector?: string;
+  consultancy?: string;
+  attachments?: Array<{
+    originalName: string;
+    fileName: string;
+    size: number;
+    type: string;
+    url: string;
+  }>;
 }
 
 interface LeadEmailData {
@@ -67,13 +77,33 @@ const createContactEmailTemplate = (data: ContactEmailData) => ({
           <p><strong>Email:</strong> ${data.email}</p>
           ${data.phone ? `<p><strong>Telefone:</strong> ${data.phone}</p>` : ''}
           ${data.company ? `<p><strong>Empresa:</strong> ${data.company}</p>` : ''}
+          ${data.solution ? `<p><strong>Solução de Interesse:</strong> ${data.solution}</p>` : ''}
+          ${data.sector ? `<p><strong>Setor:</strong> ${data.sector}</p>` : ''}
+          ${data.consultancy ? `<p><strong>Tipo de Consultoria:</strong> ${data.consultancy}</p>` : ''}
           ${data.subject ? `<p><strong>Assunto:</strong> ${data.subject}</p>` : ''}
         </div>
         
-        <div style="background: white; padding: 20px; border-radius: 8px;">
+        <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
           <h3 style="color: #1e293b; margin-top: 0;">Mensagem</h3>
           <p style="line-height: 1.6; color: #475569;">${data.message.replace(/\n/g, '<br>')}</p>
         </div>
+        
+        ${data.attachments && data.attachments.length > 0 ? `
+        <div style="background: white; padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+          <h3 style="color: #1e293b; margin-top: 0;">📎 Arquivos Anexados (${data.attachments.length})</h3>
+          <ul style="margin: 0; padding-left: 20px; color: #475569;">
+            ${data.attachments.map(att => `
+              <li style="margin-bottom: 8px;">
+                <strong>${att.originalName}</strong> 
+                <span style="color: #64748b;">(${(att.size / 1024 / 1024).toFixed(2)} MB)</span>
+              </li>
+            `).join('')}
+          </ul>
+          <p style="margin: 10px 0 0 0; font-size: 12px; color: #64748b;">
+            💡 Os arquivos foram salvos no servidor e podem ser acessados através do painel administrativo.
+          </p>
+        </div>
+        ` : ''}
         
         <div style="margin-top: 30px; padding: 20px; background: #e0f2fe; border-radius: 8px; text-align: center;">
           <p style="margin: 0; color: #0369a1;">
