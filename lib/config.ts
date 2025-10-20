@@ -26,7 +26,8 @@ function getOptionalEnv(key: string, defaultValue: string = ''): string {
 // ==========================================
 
 export const databaseConfig = {
-  uri: getRequiredEnv('MONGODB_URI'),
+  // Use optional read to avoid throwing at import/build time
+  uri: getOptionalEnv('MONGODB_URI', ''),
   dbName: getOptionalEnv('MONGODB_DB_NAME', 'olv-totvs'),
   options: {
     maxPoolSize: parseInt(getOptionalEnv('MONGODB_MAX_POOL_SIZE', '10')),
@@ -40,7 +41,8 @@ export const databaseConfig = {
 // ==========================================
 
 export const authConfig = {
-  jwtSecret: getRequiredEnv('JWT_SECRET'),
+  // Use optional read to avoid throwing at import/build time
+  jwtSecret: getOptionalEnv('JWT_SECRET', ''),
   jwtExpiresIn: getOptionalEnv('JWT_EXPIRES_IN', '7d'),
   cookieName: getOptionalEnv('AUTH_COOKIE_NAME', 'olv-auth-token'),
   cookieMaxAge: parseInt(getOptionalEnv('AUTH_COOKIE_MAX_AGE', '604800000')), // 7 dias em ms
@@ -185,16 +187,12 @@ export function validateConfig(): void {
   const errors: string[] = [];
   
   // Validar configurações críticas
-  try {
-    getRequiredEnv('MONGODB_URI');
-  } catch (error) {
-    errors.push('MONGODB_URI é obrigatória');
+  // Nota: Evitamos lançar erros em tempo de build. Valide em runtime quando necessário.
+  if (!databaseConfig.uri) {
+    errors.push('MONGODB_URI não configurada (recursos de banco serão desabilitados)');
   }
-  
-  try {
-    getRequiredEnv('JWT_SECRET');
-  } catch (error) {
-    errors.push('JWT_SECRET é obrigatória');
+  if (!authConfig.jwtSecret) {
+    errors.push('JWT_SECRET não configurado (auth avançada será desabilitada)');
   }
   
   // Validar formato de URLs
