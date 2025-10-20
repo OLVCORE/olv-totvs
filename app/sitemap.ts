@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next';
-import { solucoes } from '@/lib/data/solucoes';
-import { setores } from '@/lib/data/setores';
+import { SOLUCOES_TOTVS } from '@/lib/data/solucoes';
+import { SETORES_VERTICAIS } from '@/lib/data/setores';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://olvinternacional.com.br';
@@ -46,7 +46,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Páginas de soluções
-  const solucoesPages = solucoes.map((solucao) => ({
+  const solucoesPages = SOLUCOES_TOTVS.map((solucao) => ({
     url: `${baseUrl}/solucoes/${solucao.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
@@ -54,7 +54,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   }));
 
   // Páginas de setores
-  const setoresPages = setores.map((setor) => ({
+  const setoresPages = SETORES_VERTICAIS.map((setor) => ({
     url: `${baseUrl}/setores/${setor.slug}`,
     lastModified: new Date(),
     changeFrequency: 'monthly' as const,
