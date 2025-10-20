@@ -37,10 +37,7 @@ Sentry.init({
       ],
       
       // Configurações de routing
-      routingInstrumentation: Sentry.nextjsRouterInstrumentation({
-        instrumentNavigation: true,
-        instrumentPageLoad: true,
-      }),
+      routingInstrumentation: Sentry.nextRouterInstrumentation,
     }),
     
     new Sentry.Replay({
