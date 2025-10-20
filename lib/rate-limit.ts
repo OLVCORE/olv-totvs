@@ -187,16 +187,19 @@ function rateLimitMemory(
  */
 async function rateLimitRedis(
   identifier: string,
-  config: RateLimitConfig
+  rateLimitConfig: RateLimitConfig
 ): Promise<{
   success: boolean;
   limit: number;
   remaining: number;
   reset: number;
 }> {
-  // Se Redis não estiver habilitado, usar in-memory
-  if (!config.redis.enabled) {
-    return rateLimitMemory(identifier, config);
+  // Se Redis não estiver configurado, usar in-memory
+  const redisUrl = process.env.UPSTASH_REDIS_REST_URL;
+  const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN;
+  
+  if (!redisUrl || !redisToken) {
+    return rateLimitMemory(identifier, rateLimitConfig);
   }
 
   try {
@@ -205,15 +208,15 @@ async function rateLimitRedis(
     const { Redis } = await import('@upstash/redis');
 
     const redis = new Redis({
-      url: config.redis.url,
-      token: config.redis.token,
+      url: redisUrl,
+      token: redisToken,
     });
 
     const ratelimit = new Ratelimit({
       redis,
       limiter: Ratelimit.slidingWindow(
-        config.maxRequests,
-        `${config.windowMs}ms`
+        rateLimitConfig.maxRequests,
+        `${rateLimitConfig.windowMs}ms`
       ),
       analytics: true,
     });
@@ -228,7 +231,7 @@ async function rateLimitRedis(
     };
   } catch (error) {
     console.error('❌ Redis rate limit error, falling back to memory:', error);
-    return rateLimitMemory(identifier, config);
+    return rateLimitMemory(identifier, rateLimitConfig);
   }
 }
 
@@ -281,10 +284,9 @@ export async function rateLimit(
   // Obter identificador do cliente
   const identifier = getClientIdentifier(request);
 
-  // Aplicar rate limit
-  const result = config.redis.enabled
-    ? await rateLimitRedis(identifier, finalConfig)
-    : rateLimitMemory(identifier, finalConfig);
+  // Aplicar rate limit (Redis se disponível, senão in-memory)
+  // rateLimitRedis fará fallback automático se Redis não estiver configurado
+  const result = await rateLimitRedis(identifier, finalConfig);
 
   // Se não passou no rate limit, retornar resposta de erro
   if (!result.success) {
@@ -375,8 +377,9 @@ export default rateLimit;
 
 // Logging em desenvolvimento
 if (config.isDev) {
+  const redisConfigured = !!(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
   console.log('🛡️ Rate Limiting initialized:');
-  console.log(`   - Mode: ${config.redis.enabled ? 'Redis' : 'In-Memory'}`);
+  console.log(`   - Mode: ${redisConfigured ? 'Redis (if @upstash/ratelimit installed)' : 'In-Memory'}`);
   console.log(`   - Auth: ${RATE_LIMITS.auth.maxRequests} requests per ${RATE_LIMITS.auth.windowMs / 1000}s`);
   console.log(`   - Lead: ${RATE_LIMITS.lead.maxRequests} requests per ${RATE_LIMITS.lead.windowMs / 1000}s`);
   console.log(`   - API: ${RATE_LIMITS.api.maxRequests} requests per ${RATE_LIMITS.api.windowMs / 1000}s`);
