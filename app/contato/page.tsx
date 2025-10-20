@@ -77,8 +77,8 @@ export default function ContatoPage() {
                   {
                     icon: Mail,
                     title: 'EMAIL',
-                    value: 'consultores@olvinternacional.com.br',
-                    href: 'mailto:consultores@olvinternacional.com.br',
+                    value: 'parceiro-totvs@olvinternacional.com.br',
+                    href: 'mailto:parceiro-totvs@olvinternacional.com.br',
                     subtitle: 'Resposta em até 24 horas',
                     gradient: 'from-cyan-500 to-blue-600',
                   },
@@ -93,8 +93,8 @@ export default function ContatoPage() {
                   {
                     icon: Phone,
                     title: 'WHATSAPP',
-                    value: '+55 (11) 96846-2655',
-                    href: 'https://wa.me/5511968462655',
+                    value: '+55 (11) 91007-4444',
+                    href: 'https://wa.me/5511910074444',
                     subtitle: 'Atendimento prioritário',
                     gradient: 'from-green-500 to-emerald-600',
                   },

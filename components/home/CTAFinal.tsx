@@ -98,7 +98,7 @@ const CTAFinal = () => {
           {/* Premium Contact Cards */}
           <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto mb-16">
             <motion.a
-              href="mailto:consultores@olvinternacional.com.br"
+              href="mailto:parceiro-totvs@olvinternacional.com.br"
               whileHover={{ y: -8, scale: 1.02 }}
               className="group card-premium hover:shadow-glow transition-all duration-300"
             >
@@ -108,13 +108,13 @@ const CTAFinal = () => {
                 </div>
                 <div className="text-left">
                   <div className="text-sm text-slate-400 font-bold tracking-wider mb-1">EMAIL</div>
-                  <div className="font-bold text-white text-lg">contato@olvinternacional.com.br</div>
+                  <div className="font-bold text-white text-lg">parceiro-totvs@olvinternacional.com.br</div>
                 </div>
               </div>
             </motion.a>
 
             <motion.a
-              href="tel:+5511999999999"
+              href="tel:+5511910074444"
               whileHover={{ y: -8, scale: 1.02 }}
               className="group card-premium hover:shadow-glow transition-all duration-300"
             >
@@ -123,8 +123,8 @@ const CTAFinal = () => {
                   <Phone className="w-8 h-8 text-white" />
                 </div>
                 <div className="text-left">
-                  <div className="text-sm text-slate-400 font-bold tracking-wider mb-1">TELEFONE</div>
-                  <div className="font-bold text-white text-lg">+55 (11) 99999-9999</div>
+                  <div className="text-sm text-slate-400 font-bold tracking-wider mb-1">WHATSAPP</div>
+                  <div className="font-bold text-white text-lg">+55 (11) 91007-4444</div>
                 </div>
               </div>
             </motion.a>

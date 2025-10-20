@@ -163,10 +163,10 @@ const Footer = () => {
                 <div>
                   <div className="text-sm sm:text-base font-bold text-white mb-1">EMAIL</div>
                   <a
-                    href="mailto:consultores@olvinternacional.com.br"
+                    href="mailto:parceiro-totvs@olvinternacional.com.br"
                     className="text-xs sm:text-base hover:text-cyan-300 transition-colors font-medium break-all"
                   >
-                    consultores@olvinternacional.com.br
+                    parceiro-totvs@olvinternacional.com.br
                   </a>
                 </div>
               </li>
@@ -175,10 +175,16 @@ const Footer = () => {
                   <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-400" />
                 </div>
                 <div>
-                  <div className="text-sm sm:text-base font-bold text-white mb-1">TELEFONE</div>
+                  <div className="text-sm sm:text-base font-bold text-white mb-1">TELEFONE / WHATSAPP</div>
+                  <a
+                    href="tel:+5511910074444"
+                    className="text-xs sm:text-base hover:text-cyan-300 transition-colors font-medium block"
+                  >
+                    +55 (11) 91007-4444
+                  </a>
                   <a
                     href="tel:+551126751446"
-                    className="text-xs sm:text-base hover:text-cyan-300 transition-colors font-medium"
+                    className="text-xs sm:text-base hover:text-cyan-300 transition-colors font-medium block mt-1"
                   >
                     +55 (11) 2675-1446
                   </a>
