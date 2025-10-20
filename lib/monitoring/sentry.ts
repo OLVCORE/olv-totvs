@@ -103,42 +103,30 @@ Sentry.init({
 /**
  * Monitora performance de API
  */
-export function monitorApiPerformance(
+export async function monitorApiPerformance(
   operation: string,
   fn: () => Promise<any>
 ): Promise<any> {
-  return Sentry.startSpan(
-    {
-      name: `API: ${operation}`,
-      op: 'http.client',
+  try {
+    const result = await fn();
+    
+    Sentry.addBreadcrumb({
+      message: `API Success: ${operation}`,
+      category: 'api',
+      level: 'info',
+    });
+    
+    return result;
+  } catch (error) {
+    Sentry.captureException(error, {
       tags: {
         operation,
-        type: 'api',
+        type: 'api_error',
       },
-    },
-    async (span) => {
-      try {
-        const result = await fn();
-        
-        span.setStatus('ok');
-        span.setData('success', true);
-        
-        return result;
-      } catch (error) {
-        span.setStatus('internal_error');
-        span.setData('error', error.message);
-        
-        Sentry.captureException(error, {
-          tags: {
-            operation,
-            type: 'api_error',
-          },
-        });
-        
-        throw error;
-      }
-    }
-  );
+    });
+    
+    throw error;
+  }
 }
 
 /**
@@ -221,31 +209,23 @@ export function monitorComponentPerformance(
   component: string,
   fn: () => void
 ): void {
-  Sentry.startSpan(
-    {
-      name: `Component: ${component}`,
-      op: 'react.component',
+  try {
+    fn();
+    
+    Sentry.addBreadcrumb({
+      message: `Component Rendered: ${component}`,
+      category: 'react',
+      level: 'info',
+    });
+  } catch (error) {
+    Sentry.captureException(error, {
       tags: {
         component,
-        type: 'component_performance',
+        type: 'component_error',
       },
-    },
-    (span) => {
-      try {
-        fn();
-        span.setStatus('ok');
-      } catch (error) {
-        span.setStatus('internal_error');
-        Sentry.captureException(error, {
-          tags: {
-            component,
-            type: 'component_error',
-          },
-        });
-        throw error;
-      }
-    }
-  );
+    });
+    throw error;
+  }
 }
 
 // ==========================================
@@ -282,25 +262,27 @@ export function useErrorMonitoring() {
  */
 export function usePerformanceMonitoring() {
   const startTiming = (name: string) => {
-    return Sentry.startSpan(
-      {
-        name: `Performance: ${name}`,
-        op: 'react.performance',
-        tags: {
-          name,
-          type: 'performance',
-        },
+    const startTime = Date.now();
+    
+    return {
+      end: () => {
+        const duration = Date.now() - startTime;
+        Sentry.addBreadcrumb({
+          message: `Performance: ${name}`,
+          category: 'performance',
+          level: 'info',
+          data: { duration },
+        });
       },
-      (span) => {
-        return {
-          end: () => span.setStatus('ok'),
-          error: (error: Error) => {
-            span.setStatus('internal_error');
-            Sentry.captureException(error);
+      error: (error: Error) => {
+        Sentry.captureException(error, {
+          tags: {
+            name,
+            type: 'performance_error',
           },
-        };
-      }
-    );
+        });
+      },
+    };
   };
   
   return { startTiming };
