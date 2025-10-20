@@ -29,7 +29,7 @@ export function OrganizationSchema() {
       {
         '@type': 'ContactPoint',
         telephone: '+55-11-99999-9999',
-        contactType': 'Customer Support',
+        contactType: 'Customer Support',
         areaServed: 'BR',
         availableLanguage: ['Portuguese', 'pt-BR'],
         email: 'suporte@olvinternacional.com.br',
@@ -49,7 +49,7 @@ export function OrganizationSchema() {
       '@type': 'PostalAddress',
       streetAddress: 'Rua Exemplo, 123',
       addressLocality: 'São Paulo',
-      addressRegion': 'SP',
+      addressRegion: 'SP',
       postalCode: '01000-000',
       addressCountry: 'BR',
     },
