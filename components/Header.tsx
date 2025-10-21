@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Menu, X, ChevronDown } from 'lucide-react';
@@ -9,6 +9,7 @@ const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -18,6 +19,39 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Cleanup do timeout quando componente desmonta
+  useEffect(() => {
+    return () => {
+      if (timeoutRef.current) {
+        clearTimeout(timeoutRef.current);
+      }
+    };
+  }, []);
+
+  // Função para abrir dropdown
+  const handleDropdownEnter = (itemName: string) => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setOpenDropdown(itemName);
+  };
+
+  // Função para fechar dropdown com delay
+  const handleDropdownLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setOpenDropdown(null);
+    }, 150);
+  };
+
+  // Função para cancelar o fechamento quando mouse entra no dropdown
+  const handleDropdownMouseEnter = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+  };
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -105,8 +139,8 @@ const Header = () => {
               <div
                 key={item.name}
                 className="relative"
-                onMouseEnter={() => item.dropdown && setOpenDropdown(item.name)}
-                onMouseLeave={() => setOpenDropdown(null)}
+                onMouseEnter={() => item.dropdown && handleDropdownEnter(item.name)}
+                onMouseLeave={handleDropdownLeave}
               >
                 {item.dropdown ? (
                   <>
@@ -120,7 +154,7 @@ const Header = () => {
                     {openDropdown === item.name && (
                       <div 
                         className="absolute top-full left-0 mt-2 w-64 xl:w-72 bg-slate-800/95 backdrop-blur-xl rounded-2xl shadow-premium py-3 border border-slate-700/50 animate-fade-in z-50"
-                        onMouseEnter={() => setOpenDropdown(item.name)}
+                        onMouseEnter={handleDropdownMouseEnter}
                         onMouseLeave={() => setOpenDropdown(null)}
                       >
                         {item.dropdown.map((subItem) => (
