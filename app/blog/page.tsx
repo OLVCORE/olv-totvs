@@ -26,7 +26,7 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Premium - Responsivo */}
-      <section className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
+      <section className="relative pt-32 sm:pt-40 md:pt-48 pb-16 sm:pb-20 overflow-hidden">
         {/* Animated Orbs - Responsivo */}
         <motion.div
           animate={{ 

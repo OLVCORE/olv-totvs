@@ -69,7 +69,7 @@ export default function DiagnosticoPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-32 pb-16 text-white overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 pt-32 sm:pt-40 md:pt-48 pb-16 text-white overflow-hidden">
       {/* Futuristic Background */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0 bg-pattern-grid" />

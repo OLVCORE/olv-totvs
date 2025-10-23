@@ -42,7 +42,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero */}
-      <section className="relative pt-32 pb-16 overflow-hidden">
+      <section className="relative pt-32 sm:pt-40 md:pt-48 pb-16 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/5 to-transparent" />
         
         <div className="container-custom relative z-10">

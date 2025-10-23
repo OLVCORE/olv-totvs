@@ -8,7 +8,7 @@ export const metadata = {
 
 export default function DiagnosticoSucessoPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-success-50 to-white pt-32 pb-16">
+    <div className="min-h-screen bg-gradient-to-br from-success-50 to-white pt-32 sm:pt-40 md:pt-48 pb-16">
       <div className="container-custom">
         <div className="max-w-3xl mx-auto text-center">
           {/* Ícone de Sucesso */}

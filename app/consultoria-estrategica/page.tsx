@@ -146,7 +146,7 @@ export default function ConsultoriaEstrategicaPage() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
+      <section className="relative pt-32 sm:pt-40 md:pt-48 pb-20 bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 text-white overflow-hidden">
         {/* Background Effects */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-pattern-grid" />

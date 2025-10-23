@@ -71,7 +71,7 @@ export default function SetorPage({ params }: PageProps) {
   return (
     <>
       {/* Premium Hero */}
-      <section className="relative pt-32 pb-20 bg-gradient-to-br from-slate-900 via-purple-900 to-pink-900 text-white overflow-hidden">
+      <section className="relative pt-32 sm:pt-40 md:pt-48 pb-20 bg-gradient-to-br from-slate-900 via-purple-900 to-pink-900 text-white overflow-hidden">
         {/* Futuristic Background */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 bg-pattern-hexagon" />
