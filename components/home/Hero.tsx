@@ -77,9 +77,11 @@ const Hero = () => {
             transition={{ duration: 1, ease: "easeOut" }}
             className="lg:pr-8"
           >
-            <div className="inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 text-cyan-300 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium mb-6 sm:mb-8">
-              <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse" />
-              <span className="font-semibold tracking-wide">PARCEIRO OFICIAL TOTVS</span>
+            <div className="relative inline-flex items-center gap-2 sm:gap-3 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm border border-cyan-400/30 text-cyan-300 px-4 sm:px-6 py-2 sm:py-3 rounded-full text-xs sm:text-sm font-medium mb-6 sm:mb-8 hover:border-cyan-400/50 hover:bg-gradient-to-r hover:from-cyan-500/30 hover:to-blue-500/30 transition-all duration-300 group cursor-default animate-pulse">
+              <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse group-hover:bg-cyan-300" />
+              <span className="font-semibold tracking-wide group-hover:text-cyan-200 transition-colors">AGENTE DE NEGÓCIO TOTVS</span>
+              {/* Glow effect on hover */}
+              <div className="absolute inset-0 rounded-full bg-cyan-400/0 group-hover:bg-cyan-400/10 blur-xl transition-all duration-500" />
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-white mb-6 sm:mb-8 leading-tight">
