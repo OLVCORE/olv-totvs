@@ -28,6 +28,7 @@ export type Setor =
   | 'Logística'
   | 'Manufatura'
   | 'Prestadores de Serviços'
+  | 'Varejo'
   | 'Outro';
 
 export type Porte = 

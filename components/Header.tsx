@@ -87,6 +87,7 @@ const Header = () => {
         { name: 'Logística', href: '/setores/logistica' },
         { name: 'Manufatura', href: '/setores/manufatura' },
         { name: 'Prestadores de Serviços', href: '/setores/prestadores-servicos' },
+        { name: 'Varejo', href: '/setores/varejo' },
       ],
     },
     { name: 'Diagnóstico', href: '/diagnostico' },

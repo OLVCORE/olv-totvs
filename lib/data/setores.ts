@@ -169,6 +169,31 @@ export const SETORES_VERTICAIS: SetorVertical[] = [
     cases: [],
     imagem_hero: '/images/setores/prestadores-servicos-hero.svg',
   },
+  {
+    id: 'varejo',
+    nome: 'Varejo',
+    slug: 'varejo',
+    titulo: 'Soluções para Varejo e Retail',
+    descricao: 'Plataforma completa para varejo: gestão omnichannel, PDV integrado, e-commerce e experiência do cliente.',
+    desafios: [
+      'Gestão omnichannel (físico + digital)',
+      'Experiência do cliente em todos os pontos de contato',
+      'Controle de estoque em tempo real (lojas + CD)',
+      'Gestão de múltiplas formas de pagamento',
+      'Programas de fidelidade e relacionamento',
+      'Integração entre canal físico e online',
+    ],
+    solucoes_aplicaveis: [
+      'Sistema de Gestão (ERP)',
+      'CRM / Automação',
+      'Analytics',
+      'Techfin',
+      'Assinatura Eletrônica',
+      'Marketing Digital',
+    ],
+    cases: [],
+    imagem_hero: '/images/setores/varejo-hero.svg',
+  },
 ];
 
 export function getSetorBySlug(slug: string): SetorVertical | undefined {

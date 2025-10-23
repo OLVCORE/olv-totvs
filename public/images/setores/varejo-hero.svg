@@ -1,0 +1,82 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e293b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern -->
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#06b6d4" stroke-width="0.5" opacity="0.1"/>
+  </pattern>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  
+  <!-- Storefront Illustration -->
+  <g transform="translate(400,300)">
+    <!-- Main Store Building -->
+    <rect x="-120" y="-80" width="240" height="180" rx="8" fill="url(#cardGradient)" stroke="url(#accentGradient)" stroke-width="2" opacity="0.9"/>
+    
+    <!-- Store Windows -->
+    <rect x="-100" y="-60" width="80" height="60" rx="4" fill="#06b6d4" opacity="0.3"/>
+    <rect x="20" y="-60" width="80" height="60" rx="4" fill="#06b6d4" opacity="0.3"/>
+    
+    <!-- Shopping Cart Icon -->
+    <g transform="translate(-40, 50)">
+      <circle cx="0" cy="0" r="12" fill="url(#accentGradient)" filter="url(#glow)"/>
+      <path d="M -6 -3 L 6 -3 L 6 3 L 3 3 L 3 6 L -3 6 L -3 3 L -6 3 Z" fill="white" opacity="0.9"/>
+      <circle cx="-4" cy="-1" r="1.5" fill="white"/>
+      <circle cx="4" cy="-1" r="1.5" fill="white"/>
+    </g>
+    
+    <!-- Smartphone Icon -->
+    <g transform="translate(40, 50)">
+      <rect x="-8" y="-14" width="16" height="22" rx="2" fill="url(#accentGradient)" filter="url(#glow)"/>
+      <rect x="-6" y="-12" width="12" height="16" rx="1" fill="#0f172a"/>
+      <circle cx="0" cy="4" r="1" fill="url(#accentGradient)"/>
+    </g>
+    
+    <!-- Shopping Bag Icon -->
+    <g transform="translate(-80, 50)">
+      <path d="M 0 -10 L 8 -10 L 8 10 L -8 10 L -8 -10 Z" fill="url(#accentGradient)" filter="url(#glow)"/>
+      <path d="M -2 -8 L 2 -8 L 4 -4 L -4 -4 Z" fill="#0f172a"/>
+      <path d="M -6 4 L 6 4" stroke="#0f172a" stroke-width="1"/>
+    </g>
+    
+    <!-- Floating Elements -->
+    <circle cx="-150" cy="-100" r="3" fill="#06b6d4" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="150" cy="-120" r="4" fill="#2563eb" opacity="0.6" filter="url(#glow)"/>
+    <circle cx="-170" cy="80" r="2" fill="#06b6d4" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="170" cy="90" r="3" fill="#2563eb" opacity="0.5" filter="url(#glow)"/>
+  </g>
+  
+  <!-- Omnichannel Connection Lines -->
+  <path d="M 280 300 Q 320 280, 400 300 Q 480 320, 520 300" fill="none" stroke="url(#accentGradient)" stroke-width="2" opacity="0.4" stroke-dasharray="5,5"/>
+  
+  <!-- Title Background -->
+  <rect x="100" y="100" width="600" height="60" rx="8" fill="url(#cardGradient)" opacity="0.8"/>
+  <text x="400" y="135" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="url(#accentGradient)" text-anchor="middle">Varejo Omnichannel</text>
+  
+  <!-- Decorative Lines -->
+  <line x1="200" y1="150" x2="600" y2="150" stroke="url(#accentGradient)" stroke-width="2" opacity="0.3"/>
+</svg>
+
