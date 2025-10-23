@@ -75,7 +75,7 @@ const Footer = () => {
                   OLV Internacional
                 </div>
                 <div className="text-xs sm:text-sm text-cyan-300 font-semibold tracking-wider group-hover:text-cyan-200 transition-colors duration-300">
-                  PARCEIRO OFICIAL TOTVS
+                  AGENTE DE NEGÓCIO TOTVS
                 </div>
               </div>
             </a>

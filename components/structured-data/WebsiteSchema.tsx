@@ -13,7 +13,7 @@ export function WebsiteSchema() {
     alternateName: 'OLV',
     url: 'https://olvinternacional.com.br',
     description:
-      'Parceiro oficial TOTVS. Soluções empresariais integradas de ERP, Fluig, iPaaS, CRM, Techfin, Analytics e mais. Consultoria especializada para transformação digital.',
+      'Agente de Negócio TOTVS. Soluções empresariais integradas de ERP, Fluig, iPaaS, CRM, Techfin, Analytics e mais. Consultoria especializada para transformação digital.',
     
     // Organização proprietária
     publisher: {

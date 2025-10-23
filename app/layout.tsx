@@ -22,7 +22,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'OLV Internacional + TOTVS | Soluções Empresariais de Tecnologia',
   description:
-    'Parceiro oficial TOTVS. Soluções integradas de ERP, Fluig, iPaaS, CRM, Techfin, Analytics e mais. Eleve a maturidade digital da sua empresa.',
+    'Agente de Negócio TOTVS. Soluções integradas de ERP, Fluig, iPaaS, CRM, Techfin, Analytics e mais. Eleve a maturidade digital da sua empresa.',
   keywords: [
     'TOTVS',
     'ERP',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     url: 'https://olvinternacional.com.br',
     siteName: 'OLV Internacional + TOTVS',
     title: 'OLV Internacional + TOTVS | Soluções Empresariais',
-    description: 'Parceiro oficial TOTVS. Transforme sua gestão com tecnologia de ponta.',
+    description: 'Agente de Negócio TOTVS. Transforme sua gestão com tecnologia de ponta.',
     images: [
       {
         url: '/og-image.jpg',

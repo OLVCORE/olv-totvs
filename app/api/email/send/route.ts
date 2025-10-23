@@ -116,7 +116,7 @@ const createContactEmailTemplate = (data: ContactEmailData) => ({
       
       <div style="background: #1e293b; padding: 20px; text-align: center; color: white;">
         <p style="margin: 0; font-size: 14px;">
-          © ${new Date().getFullYear()} OLV Internacional - Parceiro Oficial TOTVS
+          © ${new Date().getFullYear()} OLV Internacional - Agente de Negócio TOTVS
         </p>
         <p style="margin: 5px 0 0 0; font-size: 12px; opacity: 0.7;">
           Este email foi enviado automaticamente através do site olvinternacional.com.br
@@ -170,7 +170,7 @@ const createLeadEmailTemplate = (data: LeadEmailData) => ({
       
       <div style="background: #1e293b; padding: 20px; text-align: center; color: white;">
         <p style="margin: 0; font-size: 14px;">
-          © ${new Date().getFullYear()} OLV Internacional - Parceiro Oficial TOTVS
+          © ${new Date().getFullYear()} OLV Internacional - Agente de Negócio TOTVS
         </p>
       </div>
     </div>

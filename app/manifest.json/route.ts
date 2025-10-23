@@ -9,9 +9,9 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export function GET(request: NextRequest): NextResponse {
   const manifest = {
-    name: 'OLV Internacional - Parceiro Oficial TOTVS',
+    name: 'OLV Internacional - Agente de Negócio TOTVS',
     short_name: 'OLV TOTVS',
-    description: 'Parceiro oficial TOTVS. Soluções empresariais integradas de ERP, Fluig, iPaaS, CRM, Techfin, Analytics e mais.',
+    description: 'Agente de Negócio TOTVS. Soluções empresariais integradas de ERP, Fluig, iPaaS, CRM, Techfin, Analytics e mais.',
     start_url: '/',
     display: 'standalone',
     background_color: '#ffffff',

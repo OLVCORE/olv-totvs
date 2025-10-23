@@ -72,7 +72,7 @@ async function testEmailConnection() {
           
           <div style="background: #1e293b; padding: 20px; text-align: center; color: white;">
             <p style="margin: 0; font-size: 14px;">
-              © ${new Date().getFullYear()} OLV Internacional - Parceiro Oficial TOTVS
+              © ${new Date().getFullYear()} OLV Internacional - Agente de Negócio TOTVS
             </p>
           </div>
         </div>

@@ -7,7 +7,7 @@ const Parceria = () => {
   const diferenciais = [
     {
       icon: Award,
-      titulo: 'Parceiro Oficial TOTVS',
+      titulo: 'Agente de Negócio TOTVS',
       descricao:
         'Certificação e treinamento direto com TOTVS para garantir excelência técnica',
       cor: 'from-cyan-500 to-blue-600',

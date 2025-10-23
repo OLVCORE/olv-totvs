@@ -150,7 +150,7 @@ export default function SobrePage() {
                 </span>
               </h2>
               <p className="text-xl text-slate-300 leading-relaxed max-w-3xl mx-auto">
-                Como parceiro oficial TOTVS, unimos a melhor tecnologia do mercado
+                Como Agente de Negócio TOTVS, unimos a melhor tecnologia do mercado
                 com nossa expertise em processos e gestão
               </p>
             </div>

@@ -1,6 +1,6 @@
 # OLV Internacional + TOTVS - Website Institucional
 
-Website corporativo de alta qualidade desenvolvido com Next.js 14, TypeScript e Tailwind CSS para a OLV Internacional, parceiro oficial TOTVS.
+Website corporativo de alta qualidade desenvolvido com Next.js 14, TypeScript e Tailwind CSS para a OLV Internacional, Agente de Negócio TOTVS.
 
 ## 🚀 Características
 
