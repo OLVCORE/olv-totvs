@@ -123,7 +123,7 @@ export default function SolucaoPage({ params }: PageProps) {
                 {/* Hero Image */}
                 <div className="absolute inset-0 flex items-center justify-center">
                   <img 
-                    src={`/images/solucoes/${solucao.slug}-hero.svg`}
+                    src={solucao.imagem_hero}
                     alt={`${solucao.nome} - Solução TOTVS`}
                     className="w-full h-full object-cover opacity-80"
                   />
